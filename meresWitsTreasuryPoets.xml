@@ -3,6 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MeresWitsTreasuryPoets">
     <teiHeader>
         <fileDesc>
+            <!-- Palladis tamia Wits treasury being the second part of Wits common wealth. By Francis Meres Maister of Artes of both vniuersities. 
+            At London: Printed by P. Short, for Cuthbert Burbie, and are to be solde at his shop at the Royall Exchange, 1598 (STC 17834). The first 
+            edition (posted March 26, 2018) was transcribed and encoded from an EEBO facsimile version by students in Kristen Abbott Bennett and Scott 
+            Hamlin's 2017 Learning Community "A Rogue's Progress: Mapping Kit Marlowe's Social Networks" at Stonehill College. The current version was 
+            published May 1, 2018 with links to the Personography that students in both the Fall 2017 and Spring 2018 course contributed to. The 
+            personography encoding was done by the Spring 2018 class and the text was reviewed by TA, Rowan Pereira. We're aware that some errors 
+            have been introduced via the personography links, and that some groups' encoding methods (see ) are inconsistent, but this version offers an 
+            example of what undergraduate research and encoding look like before revision. For more information about the pedagogy and process driving 
+            this project, please see www.kitmarlowe.org. -->
+            
             <titleStmt>
                 <!-- Title statement information taken from Early English Books Online Database -->
                 <title>Palladis tamia Wits treasury being the second part of Wits common wealth. By Francis Meres Maister of Artes of both Vniuersities.</title>
