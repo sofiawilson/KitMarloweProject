@@ -2,6 +2,10 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NasheNewmanAS">
     <teiHeader>
         <fileDesc>
+            <!-- This is a mini-edition of Thomas Newman's and Thomas Nashe's prefatory epistles to this first, unauthorized (pirated?) edition of 
+            Sidney's sonnet sequence, "Astrophel & Stella." KMP Project Assistant Andrew Jeromski transcribed and encoded the text. Project Director 
+            Kristen Abbott Bennett is Guest Editor. Publication Date: August 2 2020. -->
+            
             <titleStmt>
                 <title>Syr P.S. His Astrophel and Stella. Wherein the excellence of sweete Poesie is concluded. To the end of which are added sundry rare sonnets of diverse Noble men and Gentlemen.<title>"Prefatory Epistles by Thomas Newman and Thomas Nashe"</title></title>
                 
