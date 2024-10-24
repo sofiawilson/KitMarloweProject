@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://jenkins.hcmc.uvic.ca/job/MoEML/lastStableBuild/artifact/static/site/xml/schemas/london_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Marlowe_Ovid_Elegy_1_Hawkes">
+    <!-- 
+    Caroline Hawkes
+    12/08/2022
+    Marlowe's Ovid, Elegy 1
+    Used A and B text
+-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marlowe_Ovid</title>
+                <author><persName type="hist"><forename><surname/></forename></persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Printed by <persName type="hist"><forename/>
+                    <surname/></persName>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source
+                    <!-- Working from Huntington Library (microfilm) copy available via EEBO and Boston Public Library --><idno>STC
+                        21864</idno></p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef/>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <p>TEI P5</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="BENN"/>
+        </revisionDesc>
+    </teiHeader>
+    <!-- COMMENT IT OUT -->
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">
+                        <hi style="text-align: center; font-style: italic;">
+                            <foreign xml:lang="la">
+                                P. Ouidij Naſonis amorum, <!-- Translation: P. The love of Ouidius Nason --><lb/>
+                                Liber primus.<!-- Translation: First book --><lb/>
+                                <lb/>
+                                ELEGIA. I <!-- Translation: ELEGY --> <lb/>
+                                Quemadmodum à Cupidine pro bellis amores <!-- Translation: Just as Cupid loves wars --> <lb/>
+                                ſcribere coactus ſit. <!-- Translation: he was forced to write --><lb/>
+                                <lb/>
+                            </foreign>
+                        </hi>
+                    </titlePart>
+                    
+                    <titlePart/>
+                </docTitle>
+                <docAuthor/>
+                <docImprint/>
+                <docDate/>
+            </titlePage>
+        </front>
+        <body>
+            <div type="section">
+                <lb/>
+                <lg>
+                    <l>
+                        VVE which were <hi style="font-style:italic"><persName type="lit">Ouids</persName></hi> fiue books now are three<lb/>
+                    </l>
+                    <l>
+                        Fore theſe before the reſt preferreth he. <lb/>
+                    </l>
+                    <l>
+                        If reading fiue thou plain'ſt of tediouſneſſe. <lb/>
+                    </l>
+                    <l>
+                        Two tane a way, thy labour will be leſſe. <lb/>
+                    </l>
+                    <l>
+                        With <hi style="font-style:italic">Muſe</hi> prepar'd I meant to ſing of Armes, <lb/>
+                    </l>
+                    <l>
+                        Chooſing a ſubiect fit for fierce alarmes. <lb/>
+                    </l>
+                    <l>
+                        Both verſes were a like till loue (men ſay) <lb/>
+                    </l>
+                    <l>
+                        Began to ſmile and tooke one foote away. <lb/>
+                    </l>
+                    <l>
+                        Raſh boy, who gaue thee power to change a line? <lb/>
+                    </l>
+                    <l>
+                        We are the <hi style="font-style:italic">Muſes Prophets</hi>, none of thine. <lb/>
+                    </l>
+                    <l>
+                        What if they mother take <hi style="font-style:italic"><persName type="lit">Dianas</persName></hi> bow, <lb/>
+                    </l>
+                    <l>
+                        Shall <hi style="font-style:italic"><persName type="lit">Dian</persName></hi> fanne, when loue begins to glow. <lb/>
+                    </l>
+                    <l>
+                        In wooddy groues is't meete that <hi style="font-style:italic"><persName type="lit">Ceres</persName></hi> raigne? <lb/>
+                    </l>
+                    <l>
+                        And quiuer-bearing <hi style="font-style:italic"><persName type="lit">Dian</persName></hi> till the plaine. <lb/>
+                    </l>
+                    <l>
+                        Who'le ſet the faire treſt ſunne in barrell ray,<lb/>
+                    </l>
+                    <l>
+                        While <hi style="font-style:italic">Mars</hi> doth take the <hi style="font-style:italic">Aonian Harp</hi> to play.<lb/>
+                    </l>
+                    <l>
+                        Great are thy kingdomes, ouer ſtrong and large,<lb/>
+                    </l>
+                    <l>
+                        Ambitious impe, why ſeek'ſt thou further charge?<lb/>
+                    </l>
+                    <l>
+                        Are all things thine? the Muſes <hi style="font-style:italic">Temple</hi> thine?<lb/>
+                    </l>
+                    <l>
+                        Then ſcarſe can <hi style="font-style:italic"><persName type="lit">Phoebus</persName></hi> ſay, this Harp is mine.<lb/>
+                    </l>
+                    <l>
+                        When in this workes firſt verſe I trode aloft,<lb/>
+                    </l>
+                    <l>
+                        Loue ſlackt my Muſe, and made my numbers ſoſt.<lb/>
+                    </l>
+                    <l>
+                        I haue no miſtreſſe, nor no <!-- Second Version Translation--> favorite *<lb/>
+                    </l>
+                    <l>
+                        Being fitteſt matter, for <!-- Second Version Translation--> a wanton wit. <lb/>
+                    </l>
+                    <fw type="signature"><supplied reason="omitted-in-original">A2r *</supplied></fw><!-- Partially A Second Version Translation, * indicates this -->
+                    <fw type="catchword" style="text-align;right;">Thus</fw> <lb/>
+                    <pb/>
+                    <fw type="header" style="text-align:center; font-style: italic"><hi style="font-size=150%">OVIDS ELEGIES.</hi></fw>
+                    <l>
+                        Thus I complain'd, but loue vnlockt his quiuer, <lb/>
+                    </l>
+                    <l>
+                        Tooke out the ſhaft, ordain'de my heart to ſhiuer: <lb/>
+                    </l>
+                    <l>
+                        And bent his ſinewie bow vpon his knee, <lb/>
+                    </l>
+                    <l>
+                        Saying Poet, heere's a worke beſeeming thee. <lb/>
+                    </l>
+                    <l>
+                        Oh woe is me, he neuer ſhootes but hits, <lb/>
+                    </l>
+                    <l>
+                        I burne loue in my idle boſome ſits. <lb/>
+                    </l>
+                    <l>
+                        Let my firſt verſe be ſixe, my laſt fiue feete, <lb/>
+                    </l>
+                    <l>
+                        Fare-well ſterne warre, for blunter Poets meete. <lb/>
+                    </l>
+                    <l>
+                        <hi style="font-style:italic">Elegian Muſe</hi>, that warbleſt amorous laies, <lb/>
+                    </l>
+                    <l>
+                        Girt my ſhine brow with Sea-banke Mirtle praiſe. <lb/>
+                    </l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+

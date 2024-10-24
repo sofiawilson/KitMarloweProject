@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Chillester">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Youthes Witte, OR The VVitte of Grene Youth. Chooſe Gentlemen, and Mez-dames which of them shall beſt lyke you.</title>
+                <respStmt>
+                    <resp>Printer</resp>
+                    <name><forename>John</forename><surname>Wolfe</surname><date
+                        when-custom="1581"/></name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcriber<date when="2021"></date></resp>
+                    <name>Danielle Achin</name>
+                    <name>Olivia Banks</name>
+                    <name>Leah K. Barker</name>
+                    <name>Noah R. Barnes</name>
+                    <name>Joseph Fintois</name>
+                    <name>Sofia Gollobin</name>
+                    <name>Meggan R. Law</name>
+                    <name>Avery L. Markle</name>
+                    <name>Hannah L. Morris</name>
+                    <name>Olivia K. Nicolazzo</name>
+                    <name>Abigail J. Petrucci</name>
+                    <name>Hannah E. Polansky</name>
+                    <name>Kelsey L. Rhodes</name>
+                    <name>Nathan C. Rogers</name>
+                    <name>Sofia K. Trushina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2021"/></resp>
+                    <name>Danielle Achin</name>
+                    <name>Olivia Banks</name>
+                    <name>Leah K. Barker</name>
+                    <name>Noah R. Barnes</name>
+                    <name>Joseph Fintois</name>
+                    <name>Sofia Gollobin</name>
+                    <name>Meggan R. Law</name>
+                    <name>Avery L. Markle</name>
+                    <name>Hannah L. Morris</name>
+                    <name>Olivia K. Nicolazzo</name>
+                    <name>Abigail J. Petrucci</name>
+                    <name>Hannah E. Polansky</name>
+                    <name>Kelsey L. Rhodes</name>
+                    <name>Nathan C. Rogers</name>
+                    <name>Sofia K. Trushina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name ref="/kit-marlowe/files/personography.xml#pers_BENN1">Kristen Abbott
+                        Bennett</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant Editor</resp>
+                    <name ref="pers:RHOD2">Kelsey L. Rhodes</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="resp:prg">Programmer</resp>
+                    <name ref="pers:TAKE1">Joey Takeda</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="resp:prg">Programmer</resp>
+                    <name ref="pers:HOLM1">Martin Holmes</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> The Kit Marlowe Project </publisher>
+                <date>2020</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                        <p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+                            International License.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><publisher>John Wolfe</publisher><pubPlace>London</pubPlace>
+                    <date when-custom="1581"/> Transcription prepared from a digital surrogate of a
+                    microfilm available on the Early English Books Online Database. Copyright 2019,
+                    ProQuest LLC <idno type="STC">STC 5137.5<!-- Copy from British Library --></idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="edt:emdDocumentTypes" target="edt:edtBornDigital"/>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <p>This document follows Map of Early Modern London encoding guidelines.</p>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <!-- TITLE PAGE -->
+                <head style="text-align: center;">☙ Youthes Witte,<lb/>
+                    <hi style="font-variant: smallcaps;"><hi style="text-align: center;">OR</hi></hi><lb/>
+                    <hi style="font-style: italic;"><hi style="text-align: center;">Chooſe Gentlemen, and Mez-dames which of </hi><lb/>
+                        <hi style="text-align: center;">them shall beſt lyke you.</hi></hi><lb/>
+                    Compiled and gathered together by <hi style="font-variant: smallcaps;">HENRY<lb/>
+                        <hi style="text-align: center;">CHILLESTER.</hi></hi>
+                    <hi style="font-style: italic;">First view then reade, last iudge with regard:<lb/>
+                        geue th' Auctor good wordes he claimes no reward.</hi>
+                    <!-- Fleur de Lis Printer's ornament with -->
+                    ☙<foreign xml:id="la">VBIQVE FLORESCIT.</foreign><!-- Translation: Everwhere Flourishes -->
+                    <hi style="text-align: center;">LONDON</hi><lb/>
+                    <hi style="text-style: italic;"><hi style="text-align: center;">Imprinted by John Wolfe,</hi></hi><lb/>
+                    <date when="1581"><hi style="text-align: center;">1581</hi></date>
+                </head>
+                <fw type="signature"><!-- A1r --></fw>
+                <pb/>
+       
+                <div type="preface">
+                    <head style="text-align:center;">TO THE <sic>RIGHTWORSHIPFVLL</sic>,<lb/> 
+                        Maſter <persName type="historical" ref="/kit-marlowe/files/personography.xml#pers_GORI1">
+                                <hi style="font-variant:smallcaps;">G E O R G E  G O R I N G E</hi></persName> Eſquiere,<lb/> 
+                        one of her Majesties Gentl- <lb/>
+                        men Penſioners:<lb/></head>
+                    <lb/>
+                    <head><persName type="historical" ref="/kit-marlowe/files/personography.xml#pers_CHIL1">
+                            <hi style="font-variant:smallcaps;">HENRY CHILLESTER</hi></persName>
+                        <hi style="font-style:italic;"> wiſheth longe life, with<lb/> 
+                            continuall health &amp; proſperity to <persName type="literary"
+                                ref="/kit-marlowe/files/personography.xml#pers_GOD1">Gods</persName> good <lb/> 
+                                    will and pleaſure.</hi><lb/></head>
+                    
+                    <p style="text-indent:1em;"><s><seg type="decorlnit"><seg style="font-size:700%">A</seg></seg>s the vnskillfull caruer that<lb/>
+                        wanteth both Arte and iudge-<lb/> 
+                        ment, cunninglie to contrive<lb/> 
+                        the worke he taketh in hande,<lb/> 
+                        &amp; yet able to iudge of his owne<lb/>
+                        imperfection, findeth meanes,<lb/> 
+                        (for the better aduauncement<lb/>
+                        therof) to erecte the ſame on<lb/> 
+                        the toppe of ſome high piller,<lb/>
+                        or ſuch like place, where the faulte cannot eaſilie be <lb/> 
+                        perceiued by the curious beholders: Euen ſo (Right <lb/> 
+                        worshipfull) having perfected this my <hi style="font-style:italic;"> 
+                                Youthes witte,</hi> Or <lb/>
+                        <hi style="font-style:italic;"> Witte of Greene Youth, 
+                                 </hi> (a fitte name for ſo ſimple a Sub-<lb/>
+                        ject) I was moued, partlie of mine own accord, (know- <lb/>
+                        ing your worthineſſe, which well appeareth to the <lb/>
+                        worlde) and partely at my frendes requeſt (that per- <lb/>
+                        ſwaded me you courteouſlie accept it) to make <lb/>
+                        my ſpeciall choiſe of your worſhippe, to ſupporte, and <lb/>
+                        ſuſtain by your vertue &amp; worthines, this ſimple worke, <lb/>
+                        unworthy such a Patrone. </s><s> For though it be ſufficiently <lb/>
+                        fraught with a few prettie conceited, yet can I not my <lb/> 
+                        ſelfe in priuic conceite, ſo much love or like it (as the <lb/> 
+                        Crow that thinketh her own birde fayreſt) <sic>toſuppoſe</sic>, <lb/>
+                        it may well ſwimme through the <sic>ſenſural</sic> ſeas ſuch <lb/>
+                        as haue either high Forheads, and ſharpe wittes, or <lb/>
+                        wante of iudgement, with euil tongues, unless it be guy- <lb/>
+                        ded by ſuch a Pilate, as can ſafelie conducte it. <lb/></s></p>
+                    <fw type="signature">A 2<supplied>r</supplied> </fw>
+                    <fw type="catchword">May</fw>
+                    <pb/>
+                </div>
+                <div>
+                    <fw style="pageNUM"><hi style="text-align: left;">4</hi></fw>
+                    <head style="text-align:center;"><fw type="heading"><hi style="font-style:italic;"> 
+                                The Epiſtle dedicatorie.</hi></fw></head>
+                    
+                    <p style="text-indent:1.5em;"><s>May it therefore pleaſe your worſhippe (of youre,<lb/>
+                        courteſie) to allow my good wil,and hereafter to like<lb/>
+                        of the worke,I ſhall haue what eſpecially wiſh for in,<lb/>
+                        this behalfe,and care the leſſe for the ſharpe cenſure<lb/>
+                        of ſuch as disfauoure my doinges.</s><s>For I know that<lb/>
+                        <persName style="literary" ref="/kit-marlowe/files/personography.xml#pers_APOL1">
+                                <hi style="font-style:italic;">Apollo</hi></persName> for all his ſkill,refuſed
+                                not to heare the <sic>hariſhe</sic><lb/>
+                        Pipe of Pan,though but a rurall<persName type="literary" ref="/kit-marlowe/files/personography.xml#pers_GOD1">
+                                God</persName>.</s><s>And <persName type="literary" ref="/kit-marlowe/files/personography.xml#pers_ATHE1">
+                                <hi style="font-style:italic;">Pallas</hi></persName>,<lb/>
+                        though in Arte ſhe farre ſurpaſſed <persName type="literary" ref="/kit-marlowe/files/personography.xml#pers_ARAC1">
+                                <hi style="font-style:italic;">Arachne</hi></persName>,yet vouch-<lb/>
+                        ſaſed ſhe to handle the thridde of her ſpinninge, and<lb/>
+                        to ſay that her webbe was wel wrought,and cunning-<lb/>
+                        lie contriued.</s><s> And <persName type="historical" ref="/kit-marlowe/files/personography.xml#pers_XERX1">
+                                <hi style="font-style:italic;">Xerxes</hi></persName>,a mightie Prince,thought<lb/>
+                        no leſſe well of the poore man that preſēted him with<lb/>
+                        a handful of water, then he did of the greateſt giftes<lb/>
+                        that euer anie beſtowed vpon him.</s><s>And truth it is,<lb/>
+                        that ſuch men as are either guyded by the rule of rea-<lb/>
+                        son,or indued with the courteous giftes of gratitude,<lb/>
+                        doe more regarde the minde of the geuer, then the<lb/>
+                        worthe of the preſente.</s><s>Therefore to conclude, I 
+                                <choice><abbr>hū</abbr><expan>m</expan></choice>-<lb/>
+                        blie beſeech your worshippe, with the force of youre<lb/>
+                                vertue, to defende my <hi style="font-variant:smallcaps;">Y O V T H E S   W I T</hi> from<lb/>
+                        the malitious reportes of thoſe that miſlike,and ſeeke<lb/>
+                        to diſgrace it: And in ſo doing, your worſhippe ſhall<lb/>
+                        geue me incouragemente, hereafter to attempte a<lb/>
+                        better worke then this is: For the ſmalleſt tree,(if it<lb/>
+                        be well proyned)will proſper, and verie light laboure<lb/>
+                        not miſlyked,is likely to grown ſo ſarre onwarde, as to<lb/>
+                        <hi style="text-align:center;">become Induſtrie it ſelſe.<!--</s><s>-->And thus abruptlie fini-</hi><lb/>
+                        <hi style="text-align:center;">ſing theſe rude lynes, I committe you to the</hi><lb/>
+                        <hi style="text-align:center;">tuition of the Almightie, Reſting</hi><lb/>
+                        <hi style="text-align:center;">alwayes.</hi></s><lb/></p>
+                    <l style="font-style:italic;"><hi style="text-align:right;">Youre worshippes moſt humble</hi></l><lb/>
+                    <l style="font-style:italic;"><hi style="text-align:center;">at commaundemente,</hi></l><lb/>
+                    <l style="text-align:right;"><persName style="historical" ref="/kit-marlowe/files/personography.xml#pers_CHIL1">
+                                Henry Chilleſter</persName>.</l><lb/>
+                    <lb/>
+                        <fw type="signature"><supplied>A2v</supplied></fw> 
+                    <pb/>
+                </div>
+
+                <div>
+                    <head style="text-align:center;">TO THE READER.</head>
+                    <fw type="pageNum"><hi style="text-align:right;">5</hi></fw>
+                    <p>
+                        <s><seg type="decorlnit"><seg style="font-size:200%">M</seg></seg><hi style="font-style:italic;">
+                                    Ay it pleaſe you amongsſt other bookes,ſome good, ſome<lb/>
+                            bad, to peruſe this my</hi><hi style="font-variant:smallcaps;"> Y O V T H E S  W I T,</hi> Or<lb/>
+                            <hi style="font-variant:smallcaps;">W I T  O F  G R E E N E  Y O V T H,</hi>
+                                    <hi style="font-style:italic;">in ſuch ſorte as they<lb/>
+                            were woonte to ſurvey the Tables of</hi>Phidias,<hi style="font-style:italic;">
+                                    and the Pictures<lb/>
+                            of</hi><placeName>Prazitiles</placeName><hi style="font-style:italic;">,that had before ſeene 
+                                    that excellent workeman-<lb/>
+                            ſhippe of</hi><persName type="historical" ref="/kit-marlowe/files/personography.xml#pers_APPE1">Appelles</persName>
+                                    <hi style="font-style:italic;">,betweene whome and the other, though<lb/>
+                            there were as greate difference, as betweene the leaſt twinck-<lb/>
+                            ling Starre, and the Sunne it ſelfe, yet did they both like<lb/>
+                            of the one as they had cauſe, and looke on the other when<lb/>
+                            occaſion ſerved.</hi></s><s><hi style="font-style:italic;">The praiſe that
+                            </hi><persName type="historical" ref="/kit-marlowe/files/personography.xml#pers_HOME1">
+                                    Homer</persName><hi style="font-style:italic;">purchaſed by his<lb/>
+                            skill in Poetric, was not ſo great, that it could quite diſgrace the<lb/>
+                            doinges of his Inferiors: For</hi><persName type="historical" ref="/kit-marlowe/files/personography.xml#pers_MEUI1">
+                                    Meuius</persName><hi style="font-style:italic;"> and</hi>
+                                    <persName type="historical" ref="/kit-marlowe/files/personography.xml#pers_BAUI1">Bauius</persName>
+                                    <hi style="font-style:italic;">(though<lb/>
+                            not ſo excellent) yet were they allowed for Poets of manie: ſome<lb/>
+                            haue deſired to heare an Orator of euill utterance, to the ende<lb/>
+                            they might afterwardes take the more pleaſure, when they hard<lb/>
+                            one pleade, that could pronounce his wordes diſtinctlie, and with<lb/> 
+                            good diſcretion.</hi></s><s><persName type="historical" ref="/kit-marlowe/files/personography.xml#pers_PUBL1"
+                                    >Cato</persName><hi style="font-style:italic;">
+                            the wiſe man of </hi><placeName>ROME</placeName><hi style="font-style:italic;">,was wonte<lb/>
+                            oftentimes to vaunte, that he learned no leſſe good by conuer-<lb/>
+                            ſing with fooles, and ſpying their faultes, then he gote wiſdome by<lb/>
+                            the wyſeſt, and thoſe of beſt behauior: And therefore, I am<lb/>
+                            thus farre to intreate you for this my ſimple worke, that if it be<lb/>
+                                not in your conceates, worthy to be likened to </hi>
+                                <persName type="historical" ref="/kit-marlowe/files/personography.xml#pers_APPE1">Appelles</persName><hi
+                                    style="font-style: italic;"> Pat-<lb/>
+                                    tornes, ye will vouchſafe, at idle times, to gaze vpon <supplied reason="ink">it</supplied>, as a table <lb/>
+                            of</hi><persName type="historical" ref="/kit-marlowe/files/personography.xml#pers_RHID1">Phidias
+                                    </persName> <hi style="font-style:italic;"> or </hi>
+                                    <persName type="historical" ref="/kit-marlowe/files/personography.xml#pers_PRAX1">Praxatiles
+                                    </persName>.</s><s><hi style="font-style:italic;">If it beare not the beautie of a ſunne<lb/>
+                            beame, then liken it to the leaſt ſtar that ſhineth. If it be not <lb/>
+                            comparable to</hi><persName type="historical" ref="/kit-marlowe/files/personography.xml#pers_HOME1">
+                                    Homers</persName> <hi style="font-style:italic;">poeſie,that was taken as a ſufficiente<lb/>
+                            dowrie with his daughter in marriage: yet permit it to be allow-<lb/>
+                            ed of ſome , as were the verces of</hi><persName type="historical" ref="/kit-marlowe/files/personography.xml#pers_BAUI1">
+                                    Bauius </persName><hi style="font-style:italic;">and</hi>
+                                    <persName type="historical" ref="/kit-marlowe/files/personography.xml#pers_MEUI1">
+                                    Meuius</persName><hi style="font-style:italic;">, If it <lb/>
+                            taſte nothinge at all of a good Orator, yet accepte of it, till a bet-<lb/>
+                                    ter come in place.</hi></s><s><hi style="font-style:italic;">
+                                    If it teache no wiſe conceate, yet eſteame of it<lb/>
+                            as a patterne of my fooliſh conceate, whereby ſuch as have iudge-<lb/>
+                            mente, may conceave (if they will) a platforme of ſome wisdome.<lb/>
+                            Beare with me, I pray you, though I ſeeme in this linking of my <lb/>
+                            lines together, halfe to riddle with you, and accepte my good<lb/>
+                            will, For I have beene as much troubled in continuing theſe my <lb/>
+                            conceites, as they buylde caſtles in</hi><placeName>S P A Y N E</placeName>
+                                <hi style="font-style:italic;"> (as the <lb/>
+                            French Proverbe underſtandeth it) Or, as a Henne with two <lb/>
+                            Chickens, And ſo fare ye well. </hi><lb/></s></p>
+                        <fw type="signature"><supplied>A3r</supplied></fw>
+                        <pb/>
+                </div>
+                <div>
+                    <fw type="pageNUM">6</fw>
+                    
+                        <head style="text-align:center;"><fw type="heading"><foreign xml:lang="la">
+                            <hi style="font-style:italic;">In</hi> Z O I L V M, <persName type="historical"><hi style="font-style:italic;"
+                                    >Richardus W.</hi></persName></foreign></fw></head><lb/>
+                    <lg>
+                        <l><foreign xml:lang="la"><seg type="decorlnit"><seg style="font-size:200%">I</seg></seg>Nuide cur acuis 
+                                    ringendo <persName style="font-style:italic;">Zoyle</persName> dentes?</foreign></l><lb/>
+                        <l style="text-indent:2em;"><foreign xml:lang="la"> cur ſulcat vultus ruga maligna tuos?</foreign></l><lb/>
+                        <l><foreign xml:lang="la">Sed tu <persName style="font-style:italic;">Meonidem</persName>
+                                    ridebas <persName style="font-style:italic;">Zoyle</persName> vatem,</foreign></l><lb/>
+                        <l style="text-indent:2em;"><foreign xml:lang="la">&amp; ſimilis nunqnam deſinis effe tui:</foreign></l><lb/>
+                        <l><foreign xml:lang="la">An non eſt Iuuenum iuuenilia condere Scripta?</foreign></l><lb/>
+                        <l style="text-indent:2em;"><foreign xml:lang="la">ſic capitur ſtudijs ipſa Iuuenta
+                                    ſuis.</foreign></l><lb/>
+                        <l><foreign xml:lang="la">Ve<persName style="literary" ref="/kit-marlowe/files/personography.xml#pers_CERE1">
+                                    Cereri</persName> grata eſt peragendis meſsibus æſtas,</foreign></l><lb/>
+                        <l style="text-indent:2em;"><foreign xml:lang="la"><persName style="literary"
+                            ref="/kit-marlowe/files/personography.xml#pers_BACC1"> <hi style="font-style:italic;"
+                                    >Bacchus</hi></persName> in Autumno dulcia vina bibit,</foreign></l><lb/>
+                        <l><foreign xml:lang="la">Sic matura dabit poſthac maturior ætas,</foreign></l><lb/>
+                        <l style="text-indent:2em;"><foreign xml:lang="la">intera hoc placida perlege mente,
+                                     precor.</foreign></l><lb/>
+                        <lb/>
+                    </lg>
+                
+                    <lb/>
+                <div>
+                        <l style="text-align:center;"><persName type="historical">
+                            M.G.</persName><hi style="font-style:italic;">In commendation of the worke.</hi></l><lb/>
+                        <lb/>
+                    <lg style="font-style:black letter">
+                        <l><seg type="decorlnit"><seg style="font-size:200%">S</seg></seg> Uch ſugred ſappe,
+                                ſuch delve of ſweete delight,</l><lb/>
+                        <l>As painefull Bees that bide on <placeName><hi style="font-style:italic;">Hibla</hi>
+                                hill</placeName>:</l><lb/>
+                        <l>From fragrante floures both freſh and faire in fight.</l><lb/>
+                        <l>With laboure greate, do galife their house to fill.</l><lb/>
+                        <l style="text-indent:1.5em;">Such, and no more, the well diſpoſed minde:</l><lb/>
+                        <l style="text-indent:1.5em;">Within this booke by reading ſoone may finde.</l><lb/>
+                    </lg>
+                </div>
+                <div>
+                    <lb/>
+                    <lg style="font-style:black letter">
+                         <l>Then praiſe the wight,whoſe paines ſhal pleaſe thée ſo,</l><lb/>
+                            <l>And pleaſe thy ſelfe with that which profite bringes:</l><lb/>
+                            <l>And with thy profite, profite many moe,</l><lb/>
+                            <l>And then reporte by proofe what profite ſpringes</l><lb/>
+                            <l style="text-indent:1em;">From our <hi style="font-style: italic;"
+                                    >(Greene Youth)</hi>and ſafelie ſay thou this:</l><lb/>
+                            <l style="text-indent:1em;">Such witte doth wante in grauer heads then
+                                    his.</l><lb/>
+                        </lg>
+                        <l style="text-align:center;"><persName type="historical"
+                                    ref="/kit-marlowe/files/personography.xml#pers_WATS1"><sic>Th.
+                                        W.</sic></persName><hi style="font-style: italic;">To the
+                                        Reader.</hi></l><lb/>
+                </div>
+                    <lb/>
+                <div>
+                    <lg style="font-style:black letter">
+                        <l><seg type="decorlnit"><seg style="font-size:200%">T</seg></seg>he proube
+                                faith, witte goeth not all by age,</l><lb/>
+                        <l style="text-indent:1em;">The wife regard mennes deedes and not their time</l><lb/>
+                        <l>Let <persName type="historical" ref="/kit-marlowe/files/personography.xml#pers_ZOYL2"><hi style="font-style:italic;"
+                                >Zoylus</hi></persName> then ceaſe of his woonted rage,</l><lb/>
+                        <l style="text-indent:2em;">And<persName type="literary" ref="/kit-marlowe/files/personography.xml#pers_MOMU1">
+                                <hi style="font-style:italic;">Momus</hi></persName> graunt that greeneſt wittes may clime</l><lb/>
+                        <l>To touch the toppe of higheſt thinges with praiſe :</l><lb/>
+                        <l>Which <persName type="literary" ref="/kit-marlowe/files/personography.xml#pers_NEFT1">
+                                <hi style="font-style:italic;">Neſtor</hi></persName>scarce attainde in all his dayes.</l><lb/>
+                    </lg>
+                    <fw type="signature"><supplied>A3v</supplied></fw>
+                    <fw type="catchword" style="text-align:right;"><hi style="font-style:black letter">Young</hi></fw>
+                    <pb/>
+                </div>
+                    <lb/>
+                <div>
+                    <fw type="pageNum">7</fw>
+                    <lg style="font-style:black letter">
+                        <l> Young coltes beares price before olde reftie iades,</l><lb/>
+                        <l style="text-indent:2em;">young twigges ffande fafte, when taller trees decay:</l><lb/>
+                        <l> The budding roſe ereedes the flower that fades,</l><lb/>
+                        <l style="text-indent:2em;"> youth wareth ripe, whileft age doth were away.</l><lb/>
+                        <l>Then iudge aright, and praiſe him for his paynes:</l><lb/>
+                        <l>That prooues his theame, in praifing youthly raynes.</l><lb/>
+                    <lb/>
+                    </lg>
+                 </div>
+                   <lb/>
+                 <div>
+                        <l style="text-align:center;"><persName type="historical"><sic>G.A.</sic></persName>
+                                <hi style="font-style:italic;">In commendation of the Author.</hi></l><lb/>
+                        <lb/>
+                    <lg style="font-style:black letter">
+                        <l><seg type="decorlnit"><seg style="font-size:200%">L</seg></seg>et hoarie heares,
+                                who longe in painful ſoyle,</l><lb/>
+                        <l style="text-indent:1em;">With heauie hande haue ſolved Experience ſeede:</l><lb/>
+                        <l>At harueft reape, in guerdone of their toyle,</l><lb/>
+                        <l style="text-indent:2em;">the name, ad fame, of wiſdoms for their meede.</l><lb/>
+                        <l>But yet for witt, let youth receaue the praiſe:</l><lb/>
+                        <l>As this our youth doth flowe in theſe our dayes.</l><lb/>
+                        <lb/>
+                     </lg>
+                </div>
+                    <lb/>
+                <div>
+                    <l style="text-align:center;"><persName type="historical" ref="/kit-marlowe/files/personography.xml#pers_SKER2"><sic>N.Skr.
+                            </sic></persName><hi style="font-style: italic;">
+                                In the praiſe of his frende.</hi></l><lb/>
+                    <lb/>
+                     
+                    <lg style="font-style:black letter">
+                        <l><seg type="decorlnit"><seg style="font-size:200%">T</seg></seg>hough wanton will did wrangle late with witte,</l><lb/>
+                         <l style="text-indent:1em;"> though Soldior braulde, though Schollar cauil ftil</l><lb/>
+                         <l><hi style="font-style:italic;">Manillas</hi> mone, though no man pittie it,</l><lb/>
+                         <l style="text-indent:2em;"> nor woman-like, ſo loſe a praiſe of will.</l><lb/>
+                        <l>Though ounſell then, that came from phiſlickes lore</l><lb/>
+                        <l> Doth yealde as yet no ſalue to heal his ſore.</l><lb/>
+                    </lg>
+                </div>
+                        <lb/>
+                <div>
+                    <lg style="font-style:black letter">
+                        <l> Yet died not witte, he did but make his will</l><lb/>
+                        <l style="text-indent:2em;">I not deny but then he might be ſicke:</l><lb/>
+                        <l> His addle head may were a kercher ſtill.</l><lb/>
+                        <l style="text-indent:2em;"> for then his braine was touched to the quicke.</l><lb/>
+                        <l> But who ſo looks, ſhall ſee him here alive:</l><lb/>
+                        <l>And well perreaue how youth can him reuive.</l><lb/>
+                    </lg>
+                </div>
+                        <lb/>
+                <div>
+                        <lb/>
+                    <l style="text-align:center;"><persName type="historical">
+                            <hi style="font-style:italic;">Miſtress</hi> Marie P.</persName>
+                                <hi style="font-style:italic;"> in commendation of her</hi></l><lb/>
+                        <l style="text-align:center;">ſeruaunts worke.</l><lb/>
+                    
+                    <lg style="font-style:black letter">
+                        <l><seg type="decorInit"><seg style="font-size:200%">T</seg></seg>D praiſe
+                                    the wight whole deedes deſerue no leffe,</l><lb/>
+                    </lg>
+                    <fw type="signature">A4<supplied>r</supplied></fw> 
+                    <fw type="catchword"><hi style="font-style:black letter"> were </hi></fw>
+                    <pb/>
+                </div>
+                     <lb/>   
+                <div>
+                    <fw type="pageNum"><hi style="text-align:left;">8</hi></fw>
+                    
+                    <lg style="font-style:black letter">
+                        <l style="text-indent:2em;">were but to throwe my wordes into the winde:</l><lb/>
+                        <l>For eache that sees his worke, must needes confesse,</l><lb/>
+                        <l style="text-indent:2em;">(unlesse they ſwarue contrarie to their kinde,)</l><lb/>
+                        <l>That he deserues farre more then I can tell:</l><lb/>
+                        <l style="text-indent:2em;">his workes, his wordes, his deedes deserue so well.</l><lb/>
+                    </lg>
+                </div>
+                    <lb/>
+                <div>
+                        <lb/>
+                        <l style="text-align:center;"><persName type="historical">R.W.</persName> gent. To his frende
+                                <persName type="historical">A.N.</persName></l><lb/>
+                        <lb/>
+                    <lg style="font-style:black letter">
+                        <l><seg type="decorInit"><seg style="font-size:200%">L</seg></seg>
+                                Oe for my frende I here doe breake my vow</l><lb/>
+                        <l style="text-indent:1em;">who earst haue sworne in silence for to rest:</l><lb/>
+                        <l>But for because my frende conſtraines me now,</l><lb/>
+                        <l style="text-indent:2em;">both vowes and othes, I doe accounte as iest,</l><lb/>
+                        <l>And say and ſweare, as I haue done of yore:</l><lb/>
+                        <l style="text-indent:2em;">that such Greene wittes haue ſeldome beene before.</l><lb/>
+                    </lg>
+                </div>
+                    <lb/>
+                <div>
+                    <lb/>
+                    <l style="text-align:center;"><persName type="historical">I. Io.</persName> Gent.</l>
+                        <lb/>
+                    <lg style="font-style:black letter">
+                        <l><seg type="decorlnit"><seg style="font-size:200%">I</seg></seg>N verse to
+                                write the praiſes of my frende, </l><lb/>
+                        <l style="text-indent:1em;">I wante the ſkill of learned Poets olde: </l><lb/>
+                        <l>Whose pregnante witte in <persName style="historical" ref="/kit-marlowe/files/personography.xml#pers_MARO1">
+                                <hi style="font-style:italic;"> Virgill</hi></persName> may be pende,</l><lb/>
+                        <l style="text-indent:2em;">(and not by me) his filed phraſe be tolde. </l><lb/>
+                        <l>Meade, gallante youthes, this booke which he hath wrot:</l><lb/>
+                        <l style="text-indent:2em;">not for his owne, but your delight, 
+                                <persName type="literary" ref="/kit-marlowe/files/personography.xml#pers_GOD1">God</persName> wot.</l><lb/>
+                    </lg>
+                </div>
+                    <lb/>
+                <div>
+                        <lb/>
+                    <l style="text-align:center;"><persName type="historical">I.H.</persName> To his frende
+                        <persName type="historical">A. N</persName></l><lb/>
+                        <lb/>
+                    <lg style="font-style:black letter">
+                        <l><seg type="decorInit"><seg style="font-size:200%">T</seg></seg>O say of trothe, 
+                            that this my frende doth well,</l><lb/>
+                        <l style="text-indent:1em;">and in the ende his doinges ſhould proue badde:</l><lb/>
+                        <l>My name, his fame, I ſhould both by and ſell,</l><lb/>
+                        <l style="text-indent:2em;">and nether winne, but both of vs be ſadde.</l><lb/>
+                        <l>So that to praiſe him further then I say:</l><lb/>
+                        <l style="text-indent:2em;">I neither can, ne will, ne muſt, nor may.</l><lb/>
+                    </lg>
+                     <fw type="signature"><supplied>A4v</supplied></fw> 
+                    <fw type="catchword"><hi style="font-variant:smallcaps;">Y O U T H E S</hi></fw>
+                    <pb/>
+                 </div>
+              </div>
+           </div>
+       </body>
+   </text>
+</TEI>

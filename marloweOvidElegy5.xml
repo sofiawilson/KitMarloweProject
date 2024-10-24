@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://jenkins.hcmc.uvic.ca/job/MoEML/lastStableBuild/artifact/static/site/xml/schemas/london_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Marlowe_Ovid_Elegy_1_Hawkes">
+    <!-- 
+    Caroline Hawkes
+    12/09/2022
+    Marlowe's Ovid, Elegy 5
+    Used A and B text
+-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marlowe_Ovid</title>
+                <author><persName type="hist"><forename><surname/></forename></persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Printed by <persName type="hist"><forename/>
+                    <surname/></persName>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source
+                    <!-- Working from Huntington Library (microfilm) copy available via EEBO and Boston Public Library --><idno>STC
+                        21864</idno></p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef/>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <p>TEI P5</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="BENN"/>
+        </revisionDesc>
+    </teiHeader>
+    <!-- COMMENT IT OUT -->
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">
+                        <hi style="text-align: center; font-style: italic;">
+                            ELEGIA. 5. <!-- Translation: Elegy. 5. --><lb/>
+                            Corinnae Concubitus. <!-- Translation: Corinne's Cohabitation (not sure about this translation --><lb/>
+                        </hi>
+                        <lb/>
+                    </titlePart>
+                    
+                    <titlePart/>
+                </docTitle>
+                <docAuthor/>
+                <docImprint/>
+                <docDate/>
+            </titlePage>
+        </front>
+        <body>
+            <div type="section">
+                <lg>
+                    <l>
+                        IN ſummers heate and mid-time of the day,<lb/>
+                    </l>
+                    <l>
+                        To reſt my limbes vpon a bed I lay.<lb/>
+                    </l>
+                    <l>
+                        One window ſhut, the other open ſtood,<lb/>
+                    </l>
+                    <l>
+                        Which gaue ſuch light, as twincles in a wood.<lb/>
+                    </l>
+                    <l>
+                        Like twilight glimps at ſetting of the Sunne,<lb/>
+                    </l>
+                    <l>
+                        Or night being paſt, and yet not day begunne.<lb/>
+                    </l>
+                    <l>
+                        Such light to ſhamefaſt maidens muſt be ſhowne,<lb/>
+                    </l>
+                    <l>
+                        Where they may ſport, and ſeeme to be vnknowne.<lb/>
+                    </l>
+                    <l>
+                        Then came <hi style="font-style:italic"><persName type="lit">Corinna</persName></hi> in a long looſe gowne,<lb/>
+                    </l>
+                    <l>
+                        Her white neck hid with treſſes hanging downe.<lb/>
+                    </l>
+                    <l>
+                        Reſembling fayre <hi style="font-style:italic"><persName type="lit">Semiramis</persName></hi> going to bed,<lb/>
+                    </l>
+                    <l>
+                        Or <hi style="font-style:italic"><persName type="lit">Layis</persName></hi> of a thouſand woers ſped.<lb/>
+                    </l>
+                    <l>
+                        I ſnacht her gowne being thin, the harme was ſmall,<lb/>
+                    </l>
+                    <l>
+                        Yet ſtriu'd ſhe to be couered there withall.<lb/>
+                    </l>
+                    <l>
+                        And ſtriuing thus as one that would be caſt,<lb/>
+                    </l>
+                    <l>
+                        Betray'd her ſelfe, and yeelded at the laſt. <lb/>
+                    </l>
+                    <l>
+                        Starke naked as the flood ſhe * <!-- Second Version Translation --> ſtood before mine eye,<lb/>
+                    </l>
+                    <l>
+                        Not one wen in her body could I ſpie. <lb/>
+                    </l>
+                        <fw type="signature"><supplied reason="omitted-in-original">A 5r *</supplied></fw>
+                        <fw type="catchword" style="text-align;right;">What</fw> <lb/>
+                        <pb/>
+                        <fw type="header" style="text-align:center; font-style: italic"><hi style="font-size=150%">OVIDS ELEGIES.</hi></fw><lb/>
+                    <l>
+                        What armes and ſhoulders did I touch and ſee,<lb/>
+                    </l>
+                    <l>
+                        How apt her breaſts were to be preſt by me.<lb/>
+                    </l>
+                    <l>
+                        How ſmooth a belly vnder her waſt ſaw I?<lb/>
+                    </l>
+                    <l>
+                        How large a legge, and what a luſtie thigh?<lb/>
+                    </l>
+                    <l>
+                        To leaue the reſt all lik'd me paſſing * <!-- Second Version Translation --> well,<lb/>
+                    </l>
+                    <l>
+                        I cling'd her naked body, downe ſhe fell,<lb/>
+                    </l>
+                    <l>
+                        Iudge you the reſt, being tride <!-- Used B Text to determine, but not a second version translation -->ſhe bad me kiſſe,<lb/>
+                    </l>
+                    <l>
+                        <hi style="font-style:italic"><persName type="lit">Ioue</persName></hi> ſend me more ſuch after-noones as this. <lb/>
+                    </l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

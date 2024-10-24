@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://scotthamlin.digstonehill.org/news/wp-content/uploads/Marlowe.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MeresWitsTreasuryPoets">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- Title statement information taken from Early English Books Online Database -->
+                <title>Palladis tamia Wits treasury being the second part of Wits common wealth. By Francis Meres Maister of Artes of both Vniuersities.</title>
+                <respStmt>
+                <!-- What is going on with this weird date statement -->    
+                    <resp>Author</resp>
+                    <name><forename>Francis</forename> <surname>Meres</surname></name></respStmt>
+                <respStmt>
+                    <resp>Primary editor</resp>
+                    <name>Kristen Abbott Bennett</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant editor</resp>
+                    <name>Rowan Pereira</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Rowan Pereira</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Ashka Ramanlal</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Fendy Lormine</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Sinéad O'Brien</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Lauren Gillis</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Bailey Grant</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>MacKenzie Pleshaw</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Adam Mocciola</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Peter Gill</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Andrew Rivelli</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    Kristen Bennett and Scott Hamlin
+                </publisher>
+                <date>2017</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                    <p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><publisher>Printed by P. Short</publisher><publisher>Cuthbert Burbie</publisher><pubPlace>London</pubPlace><date when-custom="1598"/>
+                Transcription keyed by students in LC 347A at Stonehill College, under the supervision of Kristen Abbott Bennett and Scott Hamlin. Transcription prepared from a digital surrogate of a microfilm available on the Early English Books Online Database.
+                    <idno type="STC">STC 17834<!-- UMI Reel Number: 217:07 --></idno>
+                </bibl></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter">
+                <!-- Hastily encoded by KAB - need to fix sizes -->
+                <fw type="header" style="text-align: center;"><hi style="font-style: italic;">Palladis Tamia</hi><lb/>
+                WITS
+                <hi style="font-size: 125%">TREASVRY</hi><lb/>
+                Being the Second part<lb/>
+                <hi style="font-style: italic;">of Wits Common</hi><lb/>
+                wealth.<lb/>
+                By<lb/>
+                    <hi style="font-style: italic;">Francis Meres Maister</hi><lb/>
+                    of Artes of both Vni-<lb/>
+                    uerſities<lb/>
+                    <foreign xml:lang="la"><hi style="font-style: italic;">Viuitur ingenio cœlera mortis erunt.</hi></foreign><lb/>
+                    AT LONDON<lb/>
+                    Printed by P Short, for Cuthbert Burbie, and<lb/>
+                    are to be ſolde at his shop at the Royall<lb/>
+                    Exhange. 1598.
+                </fw> 
+                <pb/>
+                </div>
+        
+            <div type="chapter">
+            <!-- ASHKA RAMANLAL-->
+                <fw type="signature" style="text-align: center;"><fw type="header"><hi style="font-style: italic;">Wits Treasury</hi></fw></fw>
+              <lb/>
+                <p style="font-size: 90%;"> <fw type="header">Poets.</fw></p>
+                <lb/>
+                <p><hi style="float: left; font-size: 5em; padding: 0.5em; margin: 0 2em 1em 0:">A</hi>S ſome do vſe an Amethiſt in compo-<lb/>
+                    tations agaynſt drunkennes: ſo cer-<lb/>
+                    tain precepts are to be vſed in hearing and<lb/>
+                    reading of poets, leaſt they infect the mind<lb/>
+                    <hi style="font-style: italic;"><foreign xml:lang="la">Plut</foreign>. &amp; Plin.lib.37.cap.9.</hi><lb/></p>
+                <p><hi style="text-indent: 1em;">As in thoſe places where many holſome</hi><lb/>
+                    hearbes doe growe, there alſo growes ma-<lb/>
+                    ny poyſonfull weedes: ſo in Poets there<lb/>
+                    are many excellent things, and many peſti<lb/>
+                    lent matters. <hi style="font-style: italic;"><foreign xml:lang="la">Plut</foreign>.</hi><lb/></p>
+                <fw type="catchword" style="text-align: right;">As</fw><lb/>
+           <pb/>     
+                <fw type="header" style="font-style:italic;"> <fw type="header" style="text-align: center;">Wits Common-wealth.</fw></fw><fw type="pageNum" style="text-align: right;">277</fw><lb/>
+                <p><hi style="text-indent: 1em;">As <hi style="font-style: italic;"><persName>Simoniàes</persName></hi> ſayde, that the <hi style="font-style: italic;"><persName>Theſſali-</persName></hi></hi><lb/>
+                    <hi style="font-style: italic;">ans</hi> were more blockiſh, then that they<lb/>
+                    could be deceiued of him: ſo the riper and<lb/>
+                    pregnanter the wit is, the ſooner it is cor-<lb/>
+                    rupted of Poets.<hi style="font-style: italic;">idem.</hi><lb/></p>
+                <p><hi style="text-indent: 1em;">As <hi style="font-style: italic;"><persName>Cato</persName></hi>when he was a ſcholler woulde</hi><lb/>
+                    not beleeue his maiſter, except hee rende-<lb/>
+                    red a reaſon of that he taught him: ſo wee<lb/>
+                    are not to beleeue Poets in all that they<lb/>
+                    write or ſay, except they yeelde a reaſon.<lb/>
+                    <hi style="font-style: italic;">Idem.</hi><lb/></p>
+                <p><hi style="text-indent: 1em;">As in the ſame paſture the Bee ſeaſeth</hi><lb/>
+                    on the flower, the Goate grazeth on the<lb/>
+                    ſhrub, the ſwine on the root, and the Oxen,<lb/>
+                    Kine and Horſes on the graſſe: ſo in Poets<lb/>
+                    one ſeeketh for hiſtorie, an other for orna-<lb/>
+                    ment of ſpeech, another for proofe, and an<lb/>
+                    other for precepts of good life. <hi style="font-style: italic;">idem.</hi><lb/></p>
+                <p><hi style="text-indent: 1em;">As they that come veri ſuddainlie out</hi><lb/>
+                    of a very darke place, are greatly troubled,<lb/>
+                    except by little and little they be accuſto-<lb/>
+                    med to the light: ſo in reading of Poets,<lb/>
+                    the opinions of <persName>Phyloſophers</persName> are to bee<lb/>
+                    ſowne in the mindes of young ſchollers,<lb/>
+                    leaſt many diuerſities of doctrines doe af-<lb/>
+                    terwardes diſtract their mindes. <hi style="font-style: italic;">idem.</hi><lb/></p>
+                <p><hi style="margin-left: 1em;">As in the portraiture of murder or inceſt,</hi><lb/>
+                    we praiſe the Art of him that drewe it, but<lb/>
+                    we deteſt the thing it ſelſe: ſo in laſciuious<lb/>
+                    Poets let vs imitate their elocution, but<lb/></p>
+                <fw type="catchword" style="text-align:right;">execrate</fw><lb/>
+            <pb/>    
+            <!-- ROWAN PEREIRA-->
+                <fw type="signature" style="text-align:center;"><fw type="header" style="font-style:italic;">The ſecond part of</fw></fw>
+                <p>excrate their wantonnes. <hi style="font-style:italic;">idem.</hi><lb/>
+                   <hi style="margin-left:1em;">Some thinges that are not excellent of</hi><lb/>
+                    themſelues, are good for ſome, bicauſe they<lb/>
+                    are meet for them: ſo ſome things are com-<lb/>
+                    mended in Poets, which are fit and correſ-<lb/>
+                    pondent for the perſons, they ſpeake of, al-<lb/>
+                    though in themſelues they bee filthy and<lb/>
+                    not to be ſpoken: As lame <hi style="font-style:italic;"><persName>Demonides</persName></hi> wi-<lb/>
+                    ſhed, that the ſhoes that were ſtolne from<lb/>
+                    him, might fit his feet that had ſtoln them,<lb/>
+                    <hi style="font-style:italic;">idem</hi>.<lb/></p> 
+                <p><hi style="margin-left:1em;">As that ſhip is endaungered, where all</hi><lb/>
+                    leane to one ſide, but is in ſafetie, on lea-<lb/>
+                    ning one way, and another another way:<lb/>
+                    ſo the diſſenſion of Poets among them-<lb/>
+                    ſelues, doth make them, that they leſſe in-<lb/>
+                    fect their readers. And for this purpoſe our<lb/>
+                    Satyriſts, <hi style="font-style:italic;"><persName>Hall</persName>, the Author of <title>Pigmalions</title></hi><lb/>
+                    <title>I<hi style="font-style:italic;">mage, and certaine Satyres</hi></title>, <persName>Rankins</persName>, and<lb/>
+                    ſuch others, are very profitable.<lb/></p>
+                <p><hi style="margin-left:1em;">As a Bee doth gather the iuice of honie</hi><lb/>
+                    from flowres, whereas others are onely de-<lb/>
+                    lighted with the colour and ſmel: ſo a Phi-<lb/>
+                    loſopher findeth that among Poets which<lb/>
+                    is profitable for good life, when as others<lb/>
+                    are tickled only with pleaſure. <hi style="font-style:italic;"><foreign xml:lang="la">Plut</foreign></hi>.<lb/></p>
+                <p><hi style="margin-left:1em;">As wee are delighted in the picture of a</hi><lb/>
+                    Viper of a ſpider artificially encloſed with<lb/>
+                    in a precious iewell: ſo Poets do delight vs<lb/>
+                    in yͤ learned &amp; cũning depainting of vices.<lb/></p>
+                <fw type="catchword" style="text-align:right;">As<lb/></fw>
+                <pb/>
+                <fw type="signature" style="text-align:center;"><fw type="header" style="font-style:italic;">Wits Common-wealth.</fw></fw><fw type="pageNum" style="text-align: right;">278</fw><lb/>
+                <p><hi style="margin-left:1em;">As ſome are delighted in coũterfet wines</hi><lb/>
+                    confected of fruites, not that they refreſh<lb/>
+                    the hart, but that they make drunke: ſo<lb/>
+                    ſome are delighted in Poets only for their<lb/>
+                    obſcenity, neuer reſpecting their eloquẽce<lb/>
+                    good grace, or learning.<lb/></p>
+                <p><hi style="margin-left:1em;">As Emperors, kings and princes haue in</hi><lb/>
+                    their handes authority to dignifie or diſ-<lb/>
+                    grace their nobles, attendants, ſubiects and<lb/>
+                    vaſſals: ſo Poets haue the whole power in<lb/>
+                    their handes to make men either immor-<lb/>
+                    tally famous for their valiant exploites and<lb/>
+                    vertuous exerciſes, or perpetually infa-<lb/>
+                    mous for their vicious liues.<lb/></p>
+                <p><hi style="margin-left:1em;">As <persName>God</persName> giueth life vnto man: ſo a Poet</hi><lb/>
+                    giueth ornament vnto it.<lb/></p>
+                <p><hi style="margin-left:1em;">As the Greeke and Latine Poets haue</hi><lb/>
+                    wonne immortall credit to their natiue<lb/>
+                    ſpeech, beeing encouraged and graced by<lb/>
+                    liberall patrones and bountifull Benefac-<lb/>
+                    tors: ſo our famous and learned Lawreat<lb/>
+                    maſters of <placeName>Englãd</placeName> would entitle our Eng-<lb/>
+                    liſh to far greater admired excellency, if ei-<lb/>
+                    ther the <persName>Emperor <hi style="font-style:italic;">Auguſtus</hi></persName>, or <persName><hi style="font-style:italic;">Octauia</hi></persName> his<lb/>
+                    ſiſter, or noble <persName><hi style="font-style:italic;">Mecænas</hi></persName> were aliue to re-<lb/>
+                    warde and countenaunce them; or if our<lb/>
+                    witty Comedians and ſtately Tragedians<lb/>
+                    (the glorious and goodlie repreſenters of<lb/>
+                    all fine witte, glorified phraſe and queint<lb/>
+                    action) bee ſtill ſupported and vphelde,<lb/>
+                    by which meanes for lacke of Patrones<lb/></p>
+          <pb/>
+          <!-- FENDY LORMINE-->
+                <fw type="header" style="text-align: center;"><hi style="font-style: italic;">The ſecond part of</hi></fw>
+                <p>(ô ingratefull and damned age) our Poets<lb/>
+                    are ſoly or chiefly maintained, countenan-<lb/>
+                    ced and patronized.<lb/></p>
+                <p><hi style="margin-left:1em;">In the infancy of <placeName>Greece,</placeName> they that hand-</hi><lb/>
+                    led in the audience of the people, graue &amp;<lb/>
+                    neceſſary matters, were called wiſe men or<lb/>
+                    eloquent men, which they ment by <hi style="font-style:italic;"><persName>Vates</persName></hi>:<lb/>
+                    ſo the reſt, which ſang of loue matters, or<lb/>
+                    other lighter deuiſes alluring vnto pleaſure<lb/>
+                    and delight, were called Poetæ or makers,<lb/></p>
+                <p><hi style="margin-left:1em;">As the holy Prophets and ſanctified A-</hi><lb/>
+                    poſtles could neuer haue foretold nor ſpo-<lb/>
+                    ken of ſuch ſupernaturall matters, vnleſſe<lb/>
+                    they had bin inſpired of God: ſo <hi style="font-style:italic;"><persName>Cicero</persName></hi> in<lb/>
+                    his Tuſculane queſtions is of yͤ minde, that<lb/>
+                    a Poet cannot expreſſe verſes aboundant-<lb/>
+                    ly, ſufficiently, and fully, neither his elo-<lb/>
+                    quence can flow pleaſantly, or his wordes<lb/>
+                    found well and plenteouſly, without cele-<lb/>
+                    ſtiall inſtinction; which Poets themſelues<lb/>
+                    do every often and gladly witnes of them-<lb/>
+                    ſelues, as namely <hi style="font-style:italic;"><persName>Ouid</persName> in 6, <title>Faſt.</title></hi><lb/></p>
+                <p><hi style="font-style:italic;"><foreign xml:lang="la">Eſt Deus, in nobis agitãte caleſcimus illo</foreign>,&amp; c</hi><lb/></p>
+                <p><hi style="margin-left:1em;">And our famous English Poet <hi style="font-style:italic;"><persName>Spenſer</persName></hi></hi>,<lb/>
+                    who in his <title><hi style="font-style:italic;">Sheepeheards Calender</hi></title> lamen-<lb/>
+                    ting the decay of Poetry at theſe dayes,<lb/>
+                    faith moſt ſweetly to the fame.<lb/></p>
+                <p><hi style="margin-left:1em;"><fw type="signature" style="font-style:italic;"> Then make thee wings of thine aſpiring wit</fw></hi><lb/>
+                    <hi style="margin-left:1em;"><fw type="signature" style="font-style:italic;">And whence thou cameſt fly backe to hea-</fw></hi><lb/>
+                   <fw type="signature" style="font-style:italic;">uen apace, &amp;c</fw><lb/></p>
+                <fw type="catchword" style="text-align:right;">As</fw><lb/>
+          <pb/>
+                <fw type="header" style="font-style:italic; text-align: center;">Wits Common-wealth.</fw><fw type="pageNum" style="text-align: right;">279</fw><lb/>
+                <p><hi style="margin-left:1em;">As a long gowne maketh not an Aduo-</hi><lb/>
+                    cate, although a gowne be a fit ornament<lb/>
+                    for him: ſo riming nor verſing maketh a<lb/>
+                    Poet, albeit the Senate of Poets hath cho-<lb/>
+                    ſen verſe as their fitteſt rayment; but it is yͤ<lb/>
+                    faining notable images of vertues, vices, or<lb/>
+                    what elſe, with that delightfull teaching,<lb/>
+                    which muſt bee the right deſcribing note<lb/>
+                    to knowe a Poet by,<hi style="font-style:italic;"> <persName>Sir Philip Sidney</persName> in his</hi><lb/>
+                    <hi style="font-style:italic;"><title>Apology for Poetry</title>.</hi><lb/></p>
+                <p style="font-size:150%"><hi style="text-align: center;">A comparatiue diſcourſe of</hi><lb/>
+                   <hi style="text-align: center;">our Engliſh Poets,with the</hi><lb/>
+                   <hi style="font-style:italic;">Greeke, Latine, and Ita-<lb/>
+                   lian Poets.</hi><lb/></p>
+                <p><hi style="float: left; font-size: 5em; padding: 0.5em; margin: 0 2em 1em 0;">A</hi>S <placeName>Greece</placeName> had three Poets of great an-<lb/>
+                    tiquity, <hi style="font-style:italic;"> <persName ref="/kit-marlowe/files/personography.xml#pers_ORPH1">Orpheus</persName>, Linus</hi> and <hi style="font-style:italic;">Muſaus;</hi><lb/>
+                    and <hi style="font-style:italic;"><placeName>Italy</placeName></hi>, other three auncient Poets,<hi style="font-style:italic;">Liui-</hi><lb/>
+                    <hi style="font-style:italic;">us <persName>Andronicus</persName>,<persName ref="/kit-marlowe/files/personography.xml#pers_ENNI1">Ennius</persName> &amp; <persName>Plautus</persName></hi>: ſo hath<lb/>
+                    England three auncient Poets, <hi style="font-style:italic;">Chaucer,</hi><lb/> 
+                    <hi style="font-style:italic;"><persName>Gower</persName></hi> and <hi style="font-style:italic;"><persName>Lydgate.</persName></hi><lb/></p>
+                <p><hi style="margin-left:1em;">As <hi style="font-style:italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_HOME1">Homer</persName></hi> is reputed the Prince of Greek</hi><lb/>
+                    Poets; and <hi style="font-style:italic;">Petrarch</hi> of Italian Poets: ſo<lb/>
+                    <hi style="font-style:italic;">Chaucer</hi> is accounted the God of English<lb/>
+                    Poets.<lb/></p>
+                <p><hi style="margin-left:1em;">As <hi style="font-style:italic;"><persName>Homer</persName></hi> was the firſt that adorned the</hi><lb/> 
+                    Greek tongue with true quantity: ſo <hi style="font-style:italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_PIER1">Piers<lb/> 
+                    Plowman</persName></hi> was the firſt that obſerued the<lb/> 
+                    true quantitie of our verſe without the<lb/></p>
+                <fw type="catchword" style="text-align:right;">curioſitie</fw><lb/>
+          <pb/>  
+          <!-- ADAM MOCCIOLA -->   
+                <fw type="header" style="text-align: center;"><hi style="font-style: italic;">The ſecond part of</hi></fw>
+                <p>curioſitie of Rime.<lb/></p>
+                <p><hi style="margin-left:1em;"><persName><hi style="font-style: italic;">Ouid</hi></persName> writ a Chronicle from the begin-</hi><lb/>
+                    ning of the world to his own time, that is,<lb/>
+                    to the raign of <persName style="font-style:italic;">Auguſtus</persName> the Emperour: ſo<lb/>
+                    hath <persName style="font-style: italic;">Harding</persName> the Chronicler (after his ma<lb/>
+                    ner of old harſh riming) from <persName><hi style="font-style: italic;">Adam</hi></persName> to his<lb/>
+                    time, that is, to the raigne of <persName ref="/kit-marlowe/files/personography.xml#pers_EDWA2">King Edward</persName><lb/>
+                    the fourth.<lb/></p>
+                <p><hi style="margin-left:1em;">As <persName><hi style="font-style: italic;">Sotades Maronites</hi></persName> yͤ Iambicke Poet</hi><lb/>
+                    gaue himſelfe wholy to write impure and<lb/>
+                    laſciuious things: ſo <persName><hi style="font-style: italic;">Skeltō</hi></persName> (I know not for<lb/>
+                    what great worthines, ſurnamed the Poet<lb/>
+                    <persName>Laureat</persName>) applied his wit to ſcurrilities and<lb/>
+                    ridiculous matters, ſuch amōg the Greeks<lb/>
+                    were called <foreign xml:lang="gr" style="font-style: italic;">Pantomimi</foreign>, with vs Buffons.<lb/></p>
+                <p><hi style="margin-left:1em;"> As <persName style="font-style: italic;">Conſaluo Periz</persName> that excellent lear-</hi><lb/> 
+                    ned man, and Secretary to King <persName style="font-style: italic;">Philip of<lb/>
+                        <placeName>Spayne</placeName></persName>, in tranſlating the <persName style="font-style: italic;">Ulyſſes</persName> of <persName>Hom-<lb/>
+                    er</persName> out of Greeke into Spaniſh, hath by<lb/>
+                    good iudgement auoided the faulte of Ry-<lb/>
+                    ming, although not fully hit perfect and<lb/>
+                    true verſifying: ſo halh <persName ref="/kit-marlowe/files/personography.xml#pers_HOWA1"><hi style="font-style: italic;">Henrie Howarde</hi></persName><lb/> 
+                    that true and noble <persName>Earle of <hi style="font-style: italic;">Surrey</hi></persName> in tran-<lb/>
+                    ſlating the fourth book of <title><hi style="font-style: italic;"><persName>Virgils</persName> <persName>Æneas</persName></hi></title>,<lb/>
+                    whom <persName ref="/kit-marlowe/files/personography.xml#pers_DRAY1" style="font-style: italic;">Michael Drayton</persName> in his <!-- this is a title!--><hi style="font-style: italic;">Englands<lb/> 
+                    heroycall Epiſtles</hi> hath enternized for an E-<lb/>
+                    piſtle to his faire <persName><hi style="font-style: italic;">Geraldine</hi></persName>.</p>
+                <p><hi style="margin-left:1em;">As theſe Neoterickes <persName style="font-style: italic;">Iouianus Ponta-</persName></hi><lb/>
+                    <hi style="font-style:italic;">nus</hi>, <persName style="font-style: italic;">Politanus</persName>, <persName ref="/kit-marlowe/files/personography.xml#pers_MARU1"><hi style="font-style: italic;">Marullus Tarchamota</hi></persName>, the<lb/> 
+                   two <hi style="font-style: italic;">Stroze</hi> the father and the ſon, <persName style="font-style: italic;">Palin-</persName><lb/>
+                   <hi style="text-align:right;"><fw type="catchword" style="font-style: italic;">genius</fw></hi><lb/></p>
+           <pb/> 
+                <fw type="header" style="font-style: italic; text-align:center;"> Wits Common-wealth</fw> <fw type="pageNum" style="text-align: right;">280</fw><lb/>                       
+                <p><hi style="font-style:italic;">genius,</hi><persName style="font-style: italic;">Mantuanus </persName>, <persName>P<hi style="font-style: italic;">hilelphus</hi></persName>, <persName ref="/kit-marlowe/files/personography.xml#pers_ELIZ1"><hi style="font-style: italic;">Quintianus<lb/> 
+                    Stoa</hi></persName> and <persName><hi style="font-style: italic;">Germanus Brixius</hi></persName> haue obtained<lb/>
+                    renown and good place among the aunci-<lb/>
+                    ent Latine Poets: ſo alſo theſe Engliſh<lb/>
+                    men being Latine Poets, <persName ref="/kit-marlowe/files/personography.xml#pers_HADD1"><hi style="font-style: italic;">Gualter Haddon</hi></persName>,<lb/>
+                    <persName><hi style="font-style: italic;">Nicholas Car</hi></persName>, <persName ref="/kit-marlowe/files/personography.xml#pers_HARV1"><hi style="font-style: italic;">Gabriel Haruey</hi></persName>, <persName><hi style="font-style: italic;">Chriſtopher<lb/> 
+                    Ocland</hi></persName>, <persName><hi style="font-style: italic;">Thomas Newton</hi></persName> with his <hi style="font-style: italic;">Leyland,</hi><lb/>
+                    <persName><hi style="font-style: italic;">Thomas Watſon</hi></persName>, <persName><hi style="font-style: italic;">Thomas Campion</hi></persName>, <persName><hi style="font-style: italic;"> Bruno<lb/>
+                    ſwerd</hi></persName> &amp; <persName><hi style="font-style: italic;">Willey</hi></persName>, haue attained good report<lb/> 
+                    and honorable aduancement in the Latin <lb/>
+                    Empyre.<lb/></p>
+                <p><hi style="margin-left:1em;">As the Greeke tongue is made famous</hi><lb/> 
+                    and eloquent by <persName ref="/kit-marlowe/files/personography.xml#pers_HOME1"><hi style="font-style: italic;">Homer</hi></persName>, <persName><hi style="font-style: italic;">Heſiod</hi></persName>, <persName ref="/kit-marlowe/files/personography.xml#pers_EURI1"><hi style="font-style: italic;">Euripedes,</hi></persName><lb/> 
+                    <hi style="font-style: italic;"><persName>Aeſchilus</persName>, <persName>Sophocles</persName>, <persName ref="/kit-marlowe/files/personography.xml#pers_PIND1"> Pindarus</persName>, <persName>Phocylides</persName></hi><lb/>
+                    and <persName><hi style="font-style: italic;">Ariſtophanes</hi></persName>; and the Latine tongue<lb/>  
+                    by <persName><hi style="font-style: italic;">Virgill</hi></persName>, <persName><hi style="font-style: italic;">Ouid</hi></persName>, <persName><hi style="font-style: italic;">Horace</hi></persName>, <persName><hi style="font-style: italic;">Silius Italicus</hi></persName>,<lb/> 
+                    <persName><hi style="font-style: italic;">Lucanus</hi></persName>, <persName><hi style="font-style: italic;">Lucretius</hi></persName>, <persName><hi style="font-style: italic;">Auſonius</hi></persName> and <persName><hi style="font-style: italic;">Clau-<lb/> 
+                    dianus</hi></persName>: ſo the Engliſh tongue is mightily<lb/> 
+                    enriched, and gorgeouſlie inueſted in rare<lb/>  
+                    ornaments and reſplendent abiliments by<lb/> 
+                    ſir<persName><hi style="font-style: italic;">Philip Sidney</hi></persName>, <persName><hi style="font-style: italic;">Spencer</hi></persName>, <persName><hi style="font-style: italic;">Daniel</hi></persName>,  <persName><hi style="font-style: italic;">Drayton</hi></persName>,<lb/> 
+                    <persName><hi style="font-style: italic;">Warner</hi></persName>, <persName ref="/kit-marlowe/files/personography.xml#pers_SHAK1"><hi style="font-style: italic;">Shakeſpeare</hi></persName>, <persName><hi style="font-style: italic;">Marlow</hi></persName> and <persName><hi style="font-style: italic;">Chap-<lb/> 
+                    man</hi></persName>.<lb/></p>
+                <p><hi style="margin-left:1em;">As <hi style="font-style: italic;"><persName>Xenophon</persName></hi>, who did imitate ſo excel-</hi><lb/> 
+                    lently, as to giue vs <hi style="font-style: italic;">effigiens iuſhimpery</hi>, the<lb/> 
+                    portraiture of a iult Empyre vnder yͤ name<lb/> 
+                    of<persName><hi style="font-style: italic;">Cyrus</hi></persName> 
+                    (as <persName><hi style="font-style: italic;">Cicero</hi></persName> ſaieth of him) made<lb/> 
+                    therein an abſolute heroicall Poem; and as<lb/>  
+                    <persName><hi style="font-style: italic;">Heliodorus</hi></persName> writ in proſe his ſugred inuētiō<lb/> 
+                    of that picture of Loue in <persName><hi style="font-style: italic;">Theagines</hi></persName> and</p>
+                <fw type="catchword" style="font-style:italic; text-align:center;">Cariclea</fw>
+          <pb/>
+          <!--PETER GIL--> 
+                <fw type="header" style="font-style: italic; text-align:center;">The ſecond part of</fw>
+                <p><hi style="font-style:italic;">Cartclea</hi>, and yet both excellent admired<lb/>
+                    Poets: ſo ſir <persName style="font-style:italic;">Philip Sidney</persName> writ his immortal<lb/>
+                    Poem, <persName>The Counteſſe of Pembrookes</persName> <!-- title --> <hi style="font-style:italic;">Ar-<lb/>
+                    cadia</hi>, in Profe, and yet our rareſt Poet.<lb/></p>
+                <p><hi style="margin-left:1em;">As <persName ref="/kit-marlowe/files/personography.xml#pers_PROP1" style="font-style:italic;">Sextus Propertius</persName> faide;</hi> 
+                    <foreign xml:lang="la" style="font-style:italic;">Neſcio quid<lb/>
+                    magis naſcitur Iliade</foreign>: ſo l ſay of <persName style="font-style:italic;">Spencers<lb/></persName>
+                    <!--title --><hi style="font-style:italic;">Fairy Queene</hi>, I knowe not what more ex-<lb/>
+                    cellent or exquiſite Poem may be written.<lb/></p>
+                <p><hi style="margin-left:1em;">As <persName style="font-style:italic;">Achilles</persName> had the aduantage of <persName style="font-style:italic;">Hec</persName>-</hi><lb/>
+                    <persName style="font-style:italic;">tor</persName>, becauſe it was his fortune to bee extol-<lb/>
+                    led and renowned by the heauenly verſe<lb/>
+                    of <persName ref="/kit-marlowe/files/personography.xml#pers_HOME1" style="font-style:italic;">Homer</persName>: 
+                    ſo <persName style="font-style:italic;">Spenſers Eliſa</persName> 
+                    the <title><hi style="font-style:italic;">Fairy Queen</hi></title><lb/>
+                    hath the aduantage of all the Queenes in<lb/>
+                    the worlde, to bee eternized by ſo diuine<lb/>
+                    a Poet.<lb/></p>
+                <p><hi style="margin-left:1em;">As <persName style="font-style:italic;">Theocritus</persName> is famouſed for his <!-- title --><hi style="font-style:italic;">Idyllia</hi></hi><lb/>
+                    in Greeke, and <persName style="font-style:italic;">Virgill</persName> for his <!-- title --><hi style="font-style:italic;">Eclogs</hi> in La-<lb/>
+                    tine:ſo <persName style="font-style:italic;">Spencer</persName> thier imitatour in his <!-- title --><hi style="font-style:italic;">Shep-<lb/>
+                    heardes Calender</hi>, is renowned for the like<lb/>
+                    argument, and honoured for fine Poeticall<lb/>
+                    inuention, and moſt exquiſit wit.<lb/></p>
+                <p><hi style="margin-left:1em;">As <persName style="font-style:italic;">Parthenius Nicaus</persName> excellently ſung</hi><lb/>
+                    the praiſes of his <persName style="font-style:italic;">Arete</persName>: ſo <persName style="font-style:italic;">Daniel</persName> hath di-<lb/>
+                    uinely ſonetted the matchleſſe beauty of<lb/>
+                    his <persName style="font-style:italic;">Delia</persName>.</p>
+                <p><hi style="margin-left:1em;">As euery one mourneth, when hee hea-</hi><lb/>
+                    reth of the lamentable plangors of <!--SUPPOSED TO BE A LINE BREAK???-->
+                    <persName ref="/kit-marlowe/files/personography.xml#pers_ORPH1" style="font-style:italic;">Thra-<lb/>
+                    cian Orpheusfor</persName> his deareſt <!--LINE BREAK???-->
+                    <persName style="font-style:italic;">Euridice</persName>: ſo e-<lb/>
+                    uery one paſſionateth, when he readeth the<lb/>
+                    afflicted death of <persName style="font-style:italic;">Daniels</persName> diſtreſſed 
+                    <persName style="font-style:italic;">Roſa-<lb/>
+                    mond</persName>.
+                    <fw type="catchword" style="text-align:right;">As</fw></p>
+         <pb/>
+                <fw type="header" style="font-style: italic; text-align:center;"> Wits Common-wealth</fw> <fw type="pageNum" style="text-align: right;">281</fw><lb/>
+                <p><hi style="margin-left:1em;">As <persName style="font-style:italic;">Lucan</persName> hath mournefully depainted</hi><lb/>
+                   the ciuil wars of <hi style="font-style:italic;">Pompey &amp; Cæſar</hi>: ſo hath<lb/>
+                   <persName style="font-style:italic;">Daniel</persName> the ciuill wars of Yorke and Lan-<lb/>
+                    caſter; and <persName style="font-style:italic;">Drayton</persName> the ciuill wars of <hi style="font-style:italic;">Ed</hi>-<lb/>
+                   <hi style="font-style:italic;">ward</hi> the ſecond, and the Barons.<lb/></p>
+                <p><hi style="margin-left:1em;">As <persName style="font-style:italic;">Virgil</persName> doth imitate <persName style="font-style:italic;">Catullus</persName> in yͤ like</hi><lb/>
+                    matter of <persName style="font-style:italic;">Ariadne</persName> for his ſtory of Queene<lb/>
+                    <persName style="font-style:italic;">Dido</persName>: ſo <persName ref="/kit-marlowe/files/personography.xml#pers_DRAY1"  style="font-style:italic;">Michael Drayton</persName> doth imitate<lb/>
+                    <persName style="font-style:italic;">Ouid</persName> in his <!-- title --><hi style="font-style:italic;">Englands Heroical Epiſtles</hi>.<lb/></p>
+                <p><hi style="margin-left:1em;">As <persName style="font-style:italic;">Sophocles</persName> was called a Bee for the</hi><lb/>
+                    ſweetness of his tongue: ſo in <persName style="font-style:italic;">Charles</persName> <hi style="font-style:italic;">Fitz</hi>-<lb/>
+                    <hi style="font-style:italic;">Iefferies</hi> <persName style="font-style:italic;">Drake</persName>, <persName style="font-style:italic;">Drayton</persName> is termed <hi style="font-style:italic;">Golden</hi>-<lb/>
+                    <hi style="font-style:italic;">mouth’d</hi>, for the purity and pretiouſneſſe of<lb/>
+                    his ſtile and phraſe.<lb/></p>
+                <p><hi style="margin-left:1em;">As <persName><hi style="font-style:italic;">Accius</hi></persName>, <persName><hi style="font-style:italic;">M. Attilius</hi></persName> and <persName><hi style="font-style:italic;">Milithus</hi></persName></hi><lb/>
+                    were called <title><hi style="font-style:italic;">Tragædiographi</hi></title>, becauſe they<lb/>
+                    writ Tragedies: ſo may wee truly terme<lb/>
+                    <hi style="font-style:italic;"> <persName ref="/kit-marlowe/files/personography.xml#pers_DRAY1"> Michael Drayton</persName> <title> Tragædiographi </title></hi>, for<lb/>
+                    his paſſionate penning the downfals of va-<lb/>
+                    liant <persName style="font-style:italic;">Robert of Normandy</persName>, chaſt <persName><hi style="font-style:italic;">Matilda</hi></persName>,<lb/>
+                    and great <persName style="font-style:italic;">Gaueſton</persName>.<lb/>
+                </p>
+                <p><hi style="margin-left:1em;">As <persName><hi style="font-style:italic;">Ioan</hi></persName>. <persName><hi style="font-style:italic;">Honterus</hi></persName> in Latine verſe writ 3.</hi><lb/>
+                    Bookes of Coſinography wͭ Geographicall<lb/>
+                    tables: ſo <persName><hi style="font-style:italic;">Michael Drayton</hi></persName> is now in pen-<lb/>
+                    ning in Engliſh verſe a Poem called <hi style="font-style:italic;">Po</hi>-<lb/>
+                    <hi style="font-style:italic;">lu-olbion</hi> Geographical and Hydrographi-<lb/>
+                    call of all the foreſts, woods, mountaines,<lb/>
+                    fountaines, riuers, lakes, flouds, bathes and<lb/>
+                    ſprings that be in England.<lb/></p>
+                <p><hi style="margin-left:1em;">As <persName><hi style="font-style:italic;">Aulus Perſius Flaccus</hi></persName> is reported a-</hi></p>
+                <fw type="catchword" style="text-align:right;">mong</fw>
+                <fw type="signature" style="text-align:center;">Oo</fw>
+               <pb/>
+         <!-- ANDREW RIVELI -->
+                <fw type="header" style="text-align: center;"><hi style="font-style: italic;">The ſecondpart of</hi></fw>           	
+                <p>mong al writers to be of an honeſt life and<lb/>
+                    vpright conuerſation: ſo <persName ref="/kit-marlowe/files/personography.xml#pers_DRAY1"><hi style="font-style:italic;">Michael Drayton</hi></persName><lb/>
+                   <hi style="font-style: italic;"><foreign xml:lang="la">(que toties honoris &amp; amoris caufa nomino)</foreign></hi><lb/>
+                   among ſchollers, ſouldiours, Poets, and all<lb/>
+                   ſorts of people, is helde for a man of vertu-<lb/>
+                   ous diſpoſition, honeſt conuerſation, and<lb/>
+                   wel gouerned cariage, which is almoſt mi-<lb/>
+                   raculous among good wits in theſe decli-<lb/>
+                   ning and corrupt times, when there is no-<lb/>
+                   thing but rogery in villainous man, &amp; whẽ<lb/>
+                   cheating and craftines is counted the clea-<lb/>
+                   neſt wit, and ſoundeſt wiſedome.</p>
+                <p><hi style="margin-left:1em;">As<foreign xml:lang="la"><hi style="font-style: italic;">Decius Auſonius Gallus in libris Fa-</hi></foreign></hi><lb/>
+                   <hi style="font-style:italic;"><foreign xml:lang="la">ſtorum</foreign></hi>, penned the occurrences of yͤ world<lb/>
+                   from the firſt creation of it to his time, that<lb/>
+                    is, to the raigne of the Emperor <persName ref="/kit-marlowe/files/personography.xml#pers_GRAT1"><hi style="font-style: italic;">Gratian</hi></persName>: ſo<lb/>
+                   <persName><hi style="font-style: italic;">Warner</hi></persName> in his abſolute <title><hi style="font-style: italic;">Albions Englande</hi></title><lb/>
+                   hath moſt admirably penned the hiſtorie<lb/>
+                    of his own country from <persName ref="/kit-marlowe/files/personography.xml#pers_NOAH1"><hi style="font-style: italic;">Noah</hi></persName> to his time,<lb/>
+                   that is, to the raign of Queene <persName><hi style="font-style: italic;">Elizabeth</hi></persName>;<lb/>
+                   I haue heard him termd of the beſt wits of<lb/>
+                    both our Vniverſities, our Engliſh <persName ref="/kit-marlowe/files/personography.xml#pers_HOME1"><hi style="font-style: italic;">Homer</hi></persName>.<lb/></p>
+                <p><hi style="margin-left:1em;">As <persName ref="/kit-marlowe/files/personography.xml#pers_EURI1"><hi style="font-style: italic;">Euripedes</hi></persName> is the moſt ſententious a-</hi><lb/>
+                    mong the Greek Poets: ſo is <persName><hi style="font-style: italic;">Warner</hi></persName> amõg<lb/>
+                    our Engliſh Poets.<lb/></p>
+                <p><hi style="margin-left:1em;">As the ſoule of <persName><hi style="font-style: italic;">Euphorbus</hi></persName> was thought</hi><lb/>
+                    To liue in <persName><hi style="font-style: italic;">Pythagoras</hi></persName>: ſo the ſweete wittie<lb/>
+                    ſoule of <persName><hi style="font-style: italic;">Ouid</hi></persName> liues in mellifluous &amp; hony-<lb/>
+                    tounged <persName ref="/kit-marlowe/files/personography.xml#pers_SHAK1"><hi style="font-style: italic;">Shakespeare</hi></persName>, witnes his <title><hi style="font-style: italic;">Venus</hi> and<lb/>
+                    <hi style="font-style: italic;">Adonis</hi></title>, his <persName><hi style="font-style: italic;">Lucrece</hi></persName>, his fugred Sonnets<lb/>
+                </p>
+                <fw type="catchword" style="text-align:right;">among</fw>
+         <pb/>
+                <fw type="header" style="text-align: center;"><hi style="font-style: italic;">Wits Common-Wealth.</hi></fw><fw type="pageNum" style="text-align: right;">282</fw>
+                <p>among his priuate friends, &amp; c.<lb/></p>
+                <p><hi style="margin-left:1em;">As <persName><hi style="font-style: italic;">Plautus</hi></persName> and <persName><hi style="font-style: italic;">Seneca</hi></persName> are accounted</hi><lb/>
+                    the beſt for Comedy and Tragedy among<lb/>
+                    the Latines: ſo <persName ref="/kit-marlowe/files/personography.xml#pers_SHAK1"><hi style="font-style: italic;">Shakeſpeare</hi></persName> among yͤ Eng-<lb/>
+                    liſh is the moſt excellent in both kinds for<lb/>
+                    the ſtage;for Comedy, witnes his <title><hi style="font-style: italic;">Gētlemē<lb/>
+                    of Verona</hi></title>, his <title><hi style="font-style: italic;">Errors</hi></title>, his <title><hi style="font-style: italic;">Loue labors ſoft</hi></title>, his<lb/>
+                    <title><hi style="font-style: italic;">Loue Labours wonne</hi></title>, his <title><hi style="font-style: italic;">Midſummers night<lb/>
+                    dreame</hi></title>, &amp; his <title><hi style="font-style: italic;">Merchant of Venice</hi></title>:for Tra-<lb/>
+                    gedy, his <title><hi style="font-style: italic;">Richard the 2.</hi></title> <title><hi style="font-style: italic;">Richard the 3.</hi></title> <title><hi style="font-style: italic;">Hen-<lb/>
+                    ry the 4.</hi></title> <title><hi style="font-style: italic;">King Iohn</hi></title>, <title><hi style="font-style: italic;">Titus  Andronicus</hi></title> and<lb/>
+                    his <title><hi style="font-style: italic;">Romeo</hi> and <hi style="font-style: italic;">Iuliet</hi></title>.<lb/></p>
+                <p><hi style="margin-left:1em;">As <persName><hi style="font-style: italic;">Epius Stolo</hi></persName> ſaid, that the Muſes would</hi><lb/>
+                    ſpeak with <persName><hi style="font-style: italic;">Plautus</hi></persName> tongue, if they would<lb/>
+                    ſpeak Latin; ſo I ſay that the Muſes would<lb/>
+                    ſpeak with <persName ref="/kit-marlowe/files/personography.xml#pers_SHAK1"><hi style="font-style: italic;">Shakespeares</hi></persName> fine filed phraſe, if<lb/>
+                    they would ſpeak Engliſh.<lb/></p>
+                <p><hi style="margin-left:1em;">As<persName><hi style="font-style: italic;">Muſaeus</hi></persName>, who wrote the loue of <title><hi style="font-style: italic;">Hero</hi></title></hi><lb/>
+                    <title>and <hi style="font-style: italic;">Leander</hi></title>, had two excellent ſchollers,<lb/>
+                    <title><hi style="font-style: italic;">Thamaras &amp; Hercules</hi></title>: ſo hath he in <placeName>Eng-<lb/>
+                    Land</placeName> two excellent Poets, imitators of him<lb/>
+                    In the ſame argument and ſubiect, <persName><hi style="font-style: italic;">Chriſto-<lb/>
+                    pher Marlow</hi></persName>, and <persName><hi style="font-style: italic;">George Chapman</hi></persName>.<lb/></p>
+                <p><hi style="margin-left:1em;">As<fw type="signature" style="text-align: Left;"></fw><persName><hi style="font-style: italic;">Ouid</hi></persName> ſaith of his worke;</hi><lb/>
+                   <hi style="margin-left:2em;"><foreign xml:lang="la"><hi style="font-style: italic;">Iamp opus exegi, quod nec Iouis ira, nec ignis,</hi></foreign></hi><lb/>
+                   <hi style="margin-left:2em;"><foreign xml:lang="la"><hi style="font-style: italic;">Nec poterit ferrum, nec edax abolere vetuſtas.</hi></foreign></hi><lb/></p>
+                <p><hi style="margin-left:1em;">And as <persName><hi style="font-style: italic;">Horace</hi></persName> ſaith of his; <foreign xml:lang="la"><hi style="font-style: italic;">Exegi monu-</hi></foreign></hi><lb/>
+                    <foreign xml:lang="la"><hi style="font-style: italic;">mentũ aere perennius; Regaliq; ſitu pyramidũ</hi></foreign><lb/>
+                    <foreign xml:lang="la"><hi style="font-style: italic;">altius; Quod non imber edax; Non Aquilo</hi></foreign><lb/>
+                    <foreign xml:lang="la"><hi style="font-style: italic;">impotens poſſit diruere; aut innumerabilis</hi></foreign><lb/>
+                    <fw type="catchword" style="text-align: right;"><foreign xml:lang="la"><hi style="font-style: italic;">annorum</hi></foreign></fw><lb/>
+                    <fw type="signature" style="text-align: center;">Oo2</fw>
+                </p>
+            <pb/>
+            <!-- MACKENZIE PLESHAW -->    
+                <fw type="header" style="text-align: center;"><hi style="font-style: italic;">The ſecondpart of</hi></fw>          
+                <p><hi style="font-style: italic;">annorum ſeries &amp; <foreign xml:lang="la">fuga temporum</foreign></hi>: ſo fay I<lb/>
+                   ſeuerally of ſir <persName><hi style="font-style: italic;">Philip Sidneys</hi></persName>, <persName><hi style="font-style:italic;">Spencers Da-<lb/>
+                       niels</hi></persName>, <persName><hi style="font-style: italic;">Draytons</hi></persName>, <persName ref="/kit-marlowe/files/personography.xml#pers_SHAK1"><hi style="font-style: italic;">Shakeſpeares</hi></persName>, and <persName><hi style="font-style: italic;">Warners</hi></persName><lb/>
+                   <hi style="font-style:italic;">workes;</hi><lb/></p>
+                <p><hi style="margin-left:1em;"><hi style="font-style:italic;"><foreign xml:lang="la">Non Iouis ira: imbres: Mars: ferrum:</foreign></hi></hi><lb/>
+                   <hi style="font-style:italic;"><foreign xml:lang="la">flamma, ſenectus,</foreign></hi><lb/></p>
+                <p><hi style="margin-left:2em:"><foreign xml:lang="la"><hi style="font-style:italic;">Hoc opus unda: lues: turbo: venena ruent.</hi></foreign></hi><lb/></p>
+                <p><hi style="margin-left:1em;"><foreign xml:lang="la"><hi style="font-style:italic;">Et quanquam ad plucherrimum hoc opirs e-</hi></foreign></hi><lb/>
+                   <foreign xml:lang="la"><hi style="font-style:italic;">uertendum tres illi Dij conſpirabũt, Cronus,</hi></foreign><lb/>
+                   <foreign xml:lang="la"><hi style="font-style:italic;"><persName>Vulcanus</persName>, &amp; pater ipſe gentis;</hi></foreign><lb/></p>
+                <p><hi style="margin-left:1em;"><foreign xml:lang="la"><hi style="font-style:italic">Non tamen annorum ſeries, non flamma,<lb/>
+                   necenſis,</hi></foreign></hi></p>
+                <p><hi style="margin-left:1em;"><foreign xml:lang="la"><hi style="font-style:italic">Æternumpotuit hoc abolere Decus.</hi></foreign></hi><lb/></p>
+                <p><hi style="margin-left:1em;">As <placeName>Italy</placeName> had <persName><hi style="font-style: italic;">Dante</hi></persName>, <persName><hi style="font-style: italic;">Boccace</hi></persName>,<persName ref="/kit-marlowe/files/personography.xml#pers_PETR1"><hi style="font-style: italic;">Petrarch</hi></persName>,</hi><lb/>
+                   <persName><hi style="font-style: italic;">Taſſo</hi></persName>, <persName><hi style="font-style: italic;">Celiano</hi></persName> and <persName><hi style="font-style: italic;">Arioſto</hi></persName>: ſo <placeName>England</placeName> had<lb/>
+                    <persName ref="/kit-marlowe/files/personography.xml#pers_ROYD1"><hi style="font-style: italic;">Mathew Roydon</hi></persName>, <persName><hi style="font-style: italic;">Thomas Atchelow</hi></persName>, <persName><hi style="font-style: italic;">Tho-</hi><lb/>
+                   <hi style="font-style:italic;">Mas Watſon</hi></persName>, <persName><hi style="font-style: italic;">Thomas Kid</hi></persName>, <persName><hi style="font-style: italic;">Robert Greene</hi></persName> &amp;<lb/>
+                    <persName ref="/kit-marlowe/files/personography.xml#pers_PEEL1"><hi style="font-style: italic;">George Peele</hi></persName>.<lb/></p>
+                <p><hi style="margin-left:2em;">As there are eight famous and cheife</hi><lb/>
+                   languages, <hi style="font-style:italic;">Hebrew, Greek, Latine, Syriack,</hi><lb/>
+                   <hi style="font-style:italic;">Arabricke, Italian, Spaniſh,</hi> and <hi style="font-style:italic;">French</hi>: ſo<lb/>
+                   there are eight notable feurall kindes of<lb/>
+                   Poets,<hi style="font-style: italic;">Heroick, Lyricke, Tragicke, Comicke</hi>,<lb/>
+                   <hi style="font-style: italic;">Satiricke, Iambicke, Elegiacke &amp; Paſtoral.</hi><lb/></p>
+                <p><hi style="margin-left:0.5em;">As <persName ref="/kit-marlowe/files/personography.xml#pers_HOME1"><hi style="font-style: italic;">Homer</hi></persName> and <persName><hi style="font-style: italic;">Virgil</hi></persName> among the Greeks</hi><lb/>
+                   and Latines are the chiefe Heroick Poets:<lb/>
+                   to <persName><hi style="font-style: italic;">Spencer</hi></persName> and <persName><hi style="font-style: italic;">Warner</hi></persName> be our chiefe heroi-<lb/>
+                   call Makers.<lb/></p>
+                <p><hi style="margin-left:0.5em;">As <persName ref="/kit-marlowe/files/personography.xml#pers_PIND1"><hi style="font-style: italic;">Pindarus</hi></persName>, <persName><hi style="font-style: italic;">Anacreon</hi></persName>, and <persName><hi style="font-style: italic;">Callimachus</hi></persName></hi><lb/>
+                   among the Greekes; and <persName><hi style="font-style: italic;">Horace</hi></persName> and <persName><hi style="font-style: italic;">Ca-</hi></persName><lb/></p>
+                <fw type="catchword" style="text-align:right;"><persName><hi style="font-style:italic;"> tullus</hi></persName></fw>
+         <pb/>
+                <fw type="header" style="text-align: center;"><hi style="font-style: italic;">Wits Common-wealth.</hi></fw><fw type="pageNum" style="text-align: right;">283</fw><lb/>
+                <p><persName><hi style="font-style: italic;">tullus</hi></persName> among the Latines are the beſt Ly-<lb/>
+                    rick Poets: ſo in this faculty the beſt among<lb/>
+                    our Poets are <persName><hi style="font-style: italic;">Spencer</hi></persName> (who excelleth in all<lb/>
+                    kinds) <persName><hi style="font-style: italic;">Daniel</hi></persName>, <persName><hi style="font-style: italic;">Drayton</hi></persName>, <persName ref="/kit-marlowe/files/personography.xml#pers_SHAK1"><hi style="font-style: italic;">Shakeſpeare</hi></persName>, <persName><hi style="font-style: italic;">Brettȭ</hi></persName><lb/></p>
+                <p><hi style="margin-left:0.5em;">As theſe Tragicke Poets flouriſhed in</hi><lb/>
+                    <placeName>Greece</placeName>, <persName style="font-style: italic;">Aeſchylus</persName>, <persName ref="/kit-marlowe/files/personography.xml#pers_EURI1"><hi style="font-style: italic;">Euripedes</hi></persName>, <persName><hi style="font-style: italic;">Sophocles</hi></persName>, <persName><hi style="font-style: italic;">A-<lb/>
+                   lexander</hi></persName>, <persName style="font-style: italic;">Aetolus</persName>, <persName style="font-style: italic;">Achaeus Erithraeus</persName>, <persName><hi style="font-style: italic;">A-<lb/>
+                   ſtydamas Atheniȇſis</hi></persName>, <persName><hi style="font-style: italic;">Apollodorus Tarſenſis</hi></persName>,<lb/>
+                    <persName ref="/kit-marlowe/files/personography.xml#pers_PHRY1"><hi style="font-style: italic;">Nicomachus Phrygius</hi></persName>, <persName><hi style="font-style: italic;">Theſpis Atticus</hi></persName>, and<lb/>
+                   <persName><hi style="font-style: italic;">Timon Apolloniates</hi></persName>; and theſe among the<lb/>
+                    Latines, <persName><hi style="font-style: italic;">Accius</hi></persName>, <persName><hi style="font-style: italic;">M. Attilius</hi></persName>, <persName ref="/kit-marlowe/files/personography.xml#pers_POMP1"><hi style="font-style: italic;">Pomponius</hi><lb/>
+                   <hi style="font-style:italic;">Secundus</hi></persName> and <persName><hi style="font-style: italic;">Seneca</hi></persName>: ſo theſe are our beſt<lb/>
+                   for Tragedie, the Lorde <persName><hi style="font-style: italic;">Buckhurſt</hi></persName>, Doctor<lb/>
+                   <persName><hi style="font-style: italic;">Leg</hi></persName> of <placeName>Cambridge</placeName>, Doctor <persName><hi style="font-style: italic;">Edes</hi></persName> of <placeName>Ox-<lb/>
+                       forde</placeName>, maiſter <persName ref="/kit-marlowe/files/personography.xml#pers_FERR1"><hi style="font-style: italic;">Edward Ferris,</hi></persName>, the Authour<lb/>
+                    of the <!-- title --><hi style="font-style:italic;">Mirrour for Magiſtrates</hi>, <persName><hi style="font-style: italic;">Marlow</hi></persName>,<lb/>
+                    <persName ref="/kit-marlowe/files/personography.xml#pers_PEEL1"><hi style="font-style: italic;">Peele</hi></persName>, <persName><hi style="font-style: italic;">Watſon</hi></persName>, <persName><hi style="font-style: italic;">Kid</hi></persName>, <persName ref="/kit-marlowe/files/personography.xml#pers_SHAK1"><hi style="font-style: italic;">Shakeſpeare</hi></persName>, <persName><hi style="font-style: italic;">Drayton</hi></persName>,<lb/>
+                   <persName><hi style="font-style: italic;">Chapman</hi></persName>, <persName><hi style="font-style: italic;">Decker</hi></persName>, and <persName><hi style="font-style: italic;">Beniamin Iohn-</hi></persName><lb/>
+                   <hi style="font-style: italic;">son.</hi><lb/></p>
+                <p><hi style="margin-left:1em;">As <persName><hi style="font-style: italic;">M. Anneus Lucanus</hi></persName> writ two excel-</hi><lb/>
+                   lent Tragedies, one called <!-- title --><hi style="font-style: italic;">Medea</hi>, the o-<lb/>
+                   ther <title>(de Incendio Troiaecum Priami calami-<lb/>
+                   tate)</title>: ſo Doctor <persName style="font-style: italic;">Leg</persName> hath penned two fa-<lb/>
+                   mous tragedies, ȳ one of <persName><hi style="font-style:italic;">Richard the ʒ</hi></persName>. the<lb/>
+                   other of the deſtruction of <hi style="font-style: italic;">Ieruſalem.</hi><lb/></p>
+                <p>The beſt Poets for Comedy among the<lb/>
+                    Greeks are theſe, <persName ref="/kit-marlowe/files/personography.xml#pers_MENA1"><hi style="font-style: italic;">Menander</hi></persName>, <persName><hi style="font-style: italic;">Ariſtophanes</hi></persName>,<lb/>
+                   <persName><hi style="font-style: italic;">Eupolis Athenienſis</hi></persName>, <persName><hi style="font-style: italic;">Alexis Terius</hi></persName>, <persName><hi style="font-style: italic;">Nico-<lb/>
+                   ſtratus</hi></persName>, <persName><hi style="font-style: italic;">Amipſias Athenienſis</hi></persName>, <persName><hi style="font-style: italic;">Anaxādrides<lb/>
+                       Rhodius</hi></persName>, <persName><hi style="font-style: italic;">Ariſtonymus</hi></persName>, <persName><hi style="font-style: italic;">Archippus Atheniȇſis</hi></persName>  <lb/></p>
+                <fw type="catchword" style="text-align: right;">and</fw><lb/>
+                <fw type="signature" style="text-align: center;">Oo3</fw>
+          <pb/>
+          <!-- LAUREN GILLIS -->
+                <fw type="header" style="text-align: center;"><hi style="font-style: italic;">The ſecondpart of</hi></fw>
+                <p>and <persName><hi style="font-style:italic;">Callias Athenienſis</hi></persName>; and among the<lb/>
+                   Latines,<persName><hi style="font-style:italic;">Plautus</hi></persName>,<persName><hi style="font-style:italic;">Terence</hi></persName>,<persName><hi style="font-style:italic;">Næuius</hi></persName>,<persName><hi style="font-style:italic;">Sext.</hi></persName><lb/>
+                    <persName><hi style="font-style:italic;">Turpilius</hi></persName>,<persName ref="/kit-marlowe/files/personography.xml#pers_PORC1"><hi style="font-style:italic;">Licinius Imbrex</hi></persName>, and <persName><hi style="font-style:italic;">Virgilius</hi></persName><lb/>
+                   <persName><hi style="font-style:italic;">Romanus</hi></persName>:ſo the beſt for Comedy amongſt<lb/>
+                   vs bee, <persName><hi style="font-style:italic;">Edward</hi></persName> Earle of Oxforde, Doctor<lb/>
+                   <persName><hi style="font-style:italic;">Gager</hi></persName> of Oxforde, <persName>Maiſter <hi style="font-style:italic;"> Rowley</hi></persName> once a<lb/>
+                   rare Scholler of learned <placeName>Pembrooke Hall</placeName><lb/>
+                   in Cambridge, <persName>Maiſter<hi style="font-style:italic;"> Edwardes</hi></persName>one of<lb/>
+                   her <persName>Maieſties Chappell</persName>, eloquent and wit-<lb/>
+                   tie <persName><hi style="font-style:italic;">Iohn Lilly</hi></persName>,<persName><hi style="font-style:italic;">Lodge</hi></persName>,<persName><hi style="font-style:italic;">Gaſcoyne</hi></persName>,<persName><hi style="font-style:italic;">Greene</hi></persName>,<lb/>
+                    <persName ref="/kit-marlowe/files/personography.xml#pers_SHAK1"><hi style="font-style:italic;">Shakeſpeare</hi></persName>, <persName><hi style="font-style:italic;">Thomas Naſh</hi></persName>,<persName><hi style="font-style:italic;">Thomas Hey-</hi></persName><lb/>
+                   <persName><hi style="font-style:italic;">wood</hi></persName>,<persName><hi style="font-style:italic;">Anthony Mundye</hi></persName> our beſt plotter,<lb/>
+                   <persName><hi style="font-style:italic;">Chapman</hi></persName>,<persName><hi style="font-style:italic;">Porter</hi></persName>,<persName><hi style="font-style:italic;">Wilſon</hi></persName>, <persName><hi style="font-style:italic;">Hathway</hi></persName>, and<lb/>
+                   <persName><hi style="font-style:italic;">Henry Chettle</hi></persName>.<lb/></p>
+                <p style="text-indent: 1em;">As<persName><hi style="font-style:italic;">Horace</hi></persName>,<persName><hi style="font-style:italic;">Lucilius</hi>
+                   </persName>, <persName><hi style="font-style:italic;">Iuuenal</hi></persName>, <persName><hi style="font-style:italic;">Perſius</hi></persName> &amp;<lb/>
+                    <persName ref="/kit-marlowe/files/personography.xml#pers_LUCU1"><hi style="font-style:italic;">Lucullus</hi></persName> are the beſt for Satyre among<lb/>
+                   the <foreign>Latines</foreign>: ſo with vs in the ſame faculty<lb/>
+                    theſe are chiefe,<persName ref="/kit-marlowe/files/personography.xml#pers_PIER1"><hi style="font-style:italic;">Piers Plowman</hi></persName>,<persName><hi style="font-style:italic;">Lodge</hi></persName>,<lb/>
+                   <placeName><hi style="font-style:italic;">Hall</hi> of Imanuel Colledge</placeName> in <placeName>Cambridge</placeName>;<lb/>
+                   the Authour of <!--title--><hi style="font-style:italic;">Pigmalions Image, and cer-</hi><lb/>
+                   <hi style="font-style:italic;">taine Satyrs</hi>; <hi style="font-stlye:italic;">the Author of <title>Skialetheia</title></hi>.<lb/></p>
+                <p><hi style="text-indent: 1em;">Among the Greeks I wil name but two</hi><lb/>
+                   for <hi style="font-stlye:italic;">Iambicks</hi>,<persName><hi style="font-style:italic;">Archilochus Parius</hi></persName>, and <persName><hi style="font-style:italic;">Hip</hi></persName> -<lb/>
+                   <persName><hi style="font-style:italic;">ponax Epheſius</hi></persName>: ſo amongſt vs I name but<lb/>
+                    two Iambical Poets,<persName ref="/kit-marlowe/files/personography.xml#pers_HARV1"><hi style="font-style:italic;">Gabriel Haruey</hi></persName>, and<lb/>
+                    <persName ref="/kit-marlowe/files/personography.xml#pers_STAN1"><hi style="font-style:italic;">Richard Stanyhurſt</hi></persName>, bicauſe I haue ſeene no<lb/>
+                   mo in this kind.<lb/></p>
+                <p style="text-indent: 1 em;">As theſe are famous among the Greeks<lb/>
+                    for Elegie,<persName ref="/kit-marlowe/files/personography.xml#pers_MELA1"><hi style="font-style:italic;">Melanthus</hi></persName>,<persName><hi style="font-style:italic;">Mymnerus Colo</hi></persName>-<lb/>
+                   <persName><hi style="font-style:italic;">phonius</hi></persName>,<persName><hi style="font-style:italic;">Olympius Myſius</hi></persName>,<persName><hi style="font-style:italic;">Parthenius Ni</hi></persName> -<lb/>
+                    <fw type="catchword" style="text-align:right;"> <persName><hi style="font-style:italic;">cæus</hi></persName></fw> 
+          <pb/>
+                    <fw type="header" style="text-align: center;"><hi style="font-style: italic;">Wits Common-Wealth.</hi></fw><fw type="pageNum" style="text-align: right;">284</fw><lb/>
+                    <persName><hi style="font-style:italic;">cæus</hi></persName>,<persName ref="/kit-marlowe/files/personography.xml#pers_COUS1">P <hi style="font-style:italic;">hiletas Cous</hi></persName>,<persName><hi style="font-style:italic;">Theogenes Megaren</hi></persName> -<lb/>
+                    <persName><hi style="font-style:italic;">ſis</hi></persName>, and <persName ref="/kit-marlowe/files/personography.xml#pers_PIGR1">P<hi style="font-style:italic;">igres Halicarnaſſӕus</hi></persName>; and theſe<lb/>
+                    among the Latines, <persName><hi style="font-style:italic;">Mecænas</hi></persName>,<persName ref="/kit-marlowe/files/personography.xml#pers_NASO1"><hi style="font-style:italic;">Ovid</hi></persName>,<persName><hi style="font-style:italic;">Ti</hi></persName>-<lb/>
+                   <persName><hi style="font-style:italic;">bullus</hi></persName>,<persName>P<hi style="font-style:italic;">ropertius</hi></persName>, <persName><hi style="font-style:italic;">T. Valgius</hi></persName>,<persName><hi style="font-style:italic;">Caſſius</hi></persName><lb/>
+                   <persName><hi style="font-style:italic;">Seuerus</hi></persName> &amp; <persName><hi style="font-style:italic;">Clodius Sabinus</hi></persName>: ſo theſe are the<lb/>
+                   moſt paſſionate among vs to bewaile and<lb/>
+                   bemoane the perplexities of <persName>Loue</persName>,<persName><hi style="font-style:italic;">Henrie</hi></persName><lb/>
+                    <persName ref="/kit-marlowe/files/personography.xml#pers_HOWA1"><hi style="font-style:italic;">Howard</hi></persName> Earle of <placeName>Surrey</placeName>, ſir <persName><hi style="font-style:italic;">Thomas Wyat</hi></persName><lb/>
+                   the elder, ſir <persName>Francis Brian,</persName> <persName>ſir Philip Sid-<lb/>
+                       ney</persName>, <persName><hi style="font-style:italic;"> ſir Walter Rawley</hi></persName>, ſir <persName ref="/kit-marlowe/files/personography.xml#pers_DYER1"><hi style="font-style:italic;">Edward Dyer</hi></persName>,<lb/>
+                    <persName><hi style="font-style:italic;">Spencer</hi></persName>,<persName><hi style="font-style:italic;">Daniel</hi></persName>, <persName><hi style="font-style:italic;">Drayton</hi></persName>, <persName ref="/kit-marlowe/files/personography.xml#pers_SHAK1"><hi style="font-style:italic;">Shakeſpeare</hi></persName>,<lb/>
+                   <persName><hi style="font-style:italic;">Whetſtone</hi></persName>,<persName><hi style="font-style:italic;">Gaſcoyne</hi></persName>,<persName><hi style="font-style:italic;">Samuell Page</hi></persName>fome-<lb/>
+                   times fellow of <placeName><hi style="font-style:italic;">Corpus Chriſti</hi> Colledge</placeName><lb/>
+                   in<placeName> Oxford</placeName>,<hi style="font-style: italic"> Churchyard</hi>,<placeName style="font-style:italic"> Bretton</placeName>.<lb/></p>
+                <p><hi style="text-indent:1em;">As </hi><persName style="font-style:italic">Theocritus</persName> in Greeke, <persName><hi style="font-style:italic">Virgil</hi></persName>and<lb/>
+                   <placeName>Mantuā</placeName> in Latine, <persName style="font-style: italic">Sonazar</persName> in Italian, and<lb/>
+                   the Authour of <!-- title --><hi style="font-style:italic">Amyntæ Guadia</hi> and <!-- title --><hi style="font-style:italic">Wal-<lb/>
+                   ſinghams Melibæus</hi> are the beſt for paſto-<lb/>
+                   rall: ſo amongſt vs the beſt in this kind are<lb/>
+                   ſir <persName>P<hi style="font-style:italic;">hilip Sidney</hi></persName>,<persName>maſter <hi style="font-style:italic;">Challener</hi></persName>,<persName><hi style="font-style:italic;">Spencer</hi></persName>,<lb/>
+                   <persName><hi style="font-style:italic;">Stephen Goſſon</hi></persName>,<persName><hi style="font-style:italic;">Abraham Fraunce</hi></persName>and<lb/>
+                   <persName><hi style="font-style:italic;">Barnefield</hi></persName>.<lb/></p>
+                <p><hi style="text-indent: 1 em;">Theſe and many other <hi style="font-style:italic;"><foreign xml:lang="la">Epigrammatiſts</foreign></hi></hi><lb/>
+                    Latin tongue hath,<persName ref="/kit-marlowe/files/personography.xml#pers_LUTA1"><hi style="font-style:italic;">Q. Catulus</hi></persName>, <persName ref="/kit-marlowe/files/personography.xml#pers_PORC1"><hi style="font-style:italic;">Porcius Li</hi></persName>-<lb/>
+                    <persName><hi style="font-style:italic;">cinius</hi></persName>, <persName ref="/kit-marlowe/files/personography.xml#pers_CORN1"><hi style="font-style:italic;">Quintus Corniſicius</hi></persName>, <persName><hi style="font-style:italic;">Martial</hi></persName>, <persName><hi style="font-style:italic;">Cn</hi></persName>.<lb/>
+                    <persName ref="/kit-marlowe/files/personography.xml#pers_GETU1"><hi style="font-style:italic;">Getulicus</hi></persName>, and wittie ſir <persName><hi style="font-style:italic;">Thomas Moore</hi></persName>: ſo<lb/>
+                    in Engliſh we haue theſe, <persName ref="/kit-marlowe/files/personography.xml#pers_HEYW1"><hi style="font-style:italic;">Heywood</hi></persName>, <persName><hi style="font-style:italic;">Drāte</hi></persName>,<lb/>
+                   <persName><hi style="font-style:italic;">Kendal</hi></persName>, <persName><hi style="font-style:italic;">Baſtard</hi></persName>, <persName><hi style="font-style:italic;">Dauies</hi></persName>.<lb/></p>
+                <p><hi style="text-indent: 1 em;">As noble <persName><hi style="font-style:italic;">Mecænas</hi></persName> that ſprung from the</hi><lb/>
+                   <hi style="font-style:italic;">Hetruſcan</hi> Kinges not onely graced Poets<lb/></p>
+                <fw type="catchword" style="text-align:right;">by</fw>
+                <fw type="signature"> O o 4,</fw>
+                <pb/>
+         <!-- BAILEY GRANT -->  
+                <fw type="header" style="text-align: center;"><hi style="font-style: italic;">The ſecond part of</hi></fw>
+                <p>by his bounty, but alſo by beeing a Poet<lb/>
+                   himſelfe; and as <persName style="font-style:italic;">Iames the 6</persName>. nowe king of<lb/>
+                   <placeName>Scotland</placeName> is not only a fauorer of Poets, but<lb/>
+                   a Poet, as my friend maſter <persName style="font-style:italic;"> Richard Barneſ-<lb/>
+                   fielde </persName>hath in this Diſticke paſſing well re-<lb/>
+                   corded:<lb/></p>
+                <p><hi style="text-indent:1em;"><hi style="font-style:italic;"><persName>The King of Scots</persName> now liuing is a Poet,</hi></hi><lb/>
+                   <hi style="text-indent:1em;"><hi style="font-style:italic;">As his Lepanto, and his furies ſhow it:</hi></hi><lb/>
+                   ſo <persName style="font-style:italic;">Elizabeth</persName> our dread ſoueraign and gra-<lb/>
+                   cious Queene is not only a liberal patrone<lb/>
+                   vnto Poets, but an excellent Poet herſelfe,<lb/>
+                   whoſe learned, delicate and noble Muſe<lb/>
+                   ſurmounteth, be it in <!--title--><hi style="font-style:italic;">Ode, Elegy, Epigram</hi><lb/>
+                   or in any other kind of Poem <hi style="font-style:italic;">Heroicke, or</hi><lb/>
+                   Lyricke.<lb/></p>
+                <p><hi style="text-indent:1em;"><persName style="font-style: italic;">Octauia</persName> ſiſer vnto<persName style="font-style:italic;">Auguſtus</persName> the Empe-</hi><lb/>
+                    rour was exceeding bountifull vnto Virgil,<lb/>
+                    who gaue him for making 26. verſes 1137<lb/>
+                    pounds, to wit, tenne <hi style="font-style:italic;">Seſtertiaes</hi> for euerie<lb/>
+                    verſe, which amount to aboue 43. pounds<lb/>
+                    for euery verſse: ſo learned <persName style="font-style:italic;">Mary</persName>, the ho-<lb/>
+                    norable <persName>Counteſſe of <placeName style="font-style:italic;">Pembrook</placeName></persName>, the noble<lb/>
+                    ſiſter of immortall ſir <persName style="font-style:italic;">Philip Sidney</persName>, is very<lb/>
+                    liberall vnto Poets; beſides ſhee is a moſt<lb/>
+                    delicate Poet, of whome I may ſay, as<lb/>
+                    <hi style="text-indent:1em;"><orgName style="font-style:italic;">Antipater Sidonius writeth of Sappho</orgName>:</hi><lb/></p>
+                <p><hi style="text-indent:1em;"><foreign xml:lang="la">Dulcia Mnemoſyne demirans carmina</foreign></hi><lb/>
+                   <foreign xml:lang="la">Sapphus</foreign>,<lb/>
+                   <hi style="text-indent:1em;"><foreign xml:lang="la">Qurſiuit decima Pieris unde foret</foreign>.</hi><lb/></p>
+                <fw type="catchword" style="text-align:right;">Among</fw><lb/>
+          <pb/>
+               
+                <fw type="header" style="font-style: italic; text-align:center;"> Wits Common-wealth</fw> <fw type="pageNum" style="text-align: right;">285</fw><lb/>
+                <p><hi style="text-indent:1em;">Among others in times paſt, Poets had</hi><lb/>
+                   theſe fauourers, <persName style="font-style:italic;">Auguſtus</persName>, <persName style="font-style:italic;">Mecaenas</persName>, <persName style="font-style:italic;">So-<lb/>
+                   phocles</persName>, <persName style="font-style:italic;">Germanicus</persName>, an Emperour, a noble<lb/>
+                   man, a Senatour, and a Captaine: ſo of la-<lb/>
+                   ter times Poets haue theſe patrones,<persName style="font-style:italic;"> Ro-<lb/>
+                   bert</persName> king of Sicil, the great king <persName style="font-style:italic;">Frances</persName> of<lb/>
+                   <placeName style="font-style:italic;">France</placeName> king <persName style="font-style:italic;">Iames</persName> of <placeName>Scotland</placeName>, &amp; Queene<lb/>
+                   <persName style="font-style:italic;">Elizabeth</persName> of <placeName>England</placeName>.<lb/></p>
+                <p><hi style="text-indent:1em;">As in former times two great Cardinals,</hi><lb/>
+                   <persName style="font-style:italic;">Bembus &amp; Biena</persName>, did countenance Poets:<lb/>
+                   ſo of late yeares two great preachers haue<lb/>
+                   giuen them their right hands in felowſhip,<lb/>
+                   <persName style="font-style:italic;">Beza</persName> and <persName>Melancthon</persName>.<lb/></p>
+                <p><hi style="text-indent:1em;"> As the learned philoſophers <persName style="font-style:italic;">Fracaſtorius</persName></hi><lb/>
+                   and <persName style="font-style:italic;">Scaliger</persName> haue highly prized them: ſo<lb/>
+                   haue the eloquent Orators <persName style="font-style:italic;">Pontanus</persName> and<lb/>
+                   <persName style="font-style:italic;">Muretus</persName> very gloriouſly eſtimated them.<lb/></p>
+                <p><hi style="text-indent:1em;">As <persName style="font-style:italic;">Georgius Buckananus Iephthe</persName>, amõgſt</hi><lb/>
+                   all moderne Tragedies is able to abide the<lb/>
+                   touch of <persName style="font-style:italic;">Ariſtotles</persName> precepts, and <persName style="font-style:italic;">Euripe-<lb/>
+                   des</persName> examples: ſo is <persName style="font-style:italic;">Biſhop Watſons Abſalon</persName>.<lb/></p>
+                <p><hi style="text-indent:2em;">As <hi style="font-style:italic;">Terence</hi> for this tranſlations out of</hi><lb/>
+                    <!--title--><hi style="font-style:italic;">Apollodorus &amp; <persName ref="/kit-marlowe/files/personography.xml#pers_MENA1">Menander</persName>, and <hi style="font-style:italic;">Aquilius</hi></hi> for<lb/>
+                    his tranſlation out of <!--title--><hi style="font-style:italic;"> <persName ref="/kit-marlowe/files/personography.xml#pers_MENA11">Menander</persName></hi>, and <!--title--><hi style="font-style:italic;">C.<lb/>
+                   Germanicus Augustus</hi> for his out of <persName>Arae<lb/>
+                   tus</persName>, and <persName style="font-style:italic;">Auſonius</persName> for his tranſlated <!--title--><hi style="font-style:italic;">Epi<lb/>
+                   grams out of Greeke</hi>, and Doctor <persName style="font-style:italic;">Iohnſon</persName><lb/>
+                    for his Frogge-fight out of <persName ref="/kit-marlowe/files/personography.xml#pers_HOME1" style="font-style:italic;">Homer</persName>, and<lb/>
+                   <!--title--><hi style="font-style:italic;">Watſon</hi> for his <!--title--><hi style="font-style:italic;">Antigone out of <persName style="font-style:italic;">Sophocles</persName></hi>,<lb/>
+                   haue got good commendations: ſo theſe<lb/>
+                  <fw type="catchword" style="text-align:right;">verſiſers</fw></p>
+         <pb/>
+         <!--SINEAD O'BRIEN-->
+                <fw type="header" style="font-style: italic; text-align:center;">The ſecond part of</fw>
+                <p>verſiſers for their learned tranſlations are<lb/>
+                   of good note among vs, <placeName>P<hi style="font-style: italic;">haer</hi></placeName> for <persName><hi style="font-style: italic;">Vir-<lb/>
+                   gils</hi></persName> <title>A<hi style="font-style: italic;">eneads</hi></title>, <persName>G<hi style="font-style: italic;">oldings</hi></persName> for <persName><hi style="font-style: italic;">Ouids</hi></persName> <hi style="font-style: italic;"><title>Meta-<lb/>
+                   morphoſis</title></hi>, <hi style="font-style: italic;">Harington</hi> for his <persName><hi style="font-style: italic;">Orlādo Furioſo</hi></persName>,<lb/>
+                   the tranflators of <title>S<hi style="font-style: italic;">enecaes Tragedies</hi></title>, <persName><hi style="font-style: italic;">Bar-<lb/>
+                   nabe</hi> <hi style="font-style: italic;">Googe</hi></persName>for<title> P<hi style="font-style: italic;">alingenius</hi></title>, <title><hi style="font-style: italic;">Turberuile</hi></title> for<lb/>
+                   <title><hi style="font-style: italic;">Ouids Epiſtles</hi></title> and <hi style="font-style: italic;">Mantuan</hi>, and<hi style="font-style: italic;"> Chap-<lb/>
+                       man</hi> for his inchoate <hi><persName ref="/kit-marlowe/files/personography.xml#pers_HOME1" style="font-style:italic;">Homer</persName></hi>. <lb/></p>
+                <p><hi style="text-indent:1em;">As the Latines haue thefe <hi style="font-style: italic;">Emblematiſts</hi>,</hi><lb/>
+                   <hi style="font-style: italic;">Andreas Alciatus</hi>, <hi style="font-style: italic;">Reuſnerus</hi>, and S<hi style="font-style: italic;">ambu-<lb/>
+                   cus</hi>: ſo we haue theſe,<persName> <hi style="font-style: italic;"><hi style="font-style: italic;">Geffrey Whitney</hi></hi></persName>, <persName>A<hi style="font-style: italic;">n-<lb/>
+                   drew Willet</hi></persName>, and <persName><hi style="font-style: italic;">Thomas Combe</hi></persName>.<lb/></p>
+                <p><hi style="text-indent:1em;">As <hi style="font-style: italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_PANA1">Nonnus Panapolyta</persName></hi> writ the Goſpell</hi><lb/>
+                   of faint I<hi style="font-style: italic;">ohn</hi>  in Greeke Hexameters:ſo l<hi style="font-style: italic;">er-<lb/>
+                   uis Markham</hi> hath written<title> <hi style="font-style: italic;">Salomons Can<lb/>
+                   ticles</hi></title> in Engliſh verſe.<lb/></p>
+                <p><hi style="text-indent:1em;">As<persName> <hi style="font-style: italic;">C</hi>.P<hi style="font-style: italic;">linius</hi></persName> writ the life of P<hi style="font-style: italic;">omponius</hi></hi><lb/>
+                   <hi style="font-style: italic;">Secūdus</hi>: ſo yong <hi style="font-style: italic;"><persName>Charles Fitz-Ieſſrey</persName></hi>, that<lb/>
+                   high touring Falcon, hath moſt gloriouſly<lb/>
+                   penned the honourable life and death of<lb/>
+                    worthy ſir <hi style="font-style: italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_DRAK1">Francis Drake</persName></hi>.<lb/></p>
+                <p><hi style="text-indent:1em;">As <persName><hi style="font-style: italic;">Heſiod</hi></persName> writ learnedly of husbandry</hi><lb/>
+                   in Greeke: ſo hath <persName><hi style="font-style: italic;">Tuſſer</hi></persName> very wittily and<lb/>
+                   experimentally written of it in Engliſh.<lb/></p>
+                <p><hi style="text-indent:2em;">As <persName>A<hi style="font-style: italic;">ntipater</hi> S<hi style="font-style: italic;">idonius</hi></persName> was famous for</hi><lb/>
+                   extemporall verſe in Greeke, and <hi style="font-style: italic;">Ouid</hi> for<lb/>
+                   his <hi style="font-style: italic;"><foreign xml:lang="la"> Quicquid conabar dicere verſus erat</foreign></hi>:<lb/>
+                   ſo was our <hi style="font-style: italic;">Tarleton</hi>, of whome Doctour<lb/>
+                   Caſe that learned phyſitian thus ſpeaketh<lb/>
+                   in the ſeuenth Booke, ſeuenteenth chap-<lb/></p>
+                <fw type="catchword" style="text-align:right;">ter</fw>
+        <pb/> 
+                <fw type="header"><hi style="font-style: italic;">Wits Common-wealth</hi></fw><fw type="pageNum">286</fw><lb/>
+                <p>ter of his Politikes;<persName> A<hi style="font-style: italic;">ristoteles</hi></persName> <hi style="font-style: italic;">ſuum</hi> <hi style="font-style: italic;"><foreign xml:lang="la"> Theo-<lb/>
+                   doretum laudauit quendamperitum Tragæ-<lb/>
+                   diarum actorem</foreign></hi>; <hi style="font-style: italic;">Cicero ſuum Roſcium</hi>: <hi style="font-style: italic;">nos</hi><lb/>
+                   A<hi style="font-style: italic;">ngli Tarletonum</hi>, <hi style="font-style: italic;">in cuius voce vultu<lb/>
+                   omnes iocoſi aſſectus</hi>, <hi style="font-style: italic;"><foreign xml:lang="la"> in cuius cerebroſo ca-<lb/>
+                   pite lepidae facetiae habitant</foreign></hi>. And ſo is now<lb/>
+                   our wittie<hi style="font-style: italic;"> Wilſon</hi>, who, for learning<lb/>
+                   and extemporall witte in this facultie, is<lb/>
+                   without compare or compeere, as to his<lb/>
+                   great and eternall commendations he ma-<lb/>
+                   nifeſted in his chalenge at the Swanne on<lb/>
+                    the Banke ſide.<lb/></p>
+                <p><hi style="text-indent:1em;">As<hi style="font-style: italic;"><persName> Achilles</persName></hi> tortured the deade bo-</hi><lb/>
+                    die of <hi style="font-style: italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_HECT1">Hector</persName></hi>, and as <hi style="font-style: italic;"><persName>Antonius</persName></hi>, and his<lb/>
+                   wife<hi style="font-style: italic;"><persName>Fuluia</persName></hi> tormented the liueleſſe corps<lb/>
+                    of <hi style="font-style: italic;"><persName>Cicero</persName></hi>: ſo <persName ref="/kit-marlowe/files/personography.xml#pers_HARV1" style="font-style: italic;">Gabriell Haruey</persName> hath ſhewed<lb/>
+                   the ſame inhumanitie to <hi style="font-style: italic;"><persName>Greene</persName></hi> that lies<lb/>
+                   full low in his graue.<lb/></p>
+                <p><hi style="text-indent:1em;">As <hi style="font-style: italic;"><persName>Eupolis</persName></hi> of <placeName>Athens</placeName> vſed great liber-</hi><lb/>
+                   tie in taxing the vices of men: ſo dooth<lb/>
+                   <hi style="font-style: italic;"><persName>Thomas Naſh</persName></hi>, witneſſe the broode of the<lb/>
+                   <hi style="font-style: italic;">Harueys</hi>.<lb/></p>
+                <p><hi style="text-indent:2em;">As <persName>A<hi style="font-style: italic;">ctaeon</hi></persName> was wooried of his owne</hi><lb/>
+                   hounds: ſo is <persName>T<hi style="font-style: italic;">om Naſh</hi></persName> of his <title>I<hi style="font-style: italic;">le of Dogs</hi></title>.<lb/>
+                    Dogges were the death of <persName ref="/kit-marlowe/files/personography.xml#pers_ERUI1"><hi style="font-style: italic;">Euripedes</hi>,</persName><lb/>
+                   but bee not diſconſolate gallant young<lb/>
+                   I<hi style="font-style: italic;">uuenall</hi>, <hi style="font-style: italic;"><persName>Linus</persName></hi>, the ſonne of<hi style="font-style: italic;"><persName>Apollo</persName></hi> died<lb/>
+                   the ſame death. Yet God forbid that ſo<lb/>
+                   braue a witte ſhould ſo baſely periſh, thine<lb/></p>
+                <fw type="catchword" style="text-align:right;">are</fw>
+        <pb/>
+                <!-- Kristen Abbott Bennett transcribing and encoding to end -->
+                <fw type="header" style="font-style: italic;">Wits Common-wealth</fw><fw type="pageNum">286v</fw><lb/>
+                <p>are but paper dogges, neither is thy ba-<lb/>
+                    baniſhment like <persName ref="/kit-marlowe/files/personography.xml#pers_NASO1" style="font-style: italiz;">Ovids</persName>, eternally to conuerſe<lb/>
+                   with the barbarous <persName style="font-style: italic;">Getes</persName>. Therefore com-<lb/>
+                   fort thy ſelfe ſweet <persName style="font-style: italic;">tom.</persName> with <persName style="font-style: italic;">Ciceros</persName><lb/>
+                   glorious retrun to <placeName>Rome</placeName>, &amp; with the coun-<lb/>
+                   ſel <persName style="font-style: italic;">Aeneas</persName> giues to his ſeabeaten ſoldiors,<lb/>
+                   <hi style="font-style: italic">lib.</hi> I.<!--title--><hi style="font-style: italic;">Aenid</hi>.<lb/></p>
+                <p style="text-indent: 1em;"><hi style="font-style: italic;">Pluck vp thine heart, &amp; driue from thence</hi><lb/></p>
+                <p style="text-indent: 4em;"><hi style="font-style: italic;">both feare and care away:</hi><lb/></p>
+                <p style="text-indent: 1em;"><hi style="font-style: italic;">To thinke on this may pleaſure be perhaps</hi><lb/></p>
+                <p style="text-indent: 3em;"><hi style="font-style: italic;">another day.</hi><lb/></p>
+                <p style="text-indent: 1em;"><foreign xml:lang="la">Durato, &amp; temet rebus ſeruato ſecundis.</foreign><lb/></p>
+                <p style="text-indent: 2em;">As <persName style="font-style: italic;">Anacreon</persName> died by the pot: ſo <persName style="font-style: italic;">George</persName><lb/></p>
+                <p><persName ref="/kit-marlowe/files/personography.xml#pers_PEEL1">P<hi style="font-style: italic;">eele</hi></persName> by the pox.</p>
+                <!-- The "P" in Peele is not italic. Review doc and think about how to encode that - it happense elsewhere also -->
+                <p style="text-indent: 3em;">As <persName style="font-style: italic;">Archeſilaus Prytanæus</persName> periſhed by<lb/>
+                    wine at a drunken feaſt, as <persName style="font-style: italic;">Hermippus</persName> testi-<lb/>
+                    fieth in <persName style="font-style: italic;"><title>Diogenes</title></persName>: ſo <persName style="font-style: italic;">Robert Greene</persName> died of<lb/>
+                    a ſurfet taken at Pickeld Herrings, &amp; Rhe-<lb/>
+                    nish wine, as witneſeth <persName style="font-style: italic;">Thomas Naſh</persName>, who<lb/>
+                    was at the fatall banquet.<lb/></p>
+                <p style="text-indent: 2em;">As <persName style="font-style: italic;">Iodelle</persName>, a French tragical poet beeing<lb/>
+                    an Epicure, and an Atheiſt, made a pitifull<lb/>
+                    end: ſo our tragicall poet <persName style="font-style: italic;">Marlow</persName> for his<lb/>
+                    Epicuriſme and Atheiſme had a tragicall<lb/>
+                    death; you may read of this <persName style="font-style: italic;">Marlow</persName> more<lb/>
+                    at large in the <!--title--><hi style="font-style: italic;">Theatre of Gods iudgements</hi>,<lb/>
+                    in the 25. chapter entreating of Epicures<lb/>
+                    and Atheiſts.<lb/></p>
+                <p style="text-indent: 1em;">As the poet <persName style="font-style: italic;">Lycophron</persName> was ſhot to death<lb/>
+                   by a certain riual of his: ſo <persName style="font-style: italic;">Chriſtopher Mar</persName><lb/></p>
+                <fw type="catchword"><hi style="font-style: italic;">low</hi></fw>
+            <pb/>
+                <fw type="header" style="font-style: italic;">Wits Common-wealth</fw><fw type="pageNum">287</fw><lb/>
+                <!-- Would love to get page numbers to display and label them properly as recto and verso -->
+                <p><persName style="font-style: italic">low</persName> was ſtabd to death by a bawdy Ser-<lb/>
+                    uingman, a riuall of his in his lewde loue.<lb/></p>        
+            </div>              
+        </body>
+    </text>
+</TEI>

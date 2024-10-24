@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://jenkins.hcmc.uvic.ca/job/MoEML/lastStableBuild/artifact/static/site/xml/schemas/london_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Proclamations_family_rd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>By the Queene Family of loue.</title>
+            <author><persName type="hist"><supplied reason="omitted">unknown</supplied></persName></author>
+            <author><orgName>English Crown</orgName></author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Printed by <persName type="hist"><forename>Christopher</forename>
+                  <surname>Barker</surname></persName></p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source
+                  <!-- Working from(microfilm) copy available via EEBO --><idno><!-- INSERT STC NUMBER HERE FROM WORKS CITED --></idno></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <catRef/>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <p>TEI P5</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="BENN"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <p>
+               <title>By the Queene. A Proclamation againſt Sectaries of the Family of loue.</title><lb/>
+            
+               
+               <title style="text-align:center; font-size:400%; font-style:roman;">By the Queene</title><lb/>
+               <hi style="text-align:center; font-size:200% font-style:italic;">A Proclamation againſt Sectaries of the Family of loue.</hi><lb/>
+               
+               <seg style="decorInit"><hi style="font-size:500%">W</hi></seg>hereas by reporte of ſundry of the biſhops of this Realme, &amp; others hauing cure of<lb/>
+               <l style="margin-left:12em;">ſoules, the Queenes Maieſtie is informed, that in ſundry places of her ſaid Realme,</l><lb/>
+               <l style="margin-left:12em;">in their ſurerall dioccſſes, there are certaine perſons which doe ſecretly in corners,</l><lb/> 
+               <l style="margin-left:12em;">make pryuy aſſemblies of diuers ſimple unlearned people, &amp; after they haue craftily</l><lb/> 
+               <l style="margin-left:12em;">&amp; hypocritically allured them to eſteeme them to be more holy &amp; perfect men then o-</l><lb/> 
+               <l style="margin-left:12em;">ther are, they doe then teach them damnable hereſies, directly contrary to diuers of</l><lb/> 
+               <l style="margin-left:12em;">the principall Articles of our Beliefe and Chriſtain faith, &amp; in ſome parts to abſurde</l><lb/> 
+               <l style="margin-left:12em;">and fanatical, as by fayning to them ſelues a monſtruous new kind of ſpeach neuer</l><lb/> 
+               <l style="margin-left:12em;">found in the Scriptures, nor in ancient father or writer of Chriſts Church, by which</l><lb/> 
+               they doc moue ignorant &amp; ſimple people at the firſt rather to marueile at them, then to underſtand them: but yet to<lb/> 
+               colour their ſect withall, they name them ſelues to be of the familie of loue, and then as many as ſhall be allowed by<lb/> 
+               them to be of that familie, to be elect &amp; ſaued, and all others of what Church ſo euer they be, to be reiected and damned:<lb/>
+               And for that upon conuenting of ſome of them before the Biſhops and ordinaries, it is founde that the ground of their<lb/>
+               ſect maintained by certaine lewd, heretical, &amp; ſeditious bookes firſt made in the Dutch tongue, and lately tranſlated<lb/>
+               into Engliſh, and printed beyonde the ſeas, and ſecretly brought ouer into the realme, the authour whereof they name<lb/>
+               E.N. without yeelding to him upon their examination, any other name. In whole name they haue certaine Bookes let<lb/>
+               fourth called <hi style="font-style:italic;">Euangelium Regni, or a joyful Meſſage of the Kingdome. Documentall ſentences. The Prophecie of the ſpi-<lb/>
+                  <unclear reason="illegible"></unclear>. A publiſhing of the peace vpon the earth</hi>, and ſuch like. And conſidering alſo it is found, that theſe Sectaries<lb/>
+               holde opinion, that they may before any Magiſtrate Eccleſiaſtical or temporal, or any other perſon not being profeſſed<lb/>
+               to be of their ſect (which they terme the familie of loue) by othe or otherwiſe deny any thing for their aduantage, ſo as<lb/>
+               though many of them are well knowen to be teachers &amp; ſpreaders abroade of theſe dangerous and damnable ſects,<lb/>
+               yet by their owne conteſſion they can not be condemned, whereby they are more dangerous in any Chriſtian Realme:<lb/>
+               Therefore her Maieſtie being very ſory to ſee ſo great an euill by the malice of the Deuil firſt begun and practiſed in<lb/>
+               other countryes, to be now brought into this her Realme, and that by her Biſhops and ordinaries, ſhee underſtandeth<lb/>
+               it beer requiſite, not only to haue theſe dangerous Heretikes &amp; Sectaries to be ſeuerly puniſhed, but that alſo all other<lb/>
+               means be vſed by her Maieſties Royall authorytie, which is giuen her of God to defend Chriſtes church, to roote<lb/>
+               them out from further infecting of her Realme, ſhee hath thought meete and conuenient, and ſo by this her proclama- <lb/>
+               tion. ſhee willeth and commandeth that all her officers &amp; Miniſters temporall, ſhal in al their ſeucral vocations, aſſiſt <lb/>
+               the Archbyſbops and Biſhops of her Realme, and all other perſsons Eccleſiaſticall hauing cure of ſoule, to ſearch out<lb/>
+               all perſons duely ſuſpected to be either teachers or profeſſors of the forelaid damnable ſects, and by al good meanes to<lb/>
+               proceede ſeuerely againſt them being found culpable, by order of the lawes either Eccleſiaſticall or temporall &amp;, that<lb/>
+               also ſearch be made in all places ſuſpected for the bookes and writings maintayning the ſaid hereſies and ſects, and<lb/>
+               them to deſtroy and burne. And whereſoeuer ſuch bookes ſhalbe found after the publication hereof, in cuſtodie of any<lb/>
+               perſon, other then ſuch as the ordinaries ſhal permitte, to the intent of peruſe the ſame for confutation thereof, the<lb/>
+               ſame perſos to be attached and committed to cloſe priſon, there to remaine, or otherwiſe by law to be condemned, vntil<lb/>
+               the ſame ſhalbe purged and cleared of the ſame Heretics or ſhal recant the ſame, and be thought meete by the ordinarie of<lb/>
+               the place to be deliuered. And that whoſoeuer rin this Realme ſhall either print or bring or cauſe to be brought into this<lb/>
+               Realme, any of the ſaid bookes, the ſame perſons to be attached and committed to priſon, and to receiue ſuch bodily pu-<lb/>
+               niſhment and other mulct, as fautors of damnable Hereſies. And to the execution hereof, her Maieſtie chargeth all her<lb/>
+               Officers and Miniſters both Eccleſiaſticall and Temporal, to haue ſpecial regard, as they will anſwere not only aſore<lb/>
+               God, whole glorie and trueth is by theſe damnable ſects greatly ſought to be defaced, but alſo will auoyde her Ma-<lb/>
+               eſties indignation, which in ſuch caſes as theſe are, they ought not eſcape, if they ſhal be found negligent &amp; careleſſe,<lb/>
+               in the Execution of their authorities. Given at our Manour of Richmond the third of October, in the two and twen-<lb/>
+               tieth yeere of our Reigne.<lb/>
+               <lg><l style="text-align:center; font-size:200% font-style:roman">God ſaue the Queene.</l><lb/>
+                  <l style="text-align:center; font-size:400% font-style:roman">Imprinted at London by Chriſto-</l><lb/>
+                  <l style="text-align:center; font-size:200% font-style:italic;">pher Barker, Printer to the Queenes moſt ex-<lb/></l>
+                  <l style="text-align:center; font-size:200% font-style:italic;">cellent Maieſtie.</l><lb/>
+               </lg>
+                  
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Petowe">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Second Part of HERO and LEANDER. <hi style="font-style:italic;">Conteyning their further Fortunes.</hi></title>
+                <respStmt>
+                    <resp>Author<date when-custom="1598"/></resp>
+                    <name><forename>Henry</forename> <surname>Petowe</surname></name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2019"/></resp> 
+                    <name>Rowan Pereira</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Primary editor</resp>
+                    <name>Rowan Pereira</name>
+                </respStmt>
+                <respStmt>
+                    <!-- Schema courtesy of Linked Early Modern Drama Online (LEMDO); Programmer credits below -->
+                    <resp ref="resp:prg">Programmer</resp>
+                    <name ref="pers:TAKE1">Joey Takeda</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="resp:prg">Programmer</resp>
+                    <name ref="pers:HOLM1">Martin Holmes</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    The Kit Marlowe Project
+                </publisher>
+                <date>2019</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                    <p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><publisher>Printed by Thomas Purfoot</publisher><publisher>Andrew Harris</publisher><pubPlace>London</pubPlace><date when-custom="1598"/>
+                    Transcription keyed by students in LC 347A at Stonehill College, under the supervision of Kristen Abbott Bennett and Scott Hamlin. Transcription prepared from a digital surrogate of a microfilm available on the Early English Books Online Database.
+                    <idno type="STC">STC 19087<!-- Copy from Bodleian --></idno>
+                </bibl></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+           <div type="section">
+           <fw type="header" style="text-align:center;">The<lb/>
+               Second Part of<lb/>
+               <persName ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> and <persName ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander.</persName><lb/>
+               Conteyning their further Fortunes.<lb/>
+               By <persName ref="/kit-marlowe/files/personography.xml#pers_PETO1">Henry Petowe.</persName><lb/>
+               <foreign xml:lang="la" style="font-style:italic; text-align:center">Sat citò, ſi ſit bene.</foreign></fw>
+           <figure style="text-align:center;">
+               <figDesc> A decorative printer's ornament is here </figDesc>
+           </figure>  
+           <fw type="header" style="text-align:center;"><placeName>LONDON</placeName>, 
+               Printed by <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_PURF1">Thomas Purfoot</persName>, for <persName ref="/kit-marlowe/files/personography.xml#pers_HARR1">Andrew<lb/>
+               Harris</persName>, and are to be ſould at his ſhop,<lb/>
+               under the <placeName>Popes head</placeName> next to the<lb/>
+               <placeName style="font-style:italic;">Royall Exchange</placeName>. 1598.</fw>
+           <figure>
+               <figDesc> A decorative printer's ornament is here </figDesc>
+           </figure>
+               <fw type="header" style="font-size: 2em;">¶ To the Right worſhipfull ſir <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_GUIL1">Henrie<lb/>
+               Guilford</persName> Knight, H.P. vvisheth all<lb/>
+               <hi style="font-style:italic;">encreaſe of worſhip, and endleſse</hi><lb/>
+               <hi style="font-size: normal;">Felicitie.</hi></fw>
+                
+           <p>
+               <hi style="float: left; font-size: 4rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">R</hi>Ight Worſhipfull, although preſump-<lb/>
+               tion merite pennance in dedicating<lb/>
+               ſuch rude and vnpolliſhed lynes, to<lb/>
+               the protection of ſoworthy a perſo-<lb/>
+               nage: yet I hope your wonted fauor<lb/>
+               and clemencie will priuiledge mee<lb/>
+               from blame, and accept of the giuer,<lb/>
+               as one who woulde hazard life to<lb/>
+               moue your Wor: the leaſt iot of content. Yf it be thought<lb/>
+               a point of wiſdome in that impoueriſhed ſoule, that by ta-<lb/>
+               king ſanctuarie, doth free himſelfe, that ſeeke for ſafegard,<lb/>
+               being round beſet with many enemies. No ſonet had re-<lb/>
+               port made knowen my harmeles <hi style="font-style:italic">Muſes</hi> firſt progreſſe, how<lb/>
+               ſhe intended to make tryall of her vnfledged plumes; but<lb/>
+               (my ſelfe being preſent where that babling dame was pra-<lb/>
+               ting) I heard iniurious Enuy, reply to this effect,<lb/>
+               <hi style="text-align:center; font-style:italic;">Dares ſhe preſume to flie, that cannot good<lb/>
+               Wele cut her plumes ſaid they, it ſhall be ſo.</hi><lb/>
+           </p>
+           <fw type="signature" style="text-align:center;">A iij</fw>
+           <fw type="catchword" style="text-align:right;">Then</fw>
+                
+           <pb/>
+                
+               <fw type="header" style="font-style:italic;">The Epiſtle D</fw>  <!-- I have no idea what this is saying -->   
+           <p>    
+               Then with a ſnarle or twoo, theſe euer medling Car-<lb/>
+               pers betooke them to their cabbins. At the next rowling, I<lb/>
+               expect no other fauer, then <hi style="font-style:italic;">Enuies</hi> extreameſt furie, which<lb/>
+               to withſtand, if I may purchaſe your Wor: ſafe protection,<lb/>
+               no better guarde will my fearefulll ſoule deſire. To make<lb/>
+               the cauſe manifeſt vnto your worthine, why <hi style="font-style:italic;">Enuie</hi> thus bar-<lb/>
+               keth at mee, I intreat your wiſedome to conſider the ſequel.<lb/>
+               This Hiſtorie of <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> and <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName>, penned by that admired<lb/>
+               Poet <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MARL1">Marloe</persName>: but not finiſhed (being preuented by ſodaine<lb/>
+               death:) and the ſame (though not abruptly, yet contrary to<lb/>
+               all menns, expectation) reſting like a heade ſeperated from<lb/>
+               the body, with his harſh ſentence, <foreign xml:lang="la" style="font-style:italic;">Deſunt nonnulla</foreign>. I being<lb/>
+               inriched by a Gentleman a friend of mine, with the true I-<lb/>
+               talian diſcourſe, of thoſe Louers further Fortunes, haue<lb/>
+               preſumed to finiſh the Hiſtorie, though not ſo well as diuers<lb/>
+               riper wits doubtles would haue done: but aas it is rude and<lb/>
+               not praiſeworthy: ſo neyther doe I expect praiſe not com-<lb/>
+               mendations. This therefore is the cauſe of their ſodayne<lb/>
+               enmitie that I being but a flie dare preſume to ſoare wyth<lb/>
+               <hi style="text-align:center;">the <hi style="font-style:italic;">Aegle</hi>. But how-euer they diſlike it, maye your</hi><lb/>
+               <hi style="text-align:center;">wothines but grace this my firſ labor with your</hi><lb/>
+               <hi style="text-align:center;">kind acceptance, my hart ſhal enjoy the depth</hi><lb/>
+               <hi style="text-align:center;">of his deſire: And your Wor: ſhall conti-</hi><lb/>
+               <hi style="text-align:center;">nually bind me in all ſeruiceable dutie</hi><lb/>
+               <hi style="text-align:center;">to reſt vnto your worſhip alwaies</hi><lb/>
+               <hi style="text-align:center;">deuoted.</hi><lb/>
+               <hi style="text-align:center; font-style:italic;">Your worſhips moſt humbly to commaund.</hi><lb/>
+               <persName style="text-align:center;" ref="/kit-marlowe/files/personography.xml#pers_PETO1">Henrie Petowe.</persName><lb/>
+           </p>
+                
+           <pb/>
+           
+           <figure>
+               <figDesc> A decorative printer's ornament is here </figDesc>
+           </figure>
+           <fw type="header">To the quicke-ſighted Reader.</fw>
+           <p style="font-style:italic;"> 
+               <hi style="float: left; font-size: 4rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">K</hi>Inde Gentlemen, what I would I cannot, but<lb/>
+               what I could with that litle skill I had, I haue<lb/>
+               preſumed to preſent to your fauourable viewes:<lb/>
+               I am not aſhamed to bed your kind fauours, be-<lb/>
+               cauſe I finde my ſelfe altogether in ſufficient to<lb/>
+               performe that which my good will hath taken in<lb/>
+               hand: Yet with my ſoule I wiſh my labours maye merite your<lb/>
+               kynde fauours. Yf not for the toyle herein taken, which I con-<lb/>
+               feſſe haue no way deſerued the leaſt iotte of your fauour: yet for the<lb/>
+               <hi style="font-style:normal;">Subiects</hi> ſake, for <persName style="font-style:normal;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> and <persName style="font-style:normal;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName> ſake. Yf neyther of theſe<lb/>
+               purchaſe fauour, the frowning browes of ſad diſcontent, will baniſh<lb/>
+               my poore harmeles <hi style="font-style:normal;">Muſe</hi>, into the vaſt wide wilderneſſe of eter-<lb/>
+               nall obliuion. I am aſsured Gentlemen, you will maruell what fol-<lb/>
+               lie or rather furie inforced mee to vndertake ſuch a waightie mat-<lb/>
+               ter, I beeing but a ſlender <persName style="font-style:normal;" ref="/kit-marlowe/files/personography.xml#pers_ATLA1">Atlas</persName> to vphoulde or vndergoe ſuch a<lb/>
+               maſsie burthen: yet I hope you will rather aſsiſt, and further mee<lb/>
+               with the wings of your ſweete fauours, then to hinder my forward<lb/>
+               indeauours with your diſlikings: eſteeming it as the firſt fruits of<lb/>
+               an vnripe wit, done at certain vacant boweres: In which<lb/>
+               hope I reſt captiuated till I be freed by your liberall<lb/>
+               and kind Cenſures.<lb/>
+               <hi style="text-align:right; font-style:normal;">Yours ſtill, if mine euer.</hi><lb/>
+               <persName style="text-align:left; font-style:normal;" ref="/kit-marlowe/files/personography.xml#pers_PETO1">Henrie Petowe.</persName><lb/>
+           </p>
+            
+           <pb/>
+            
+           <figure>
+               <figDesc> A decorative printer's ornament is here </figDesc>
+           </figure>
+           <fw type="header" style="text-align:center;"><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> and <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName></fw> 
+           <fw type="header" style="font-style:italic;">further Fortunes.</fw>
+           <lg>
+               <l><hi style="float: left; font-size: 4rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">W</hi>Hen young <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_APOL1">Apollo</persName> heauens ſacred beautie,</l>
+               <l>Can on his ſiluer harpe with reuerent dutie,</l>
+               <l>To blazen foorth the fair of <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_TELL1">Tellus</persName> wonder,</l>
+               <l>Whoſe faire, all other faires brought ſubiect</l>
+               <l>Heauen gan to frowne at earthes fragilirie, (vnder:</l>
+               <l>Made proude with ſuch adored Maieſtie.</l>
+               <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> the faire, ſo doe I name this faire,</l>
+               <l>With whome immortall faires might not compare,</l>
+               <l>Such was her beautie fram'd in heauens ſcorne,</l>
+               <l>Her ſpotles faire caus'd other faires to mourne:</l>
+               <l><hi style="font-style:italic;">Heauen</hi> frown'd, <hi style="font-style:italic;">Earth</hi> ſhame'd that none ſo faire as ſhe,</l>
+               <l>Baſe borne of earth in heauen might equall be.</l>
+               <l>Fell moodie <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_VENU1">Venus</persName> pale with fretting ire,</l>
+               <l>Aye mee (quoth ſhe) for want of her deſire,</l>
+               <l>Earthes baſeſtmould, fram'd of the baſer duſt,</l>
+               <l>Strumpet to filth, bawde to loathed luſt:</l>
+               <l>Worſe then <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MAED1">Maedeas</persName> charmes, are thy inticements,</l>
+               <l>Worſse then the Mermaides ſongs, are thy allurements.</l>
+               <l>Worſe then the ſnakie hag <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_TYSI">Tyſiphone</persName>,</l>
+               <l>To mortall ſoules is thy inueagling beautie:</l>
+           </lg>
+           <fw type="signature" style="text-align:center;">B</fw>
+           <fw type="catchword" style="text-align:right;">Thu</fw>
+                
+           <pb/>
+               
+           <fw type="header" style="font-style:italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> and <persName ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName></fw>
+           <lg>
+               <l>Thus ſhe exclaimes gainſt harmeles <persName style="font-style:italic" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero's</persName> faire,</l>
+               <l>And would the Gods conſent, her dangling haire,</l>
+               <l>Wherewith the buſie ayre dorh often play,</l>
+               <l>(As wanton birdes vpon a Sunne-ſhine day:)</l>
+               <l>Should be transform'd to ſnakes all vgly blacke,</l>
+               <l>To be a meanes of her eternall wracke.</l>
+               <l>But wanton <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_JOVE1">Ioue</persName> ſweete beauties fauorite,</l>
+               <l>Damaunds of beautie beauties worthy merite:</l>
+               <l>Yf beauties guerdon merit paine (quoth he,)</l>
+               <l>Your faire deſerues no leſſe as faire as ſhe,</l>
+               <l>Then moodie <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_JUNO1">Iuno</persName> frowning gan replie,</l>
+               <l>Ile want my will, but ſtrumpet ſhe ſhall die.</l>
+               <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_JUNO1">Iuno</persName> (quoth he) we ought not tyrannize</l>
+               <l>On ſuch (ſaide he) as you doe wantonnize.</l>
+               <l>But ſince our continent the ſcope of Heauen,</l>
+               <l>Containes her not, vnleſſe from earth beryuen,</l>
+               <l>Ile make a transformation of her hue,</l>
+               <l>And force the hautie Mother earth to rue:</l>
+               <l>That her baſe wombe dare yeild ſuch baſtard faires.</l>
+               <l>That Ioue muſt ſeek on earth immortall heires.</l>
+               <l>Ile cauſe a ſecond deſperat <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_PHAE2">Phaeton</persName>,</l>
+               <l>To rule the fierie Charriot of the Sunne:</l>
+               <l>That topſie turuie Heauen and Earth may turne,</l>
+               <l>That <hi style="font-style:italic;">Heauen, Earth, Sea,</hi> and <hi style="font-style:italic;">Hell</hi> may endleſſe burne.</l>
+               <l>Stay headſtrong goddeſſe <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_JOVE1">Ioue</persName> to <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_JUNO1">Iuno</persName> ſayde,</l>
+               <l>Can you doe this without your huſbands ayde?</l>
+               <l>With that ſhe gan intreate it might be ſo,</l>
+               <l>But <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_JOVE1">Ioue</persName> would not ſweete beautie ouerthrow:</l>
+               <l>But this he giaunted <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_JUNO1">Iuno</persName>, that <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_APOL1">Apollo</persName></l>
+               <l>Should neuer more extoll the faire of <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName>.</l> 
+           </lg>
+           <fw type="catchword" style="text-align:right;">His</fw>
+                
+           <pb/>
+               
+           <fw type="header" style="text-align:center; font-style:italic;">further Fortunes.</fw>
+           <lg>
+               <l>His cenſure paſt the irefull <hi style="font-style:italic;">Queene</hi> doth hie,</l>
+               <l>To ſet a period to his harmony.</l>
+               <l>From foorth his yeilding armes ſhe ſoone bercaues</l>
+               <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_APOL1">Apollo's</persName> Lute, whome comfortleſſe ſhe leaues,</l>
+               <l>Making a Thouſand parts of two gould ſtrings,</l>
+               <l>Into obliuions Cell the ſame ſhe flinges.</l>
+               <l>Quicke ſighted ſpirits, this ſuppoſ'd <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_APOL1">Apollo</persName>,</l>
+               <l>Conceit no othe,r but the'admired <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MARL1">Marlo</persName>:</l>
+               <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MARL1">Marlo</persName> admir'd, whoſe honney flowing vaine,</l>
+               <l>No Engliſh writer can as yet attaine.</l>
+               <l>Whoſe name in Fames immortall treaſurie,</l>
+               <l>Truth ſhall record to endles memorie,</l>
+               <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MARL1">Marlo</persName> late mortall, now fram'd all diuine,</l>
+               <l>What ſoule more happy, then that ſoule of thing?</l>
+               <l>Liue ſtill in heauen thy ſoule, thy ſame on earth,</l>
+               <l>(Thou dead) of <persName style="font-style:italic" ref="/kit-marlowe/files/personography.xml#pers_MARL1">Marlo's</persName> <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> findes a dearth.</l>
+               <l>Weepe aged <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_TELL1">Tellus</persName>, all earth on earth complaine,</l>
+               <l>Thy chiefe borne faire, hath loſt her faire againe:</l>
+               <l>Her faire in this loſt that <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MARL1">Marlo's</persName> want,</l>
+               <l>Inforceth <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero's</persName> faire be wonderous ſcant.</l>
+               <l>Oh had that King of poets breathed longer,</l>
+               <l>Then had faire beauties fort been much more ſtronger:</l>
+               <l>His goulden pen had clos'd her ſo about,</l>
+               <l>No baſtard <hi style="font-style:italic;">Aegles</hi> quilt the world throughout,</l>
+               <l>Had been of force to marre what he had made,</l>
+               <l>For why they were not expert in that trade:</l>
+               <l>What mortall ſoule with <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MARL1">Marlo</persName> might contend,</l>
+               <l>That could gainſt reaſon force him ſtoope or bend?</l>
+               <l>Whoſe ſiluer charming toung, mou'd ſuch delight,</l>
+               <l>That men would ſhun their ſleepe in ſtill darke night.</l>
+           </lg>
+           <fw type="signature" style="text-align:center;">B ij.</fw>
+           <fw type="catchword" style="text-align:right;">To</fw>
+                
+           <pb/>     
+                
+           <fw type="header" style="text-align:center; font-style:italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> and <persName ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName></fw>
+           <lg>
+               <l>To meditate vpon his goulden lynes,</l>
+               <l>His rare conceyts and ſweete according rimes.</l>
+               <l>But <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MARL1">Marlo</persName> ſtill admired <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MARL1">Marlo's</persName> fon,</l>
+               <l>To liue with beautie in <placeName style="font-style:italic;">Elyzium</placeName>,</l> 
+               <l>Immortall beautie, who deſires to heare,</l>
+               <l>His ſacred Poeſies ſweere in euery care:</l>
+               <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MARL1">Marlo</persName> muſt frame to <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_ORPH1">Orpheus</persName> melodie,</l>
+               <l>Himnes all diuine to make heauen harmonie.</l>
+               <l>There euer liue the Prince of Poetrie.</l>
+               <l>Liue with the liuing in eternitie.</l>
+               <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_APOL1">Apollo's</persName> Lute bereau'd of ſiluer ſtring,</l>
+               <l>Fond <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MERC1">Mercury</persName> doth harſhly gin to ſing.</l>
+               <l>A counterfeit vnto his honney note,</l>
+               <l>But I doe feare heile chatter it by quote</l><!-- I have no idea what this is saying -->
+               <l>Yet if his ill according voice be ſuch,</l>
+               <l>That (hearing part) you thinke you heare too much.</l>
+               <l>Beare with his raſhnes, and he will amende,</l>
+               <l>His follie blame, but his good will commend.</l>
+               <l>Yet rather diſcommend what I intreate,</l>
+               <l>For if you like it, ſome wil ſtorme and fret.</l>
+               <l>And then inſulting <hi style="font-style:italic;">AEgles</hi> ſoaring hie,</l>
+               <l> Will pray vpon the ſillie harmeles flie:</l>
+               <l><hi style="font-style:italic;">(Nil refert)</hi> for Ilo pawne my better part,</l>
+               <l>Ere ſweete fac't beautie looſe her due deſart.</l>
+               <l>Auaunt baſe Steele where ſhrill tong'd ſiluer rings,</l>
+               <l>The catt'ring Pie may range when black-birdes ſings:</l>
+               <l>Birdes blacke as Iet with ſweete according voices,</l>
+               <l>Like to <placeName style="font-style:italic;">Elyziums</placeName> Saincts with heauenly noiſes.</l>
+               <l>Why ſhould harſh <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MERC1">Mercury</persName> recount againe,</l>
+               <l>What ſweet <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_APOL1">Apollo</persName> (liuving) did maintaine?</l>
+           </lg>
+           <fw type="catchword" style="text-align:right;">Which</fw>
+                
+           <fw type="header" style="text-align:center; font-style:italic;">further Fortunes.</fw>
+           <lg>
+               <l>Which was of <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> her all pleaſing faire,</l>
+               <l>Her prettie browes, her lip, her amber haire,</l>
+               <l>Her roſeat cheeke, her lillie fingers white,</l>
+               <l>Her ſparkling eyes that lend the day his light:</l>
+               <l>What ſhould I ſay, her all in all he prayſed,</l>
+               <l>Wherewith the ſpacious world was much amazed.</l>
+               <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName> loue, and louers ſweeteſt pleaſure,</l>
+               <l>He wrought a full diſcouſe of beauties treaſure:</l>
+               <l>And left me nothing pleaſing to recite,</l>
+               <l>But of vnconſtant chance, and fortunes ſpight.</l>
+               <l>Then in this glaſſe view beauties frayltie,</l>
+               <l>Faire <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName>, and <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName> miſerie.</l>
+           </lg>
+           <figure>
+               <figDesc> A decorative printer's ornament is here </figDesc>
+           </figure>
+           <lg>
+               <l><hi style="float: left; font-size: 4rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">T</hi>He virgin Princeſſ of the weſterne Ile,</l>
+               <l>Faire <placeName style="font-style:italic;">Cambarina</placeName> of the goulden ſoile,</l>
+               <l>And yet not faire, but of a ſwartie hew,</l>
+               <l>For by her gould, her beautie did renew:</l>
+               <l>Renew as thus, that hauing gould to ſpare,</l>
+               <l>Men helde it dutie to proteſt and ſweare,</l>
+               <l>Her faire was ſuch, as all the world admir'd it,</l>
+               <l>Her bluſhing beautie ſuch, all men deſir'd it.</l>
+               <l>The ſcornefull <hi style="font-style:italic;">Queene</hi> made proude with fained praiſes,</l>
+               <l>Her black-fram'd ſoule, to a hier rate ſhe raiſes:</l>
+               <l>That men beqitched with her gould, not beautie,</l>
+               <l>A Thouſand Knights as homage proffer dutie,</l>
+            </lg>    
+            <fw type="signature" style="text-align:center;">B iij.</fw>
+            <fw type="catchword" style="text-align:right;">Yf</fw>    
+            
+            <fw type="header" style="text-align:center; font-style:italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> and <persName ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName></fw>
+            <lg>
+                <l>Yf ſuch a baſe deformed lumpe of clay,</l>
+                <l>In whome no ſweete content had any ſtay,</l>
+                <l>No pleaſure reſidence, no ſweet delight,</l>
+                <l>Shelter from heate of day, or cold of night:</l>
+                <l>Yf ſuch a ſhe ſo many ſutors had,</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> whoſe angrie frownes made heauen ſad:</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> whoſe gaze gracing darke <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_PLUT1">Plutos</persName> cell,</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_PLUT1">Pluto</persName> would deeme <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_APOL1">Phaebus</persName> came there to dwell.</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> whoſe eyes heauens fierie tapors ſtaine,</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> whoſe beautie makes night day againe,</l>
+                <l>How much more loue merits ſo ſweet a <hi style="font-style:italic;">Queene</hi>,</l>
+                <l>Whoſe like no out-worn world hath euer ſeene.</l>
+                <l>Of ſweete <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName> loue, to <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero's</persName> beautie,</l>
+                <l>Heauen, Earth, and Hell, and all the world if guiltie,</l>
+                <l>Of <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero's</persName> kindnes, to her truffie Phere,</l>
+                <l>By loſt <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_APOL1">Apollo's</persName> tale it doth appere,</l>
+                <l>Recorded in the Regiſter of Fame,</l>
+                <l>The works of <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MARL1">Marlo</persName> doe expreſſe the ſame.</l>
+                <l>But ere he gan of fickle chance to tell,</l>
+                <l>How bad chance gainſt the Better did rebell:</l>
+                <l>When lue in lues ſweet garden newly planted,</l>
+                <l>Remorcefull <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> to <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> graunted,</l>
+                <l>Free libterie, to yeild the world increaſe,</l>
+                <l>Vnconſtant <hi style="font-style:italic;">Fortune</hi> foe to harmeles peace:</l>
+                <l>Playde ſuch vnrule prancks in loues deſpight,</l>
+                <l>That loue was forced from his true-loues ſight.</l>
+            </lg>
+            <lg>
+                <l><persName ref="/kit-marlowe/files/personography.xml#pers_ARCH1"><hi style="float: left; font-size: 3rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">D</hi>Vke <hi style="font-style:italic;">Archilavs</hi></persName> cruell, voyd of pitie,</l>
+                <l>Where <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> dwelt was regent of that Citie:</l>
+                <l>Woe worth that towne where bloody homicides,</l>
+                <l>And Tyrants are elected cities guides.</l>
+            </lg>    
+            <fw type="catchword" style="text-align:right;">Woe</fw>
+               
+            <pb/>
+               
+            <fw type="header" style="text-align:center; font-style:italic;">further Fortunes.</fw>
+            <lg>
+                <l>Woe woorth that countrey where vnlawfull luſt,</l>
+                <l>Sitts in a Regall throne, of force it muſt</l>
+                <l>Downe to the low layde bowells of the earth,</l>
+                <l>Like to a ſtill borne Childes vntimely byrth:</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_ARCH1">Duke Archilaus</persName> lou'd, but whome lou'd he?</l>
+                <l>He courted <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName>, but it would not be.</l>
+                <l>Why ſhould he plant where other Knights haue ſowen,</l>
+                <l>The land is his, therefore the fruit his owne,</l>
+                <l>Muſt it be thus, alas it is not ſo,</l>
+                <l>Luſt may not force true-louers ouerthrow.</l>
+                <l>Luſt hath no limit, luſt will haue his will,</l>
+                <l>Liek to a rauening wolfe that's bent to kill,</l>
+                <l>The Duke affecting her that was belou'd,</l>
+                <l>(<persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> whoſe firme fixt loue <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> prou'd,)</l>
+                <l>Gaue on-ſet to the ſtill reſiſting fort,</l>
+                <l>But fearefull hate ſet period to his ſport.</l>
+                <l>Luſt egg'd him on to further his deſire,</l>
+                <l>But fell diſdaine inforc't him to retire.</l>
+                <l>When <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_ARCH1">Archilaus</persName> ſawe that thundering threates</l>
+                <l>Could not preuaile, he mildly then intreates.</l>
+                <l>But all in vaine, the Doo had choſe her make,</l>
+                <l>And whome ſhe tooke, ſhe neuer would forſake,</l>
+                <l>The Doo's ſweet Deere, this humen ſeekes to chace,</l>
+                <l>Harmeles <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> whoſe all ſmiling face</l>
+                <l>Grac't with vnſpotted faire to all mens ſight,</l>
+                <l>Would for the houndes retire, and not to bite:</l>
+                <l>Which when the Duke perceau'd an other curre,</l>
+                <l>Was forced from his den, that made much ſturre,</l>
+                <l>And treaſon he was nam'd, which helde ſo faſt,</l>
+                <l>That feares ſwift winges did lend ſome ayde at laſt.</l>
+            </lg>
+            <fw type="catchword" style="text-align:right;">For</fw>   
+             
+            <pb/>
+               
+            <fw type="header" style="text-align:center; font-style:italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> and <persName ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName></fw> 
+            <lg>
+                <l>For force perforce <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> muſt depart</l>
+                <l>From <placeName style="font-style:italic;">Sestos</placeName>, yet behind he left his hart.</l>
+                <l>His hard in <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero's</persName> breſt, <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> left,</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName> abſence, <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Heroes</persName> ioyes bereſt:</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName> want, the crueell Duke thought ſure</l>
+                <l>Some eaſe to diſcontent would ſoone procure.</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> hauing heard his wofull doome,</l>
+                <l>Towards his weeping Lady he doth come,</l>
+                <l>Dewing her cheekes with his diſtilling teares,</l>
+                <l>Which <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> dryeth with her dangling haires:</l>
+                <l>They weeping greete each other with ſweete kiſſes,</l>
+                <l>(Kindly imbracing) thus they gan their wiſhes.</l>
+                <l>Oh that theſe foulding armes might nere vndoe;</l>
+                <l>As ſhe deſir'd: ſo wiſht <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> too:</l>
+                <l>Then with her hand, ſhe toucht his ſacred breſt,</l>
+                <l>Where in his boſome ſhe deſires to reſt.</l>
+                <l>Liek to a ſnake ſhe clung vnto him faſt,</l>
+                <l>And wound about him, which ſnatcht-vp in haſt,</l>
+                <l>By the Prince of birdes, borne lightly vp aloft,</l>
+                <l>Doth wrythe her ſelfe about his necke, and oft</l>
+                <l>About his winges diſplayed in the winde,</l>
+                <l>Or like as Iuie on trees cling bout the rinde:</l>
+                <l>Or as tho Crab-fiſh hauing caught in ſeas</l>
+                <l>His enemies, doth claſpe him with his cleas.</l>
+                <l>So ioynd in one, theſe two together ſtood,</l>
+                <l>Euen as <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERM1">Hermophroditis</persName> in the flood:</l>
+                <l>Vntill the Duke did banniſh him away,</l>
+                <l>Then gan <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> to his Hero ſay.</l></lg>
+            <lg>
+                <l><!-- These lines are contained by curly braces in the left margin. In some cases in this text, these braces seem to indicate borrowings from other authors. These are lines 1 and 3 in Henry Howard Surrey's poem "Vow to loue faithfully howſoeuer he be rewarded." See: Tottel's Miscellany: Songes and Sonnettes, 1557. -->(Let me goe where the Sunne doth parch the greene,</l>
+                <l>In temperate heare, where he is felt and ſeene:</l>
+            </lg>  
+            <fw type="catchword" style="text-align:right;">Or</fw>
+               
+            <pb/>
+               
+            <fw type="header" style="text-align:center; font-style:italic;">further Fortunes.</fw>
+               <lg><!-- These lines are contained by curly braces in the left margin. In some cases in this text, these braces seem to indicate borrowings from other authors. These are lines 2 and 4 in Henry Howard Surrey's poem "Vow to loue faithfully howſoeuer he be rewarded." See: Tottel's Miscellany: Songes and Sonnettes, 1557. -->
+                <l>Or where his beames doe not soſſolue the ice,</l>
+                <l>In preſence preſt, of people made or wiſe.</l>
+            </lg>
+            <lg>
+                <l>Se mee in high, or elſe in low degree,</l>
+                <l>In cleareſt skie, or where clowdes thickeſt bee,</l>
+                <l>In logeſt night, or in the ſhorteſt day,</l>
+                <l>In luſtie youth, or when my haires be gray:</l>
+                <l>Goe I to heauen, to earth, or elſe to hell,</l>
+                <l>Thrall or at large, aliue where ſo I dwell,</l>
+                <l>On hill or dale, or on the foaming flood,</l>
+            </lg>
+            <lg>
+                <!-- These lines are contained by curly braces in the left margin. In some cases in this text, these braces seem to indicate borrowings from other authors. Line 1 is from line 12 of Sir THomas Wyatt's poem "Set me where as the ſunne doth parch the greene," as printed in George Puttenham's _The Art of English Poesie_. We aren't sure where the other two lines come from.-->
+                <l>Sicke or in health, in euill fame or good:</l>
+                <l>Thine will I be, and onely with this thought,</l>
+                <l>Content thy ſelfe: althought my chance be naught.)</l>
+            </lg>
+            <lg>
+                <l>Thus parted theſe two louers full of woes,</l>
+                <l>She ſtaies behinde, on plgrimage he goes.</l>
+                <l>Leaue we a while, <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> wandring Knight,</l>
+                <l>To <placeName style="font-style:italic;">Delphos</placeName> taking his all ſpeedie flight,</l>
+                <l>That by the Oracle of <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_APOL1">Apollo</persName>,</l>
+                <l>His further Fortunes he may trult knowe.</l>
+            </lg>
+            <lg>
+                <l><hi style="float: left; font-size: 3rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">T</hi>Rue-loue quite banniſt, luſt began to pleade,</l>
+                <l>To <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> like a ſcholler deepely reader:</l>
+                <l>The flaming ſighes, that boyle within my breſt,</l>
+                <l>Fair loue (quoth he) are cauſe of my vnreſt.</l>
+                <l>Vnreſt I entertaine for thy ſweet ſake,</l>
+                <l>And in my tent chooſe ſorrow for my make.</l>
+                <l>Why doſt thou frowne (quoth he) and then ſhe turn'd</l>
+                <l>Oh coole the fainting ſoule, that flaming burn'd:</l>
+                <l>Forc't by deſire, to touch thy matchles beautie,</l>
+                <l>To whome thy ſeruant vowes all reuerent dutie.</l>
+                <l>With that her irefull browes clowded with frownes,</l>
+                <l>His ſoule already drencht, in woes ſea drownes.</l>
+            </lg>
+            <fw type="signature" style="text=align:center;">C</fw>
+            <fw type="catchword" style="text-align:right;">But</fw>
+            
+            <pb/>
+               
+            <fw type="header" style="text-align:center; font-style:italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> and <persName ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName></fw>
+            <lg>
+                <l>But floating on the waues thus he gan ſay,</l>
+                <l>Flint harted Lady canſt thou be ſo coy?</l>
+                <l>Can pittie take no place, is kinde remorce</l>
+                <l>Quite banniſht, wuite fled? then fan he to be horce,</l>
+                <l>Vnable to excalime, againſt her longer,</l>
+                <l>Whoſe woe lament made <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero's</persName> hart more ſtronger.</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> that gaue no eare to her commaunder,</l>
+                <l>But euer weepes fro her exil'd <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName>:</l>
+                <l>And weeping ſore amongſt her liquid teares,</l>
+                <l>Theſe words ſhe ſpafe, wherewith her ſorrow weares.</l>
+                <l>(The piller periſht is, whereto I lent,</l>
+                <l>To my vnhap, for luſt away hath ſent,</l>
+                <l>Of all my Ioy, the verie barke and rinde,</l>
+                <l>The ſtrongeſt ſtay of my vnquiet minde:</l>
+                <l>And I alas am forc't without conſent,</l>
+                <l>Dayly to mourne, till death doe it relent.)</l>
+                <l>Oh my <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> he is baniſhed,</l>
+                <l>From his ſweete <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero's</persName> ſight he is exiled.</l>
+                <l>Oh yee iust heauens, if that heauen be iust,</l>
+                <l>Raine the vnbridled head, of hautie luſt,</l>
+                <l>Make him to ſtoope, that forceth other bend,</l>
+                <l>Bereaue his ioyes, that reſt me of my friend.</l>
+                <l>I want my ſelfe, for <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> wants her loue,</l>
+                <l>And where <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> is, my ſelse doth moue.</l>
+                <l>What can I more, but haue a woefull hart,</l>
+                <l>My minde in woe, my body full of ſmart,</l>
+                <l>And I my ſelfe, my ſelfe alwayes to hate,</l>
+                <l>Till dreadfull death doe eaſe my dolefull ſtate.</l>
+                <l>The angry Duke lay liſtning to her words,</l>
+                <l>And till ſhe ends no ſpeech at all affords,</l>
+            </lg>   
+            <fw type="catchword" style="text-align:right;">Vntill</fw>
+               
+            <pb/>
+               
+            <fw type="header" style="text-align:center; font-style:italic;">further Fortunes.</fw>
+            <lg>
+                <l>Vntill at length. exclaiming gainſt her kinde,</l>
+                <l>Thus he breath'd foorth the venome of his minde.</l>
+            </lg>
+            <lg> <!--These lines are contained by curly braces in the left margin.-->
+                <l>(Oh timerous taunters that delights in toyes,</l>
+                <l>Iangling ieſters, depriuers of ſweete ioyes,</l>
+                <l>ſumbling cock-boats tottering too and fro,</l>
+            </lg>
+            <lg>
+                <l>Grown'd of the graſt, whence all my griefe doth grow:</l>
+                <l>Sullen Serpents enuiron'd with deſpight,</l>
+                <l>That ill for good at all times doth requite.</l>
+                <l>As <hi style="font-style:italic;">Cypreſſe</hi> tree that rent is by the roote,</l>
+                <l>As well ſowen ſeede, for drought that cannot ſprout.</l>
+                <l>As braunch or ſlip bitter from whence it growes,</l>
+                <l>As gaping ground that raineles cannot cloſe</l>
+                <l>As fith on lande to whome no water flowes,</l>
+            </lg>
+            <lg> <!-- These lines are contained by curly braces in the left margin. -->
+                <l>As flowers doe fade when <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_APOL1">Phaebus</persName> rareſt ſhowes,</l>
+                <l>As <hi style="font-style:italic;">Salamandra</hi> repulſed from the fier,</l>
+                <l>Wanted my with, I die for my deſire.)</l>
+            </lg>
+            <lg>
+                <l>Speaking thoſe words death ſeiz'd him for his owne,</l>
+                <l>Wherewith ſhe thought her woes were ouerthrowne:</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> ſo thought, bu yet ſhe though amiſſe,</l>
+                <l>Before ſhe was belou'd: now findes no bliſſe.</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_ARCH1">Duke Archilaus</persName> being ſodaine dead,</l>
+                <l>Young <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_EURI1">Euriſtippus</persName> ruled in his ſtead:</l>
+                <l>The next ſucceeding heire to what was his,</l>
+                <l>Then <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero's</persName> woes increaſt, and fled all blis.</l>
+                <l>Looke how the ſillie harmeles bleating lambe,</l>
+                <l>Bereſt from his kinda make the gentle dam,</l>
+                <l>Left as a pray to Butchers crueltie,</l>
+                <l>In whome ſhe findes not any drop of mercie.</l>
+                <l>Or like a warriour whome his Souldiors flies,</l>
+                <l>At his ſhrill eccho of his foes dread cries.</l>
+            </lg>   
+            <fw type="signature" style="text-align:center;">C ij.</fw>
+            <fw type="catchword" style="text-align:right;">He</fw>   
+               
+            <pb/>
+               
+            <fw type="header" style="text-align:center; font-style:italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> and <persName ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName></fw>
+            <lg>
+                <l>He all vnable to withſtand ſo many,</l>
+                <l>Not hauing wherewith to combat, nor any</l>
+                <l>Aſſured friend that dares to comfort him,</l>
+                <l>Not any way for feare dares ſuccour him.</l>
+                <l>But as a pray he yeildes to him he would not,</l>
+                <l>Yf he had helpe, but (helpleſſe) ſtriue he could not.</l>
+                <l>So far'd it with the meeke diſtreſſed <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName>,</l>
+                <l>That ſweet <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName>, banniſhed her fro.</l>
+                <l>She had no <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERC1">Hercules</persName>, to defend her cauſe,</l>
+                <l>She had no Brandamore diſdaining lawes,</l>
+                <l>To combat her ſafetie; this ſweet io,</l>
+                <l>Had no kine <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_JOVE1">Ioue</persName> to keepe her from her foe.</l>
+                <l>This <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_PSYC1">Pſiches</persName> had no <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_EROS1">Cupid</persName>, loue was banniſht,</l>
+                <l>And loue from loue exild, loue needs muſt famiſh.</l>
+                <l>Wood <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_EURI2">Eristippus</persName> for his brothers death,</l>
+                <l>Like as a toyled huntſman wanting breath,</l>
+                <l>Stormeth that bad chance in the games purſute,</l>
+                <l>Should cauſe him panting, reſt as dead and mute.</l>
+                <l>Or like ſad <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_ORPH1">Orphey</persName> for <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_EURY1">Euridice</persName>,</l>
+                <l>Whom <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_CERB1">Cerberus</persName> bereſt ſo haſtilie,</l>
+                <l>Like to the thundering threates of <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERC1">Hercules</persName>,</l>
+                <l>The worldes admired Prince the great <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERC1">Alcides</persName>,</l>
+                <l>When <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_NESS1">Neſſus</persName> fgot the height of his deſire;</l>
+                <l>By rauiſhing his faireſt <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_DEIA1">Deianire</persName>.</l>
+                <l>Such was his ire, and more if more may be,</l>
+                <l>Which he gainſt <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> breathed ſpightfully:</l>
+                <l>Thou damned hag: this gan lie to exclaime,</l>
+                <l>Thou baſe borne Strumpet one of <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_CIRC1">Circes</persName> traine.</l>
+                <l>Durſt thou preſume, poore ſillie ſimplet flie,</l>
+                <l>With <hi style="font-style:italic;">Venum's</hi> force, to force an <hi style="font-style:italic;">AE</hi>gle die?</l>
+            </lg>
+            <fw type="catchword" style="text-align:right">What</fw>
+            
+            <pb/>
+               
+            <fw type="header" style="text-align:center; font-style:italic;">further Fortunes</fw>
+            <lg>
+                <l>What thought my brother <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> banniſhed,</l>
+                <l>Muſt he by thee therefore be poyſoned?</l>
+                <l>Die curſed wretch, with that he caſt her from him,</l>
+                <l>And would not ſuffer her to looke vpon hum.</l>
+                <l>The ſtill amazed Lady muſing ſtood,</l>
+                <l>Admiring why the Duke ſhould be ſo wood.</l>
+                <l>Humbly ſhe proſtrates her at Angers feete,</l>
+                <l>And with downe dropping teares, like liquid ſleete,</l>
+                <l>She watereth the Summer thirſtie ground,</l>
+                <l>Weeping ſo long, ſhe fell into a ſound.</l>
+                <l>Againe reuiued by the ſtanders by,</l>
+                <l>She doth intreate them to reſolue her why,</l>
+                <l>Duke <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_EURI1">Euriſtippus</persName> wrongeth her ſo much,</l>
+                <l>As to diſhonour her with ſuch a touch.</l>
+                <l>Well know the Gods my guiltleſſe ſoule (quoth ſhe,)</l>
+                <l>Was <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_ARCH1">Archelaus</persName> poyſoned by me,</l>
+                <l>Yf ſo? Iuſt heauens and immortall powers,</l>
+                <l>Raine vengeance downe in all conſuming ſhowers:</l>
+                <l>And cauſe that <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName>, that was counted faire,</l>
+                <l>Like a mad helliſh furie to diſpaire.</l>
+                <l>The more ſhe weepes, the more the heauens ſmile,</l>
+                <l>Scorning that beautie ſhould take any ſoile,</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_JUNO1">Iuno</persName> commaunded <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_ARGO1">Argos</persName> to defend her,</l>
+                <l>But <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_JOVE1">Iupiter</persName> would not ſo much befriend her.</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_ARGO1">Argos</persName> ſtarke dead; ſweet <persName style="font-style;italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> might not liue,</l>
+                <l>For of her life the <persName ref="/kit-marlowe/files/personography.xml#pers_ARCH1">Duke</persName> will her depriue.</l>
+                <l>Her doome was thus, ere three moneths date tooke end,</l>
+                <l>If ſhe found none, that would her cauſe defend:</l>
+                <l>Vntimely death ſhould ſeize her as a pray,</l>
+                <l>And vnreſiſting life, ſhould death obay.</l>
+            </lg>   
+            <fw type="signature" style="text-align:center;">C iij.</fw>
+            <fw type="catchword" style="text-align:right;">Meane</fw>
+               
+            <pb/>
+               
+            <fw type="header" style="text-align:center; font-style:italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> and <persName ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName></fw>
+            <lg>
+                <l>Meane time within a rocke-fram'd caſtle ſtrong,</l>
+                <l>She was impriſoned traytors vile among:</l>
+                <l>Where (diſcontented) when ſhe ſhould haue reſted,</l>
+                <l>Her foode bad far, with ſighes and teares ſhe feaſted.</l>
+                <l>And when the breathleſſe horſes of the Sunne,</l>
+                <l>Had made their ſtay, and <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LUNA1">Luna</persName> had begun,</l>
+                <l>With cheerefull ſmyling browes to grace darke night,</l>
+                <l>Clad in blacke ſable weedes, for want of light.</l>
+                <l>This all alone ſad Lady gan to play,</l>
+                <l>Framing ſweet muſick to her welladay:</l>
+                <l>The'ffect whereof this Sonnet plainely ſhowes,</l>
+                <l>The fountaine whence ſprings <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero's</persName> heauie woes.</l>
+            </lg>
+           </div>
+            <figure>
+                <figDesc> A decorative printer's ornament is here </figDesc>
+            </figure>
+            <div>
+            <fw type="header" style="font-style:italic;"><persName style="font-style:normal;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero's</persName> lamentation in Priſon.</fw>
+            <lg>
+                <l><hi style="float: left; font-size: 3rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">N</hi>Ights mourning blacke and miſtie vailing hew,</l>
+                <l>Shadowes the bleſſed comfort of the Sunne:</l>
+                <l>At whoſe bright gaze I wonted to renew</l>
+                <l>My liueles life, when life was almoſt done.</l>
+                <l>Done is my life, and all my pleaſure done,</l>
+                <l>For he is gone, in whome my life begun:</l>
+                <l>Vnhappie I poore I, and none as I,</l>
+                <l>But pilgrim he, poore he, that ſhould be by.</l>
+            </lg>
+            <figure>
+                <figDesc> A decorative printer's ornament is here </figDesc>
+            </figure>
+            <fw type="catchword" style="text-align:right;">My</fw>
+               
+            <pb/>
+               
+            <fw type="header" style="text-align: center; font-style:italic;">further Fortunes.</fw>
+            <lg>
+                <l><hi style="float: left; font-size: 3rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">M</hi>Y loue exil'd, adn I in priſon faſt,</l>
+                <l>Out ſtreaming teares breake into weeping raine,</l>
+                <l>He too ſoone baniſht, I in dungeon caſt,</l>
+                <l>He for me mouneth, I for him complaine.</l>
+                <l>He's baniſhed, uet liues at libertie,</l>
+                <l>And I exil'd, yet liue in miſerie:</l>
+                <l>He weepes for me far ogg, I for him here,</l>
+                <l>I would I were with him, and he more nere.</l>
+            </lg>
+            <figure>
+                <figDesc> A decorative printer's ornament is here </figDesc>
+            </figure>
+            <lg>
+                <l><hi style="float: left; font-size: 3rem; padding: 0.5rem; margin: 0 2rem 1rem 0; font-style:italic;">B</hi>Vt this impriſoning caue, this woefull cell,</l>
+                <l>This houſe of ſorrow and increaſing woe,</l>
+                <l>Friefes tearie chamber where ſad care doth dwell,</l>
+                <l>Where liquid teares, like top fil'd Seas doe flow:</l>
+                <l>Beating their waues gainſt ſtill relentles ſtone,</l>
+                <l>Still ſtill they ſmile on me, and I ſtill mone;</l>
+                <l>I weepe to ſtone, and ſtone of ſtone I finde,</l>
+                <l>Colde ſtone, colde comfort yeilds (oh moſt vnkinde.)</l>
+            </lg>
+            <figure>
+                <figDesc> A decorative printer's ornament is here </figDesc>
+            </figure>
+            <lg>
+                <l><hi style="float: left; font-size: 3rem; padding: 0.5rem; margin: 0 2rem 1rem 0; font-style:italic;">O</hi>Ft haue I read that ſtone relents at raine,</l>
+                <l>And I impleat their barren wombe with ſtore,</l>
+                <l>Teares ſtreaming downe, they wer and wet againe,</l>
+                <l>Yet pittlleſſe they harden more and more.</l>
+                <l>And when my longing ſoule lookes they ſhould ſonder,</l>
+                <l>I touch the flintie ſtone, and they ſeeme ſtronger,</l>
+                <l>They ſtronge, I weake: alas what hope haue I?</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> wants comfort, <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> needs muſt die.</l>
+            </lg>  
+            <fw type="catchword" style="text-align:right">When</fw>
+               
+            <pb/>
+               
+            <fw type="header" style="text-align:center; font-style:italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> and <persName ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName></fw>
+            <lg>
+                <l><hi style="float: left; font-size: 3rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">VV</hi>Hen the melodious ſhrill toung'd Nightingale,</l>
+                <l>With heauie cheere had warbled this ſad tale:</l>
+                <l>Nights drowſie God an iuorie Cannopie,</l>
+                <l>Curtaines before the windowes of faire beautie.</l>
+                <l>Drown'd thus in ſleepe, ſhe ſpent the wearie night,</l>
+                <l>There leaue I <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> in a heauie plight.</l>
+                <l>Now to the woefull Pilgrime I returne,</l>
+                <l>Whoſe paſsions force the gentle birdes to mourne.</l>
+                <l>They ſee <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> weepe, with heauie note</l>
+                <l>They faintly ſinge, as when they ſinge by rote:</l>
+                <l>While he gan deſcant on his miſerie,</l>
+                <l>The pretie fowles doe make him melodie.</l>
+            </lg>
+            </div>
+            <figure>
+                <figDesc> A decorative printer's ornament is here </figDesc>
+            </figure>
+            <div>
+            <fw type="header"><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName> complaint of his</fw>
+            <fw type="header" style="font-style:italic;">restles estate.</fw>
+            <lg>
+                <l><hi style="float: left; font-size: 3rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">B</hi>Right Heauens immortall mouing <hi style="font-style:italic;">Spheares</hi>,</l>
+                <l>and <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_APOL1">Phaebus</persName> all diuine,</l>
+                <l>Rue on lowe <hi style="font-style;italic;">Earths</hi> vnfained teares:</l>
+                <l>that iſſue from <hi style="font-style:italic;">Earths</hi> eyne.</l>
+                <l>Eyes, were theſe no eyes, whilſt eies eye-ſight laſted,</l>
+                <l>but theſe darke eyes cleere ſight, ſad ſorrow waſted.</l>
+            </lg>
+            <lg>
+                <l><hi style="float: left; font-size: 3rem; padding: 0.5rem; margin: 0 2rem 1rem 0; font-style;italic;">W</hi>Hat creature liuing liues in griede,</l>
+                <l>that breathes on <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_TELL1">Tellus</persName> ſoile?</l>
+                <l>But <placeName style="font-style:italic;">Heauens</placeName> pitie with reliefe,</l>
+                <l>ſave me, a ſlaue to ſpoyle.</l>
+            <fw type="catchword" style="text-align:right;">Spoyle</fw>
+               
+            <pb/>
+               
+            <fw type="header" style="text-align: center; font-style:italic;">further Fortunes.</fw>
+                <l>Spoyle doe his worſt, ſpoyle cannot ſpoile me more.</l>
+                <l>Spoyle neuer ſpoyl'd, ſo true a Loue before.</l>
+            </lg>
+            <figure>
+                <figDesc> A decorative printer's ornament is here </figDesc>
+            </figure>
+            <lg>
+                <l><hi style="float: left; font-size: 3rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">T</hi>He ſtricken Deere ſtands not in awe</l>
+                <l>of blakce grym irefull Death,</l>
+                <l>For he gindes hearbes that can withdrawe</l>
+                <l>the ſhaft, to ſaue his breath.</l>
+                <l>The chaſed Deere heath ſoile to coole his heate,</l>
+                <l>The toyled Steed is vp in ſtable ſet.</l>
+            </lg>
+            <lg>
+                <l><hi style="float: left; font-size: 3rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">T</hi>He ſillie Owles lurke in the leaues,</l>
+                <l>ſhine Sunne or nights Queene whether:</l>
+                <l>The Sparrowe ſhrowdes her in the eaues,</l>
+                <l>from ſtormes of huffing weather.</l>
+                <l>Fowles comfort finde, <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> findes no friend,</l>
+                <l>Then (comfortleſſe) <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName> life muſt end.</l>
+            </lg>
+            <lg>
+                <l><hi style="float: left; font-size: 3rem; padding: 0.5rem; margin: 0 2rem 1rem 0; font-style:italic;">B</hi>Y this it pleaſ'd the ſmiling browes of Heauen,</l>
+                <l>Whoſe deadly frownes, him erſt of ioy beryuen:</l>
+                <l>To ſet a period to <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName> toyle,</l>
+                <l>Hauing enioy'd that long deſired ſoyle.</l>
+            </lg>
+            <fw type="signature" style="text-align: center;">D</fw>
+            <fw type="catchword" style="text-align: right;">When</fw>
+            
+            <pb/>
+               
+            <fw type="header" style="text-align:center; font-style:italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> and <persName ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName></fw>
+            <lg>
+                <l>When he had viewd the ſtately terriroties,</l>
+                <l>And <placeName style="font-style:italic;">Delphos</placeName> ſacred hie erected towers,</l>
+                <l>Vnto <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_APOL1">Apollo's</persName> Oracle he goes,</l>
+                <l>In hope to finde reliefe for many woes;</l>
+                <l>He craues long lookt-for reſt, or elſe to die,</l>
+                <l>To whome the Oracle gan thus reply.</l>
+            </lg>
+            <fw type="header" style="text-align: center;">The Oracle.</fw>
+            <lg>
+                <l style="text-indent: 2em; font-style:italic;">He loueth thine that loues not thee,</l>
+                <l style="text-indent: 2em; font-style:italic;">His loue to thine ſhall fatall bee.</l>
+                <l style="text-indent: 2em; font-style:italic;">Vpon ſuſpect ſhe ſhallbe ſlaine,</l>
+                <l style="text-indent: 2em; font-style:italic;">Vnles thou doe returne againe.</l>
+            </lg>
+            <figure>
+                <figDesc> A decorative printer's ornament is here </figDesc>
+            </figure>
+            <lg>
+                <l><hi style="float: left; font-size: 3rem; padding: 0.5rem; margin: 0 2rem 1rem 0; font-style:italic;">T</hi>Heſe harſh according rimes to mickle paine,</l>
+                <l>Did but renewe <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName> woes againe:</l>
+                <l>Yet as he might, with Fortunes ſweet conſent,</l>
+                <l>He gins returne all dangers to preuent.</l>
+                <l>Within ſhort time at <placeName style="font-style:italic;">Seſtos</placeName> he ariueth,</l>
+                <l>On <hi style="font-style:italic;">Loues</hi> light winges, deſire <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> driueth,</l>
+                <l>Deſire that longs to view a bleſſed end,</l>
+                <l>Of <hi style="font-style:italic;">Loue</hi> and <hi style="font-style:italic;">Fortune</hi> that ſo long contend.</l>
+                <l>This backe retired Pilgrime liu'd ſecure,</l>
+                <l>And in vnknowen diſguiſe, he did indure,</l>
+                <l>Full two  moneths ſpace vntill the time drew nie,</l>
+                <l>To free faire <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName>, or inforce her die:</l>
+                <l>The date outworne of the prefixed day,</l>
+                <l>When combatants their valous ſhould diſplay.</l>
+            </lg>
+            <fw type="catchword" style="text-align:right;">(All</fw>
+               
+            <pb/>
+               
+            <fw type="header" style="text-align: center; font-style:italic;">further Fortunes.</fw>
+            <lg>
+                <l>(All thinges prepar'd) as blazing fame reported,</l>
+                <l>T'were wonder to behould how men reſorted.</l>
+                <l>Knights neighboring by, and Ladies all diuine,</l>
+                <l>Darting daies ſplendour from their Sunne-like eyne:</l>
+                <l><foreign xml:lang="la" style="font-style:italic;">Spectatum veniunt, veniunt spectantur vt ipſe,</foreign></l>
+                <l>But wanting faire, they come to gaze on beautie,</l>
+                <l>Beautie faire Heauens beautie, worlds wonder,</l>
+                <l> <persName ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> whoſe beautie keepes all beautie vnder.</l>
+                <l>This faire fac't beautie from a fowle fac't cell,</l>
+                <l>A loathe-ſome dungeon like to nights darke hell,</l>
+                <l>At the fell Dukes commaund in open view,</l>
+                <l>Was ſent for, on whole neuer ſpotted hew,</l>
+                <l>Earths mortall ſoules doe feed and gaze vpon her,</l>
+                <l>So long they gaze, that they doe ſurfet on her.</l>
+                <l>For when this Earthes admir'd immortall Sunne,</l>
+                <l>To peepe from vnder ſable hould begun.</l>
+                <l>Like as the pearcing eye of cloudie Heauen,</l>
+                <l>Whoſe ſight the blacke thicke couldes haue quite beriuen.</l>
+                <l>But by the huffing windes being ouerblowen,</l>
+                <l>And all their blacke expeld and ouerthrowen.</l>
+                <l>The day doth gin, be iocond ſecure playing,</l>
+                <l>The fair of Heauen, his beautie ſo diſplaying:</l>
+                <l>So when the faireſt <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> did begin,</l>
+                <l>(Whilome yclad in darknes blacke tan'd skin.</l>
+                <l>To paſſe the noyſome portall of the priſon,</l>
+                <l>Like to the gorgeous <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_APOL1">Phaebus</persName> newly riſen,</l>
+                <l>She doth illuminate the morning day,</l>
+                <l>Clad in a ſable Mantle of blacke Say.</l>
+                <l>Which <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero's</persName> eyes transformed to faire white,</l>
+                <l>Making the lowring-morne darke, pure light.</l>
+            </lg>
+            <fw type="signature" style="text-align:center;">D ij.</fw>
+            <fw type="catchword" style="text-align: right;">As</fw>
+               
+            <pb/>
+               
+            <fw type="header" style="text-align:center; font-style:italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> and <persName ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName></fw>
+               
+            <lg>
+                <l>As many mortall eyes beheld her eies,</l>
+                <l>As there are fierie Tapors in the skies:</l>
+                <l>As many eyes gaz'd on faire <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero's</persName> beautie,</l>
+                <l>As there be eyes that offer Heauen dutie:</l>
+                <l>As many ſeruitors attended on her,</l>
+                <l>As <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_VENU1">Venus</persName>, ſeruants had to waite vpon her.</l>
+                <l>Though by the ſterne Duke ſhe was diſhonored,</l>
+                <l>Yet of the people ſhe was honored:</l>
+                <l>Mong'ſt whome exil'd <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> all vnſeene,</l>
+                <l>And all vnknowne attanded on his <hi style="font-style:italic;">Queene</hi>.</l>
+                <l>When to the neere-dioyning pallaice gate,</l>
+                <l>The place appointed for the Princely combate,</l>
+                <l>They did approch; there might all eies behold,</l>
+                <l>The Duke in armour of pure beaten gold,</l>
+                <l>Mounted vpon a Steed as white as ſnow,</l>
+                <l>The proud Duke <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_EURI1">Euriſtippas</persName> <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero's</persName> foe.</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> being ſeated in rich Maieſtie,</l>
+                <l>A ſeruile hand-mayd to Captiuitie.</l>
+                <l>From whence ſhe might behold that gentle Knight,</l>
+                <l>That for her ſake durſt hazard life in fight.</l>
+                <l>For this was all the comfort Hero had,</l>
+                <l>So many eyes ſhed teares to ſee her ſad.</l>
+                <l>Her hand-maide hope, perſwaded her ſome one,</l>
+                <l>Vndaunted Knight would be her Champion.</l>
+                <l>Yet ſince her Lord <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> was not nie,</l>
+                <l>She was reſolu'd eyther to liue or die;</l>
+                <l>But her <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> carefull of his loue,</l>
+                <l>Intending loues firme conſtancie to proue:</l>
+                <l>(Yf to his lot the honour did befall,)</l>
+                <l>Withdrew himſelfe into the Pallaice hall,</l>
+            </lg>
+            <fw type="catchword" style="text-align: right;">Where</fw>
+               
+            <pb/>
+               
+            <fw type="header" style="text-align: center; font-style:italic;">further Fortunes.</fw>
+            <lg>
+                <l>Where he was armed to his ſoules content,</l>
+                <l>And priuily conducted to a tent,</l>
+                <l>From whence he iſſu'd foorth at trumpets ſound,</l>
+                <l>Who at the firſt encounter, on the ground.</l>
+                <l>Forced the mazed Duke ſore panting lie,</l>
+                <l>Drown'd in the ryuer of ſad extacie.</l>
+                <l>At length reuiuing, he doth mount againe,</l>
+                <l>Whome young <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> in ſhort time had ſlaine.</l>
+                <l>The Duke quite dead, this all vnknowne young Knight,</l>
+                <l>Was foorthwith made the heire of <placeName style="font-style:italic;">Seſtos</placeName> right.</l>
+                <l>The Princeſſe <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> ſet at libertie,</l>
+                <l>Kept by the late dead Duke in miſerie;</l>
+                <l>Whoſe conſtancie <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> gan to proue,</l>
+                <l>And now anew begins to court his loue.</l>
+                <l>To walke on ground where danger is vnſeene,</l>
+                <l>Doth make men doubt, where they haue neuer been.</l>
+                <l>As blind men feare what footing they ſhall finde:</l>
+                <l>So doth the wiſe miſtruſt the ſtraungers mind.</l>
+                <l>I ſtrange to you, and you vnknowen to me,</l>
+                <l>Yet may not loue twixt vs two grafted bee?</l>
+                <l>What I haue done, for <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero's</persName> loue was done,</l>
+                <l>Say then you loue, and end as I begun.</l>
+                <l>I hazard life, to free thy beauties faire,</l>
+                <l>From Tyrants force and helliſh ſoule diſpaire:</l>
+                <l>Then ſacred <hi style="font-style:italic;">Faire</hi> ballance my good deſart,</l>
+                <l>Inrich my ſoule with thy affecting hart.</l>
+                <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> repli'd: (to rue on all falſe teares,</l>
+                <l>And forged tales, wherein craft oft appeares,</l>
+                <l>To truſt each fained face, and forcing charme,</l>
+                <l>Betrayes the ſimple ſoule that thinks no harme.)</l>
+            </lg>
+            <fw type="signature" style="text-align: center;">D iij.</fw>
+            <fw type="catchword" style="text-align: right;">(Not</fw>
+               
+            <pb/>
+               
+            <fw type="header" style="text-align:center; font-style:italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> and <persName ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leanders</persName></fw>
+            <lg>
+                <l>(Not euery teare doth argue inward paine,</l>
+                <l>Not euery ſigh warrants men doe not faine,</l>
+                <l>Not euery ſmoke doth proue a preſent fier,</l>
+                <l>Not all that gliſters, goulden ſoules deſire,</l>
+                <l>Not euery word is drawen out of the deepe,</l>
+                <l>For oft men ſmile, when they doe ſeeme to weepe:</l>
+                <l>Oft malice makes the minde to power forth brine,</l>
+                <l>And enuie leakes the conduits of the eyne.</l>
+                <l>Craft oft doth cauſe men make a ſeeming ſhowe,</l>
+                <l>Of heauie woes where griefe did neuer growe.</l>
+                <l>Then blame not thoſe that wiſelie can beware,</l>
+                <l>To ſhun diſimulations dreadfull ſnare.</l>
+                <l>Blame not the ſtopped eares gainſt <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_SYRE1">Syrens</persName> ſonge,</l>
+                <l>Blame not the minde not mou'd with falſhood tonge.)</l>
+                <l>But reſt content and ſatisfied with this,</l>
+                <l>Whilſt true <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> liues, true <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero's</persName> his.</l>
+                <l>And thy <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> liues ſweete ſoule ſayde he,</l>
+                <l>Prayſing why all admired chaſtitie.</l>
+                <l>Though thus diſguis'd, I am that baniſht Knight,</l>
+                <l>That for affecting thee was put to flight.</l>
+                <l><persName ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName>, I am <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> thy true phere,</l>
+                <l>As true to thee, as life to me is deere.</l>
+                <l>When <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> all amazed gan reuiue,</l>
+                <l>And ſhe that then ſeem'd dead, was not aliue:</l>
+                <l>With kinde imbracements kisſing at each ſtraine,</l>
+                <l>She welcoms him, and kiſſes him againe.</l>
+                <l>By thee, my ioyes haue ſhaken of diſpaire,</l>
+                <l>All ſtormes be paſt, and weather waxeth faire,</l>
+                <l>By thy returne <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HERO1">Hero</persName> receaues more Ioye,</l>
+                <l>Then <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_PARI2">Paris</persName> did when <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_HELL1">Hellen</persName> was in <placeName style="font-style:italic;">Troy</placeName>.</l>
+            </lg>
+            <fw type="catchword" style="text-align:right;">By</fw>
+               
+            <pb/>
+               
+            <fw type="header" style="text-align: center; font-style:italic;">further Fortunes.</fw>
+            <lg>
+                <l>By thee my heauy doubts and thoughts are fled,</l>
+                <l>And now my wits with pleaſant thoughts are fed.</l>
+                <l>Feed ſacred Sainct on <hi style="font-style:italic;">Nectar</hi> all diuine,</l>
+                <l>While theſe my eyes (quoth he) gaze on thy eyne.</l>
+                <l>And euer after may theſe eyes beware,</l>
+                <l>That they on ſtrangers beautie neuer ſtareL</l>
+                <l>(My wits I charme henceforth they take ſuch heede,</l>
+                <l>They frame no toyes, my fancies new to feede.</l>
+                <l>Deafe be my eares to heare another voice,</l>
+                <l>To force me ſmile, or make my ſoule reioyce,</l>
+                <l>Lame by my feete when they preſume to moue,</l>
+                <l>To force <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LEAN1">Leander</persName> ſeeke another loue.</l>
+                <l>And when thy faire (ſweet fair) I gin diſgrace,</l>
+                <l>Heauen to my ſoule afford no reſting place.</l>
+                <l>What he to her, ſhe vow'd the like to him,</l>
+                <l>(All ſorrowes fled) their ioyes anew begin.</l>
+                <l>Full many yeares thoſe louers liu'd in fame,</l>
+                <l>That all the world did much admire the ſame.</l>
+                <l>Their liues ſpent date, and vnreſiſted death,</l>
+                <l>At hand to ſet a period to their breath,</l>
+                <l>They were transform'd by all diuine decrees,</l>
+                <l>Into the forme, and ſhape of two Pine trees.</l>
+                <l>Whoſe <hi style="font-style:italic;">Natures</hi> ſuch, the <hi style="font-style:italic;">Faemale</hi> pine will die,</l>
+                <l>Vnles the <hi style="font-style:italic;">Male</hi> be euer planted by:</l>
+                <l>A map for all ſucceeding times to come,</l>
+                <l>To view true-loue, which in their loues begun.</l>
+            </lg>   
+            <fw type="trailer" style="text-align: center;">Finis.</fw>
+            <fw type="postscript" style="text-align: center; font-style:italic;">Qualis vita, finis ita.</fw>
+            </div>        
+        </body>
+    </text>
+</TEI>

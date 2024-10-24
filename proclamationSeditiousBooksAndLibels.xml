@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://jenkins.hcmc.uvic.ca/job/MoEML/lastStableBuild/artifact/static/site/xml/schemas/london_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Proclamations_books_rm">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    By the Queene A Proclamation for the ſuppreſsing of ſeditious Books and Libelles.
+                    <!--  Insert short Title of your Proclamation Here  -->
+                </title>
+                <author>
+                    <persName type="hist">
+                        <supplied reason="omitted">Elizabeth</supplied>
+                    </persName>
+                </author>
+                <author>
+                    <orgName>English Crown</orgName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                    Printed by
+                    <persName type="hist">
+                        <forename>Christopher</forename>
+                        <surname>Barker</surname>
+                    </persName>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                    Information about the source
+                    <!--  Working from(microfilm) copy available via EEBO  -->
+                    <idno>
+                        <!--  INSERT STC NUMBER HERE FROM WORKS CITED  -->
+                    </idno>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef/>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <p>TEI P5</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="BENN"/>
+        </revisionDesc>
+    </teiHeader>
+    <!--  WHEN IN DOUBT, COMMENT IT OUT! -->
+    <text>
+        <front/>
+        <body>
+            <div>
+                <p>
+                    <title style="text-align:center; font-style:roman">
+                        <hi style="font-size:250%">By the Queene.</hi>
+                        <supplied reason="omitted">Elizabeth I</supplied>
+                        <lb/>
+                        <lb/>
+                        <figure>
+                            <figDesc>Printer's Ornament</figDesc>
+                        </figure>
+                        <figure>
+                            <figDesc>Printer's Ornament</figDesc>
+                        </figure>
+                        <figure>
+                            <figDesc>Printer's Ornament</figDesc>
+                        </figure>
+                        <lb/>
+                        <lb/>
+                        <hi style="font-size:125%">A Proclamation for the ſuppreſsing of ſeditious</hi>
+                        <lb/>
+                        <hi style="font-size:.75">Books and Libelles.</hi>
+                    </title>
+                    <!--  hit return for line breaks  -->
+                    <!--  Keep your square brackets for any stuff that needs to be encoded  -->
+                </p>
+                <p style="font-style:blackletter;">
+                    <seg style="decorInit"><hi style="font-size:500">T</hi></seg><l style="margin-left:14em;">he Queenes moſt excellent Maieſtie being giuen tounderſt and that diuers falſe,</l><lb/>
+                    <l style="margin-left:14em;">ſlanderous, wicked, ſeditious and trayterous bookes and libelles, are couertly and</l><lb/>
+                    <l style="margin-left:14em;">in ſecret maner diſperſed through this Realme, by diuers ſeditious and trayterous</l><lb/>
+                    <l style="margin-left:14em;">perſons, tending not onely to the defacing of true Religion now eſtabliſhed within</l><lb/>
+                    <l style="margin-left:14em;">theſe her highneſſe dominions, but alſo moſt traiterouſly &amp; iniuriouſly to ſlander the</l><lb/>
+                    <l style="margin-left:14em;">preſent moſt happie &amp; quiet gouernement, with crueltie and extraordinaire maner of</l><lb/>
+                    <l style="margin-left:14em;">proceedings in the due execution of iuſtice, and withall, moſt deteſtably and ſlaun‐</l><lb/>
+                    <l style="margin-left:14em;">derouſly to reproche her moſt renoumed and deare father, the diſhonour or note</l><lb/>
+                    <l style="margin-left:14em;">whereof, doth and cannot but touch her ſelfe, as neere as her Highneſſe owne life,</l><lb/>
+                    and ſo ſhee taketh it: In ſome of which their moſt ſhamefull, infamous, and deteſtable libelles, they goe about to re‐<lb/>
+                    proche, diſhonour and touch with abominable lyes (as is well knowne to the whole Realme) not onely many of her<lb/>
+                    moſt truſtie and faithfull Counſellers, but alſo her Highneſſe Judges and miniſters of the lawe, greatly touching<lb/>
+                    thereby her Highneſſe ſelfe in her Regall and kingly office, as making choyſe of men of want both of iuſtice, care, and<lb/>
+                    other ſusfficiencie to ſerue her Highneſſe and the common weale. And further, in the ſayd books and libelles, they vſe<lb/>
+                    all the meanes, driftes, and falſe perſwaſions they can deuiſe or imagine, to aduaunce ſuch pretended titles, as conſe‐<lb/>
+                    quently muſt be moſt daungerous and preiudiciall to the ſafetie of her Highneſſe perſon and ſtate, (which the Lorde<lb/>
+                    long preſecue.) Her higneſſe foreſeeing, that the authors and diſperſers of the ſaide books and libelles, doe by theſe<lb/>
+                    wicked and indirect meanes, ſeeke moſt trayterouſly to render and make both her Highneſſe, and her moſt gratious<lb/>
+                    gourmement, odious and hatefull both abroade and at home: And hauing of late founde by plaine and manifeſt<lb/>
+                    meanes and proofes, that their purpoſe and chiefe intent, to bring in obloquie &amp; hatred, her Maieſties principall No‐<lb/>
+                    ble men, Counſellers, Judges and miniſters of Juſtice, is (as much as in them lieth) to ſlaunder, impeach, and deface<lb/>
+                    her Maieſties moſt happie gouernement, and there upon to breede ſome troubles within this Realme, whereby their<lb/>
+                    vnnatural, deuilliſh, and trayterous practiſes both againſt her Maieſtie their naturall Soueraigne, and the Realme<lb/>
+                    their owne natiue countrey, may take their deſired effect: hath therefore thought meete, that ſome order ſhould be pre-<lb/>
+                    ſently taken, for the preuenting &amp; ſuppreſſing of ſuch miſchiefes, as otherwiſe through ignorance of the trueth might<lb/>
+                    enſue thereby. And therefore her Highneſſe doeth by this her Maieſties proclamation ſtraightly charge and com‐<lb/>
+                    maund, that all ſuch perſons to whoſe handes any of the ſaide bookes or libelles, either hath come, or ſhall hereafter<lb/>
+                    at any time come, do preſently with all conuenient ſpeede, without ſhewing the ſame to any perſon, deliuer it to ſome<lb/>
+                    one of her Highneſſe priuie Counſel, if any ſuch be within twentie miles. And if it be aboue that diſtance of miles from<lb/>
+                    the Court, then to the<foreign xml:lang="la"><hi style="font-style:roman;">Cuitos Rotulorum</hi></foreign>, or to his Deputie of the ſame Shire, where the partie ſhall be, that hath or<lb/>
+                    ſhal haue any ſuch booke or libel, and the ſame<foreign xml:lang="la"><hi style="font-style:roman">Cuſtos Rotulorum</hi></foreign> or his Deputie, to whoſe handes any ſuch booke<lb/>
+                    or libel ſhall come, ſhall preſently &amp; ſafely ſend the ſame to the Lordes of her Maieſties moſt honourable priuie Coun‐<lb/>
+                    ſell. And leaſt that any euill diſpoſd and affected perſon ſhould maliciouſly and vnduetifully make any wrong or ſi‐<lb/>
+                    niſter conſtruction of this her Maieſties meaning towards ſuch as mooued with that duetie and reuerence that ap‐<lb/>
+                    pertaineth, ſhall make deliuery of any the ſayd Bookes and libelles, her Highneſſe pleaſure is, and ſo doeth hereby ſig‐<lb/>
+                    <pb/>
+                    nall to all her louing Subiectes, that they nor any of them ſhall be moleſted, impeached, or troubled for the hauing or<lb/>
+                    <unclear reason="illegible"><!--  9 letters  --></unclear> of any of the ſayd Bookes or libels, so as they doe deliuer the ſame according to the<unclear reason="illegible"><!--  6 letters  --></unclear> &amp; true meaning<lb/>
+                    of this preſent Proclamation, and ſo as it do appeare that they haue bene no ſetters foorth, diſperſers, mainteiners<lb/>
+                    or authors of any of the ſayde bookes or libelles. And in caſe any of the ſayde parties that eyther hath, or at any time<lb/>
+                    hereafter ſhal haue any of the ſayd bookes or libelles, ſhal not make deliuery thereof in ſort as is before ſpecified: Then<lb/>
+                    her Highneſſe further pleaſure and expreſſe commaundement is, that the partie or parties ſo offending, ſall be com‐<lb/>
+                    mitted to priſon, there to remaine without baile or maynepriſe, vntill order ſhalbe taken by the Lordes of her Ma‐<lb/>
+                    iesties printe Counſel, for the proceeding againſt ſuch offenders for ſuch their offence, according to the nature and qua‐<lb/>
+                    <unclear reason="illegible"><!--  3 letters  --></unclear>unclear> of the ſayd offence. And her Maieſties further pleaſure is, that all Marchantes, maſters of Shippes, officers<lb/>
+                    of Ports , or any other that ſhalbe bringer into this Realme of any the ſayde ſeditious bookes or libelles, or a diſperſer<lb/>
+                    of the ſame, or ſhall hereafter be any way priuie to the making, bringing in, or diſperſing of them, or any of them, and<lb/>
+                    ſhall not immediatly diſcouer ſuch offender or offenders to the next Juſtice of the peace where ſuch offence ſhall be<lb/>
+                    committed, whereby the offenders may be apprehended, and brought to be forthcomming to receiue ſuch puniſh‐<lb/>
+                    ment as his ſayd offense ſhal deſerue: That then ſuch perſon or perſons ſo offending, ſhalbe committed to priſon, there <lb/>
+                    to remayne without bayle or mainepriſe as aforeſayd, vntill he be proceeded on according to Juſtice. And for the bet‐<lb/>
+                    ter execution of the ſayd Proclamation, her Maieſtie is pleaſed, that all ſuch perſons as ſhall detect any of the ſayd<lb/>
+                    offenders, whereby they may be forthcomming to receiue condigne puniſhment according to their demerits, ſhall<lb/>
+                    haue the moytie of ſuch forſaitures and penalties, as ſhalbe layde or inflicted upon ſuch offenders ſo by them detected,<lb/>
+                    for ſuch their offences. And in caſe any Maior, Juſtice of peace, or other publique and inferiour officer ſhall be found<lb/>
+                    remiſſe in the due execution of the ſayd Proclamation, that then the ſayd partie or parties ſo offending, ſhall alſo be<lb/>
+                    produced before the ſayd Lordes, to receiue puniſhment for that contempt and remiſſenes vled in that behalf, in ſuch<lb/>
+                    that as ſhal appertayne to the nature and qualitie of the ſame offence. Giuen at her Maieſties Honour of<placeName>Hampton<lb/>
+                    court</placeName>, the twelfth day of October, in the ſixe and twentieth yeere of her Maieſties reigne.<lb/>
+                    <lb/>
+                    <l style="text-align:center;"><hi style="font-varient: italic; font-style: roman; font-size: 150%">God ſaue the Queene.</hi></l><lb/>
+                    <lb/>
+                    <lb/>
+                    <lb/>
+                    <fw type="signature" style="text-align:center; font-style: roman">
+                    <hi style="text-align:center; font-size:150% font-style:roman">God ſaue the Queene.</hi><lb/>
+                        <hi style="text-align:center; font-size:250% font-style:roman">Imprinted at London by <persName type="hist"> Chriſtopher </persName></hi><lb/>
+                        <hi style="text-align:center; font-size:150% font-style:roman;"><persName type="hist">Barker </persName>, Printer to the Queenes moſt excellent<lb/></hi>
+                        <hi style="text-align:center; font-size:150% font-style:italic;">Maieſtie.</hi><lb/></fw>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

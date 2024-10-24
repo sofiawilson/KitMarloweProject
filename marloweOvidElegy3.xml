@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://jenkins.hcmc.uvic.ca/job/MoEML/lastStableBuild/artifact/static/site/xml/schemas/london_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Marlowe_Ovid_Elegy_1_Hawkes">
+    <!-- 
+    Caroline Hawkes
+    12/08/2022
+    Marlowe's Ovid, Elegy 3
+    Used A and B text
+-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marlowe_Ovid</title>
+                <author><persName type="hist"><forename><surname/></forename></persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Printed by <persName type="hist"><forename/>
+                    <surname/></persName>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source
+                    <!-- Working from Huntington Library (microfilm) copy available via EEBO and Boston Public Library --><idno>STC
+                        21864</idno></p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef/>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <p>TEI P5</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="BENN"/>
+        </revisionDesc>
+    </teiHeader>
+    <!-- COMMENT IT OUT -->
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">
+                        <hi style="text-align: center; font-style: italic;">
+                            <foreign xml:lang="la">
+                                ELEGIA. 3 <!-- Translation: ELEGY 3 --> <lb/>
+                                Ad amicam. <!-- Translation: To a friend. --> <lb/>
+                                <lb/>
+                            </foreign>
+                        </hi>
+                    </titlePart>
+                </docTitle>
+                <docAuthor/>
+                <docImprint/>
+                <docDate/>
+            </titlePage>
+        </front>
+        <body>
+            <div type="section">
+                <lg>
+                    <l>
+                        I Aske but right: let he that caught me late, <lb/>
+                    </l>
+                    <l>
+                        Either loue, or cauſe that I may neuer hate.<lb/>
+                    </l>
+                    <l>
+                        I aske too much, would ſhe but let me loue her,<lb/>
+                    </l>
+                    <l>
+                        <hi style="font-style:italic"><persName type="lit">Ioue</persName></hi> knowes with ſuch like prayers I daily moue her,<lb/>
+                    </l>
+                    <l>
+                        Accept him that will ſerue thee all his youth,<lb/>
+                    </l>
+                    <l>
+                        Accept him that will loue with ſpoteleſſe truth.<lb/>
+                    </l>
+                    <l>
+                        If loftie titles cannot make me thine,<lb/>
+                    </l>
+                    <l>
+                        That am deſcended but of Knightly line. <lb/>
+                    </l>
+                    <l>
+                        Soone may you plow the little land I haue,<lb/>
+                    </l>
+                    <l>
+                        I glady grant my parents giuen, to ſaue.<lb/>
+                    </l>
+                    <l>
+                        <hi style="font-style:italic"><persName type="lit">Apollo</persName></hi>, <hi style="font-style:italic"><persName type="lit">Baccus</persName></hi>, and Muſes may, <lb/>
+                    </l>
+                    <l>
+                        And <hi style="font-style:italic"><persName type="lit">Cupid</persName></hi> who hath markt me for thy pray.<lb/>
+                    </l>
+                    <l>
+                        My ſpoteleſſe life, which but to Gods giue place.<lb/>
+                    </l>
+                    <l>
+                        Naked ſimplicity, and modeſt grace. <lb/>
+                    </l>
+                    <l>
+                        I loue but one, and her I loue, change neuer,<lb/>
+                    </l>
+                    <l>
+                        If men haue faith, I'le liue with thee for euer.<lb/>
+                    </l>
+                    <l>
+                        The yeares that fatall deſtinie ſhall giue,<lb/>
+                    </l>
+                    <l>
+                        I'le liue with thee, and dye, ere thou ſhalt grieue.<lb/>
+                    </l>
+                    <l>
+                        Be thou the happy ſubiect of my bookes,<lb/>
+                    </l>
+                    <l>
+                        That I may write things worthy thy faire lookes.<lb/>
+                    </l>
+                    <l>
+                        By verſes horned <hi style="font-style:italic"><persName type="lit">Io</persName></hi> got her name,<lb/>
+                    </l>
+                    <l>
+                        And ſhe to whom in ſhape of Swanne <hi style="font-style:italic"><persName type="lit">Ioue</persName></hi> came.<lb/>
+                    </l>
+                    <l>
+                        And he that on a fain'd Bull ſwamme to land,<lb/>
+                    </l>
+                    <l>
+                        Griping his falſe hornes with her virgin hand.<lb/>
+                    </l>
+                    <l>
+                        So likewiſe we will through the world be rung,<lb/>
+                    </l>
+                    <l>
+                        And with my name ſhall thine be always ſung. <lb/>
+                    </l>
+                    <fw type="signature"><supplied reason="omitted-in-original">A 3v</supplied></fw>
+                    <fw type="catchword" style="text-align;right;">ELE</fw> <lb/>
+                    <pb/>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

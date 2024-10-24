@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://jenkins.hcmc.uvic.ca/job/MoEML/lastStableBuild/artifact/static/site/xml/schemas/london_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Marlowe_Ovid_Elegy_1_Hawkes">
+    <!-- 
+    Caroline Hawkes
+    12/07/2022
+    Marlowe's Ovid, Elegy 
+    Used A and B text
+-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marlowe_Ovid</title>
+                <author><persName type="hist"><forename><surname/></forename></persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Printed by <persName type="hist"><forename/>
+                    <surname/></persName>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source
+                    <!-- Working from Huntington Library (microfilm) copy available via EEBO and Boston Public Library --><idno>STC
+                        21864</idno></p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef/>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <p>TEI P5</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="BENN"/>
+        </revisionDesc>
+    </teiHeader>
+    <!-- COMMENT IT OUT -->
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">
+                        <hi style="text-align: center; font-style: italic;">
+                            <foreign xml:lang="la">
+                                ELEGIA. 2. <!-- Translation: ELEGY. 2. --> <lb/>
+                                Quod primo amore correptus, in triumphum duct <!--Translation: That, seized at first love, leads to triumph--> <lb/>
+                                ſe a cupidine patiatur. <!-- Translation: He suffers from lust. --> <lb/>
+                            </foreign>
+                        </hi>
+                    </titlePart>
+                </docTitle>
+                <docAuthor/>
+                <docImprint/>
+                <docDate/>
+            </titlePage>
+        </front>
+        <body>
+            <div type="section">
+                <lb/>
+                <lg>
+                    <l>
+                        VVHat makes my bed ſeeme hard ſeeing it is ſoft? <lb/>
+                    </l>
+                    <l>
+                        Or why ſlips downe the couerlet ſo oft? <lb/>
+                    </l>
+                    <l>
+                        Although the nights be long, I ſleepe not tho, <lb/>
+                    </l>
+                    <l>
+                        My ſides are ſore with tumbling to and fro. <lb/>
+                    </l>
+                    <l>
+                        Were loue that cauſe, it's like I ſhould deſcry him, <lb/>
+                    </l>
+                    <l>
+                        Or lyes he cloſe, and ſhootes where none can ſpie him. <lb/>
+                    </l>
+                    <l>
+                        Twas ſo, he ſtroke me with a ſlender darr, <!-- dart in version b --> <lb/>
+                    </l>
+                    <l>
+                        Tis cruell loue turmoyles my captiue heart. <lb/>
+                    </l>
+                    <l>
+                        Yeelding or ſtrugling do we giue him might, <lb/>
+                    </l>
+                    <l>
+                        Let's yeeld, a burthen eaſly borne is light.<lb/>
+                    </l>
+                    <l>
+                        I ſaw a brandisſht fire increaſe in ſtrength,<lb/>
+                    </l>
+                    <l>
+                        Which being not ſlackt, I ſaw it dye at length.<lb/>
+                    </l>
+                    <l>
+                        Young Oxen newly yoakt are beaten more,<lb/>
+                    </l>
+                    <l>
+                        Then Oxen which haue drawne the plough before.<lb/>
+                    </l>
+                    <l>
+                        And rough Iades mouthes with ſtuborne bits are torne,<lb/>
+                    </l>
+                    <l>
+                        But managde horſes heads are lightly borne.<lb/>
+                    </l>
+                    <l>
+                        Vnwilling louers, loue doth more torment,<lb/>
+                    </l>
+                    <fw type="signature"><supplied reason="omitted-in-original">A 2v</supplied></fw><!-- Partially A Second Version Translation, * indicates this -->
+                    <fw type="catchword" style="text-align;right;">Then</fw> <lb/>
+                    <pb/>
+                    <fw type="header" style="text-align:center; font-style: italic"><hi style="font-size=150%">OVIDS ELEGIES.</hi></fw>
+                    <lb/>
+                    <l>
+                        Then ſuch as in their bondage feele content.<lb/>
+                    </l>
+                    <l>
+                        Loe I confeſſe, I am thy captiue I,<lb/>
+                    </l>
+                    <l>
+                        And hold my conquer'd hands for thee to tie. <lb/>
+                    </l>
+                    <l>
+                        What need'ſt thou warre, I ſue to thee for grace,<lb/>
+                    </l>
+                    <l>
+                        With armes to conquer armeleſſe men is baſe.<lb/>
+                    </l>
+                    <l>
+                        Yoake <hi style="font-style:italic">Venus<persName type="lit"></persName></hi> Doues, put Mirtle on thy haire,<lb/>
+                    </l>
+                    <l>
+                        <hi style="font-style:italic"><persName type="lit">Vulcan</persName></hi> will giue thee chariots rich and faire.<lb/>
+                    </l>
+                    <l>
+                        Th people thee applauding thou ſhalt ſtand,<lb/>
+                    </l>
+                    <l>
+                        Guiding the harmeleſſe Pigeons with thy hand.<lb/>
+                    </l>
+                    <l>
+                        Young men, and women ſhalt thou lead as thrall,<lb/>
+                    </l>
+                    <l>
+                        So will thy triumph ſeeme magnificall. <lb/>
+                    </l>
+                    <l>
+                        I lately caught, will haue a new made wound,<lb/>
+                    </l>
+                    <l>
+                        And captiue like be manacled and bound.<lb/>
+                    </l>
+                    <l>
+                        Good meaning ſhame, and ſuch as ſeeke loues wracke * <!--Second Version Translation--><lb/>
+                    </l>
+                    <l>
+                        Shall follow thee their hands tyed at their back.<lb/>
+                    </l>
+                    <l>
+                        Thee all ſhall feare, and worſhip as a King,<lb/>
+                    </l>
+                    <l>
+                        <hi style="font-style:italic"><persName type="lit">Io</persName></hi>, triumphing ſhall thy people ſing.<lb/>
+                    </l>
+                    <l>
+                        Smooth ſpeaches, fear, and rage ſhall by thee ride.<lb/>
+                    </l>
+                    <l>
+                        Which troupes haue alwayes bene on <hi style="font-style:italic"><persName type="lit">Cupids</persName></hi> ſide:<lb/>
+                    </l>
+                    <l>
+                        Thou with theſe ſoul ſouldiers * <!-- Second Version Translation -->, conquereſt <persName type="lit">Gods</persName> and men,<lb/>
+                    </l>
+                    <l>
+                        Take theſe away, where is thine honour then?<lb/>
+                    </l>
+                    <l>
+                        Thy mother ſhall from heauen applaude this ſhow,<lb/>
+                    </l>
+                    <l>
+                        And on their faces heapes of Roſes ſtrow.<lb/>
+                    </l>
+                    <l>
+                        With beautie of thy wings thy faire haire guilded,<lb/>
+                    </l>
+                    <l>
+                        Ride golden loue in chariots richly builded.<lb/>
+                    </l>
+                    <l>
+                        Vnleſſe I erre, full many ſhalt thou burne,<lb/>
+                    </l>
+                    <l>
+                        And giue wounds infinite at euery turne.<lb/>
+                    </l>
+                    <l>
+                        In ſpite of thee forth will thine arrows flye, <lb/>
+                    </l>
+                    <l>
+                        A ſcortching flame burnes all the ſtanders by.<lb/>
+                    </l>
+                    <l>
+                        So hauing conquer'd <hi style="font-style:italic"><persName type="lit">Iude</persName></hi> was <hi style="font-style:italic"><persName type="lit">Bacchus</persName></hi> hew,<lb/>
+                    </l>
+                    <l>
+                        The pompous Birds, and him two Tygers drew. <lb/>
+                    </l>
+                    <l>
+                        Then ſeeing I grace thy ſhow in following thee,<lb/>
+                    </l>
+                    <fw type="signature">A 3<supplied reason="omitted-in-original">r</supplied></fw>
+                        <fw type="catchword" style="text-align;right;">For</fw> <lb/>
+                        <pb/>
+                    <fw type="header" style="text-align:center; font-style: italic"><hi style="font-size=150%">OVIDS ELEGIES.</hi></fw>
+                    <lb/>
+                    <l>
+                        Forbeare to hurt thy ſelfe in ſpoyling me.<lb/>
+                    </l>
+                    <l>
+                        Behold thy kinſ-mans <hi style="font-style:italic"><persName type="lit">Caeſars</persName></hi> proſperous bands,<lb/>
+                    </l>
+                    <l>
+                        Who guards thee conquered, with his conquering hands.<lb/>
+                    </l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>
+

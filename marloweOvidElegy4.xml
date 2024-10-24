@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://jenkins.hcmc.uvic.ca/job/MoEML/lastStableBuild/artifact/static/site/xml/schemas/london_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Marlowe_Ovid_Elegy_1_Hawkes">
+    <!-- 
+    Caroline Hawkes
+    12/09/2022
+    Marlowe's Ovid, Elegy 4
+    Used A and B text
+    
+-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marlowe_Ovid</title>
+                <author><persName type="hist"><forename><surname/></forename></persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Printed by <persName type="hist"><forename/>
+                    <surname/></persName>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source
+                    <!-- Working from Huntington Library (microfilm) copy available via EEBO and Boston Public Library --><idno>STC
+                        21864</idno></p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef/>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <p>TEI P5</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="BENN"/>
+        </revisionDesc>
+    </teiHeader>
+    <!-- COMMENT IT OUT -->
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">
+                        <fw type="header" style="text-align:center; font-style: italic"><hi style="font-size=150%">OVIDS ELEGIES.</hi></fw>
+                        <hi style="text-align: center; font-style: italic;">
+                            ELEGIA. 4. <!-- Translation: Elegy 4--> <lb/>
+                            Amicam, qua arte, quibuſue nutibus in cans preſente <!-- Translation:  I am a friend, with what art, with every nod to the present dog--> <lb/>
+                            viro vts debeat, admonet. <!-- Translation: it is due to the husband, he warns. --> <lb/>
+                        </hi>
+                        <lb/>
+                    </titlePart>
+                </docTitle>
+                <docAuthor/>
+                <docImprint/>
+                <docDate/>
+            </titlePage>
+        </front>
+        <body>
+            <div type="section">
+                <lg>
+                    <l>
+                        THy husband to a banquet goes with me, <lb/>
+                    </l>
+                    <l>
+                        Pray God it may his lateſt ſupper be. <lb/>
+                    </l>
+                    <l>
+                        Shall I ſit gazing as a baſhfull gueſt,<lb/>
+                    </l>
+                    <l>
+                        While others touch the damſel I loue beſt?<lb/>
+                    </l>
+                    <l>
+                        With lying, vnder him his boſome clippe?<lb/>
+                    </l>
+                    <l>
+                        About thy neck ſhall he at pleaſure skippe?<lb/>
+                    </l>
+                    <l>
+                        Marueile not, though the faire Bride did incite, <lb/>
+                    </l>
+                    <l>
+                        The drunken <hi style="font-style:italic">Centaures</hi> to a ſodaine fight. <lb/>
+                    </l>
+                    <l>
+                        I am no halfe horſe, hor in woods I dwell, <lb/>
+                    </l>
+                    <l>
+                        Yet ſcarſe my hands from thee contain: I well.<lb/>
+                    </l>
+                    <l>
+                        But how thou ſhould'ſt behaue thy ſelſe now know<lb/>
+                    </l>
+                    <l>
+                        Nor let the windes a way my warnings blow.<lb/>
+                    </l>
+                    <l>
+                        Before thy husband come, though I not ſee,<lb/>
+                    </l>
+                    <l>
+                        What may be done, vet there before him * <!-- Second Version Translation --> be.<lb/>
+                    </l>
+                    <l>
+                        Lye with him gently, when his limbes * <!-- Second Version Translation --> he ſpread, <lb/>
+                    </l>
+                    <l>
+                        Vpon the bed, but on my feete firſt tread. <lb/>
+                    </l>
+                    <l>
+                        View me, my becks, and ſpeaking couatenance, * <!-- Second Version Translation --><lb/>
+                    </l>
+                    <l>
+                        Take, and receiue each ſecret amorous glaunce. * <!-- Second Version Translation --><lb/>
+                    </l>
+                    <l>
+                        Words without voyce ſhall on my eye-browes ſit,<lb/>
+                    </l>
+                    <l>
+                        Lines thou ſhalt read in wyne by my hand writ.<lb/>
+                    </l>
+                    <l>
+                        When our laſciuious toyes come in * <!-- Second Version Translation --> thy minde,<lb/>
+                    </l>
+                    <l>
+                        Thy Roſie checks * <!-- Second Version Translation --> be to thy thombe inc<hi style="font-style:italic">linde.</hi><lb/>
+                    </l>
+                    <l>
+                        If ought of me thou ſpeak'it in inward thought,<lb/>
+                    </l>
+                    <l>
+                        Let thy ſoft finger to thy eare be brought.<lb/>
+                    </l>
+                    <l>
+                        When I (my light) do or ſay ought that pleaſe thee. <lb/>
+                    </l>
+                    <l>
+                        Turne round thy gold-ring, as it were to eaſe thee. <lb/>
+                    </l>
+                    <l>
+                        Strike on the boord * <!-- Second Version Translation, not clear --> like them that pray for euill,<lb/>
+                    </l>
+                    <l>
+                        When thou doeſt wiſh thy husband as the deuil.<lb/>
+                    </l>
+                        <fw type="signature">A 4<supplied reason="omitted-in-original">r</supplied></fw>
+                        <fw type="catchword" style="text-align;right;">What</fw> <lb/>
+                        <pb/>
+                        <fw type="header" style="text-align:center; font-style: italic"><hi style="font-size=150%">OVIDS ELEGIES.</hi></fw>
+                    <l>
+                        What wine he fills thee, wiſely will him drinke,<lb/>
+                    </l>
+                    <l>
+                        Aske thou the boy, what thou enough doeſt thinke.<lb/>
+                    </l>
+                    <l>
+                        When thou haſt taſted, I will take the cup,<lb/>
+                    </l>
+                    <l>
+                        And where thou drink'ſt, on that part I will ſup.<lb/>
+                    </l>
+                    <l>
+                        If he giues thee what firſt himſelſe did taſt,<lb/>
+                    </l>
+                    <l>
+                        If he giues thee what firſt himſelſe did taſt,<lb/>
+                    </l>
+                    <l>
+                        Euen in his face his offered Goblets caſt.<lb/>
+                    </l>
+                    <l>
+                        Let not thy neck by his vile armes be preſt,<lb/>
+                    </l>
+                    <l>
+                        Nor leaue thy ſoſt head on his boiſtrous breſt.<lb/>
+                    </l>
+                    <l>
+                        Thy boſomes Roſeat buds let him not finger,<lb/>
+                    </l>
+                    <l>
+                        Chiefely on thy lips let not his lips linger. <lb/>
+                    </l>
+                    <l>
+                        If thou giueſt kiſſes, I ſhall all diſcloſe,<lb/>
+                    </l>
+                    <l>
+                        Say they are mine, and hands on thee impoſe.<lb/>
+                    </l>
+                    <l>
+                        Yet this I'le ſee, but if thy gowne ought couer,<lb/>
+                    </l>
+                    <l>
+                        Suſpitious feare in all my veines will houer.<lb/>
+                    </l>
+                    <l>
+                        Mingle not thighes, nor to his legge ioyne thine,<lb/>
+                    </l>
+                    <l>
+                        Nor thy ſoſte foote with his hard foote combine.<lb/>
+                    </l>
+                    <l>
+                        I haue beene wanton, therefore am perplext,<lb/>
+                    </l>
+                    <l>
+                        And with miſtruſt of the like meaſure vext.<lb/>
+                    </l>
+                    <l>
+                        I and my wench oft vnder clothers did lurke,<lb/>
+                    </l>
+                    <l>
+                        When pleaſure mou'd  vs to our ſweeteſt worke.<lb/>
+                    </l>
+                    <l>
+                        Do not thou ſo, but throw thy mantle hence,<lb/>
+                    </l>
+                    <l>
+                        Leaſt I ſhould thinke thee guilty of offence.<lb/>
+                    </l>
+                    <l>
+                        Entreat thy husband drinke, but do not kiſſe,<lb/>
+                    </l>
+                    <l>
+                        And while he drinks, to adde more do not miſſe,<lb/>
+                    </l>
+                    <l>
+                        If he lyes downe with wine and ſleepe opreſt,<lb/>
+                    </l>
+                    <l>
+                        The thing and place ſhall counſell vs the reſt.<lb/>
+                    </l>
+                    <l>
+                        When to goe home wards we riſe all along,<lb/>
+                    </l>
+                    <l>
+                        Haue care to walke in middle of the throng.<lb/>
+                    </l>
+                    <l>
+                        There will I finde thee or be found by thee,<lb/>
+                    </l>
+                    <l>
+                        There touch what euer thou canſt touch of me.<lb/>
+                    </l>
+                    <l>
+                        Aye me I warne what profits ſome few howers,<lb/>
+                    </l>
+                    <l>
+                        But we muſt part, when heau'n with black night lowers <lb/>
+                    </l>
+                        <fw type="signature"><supplied reason="omitted-in-original">A 4v</supplied></fw>
+                        <fw type="catchword" style="text-align;right;">At</fw> <lb/>
+                        <pb/>
+                        <fw type="header" style="text-align:center; font-style: italic"><hi style="font-size=150%">OVIDS ELEGIES.</hi></fw>
+                    <l>
+                        At night thy husband clippes, I will weepe<lb/>
+                    </l>
+                    <l>
+                        And to the dores ſight of thy ſelſe keepe,<lb/>
+                    </l>
+                    <l>
+                        Then will he kiſſe thee, and not onely kiſſe,<lb/>
+                    </l>
+                    <l>
+                        But force thee giue him my ſtolne honey bliſſe.<lb/>
+                    </l>
+                    <l>
+                        Conſtrain'd againſt thy will giue it the pezants<lb/>
+                    </l>
+                    <l>
+                        Forebeare ſweet wordes, and be your ſport vnpleaſant.<lb/>
+                    </l>
+                    <l>
+                        To him I pray it no delight may bring,<lb/>
+                    </l>
+                    <l>
+                        Or if it do to thee no ioy thence ſpring.<lb/>
+                    </l>
+                    <l>
+                        But though this night thy fortune be to trie it,<lb/>
+                    </l>
+                    <l>
+                        To me to morrow conſtantly deny it. 
+                    </l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

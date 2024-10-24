@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://jenkins.hcmc.uvic.ca/job/MoEML/lastStableBuild/artifact/static/site/xml/schemas/london_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Pirates_AL">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>By the Queene Felons and Pirates</title>
+                <author><persName type="hist"><supplied reason="omitted">Elizabeth</supplied></persName></author>
+                <author><orgName>English Crown</orgName></author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Printed by <persName type="hist"><forename>Christopher</forename>
+                    <surname>Barker</surname></persName></p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source
+                    <!-- Working from(microfilm) copy available via EEBO --><idno><!-- INSERT STC NUMBER HERE FROM WORKS CITED --></idno></p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef/>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <p>TEI P5</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="BENN"/>
+        </revisionDesc>
+    </teiHeader>
+    <!-- WHEN IN DOUBT, COMMENT IT OUT!-->
+    <text>
+        <front/>
+        <body>
+            <div>
+                <p>
+                    <title style="text-align:center; text-indent:5em; font-style:roman;font-size:200%"> &#10087; A Proclamation to charge all perſons that haue gotten any maner goods in- <lb/>
+                        to their poſſeſsion, which haue beene taken on the Seas this laſt yeere, and <lb/> 
+                        haue not bene cuſtomed, to reſtore the ſame vpon paine to bee puniſhed <lb/>
+                        as Felons and Pirates. </title>
+                </p>
+                <p>
+                    
+                    <seg style="decorInit"><hi style="font-size:500">W</hi></seg><l style="margin-left:16em;">here of late by our Proclamation publiſhed in certaine Counties on the Sea coaſt weſt-</l><lb/>
+                    <l style="margin-left:16em;">ward, ſtrait <choice><sic>commamdement</sic><corr>commandment</corr></choice> was giuen by us to all maner of perſons, that haue bought </l><lb/>
+                    <l style="margin-left:16em;">or exchanged, or by any meanes receiued of any maner of perſson, directly or indirectly out of </l><lb/>
+                    <l style="margin-left:16em;">the fleete ſet foorth this laſt Sommer, at the charge of the Citie of <placeName>London</placeName>, and lately retur-</l><lb/>
+                    <l style="margin-left:16em;">ned any maner of commodities from any peſson, without the conſent of the owners of t<unclear reason="illegible"></unclear></l><lb/> 
+                    <l style="margin-left:16em;">ſaid ſhippes, that they ſhould bring to certaine Commiſſioners at <placeName>Plymmouth</placeName>, <placeName>Dertmou<unclear reason="illegible"></unclear></placeName> </l><lb/> 
+                    <l style="margin-left:16em;"> <placeName>Cotnes</placeName>, <placeName>Exceter</placeName>, <placeName>Southampton</placeName>, and <placeName>Porterſmouth</placeName>, a particuler note in writing of the </l><lb/> 
+                    <l style="margin-left:16em;">ſame, vpon paine to be puniſhed as felons and abbettors to Pirates, if they ſhould not with-</l><lb/> 
+                    <l style="margin-left:16em;">in a time limitted obey the same charge and commandement, as more particularly is expreſ-</l><lb/> 
+                    ſed in the ſaid Proclamation. Nowe her Maieſtie is enformed, that there hath beene other notable deceipts vſed by diverse<lb/> 
+                    other Captaines, Maſters and Mariners in ſundry other ſhippes, which haue ſerued on the Seas this laſt Sommer, for <lb/> 
+                    that many of them have contrary to the lawes broken bulke, and made ſpoyle on the Seas, before the Shippes and the pry-<lb/> 
+                    res came to any Porte, and haue feloniouſly embeſelled great quantities of goods out of the ſaid Ships, for which cuſtome <lb/>
+                    ſhould haue beene paid to her Maieſtie (which hath not beene) and out of which the owners and adventurers ſhould have <lb/>
+                    had alſo their partes, according to the charge of their aduentures, who are alſo depriued of the value of ſuch goods ſo em-<lb/>
+                    beſelled, and the parties that have ſo embeſelled ſuch goods, are in danger to anſwere thereto as felons and pirates, and <lb/>
+                    ſuch as haue bought and receiued any part thereof, in danger to be puniſhed as abbettors to pirates, if they ſhall deteyne and <lb/>
+                    conceale the ſame. Therefore to the enlarging of the ſaide Proclamation, being onely directed to the Portes of the Weſt <lb/>
+                    Country, and for the diſcouerie of the goods taken by the Fleete of the Citie of <placeName>London</placeName>: her Maieſtie doeth nowe by theſe <lb/>
+                    preſents generally charge and commaund all maner of perſons in any part of her Realme, that haue had, bought, or recei- <lb/>
+                    ued by gift, exchange, or by deliuery of any maner of goods that haue beene taken on the Seas this laſt Sommer by any <lb/>
+                    Shippe whatſoeuer, for the which, cuſtome hath not beene duely paid or compounded for with her Maieſties Offiers of <lb/>
+                    her Ports, that they ſhall not alter, alyen, or waſte any part of ſuch goods, but ſhall bring to the head Officers of the cuſtome <lb/>
+                    houſes, or other ſpeciall Commiſſioners appointed at the Portes, or neereſt to the places where they bought or receiued the <lb/>
+                    ſame goods, a plaine declaration in writing, ſigned with their hands or markes, conteyning the particular names, quanti<lb/>
+                    ties, and qualities of the ſaid goods, and ſhall thereby expreſſe the names and conditions of the parties of whom they recei<lb/>
+                    ued the ſame, and of the parcels which they received, and what they deliuered in value for the ſame. And if they haue alye-<lb/> 
+                    ned or diſpoſſeſſed themselves of any part thereof in ſuch caſes they ſhall alſo expreſſe in writing, to whom they haue ſo alye-<lb/> 
+                    ned or deliuered the ſame. And if any perſon ſhall not within twentie dayes ſpace after the publication hereof, obſerue this <lb/>
+                    her Maieſties commandment to all purpoſes, as before is ſpecifid, the ſame ſhall be vſed and proceeded withall as felons <lb/>
+                    and abbettors of pirates, according to the lawes of this Realme. <lb/>
+                </p>
+                <p style="text-indent:1em;">Giuen at our Pallace of <placeName>Weſtminſter</placeName> the eight day of Januarie, in the foure and thirtieth yeere of our Reigne.<lb/>
+                </p>
+                <p> 
+                    <hi style="text-align:center; font-style:roman;font-size:200%"> God ſaue the Queene. </hi><lb/>
+                    <hi style="text-align:center; font-style:roman;font-size:400%"> &#128613; Imprinted at London by the Deputies of </hi><lb/>
+                    <hi style="text-align:center; font-style:roman;font-size:200%"><persName type="hist"><forename> Christopher</forename><surname>Barker</surname></persName> Printer to the Queenes moſt </hi><lb/>
+                    <hi style="text-align:center; font-style:roman;font-size:200%"> excellet Maieſtie. </hi><lb/>
+                    <lb/>
+                    <hi style="text-align: center;font-style:roman;font-size:175%"> 1591. </hi>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

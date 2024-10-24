@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://scotthamlin.digstonehill.org/news/wp-content/uploads/Marlowe.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="anon_fragment_A1v_A2r">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The History of Doctor John Faustus</title>
+                <respStmt>
+                    <resp>Author<date when-custom="1696"/></resp>
+                    <name>Anonymous</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2018"/></resp>
+                    <name>Taylor Long</name>
+                    <name>Emily Rosano</name>
+                    <name>Brendan Murphy</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Primary editor</resp>
+                    <name>Kristen Abbott Bennett</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    Kristen Bennett and Scott Hamlin
+                </publisher>
+                <date>2018</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                    <p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><!-- Info about the source will go here. --></bibl>
+                <bibl>Transcription keyed by students in LC 347A at Stonehill College, under the supervision of Kristen Abbott Bennett and Scott Hamlin. Transcription prepared from a digital surrogate of a microfilm.</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+           <div type="section">
+           <fw type="header" style ="text-align:center;"><add rend= "handwritten">34</add></fw>
+           <figure>
+               <figDesc> A decorative printer's ornament is here </figDesc>
+           </figure>
+           <head style="text-align: center;"> TO the READER.</head> 
+           <lg type="epistle" style="font-style:italic;">
+               <l><hi style="float: left; font-size: 4rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">R</hi>Eader, I would not have you think,</l>
+               <l>That I intend to waſte my ink,</l> 
+               <l>While <persName style="font-style: normal;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> ſtory I rehaearſe</l>
+               <l>And do write his life in verſe</l>
+               <l>For ſeing <persName>Fryer <hi style="font-style: normal;">Bacons</hi></persName> ſtory,</l>
+               <l>(In whom <placeName style="font-style: normal;">Oxford</placeName> ſtill may glory)</l>
+               <l>For want of better pen comes forth,</l>
+               <l>Compos’d in Ryme of no great worth:</l>
+               <l>I cal’d my Muſe to task and pen’d </l> 
+               <l><persName style="font-style: normal;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> life, and death, and end:</l>
+               <l>And when it cometh forth in print,</l>
+               <l>If you like it not, the devi'ls in’t.</l>
+            </lg>
+               
+            <lg>
+               <l><foreign xml:lang="la">Veni, <hi style="text-align:center;">Vide,</hi> <hi style="text-align:right;">Fuge.</hi></foreign></l>
+               <l style="font-style:italic">Come, <hi style="text-align:center;">See,</hi> <hi style="text-align:right;"><supplied reason="faded-ink" resp="contr_TLONG">and hate</supplied></hi></l>
+               <l><persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="text-align:center;">Fauſtus</hi></persName> <hi style="text-align:right;">wretched <supplied reason="faded-ink" resp="contr_TLONG">ſtate.</supplied></hi></l> 
+           </lg>
+           <fw type="catchword" style="text-align:right;">CHAP.</fw>
+           <pb/>
+           </div>
+            
+           <div type="chapter">
+           <fw type="header" style="text-align:center;"><add rend="handwritten">35</add></fw>
+           <figure>
+               <figDesc> A decorative printer's ornament is here </figDesc>
+           </figure>
+           <head style="text-align:center; font-style:italic;">CHAP I.</head> 
+           <lg type="epigraph" style="font-style: italic;">
+               <l style = "text-indent:2em;"> Of <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style:normal;">Fauſtus</hi></persName> birth.</l>
+               <l style = "text-indent:4em;">and how he gave his heart</l>
+               <l style = "text-indent:2em;">To leave off fair Divinity,</l> 
+               <l style = "text-indent:4em;">to ſtudy the black Art.</l>
+           </lg>             
+           <lg>
+               <l><hi style="float: left; font-size: 4rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">M</hi>Y Muſe, aſift me now, for I intend</l>
+               <l>To write the life &amp; death &amp; featful end</l>
+               <l>Of <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style: italic;">Faustus,</hi></persName> whoſe ill gotten name,</l>
+               <l>May well compare with <persName> Fryer <hi style="font-style:italic;">Bacons</hi></persName> fame.</l>
+               <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> was born at <placeName style="font-style: italic;">Rhodes</placeName>, which Town <supplied reason="scan-cropped" resp = "contr_TLONG">dor</supplied></l>
+               <l>Within a province of fair <placeName style="font-style:italic;"> Germany </placeName>:</l>
+               <l>His Father was a husband man, did live</l>
+               <l>On what the earth to him did freely give:</l>
+               <l>Yet he at <placeName style="font-style: italic;"> Wittenberg </placeName> an Uncle had,</l>
+               <l>Who toke young <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus,</persName> being but a Lad,</l>
+               <l>And ſent him to the Univerſity,</l>
+               <l>That he might ſtudy there Divinity:</l>
+               <l>But he did quickly there addict his heart:</l>
+               <l>To leave fair ſtudies for the foul black Art</l>
+               <l>Thus he in ſecret ſtudied conjuration,</l>
+               <l>Yet being found by acts and diſputation</l>
+               <l>To be well learned, they did all agree</l>
+               <l>To make him Doctor of Divinity:</l>
+           <fw type="signature" style="text-align: center;">A2<supplied reason="omitted-in-original" resp = "contr_TLONG">r</supplied></fw>
+           <pb/>
+                       <!-- Begin Emily Rosano Encoding -->
+           <fw type="header" style="text-align:center; font-style:italic;">The History of <add rend="handwritten">36</add></fw>
+               <l><supplied reason="scan-cropped" resp="contr_EROSA">B</supplied>ut having once obtained that high degree</l> 
+               <l>He ill deſerved it, as you ſhal ſee,</l>
+               <l>For now my pen doth tremble for to tell,</l> 
+               <l>How like a devil from all grace he fell,</l> 
+               <l>For now his contemplation he did bend</l>
+               <l>To Negromancy, and much time did ſpend</l>
+               <l>In caſting figures, making incantations,</l> 
+               <l>With all the wicked helps of conjurations,</l> 
+               <l>Leaving thoſe ſtudies which are moſt divine,</l> 
+               <l>And to theſe helliſh arts he did incline:</l> 
+               <l>I therefore here have drawn his life, that you</l> 
+               <l>May learn ſuch wicked courſes to eſchew:</l> 
+               <l>That we thus ſeeing him ruled by the devil,</l> 
+               <l>May pray to be delivered from ſuch evil,</l> 
+           </lg>
+           </div>  
+           <div type="chapter">
+           <head style="text-align:center">CHAP. II.</head>
+           <lg type="epigraph" style="font-style:italic;"> 
+               <l style="text-indent: 2em">How Doctor <persName style="font-style: normal" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> conjur'd up,</l> 
+               <l style="text-indent: 4em">from out a globe of fire,</l> 
+               <l style="text-indent: 2em">The ſpirit <persName style="font-style:normal" ref="/kit-marlowe/files/personography.xml#pers_MEPH1">Mephoſtophiles</persName>,</l>
+               <l style="text-indent: 4em">that came like to a frier.</l>
+           </lg>
+           <lg>
+               <l><hi style="float: left; font-size: 4rem; padding: 0.5rem; margin: 0 2rem 1rem 0">N</hi>ow <persName style="font-style: italic" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> purpoſing alone to try</l> 
+               <l>The power of this his Magick myſtery</l> 
+               <l><supplied reason="scan-cropped" resp="contr_EROSA">He</supplied> did repair unto a little wood,</l> 
+               <l><supplied reason="scan-cropped" resp="contr_EROSA">An</supplied>d not far off from <placeName style="font-style:italic">wittenberg</placeName> it ſtood:</l> 
+               <l><supplied reason="scan-cropped" resp="contr_EROSA">T</supplied>here he did make a circle with his wand,</l> 
+               <l><supplied reason="scan-cropped" resp="contr_EROSA">An</supplied>d thus with charms his ſpirit did command,</l> 
+           </lg>
+           <lg style="font-style:italic;">
+               <l style="text-indent: 2em"><persName style="font-style:normal;" ref="/kit-marlowe/files/personography.xml#pers_MEPH1">Mephoſtophiles</persName>, I ſay,</l>
+               <l style="text-indent: 2.5em"> quickly riſe, and come away:</l>
+           </lg>
+           <fw type="catchword">By</fw>
+           <fw type="signature"><supplied reason="omitted-in-original" resp="contr_EROSA">A2v</supplied></fw>
+           <pb/>
+           
+               <fw type="header" style="font-style:italic"><persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor John Fauſtus</persName>. <add rend="handwritten">37</add></fw>
+           <lg style="font-style:italic;">
+               <l style="text-indent: 2em">By <persName style="font-style: normal" ref="/kit-marlowe/files/personography.xml#pers_LUCI1">Lucifer</persName> I charge the here,</l> 
+               <l style="text-indent: 2em">that thou forthwith do appear.</l>
+           </lg>
+           <lg>
+               <l>With this a murmure in the woods was heard</l>
+               <l>That <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style:italic">Fauſtus</hi></persName> was himſelf afear'd:</l> 
+               <l>The wood with lightning ſeemed on a flame,</l> 
+               <l>And loudeſt thunder terror did procliam,</l> 
+               <l>Till <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style:italic">Fauſtus</hi></persName> in his Magick robe,</l> 
+               <l>Lookin about him ſpy'd a fiery globe;</l> 
+               <l>And at the laſt from this ſame globe a fire;</l> 
+               <l>The Spirit came in likeneſs of a Fryer:</l> 
+               <l>Who lightly round about the circle ran,</l> 
+               <l>And thus to ſpeak to <persName style="font-style:italic" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Faustus</persName> he began:</l>
+           </lg>
+           <lg style="font-style:italic;">
+               <l style="text-indent: 2em"><persName style="font-style:normal" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName>, ſayeth he, I now am come,</l>
+               <l style="text-indent: 4em">Speak thy will, and it is done.</l>
+           </lg>
+           <lg>
+               <l>When <persName style="font-style: italic" ref="/kit-marlowe/files/personography.xml#pers_MEPH1">Mephoſtophiles</persName> did thus kindly greet hi<supplied reason="scan-cropped" resp="contr_EROSA">m</supplied></l>
+               <l>Then <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style: italic" >Fauſtus</hi></persName> bid the ſpirit meet hi<supplied reason="scan-cropped" resp="contr_EROSA">m</supplied></l>
+               <l>The next day at his houſe; the ſpirit did cóſe<supplied reason="scan-cropped" resp="contr_EROSA">nt</supplied></l>
+               <l>And back again then <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style:italic">Fauſtus</hi></persName> went.</l>
+           </lg>        
+           </div>
+            
+           <div type="chapter">
+           <head style="text-align: center">CHAP. III.</head>
+           <lg type="epigraph" style="font-style:italic;">
+               <l style="text-indent: 2em">How <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style: normal">Fauſtus</hi></persName> made</l>
+               <l style="text-indent: 4em">a contract firm, not good,</l>
+               <l style="text-indent: 2em">To ſerve the Devil, which</l>
+               <l style="text-indent: 4em">he wrote with his own blood.</l>
+           </lg>
+           <lg>
+               <l><hi style="float: left; font-size: 4rem; padding: 0.5rem; margin: 0 2rem 1rem 0:">T</hi>He time appointed, in a bluſtring day, </l>
+               <l>The ſpirit came to him, and thus did ſ<supplied reason="scan-cropped" resp="contr_EROSA">ay</supplied></l>
+           <fw type="signature">A3<supplied reason="omitted-in-original" resp="contr_EROSA">r</supplied></fw>
+           <pb/>
+                    <!-- BEgin Brendan Murphy Encoding -->
+           <fw type="header" style="text-algin:center; font-style:italic">The History of <add rend="handwritten">38</add></fw> 
+               <l>I <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MEPH1">Mephoſtophiles</persName> am ready now,</l>            
+               <l>And thus to be your vaſſal I do vow:</l>           
+               <l>Entreating you that you would let me know</l>              
+               <l>What is your pleaſure that call me ſo?</l>          
+               <l><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> here with ſome queſtions did propone,</l>               
+               <l>Which <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MEPH1">Mephoſtophiles</persName> did ſoon expone.</l>  
+               <l>At laſt the matter did begin to frame,</l>
+               <l>And to theſe friendly articles they came,</l>             
+               <l>That <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style:italic;">Fauſtus</hi></persName> ſhould a ſpirit be</l>              
+               <l>Both in his outward ſhape and quality:</l>               
+               <l><supplied reason="original-cropped" resp="contr_RPERE">T</supplied>hat he ſhould be inviſible to all,</l>              
+               <l>And <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MEPH1">Mephoſtophiles</persName> ready at his call,</l> 
+               <l>And whatſoeever he did once command,</l>
+               <l>That he ſhould bring it quickly to his hand,</l>
+               <l>And that he ſhould at any time appear,</l>              
+               <l>When once the voice of <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> he did hear.</l>               
+               <l>Thus <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> did this black agreement make,</l>                
+               <l>While that the ſp’rit did for his maſters take</l>              
+               <l><supplied reason="original-cropped" resp="contr_BMURP">T</supplied> heſe ſad conditions, which would even ſear</l>               
+               <l>A tender hearted Chriſtian for to hear,</l>               
+               <l><supplied reason="original-cropped" resp="contr_BMURP">H</supplied>imself to his Lord <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LUCI1">Lucifer</persName> ſhould give,</l>               
+               <l>That <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style:italic;">Fauſtus</hi></persName> while he now did live,</l>                 
+               <l><supplied reason="original-cropped" resp="contr_BMURP">A</supplied>nd for to make the contract firm, not good,</l>                
+               <l>He did agree to write it with his blood;</l>                 
+               <l>Which in a Sawcer on the fire he ſet,</l>                
+               <l><supplied reason="broken-type" resp="contr_BMURP">He</supplied> in the ſame his wicked blood did heat.</l>               
+               <l><supplied reason="original-cropped" resp="contr_BMURP">A</supplied>nd wrote there with that he would always be</l>               
+               <l><supplied reason="original-cropped" resp="contr_RPERE">A</supplied> foe unto all Chriſtianity.</l>
+               <l><supplied reason="original-cropped" resp="contr_BMURP">T</supplied>heſe ſad conditions when that you do read.</l>
+           </lg>
+           <fw type="catchword" style="text-align:right;">I</fw> 
+           <fw type="signature"><supplied reason="omitted-in-original" resp="contr_BMURP">A3v</supplied></fw>
+           <pb/>
+          
+               <fw type="header" style="text-align:center;"><add rend="handwritten">39</add> <persName style="font-style:italic" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor John Fauſtus.</persName></fw>
+           <lg>
+               <l>I know that it will make your heart to bleed:</l>
+               <l>Yet wretched <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> made himſelf the band,</l>
+               <l>And thereupon did ſet his deſperate hand,</l>
+               <l>And to theſe covenants he gave conſent,</l>
+               <l>Which after, though too late he did repent,</l>
+               <l>But being ſeal’d, he doth the ſame deliver</l>
+               <l>To <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MEPH1">Mephoſtophiles</persName> to keep it ever.</l>
+               <l>Thus by degrees he added ſin to ſin.</l>
+               <l>And now the practiſe he did firſt begin.</l>  
+           </lg> 
+           </div>
+            
+           <div type="chapter">
+           <head style="text-align:center;">CHAP. IV.</head>
+           <lg type="epigraph" style="text-indent: 4em; font-style:italic;"> 
+               <l style="font-style:normal">How <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> firſt began,</l>
+               <l>his cunning to aſſay;</l>
+               <l>And how his ſpirit did</l>
+               <l>in every thing obey.</l> 
+           </lg>
+           <lg>
+               <l><hi style="float: left; font-size: 4rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">I</hi>T happened now that <persName style="font-style:italic" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> in the end</l>
+               <l>The devil with the queſtion did offend : ( frame</l>
+               <l>Which was that he Would know how God did</l>
+               <l>The World &amp; all things Which it doth contain</l>
+               <l>But <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LUCI1">Lucifer</persName> not able this to tell,</l>
+               <l>Becauſe himſelf from his creation fell,</l>
+               <l>Was with the Doctor very much diſpleas’d,</l>
+               <l>Nor could his anger quickly be appeas’d,</l>
+               <l>And therefore <persName ref="/kit-marlowe/files/personography.xml#pers_LUCI1">Lucifer</persName> to increaſe his fear,</l>
+               <l style="margin-left: 1em;">ug’y ſhape to <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> did appear,</l>
+               <l>Wit<supplied reason="omitted-in-original" resp="contr_BMURP">h</supplied> other of his black infernal rou<supplied reason="broken-type">s</supplied>,</l>
+               <l>Who in an antick manner danc’d about,</l>
+           <fw type="catchword" style="text-algin:right">Her</fw>
+           <fw type="signature">A4<supplied reason="omitted-in-original" resp="contr_BMURP">r</supplied></fw>
+           <pb/>
+               
+           <fw type="header">8 <hi style="text-align:center;">The History of</hi> <add rend="handwritten">40</add></fw>
+               <l>Hereat poor <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style: italic;">Faustus</hi></persName> was amaz’d,</l>
+               <l>And yet upon their hideous forms he gaz’d;</l>
+               <l>Thinking theſe troups of fury now were come</l>
+               <l>To fetch him thence before his glaſs were run,</l>
+               <l>Or ere his twenty-four years did expire;</l>
+               <l>During which time the ſpirit, like a Fryer,</l>
+               <l>Carrying a little bell within his hand,</l>
+               <l>Was bound to be ſtill ready at command;</l>
+               <l>But afterward, when theſe ſame years did end,</l>
+               <l>Then <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Faustus</persName> ſhould on <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_LUCI1">Lucifer</persName> attend.</l>
+               <l>And now this fearful ſudden operation,</l>
+               <l>Did fill his heart with grief and contrition:</l>
+               <l>But when that <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_LUCI1">Lucifer</persName> perceiv’d his ſadneſs;</l>
+               <l>He laughed out then for very gladneſs.</l>
+               <l><persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Faustus</persName> ſaid he I now well perceive,</l>
+               <l>That thou our firſt agreement would deceive,</l>
+               <l>Yet I would have you know it is in vain:</l>
+               <l>For no repentance can you purge again.</l>
+               <l>Beſide you know &amp; there with ſhewed his band,</l>
+               <l>That to theſe covenants you have ſet your</l>
+               <l>And for to make this obligation good, (hand</l>
+               <l>Your ſelf hath write it with your own blood:</l>
+               <l>Be quyet then in mind, and take your reſt,</l>
+               <l>For thou ere long muſt be great <persName style="font-style: italic;">Pluto’s</persName> gueſt :</l>
+               <l>In the mean time to recreat thy leaſure,</l>
+               <l>Sit down &amp; I wil ſhow thee some new pleaſure.</l>
+               <l>So <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> and the devil together ſate,</l>
+               <l>But ſtill he thought his company too hot.</l>
+               <l>Then <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_LUCI1">Lucifer</persName> did other fiends command</l>
+           <fw type="catchword" style="text-align:right">For</fw>
+               <fw type="signature" style="text-align:center"><supplied reason="omitted-in-original" resp="contr_RPERE">A4v</supplied></fw>  
+           <pb/>
+                        <!--Zoe Smith-->
+           <fw type="header" style="text-align: center; font-style: italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor John Faustus.</persName> <add rend="handwritten">41</add></fw>
+           <fw type="pageNum" style="text-align: right;">9</fw>
+               <l>For to appear, who ſtraightway were at hand,</l>
+               <l>Firſt came in <persName style="font-style: italic;">Belial</persName> like to a Bear,</l>
+               <l>With flaming eyes, and ſhaggy rugged hair,</l>
+               <l>Then <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_BEEL1">Belzebub </persName> came flying in with wings </l>
+               <l>Whoſe mouth was filled with a pair of ſtings,</l>
+               <l>Then came <persName style="font-style: italic;">Aſteroth</persName> of coal black hew,</l>
+               <l>And after him a ſerpents tail he drew.</l>
+               <l>Then <persName style="font-style: italic;">Chanigaſto</persName> lightly skipped in,</l>
+               <l>Who was attyred in a hedge-hogs skin,</l>
+               <l>At laſt came <persName style="font-style: italic;">Anobis</persName> like to a dog,</l>
+               <l>And in his body ſhaped like a hog.</l>
+               <l>Theſe ugly Maskers did themſelves advance,</l>
+               <l>And in ſtrange meaſures did begin to dance.</l>
+               <l>And as they did their ſeveral changes make,</l>
+               <l>Their threatning forks 'gainſt <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> they did</l>
+               <l>As if they meant at him to run a tilt, (ſhake</l>
+               <l>That <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> thought his blood ſhould then be</l>
+               <l><persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_LUCI1">Lucifer </persName> ſeeing <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Faustus</persName> thus diſmaid, (ſpilt.</l>
+               <l>Began to cheer him up, and thus he ſaid,</l>
+               <l><persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName>, how doſt thou like this nimble ſport?</l>
+               <l>For with this company thou muſt reſort</l>
+               <l>But <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> ſweating, thought it was hot wea-</l>
+               <l>Being afraid to ſee them altogether; (ther,</l>
+               <l>And did intreat his devilſhip that he</l>
+               <l>Would ſend away his fearful company;</l>
+               <l>At which great <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_LUCI1">Lucifer</persName> diſmiſs’d them all,</l>
+               <l>Excepting even of the principal.</l>
+               <l>Now <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> having gotten breath again,</l>
+               <l>Did ask for <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_MEPH1">Mephoſtophiles</persName> by name;</l>
+           <fw type="catchword" style="text-align: right;"> which</fw>
+           <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original" resp="contr_RPERE"> A5r</supplied></fw>
+           <pb/>      
+               
+              <!--Bridget Dwyer-->
+           <fw type="pageNum" style="text-align:left;">10</fw> 
+           <fw type="header" style="text-align:center; font-style:italic;"> The History of </fw> 
+           <fw type="header" style="text-align:right;"><add rend= "handwritten">42</add></fw>
+               <l>Which having ſpoken as he did deſire,</l>
+               <l>Came <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MEPH1">Mephostophiles</persName> like to a Fryer:</l>
+               <l>Then <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> to entreat his ſp’rit begun,</l>
+               <l>That he ſhould teach him as himſelf had done</l>
+               <l>How to transform himſelf in any ſhape,</l>
+               <l>Either of dog, or lyon, cat, or ape,</l>
+               <l>With this great <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LUCI1">Lucifer</persName> gave him a book,</l>
+               <l>On Which this <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> did no ſooner look;</l>
+               <l>But he to divers  forms himſelf did change,</l> 
+               <l>And throgh an hundred varied ſhapes did range</l>
+               <l>Sometimes like to a dragon, hog, or worm,</l>
+               <l>Then to a bat he would himſelf transform:</l>
+               <l>But at the laſt being changed to a man,</l>
+               <l>To ſport himſelf great <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LUCI1">Lucifer</persName> began,</l>
+               <l>And ſent a ſwarm of Bees, which to ſting fell</l>
+               <l>Poor <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName>, that he thought himſelf in hell.</l>
+               <l>And to his ſpirit then he cry’d for wo;</l>
+               <l>While <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_LUCI1">Lucifer</persName> went laughing thence, Ho, ho.</l>
+               <l>And having left tormented <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> there.</l>
+               <l>As ſoon as he was gone, the day grew clear,</l>
+               <l>And ſweeteſt Muſick was to him convey’d</l>
+               <l>Which cheared up his heart, though much diſ</l>
+               <l style="text-indent: 1em;">maid.</l>     
+           </lg> 
+           </div>
+           
+           <div type="chapter">
+           <head style="text-align:center;">CHAP. V.</head>
+           <lg type="epigraph" style="font-style: italic;">
+               <l style="text-indent:2em;">How <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor Fauſtus</persName></l>
+               <l style="text-indent:4em;">was carried through the air,</l>
+               <l style="text-indent:4em;">That he might view the world,</l>
+               <l style="text-indent:6em;">the Sky and Planets fair.</l>
+           </lg>
+           <fw type="signature" style="text-align:center;"><supplied reason="omitted-in-original" resp="contr_RPERE">A5v</supplied></fw>
+           <pb/>
+               
+                <!--Haley Riley-->
+           <fw type="header" style="text-align: left;" ><add rend="handwritten">43</add></fw> 
+               <fw type="header" style= "text-align: center;"><persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor John Faustus.</persName></fw> 
+           <fw type="pageNum" style="text-align: right;">11</fw>                
+           <lg>
+               <l><hi style="float: left; font-size: 4rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">A</hi>S <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> lay one day upon his bed,</l>
+               <l>While divers fancies came into his head,</l>
+               <l>He did begin to vex himſelf, that Art</l>
+               <l>Could not the ſecrets of the Heavens impart:</l>
+               <l>For he had noted that their obſervations</l>
+               <l>Were not confirm’d by certain demonſtrations,</l>
+               <l>Judging of things as Authors were inclin’d,</l>
+               <l>But yet in knowledge all of them were blind.</l>
+               <l>And thus while in his bed he muſing lyes,</l>
+               <l>A ſudden fearful wind began to riſe,</l>
+               <l>That with the force thereof his houſe did rock,</l>
+               <l>And all the doors, as if they had no lock,</l>
+               <l>Did open fly, and then a voice he heard,</l>
+               <l>Which bid him riſe and not to be afraid,</l>
+               <l>And he ſhould ſee the ſum of his deſire,</l>
+               <l>And to the ſtarry region ſhould aſpire,</l>
+               <l>And there the wonders of the world behold,</l>
+               <l>The earth, the ſea, and all that they infold:</l>
+               <l>And then unto the airy region fly,</l>
+               <l>And ſee the Meteors both cold and dry.</l>
+               <l><persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> at this ſame news was much refreſht.</l>
+               <l>And thought himſelf in the diſcovery bleſt:</l>
+               <l>For thus the devil at the firſt began. (man.</l>
+               <l>When he with hope of knowledge tempted</l>
+               <l><persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> now whom ambition did inflame,</l>
+               <l>Did anſwer to the ſpirit back again:</l>
+               <l>The wonders of the world I fain would ſee,</l>
+               <l>Which if thou faithfully wilt ſhow to me,</l>
+               <l>promiſe here that I will go with thee.</l>
+           <fw type="catchword" style="text-align: right;">Which</fw>
+           <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original" resp="contr_RPERE">A6r</supplied></fw>
+           <pb/>
+               
+               <!--Madison Ward-->
+           <fw type="pageNum" style="text-align: left;">12</fw> 
+           <fw type= "header" style="text-align: center; font-style:italic;">The History of</fw> 
+           <fw type="header" style="text-align: right;"><add rend="handwritten">44</add></fw>
+               <l>Which word once ſpoke he did ſtraight way</l>
+               <l>A wagó, which two fiery dragons drew, (view</l>
+               <l>And then the voice to him did ſay,</l>
+               <l>Get up with me, and let us both away.</l>
+               <l>Thus mounted on the wagon, forth they went</l>
+               <l>To view the world and upper firmament: </l>
+               <l>And as they thus did travel through the air,</l>
+               <l>His <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_MEPH1">Mephoſtophiles</persName> did to him repair:</l>
+               <l>And ſitting in the Chariot hard by him, </l>
+               <l>To pleaſe his maſter, he this ſong did ſing. </l>
+           </lg>
+           <lg style="font-style: italic;">
+               <l><hi style="float: left; font-size: 4rem; padding: 0.5rem; margin: 0 2rem 1rem 0; text-indent:2em;">C</hi>ome you ſpirits mount</l>
+               <l style="text-indent:4em;">upon your numble wings,</l>
+               <l style="text-indent:2em;">And your chieſeſt nots</l>
+               <l style="text-indent:4em;">be ſure that you do ſing, </l>
+               <l style="text-indent:2em;">While my <persName style="font-style:normal;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Faustus</persName> here and I</l>
+               <l style="text-indent:4em;">ſwiſtly wander through the skie.</l></lg>
+           <lg style="font-style:italic;">
+               <l style="text-indent:2em;">He will travel over mountains,</l>
+               <l style="text-indent:4em;">over Park, and over Pale,</l>
+               <l style="text-indent:2em;">Over Cities, and Steeples,</l>
+               <l style="text-indent:4em;">over hills, and over dale:</l>
+               <l style="text-indent:2em;">While my <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Faustus</persName> here and I</l>
+               <l style="text-indent:4em;">ſwiftly wander through the skie.</l>
+           </lg>
+           <lg style="font-style: italic;">
+               <l style="text-indent:2em;">Then we will to Sea again,</l>
+               <l style="text-indent:4em;" >and there laugh when we do hear</l>
+               <l style="text-indent:2em;">How the Mariners exclaim</l>
+               <l style="text-indent:4em;">when a ſudden ſtorm they fear,</l>
+           <fw type="catchword" style= "text-align: right;">While</fw>
+           <fw type="signature" style= "text-align: center; font-style:normal;"><supplied reason="omitted-in-original" resp="contr_RPERE">A6v</supplied></fw>
+           <pb/>
+                    <!-- Kat Clavette, Zoe Smith, Bridget Dwyer, Haley Riley, and Madison Ward-->
+           <fw type="header" style="text-align:center; font-style:italic"><persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor John Faustus.</persName></fw>  
+           <fw type="header" style="text-align: right;"><add rend="handwritten">45</add></fw> 
+           <fw type="header" style="text-align:right;">13</fw>
+               <l style="text-indent:2em;">While my <persName style="font-style:normal;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> here and I,</l>
+               <l style="text-indent:4em;">ſwiftly wander through the skie.</l>
+           </lg>
+           <lg style="font-style:italic; text-align:center;">
+               <l style="text-indent:2em;"><persName style="font-style:normal;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus,</persName> thou ſhalt now be told</l>
+               <l style="text-indent:4em;">what thy ſelf did most deſire:</l>
+               <l style="text-indent:2em;">How the ſtars about are roll’d,</l>
+               <l style="text-indent:4em;">ſome are lower, ſome are higher:</l>
+               <l style="text-indent:2em;">All this ſhalt thou view, while I</l>
+               <l style="text-indent:4em;">wander with thee through the skie.</l>
+           </lg>
+           <lg>
+               <l><hi style="float: left; font-size: 4rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">T</hi>He ſong thus done which <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> pleaſed</l>
+               <l>He did intreat his ſpirit now to tell (well,</l>
+               <l>The ſeveral Regions which they paſſed by,</l>
+               <l>Which <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_MEPH1">Mephoſtophiles</persName> did not deny</l>
+               <l>Yonder, ſaith he, you ſee on your left hand</l>
+               <l><placeName style="font-style:italic;">Muſcovia</placeName>, <placeName style="font-style:italic;">Durſſia</placeName>, and the <placeName style="font-style:italic;">Saxons</placeName> land:</l>
+               <l>On the right hand, beſides us here doth ly</l>
+               <l><placeName style="font-style:italic;">Europe</placeName>, <placeName style="font-style:italic;">Aſia</placeName>, the mid-land ſea, with <placeName style="font-style:italic;">Greece</placeName> and</l> 
+               <l style="text-indent: 2em;"><placeName style="font-style:italic;">Hungary</placeName>,</l>
+           </lg>
+           <lg>
+               <l>Look yonder Is the hot and torrid zone,</l>
+               <l>And <persName style="font-style:italic;">Charles-wain</persName> unto the Sea-man known:</l>
+               <l>Yonder is <hi style="font-style:italic;">Urſa Major</hi>, which is but the ſame</l>
+               <l>With that which we call the <persName style="font-style:italic;">Charles-wain.</persName></l>
+               <l>Thus did he point him out each conſtellation,</l>
+               <l>While <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> ſtrucken was with admiration</l>
+               <l>And having ſhown him all the earth at laſt</l>
+               <l>Upon his bed again he <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> caſt,</l>
+               <l>Whereas he thought on what before he ſaw,</l>
+               <l>And how the ſtars were govern’d by their la<supplied reason="scan-cropped">w</supplied> </l>
+           <fw type="catchword" style= "text-align: right;">And</fw>
+           <fw type="signature" style= "text-align: center;"><supplied reason="omitted-in-original">A7r</supplied></fw>
+           <pb/>
+               
+           <fw type="pageNum" style="text-align: left;">14</fw> 
+           <fw type= "header" style="text-align: center; font-style:italic;">The Hiſtory of</fw> 
+           <fw type="header" style="text-align: right;"><add rend= "handwritten">46</add></fw>  
+               <l>And hereby to ſuch knowledge he did clime</l>
+               <l>That none was like to <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> in his time;</l>
+               <l>And for <hi style="font-style:italic;">Aſtrology</hi>, he was the beſt,</l>
+               <l>And in his art did far excel the reſt.</l>
+           </lg>
+           </div>
+           <div type="chapter">
+           <head style="text-align:center;">CHAP. VI.</head>
+           <lg type="epigraph" style="font-style: italic;">
+               <l style="text-indent:2em;">How <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor Fauſtus</persName> would</l>
+               <l style="text-indent:2.5em;">ſometime in a pleaſent vein,</l>
+               <l style="text-indent:2em;">Show many rare conceits,</l>
+               <l style="text-indent:2.5em;">which did encreaſe his fame.</l>
+           </lg>
+           <lg>
+               <l><hi style="float: left; font-size: 4rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">I</hi>T chanced now that <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> on a time</l>
+               <l>Did happen with the Emperor to dine.</l>
+               <l>Who did intreat that his art would ſhew.</l>
+               <l>That thereby he might <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_ALEX1">Alexander</persName> view</l>
+               <l> In ſuch a ſhape as he did live on earth:</l>
+               <l>And furthermore for to encreaſe his mirth.</l>
+               <l>He did intreat him that he would preſent</l>
+               <l>His <hi style="font-style:italic;">Paramour</hi> which bred his hearts content</l>
+               <l><persName style="font-style:italic" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> having heart the emperor ſaid no more</l>
+               <l>But opened ſtraight the privy chamber door,</l>
+               <l>And ſtraightway in full figure there came</l>
+               <l><persName ref="/kit-marlowe/files/personography.xml#pers_ALEX1">Great <hi style="font-style:italic;" >Alexander</hi></persName> of renowned worth: (forth</l>
+               <l>And after him his beauteous <hi style="font-style:italic;"> Paramour,</hi></l>
+               <l>Who made obeyſance to the Emperour:</l>
+               <l>Who with kind ſalutation thoght to greet her,</l>
+               <l>But <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> would not ſuffer him to meet her.</l>
+               <l>And after, through the door by which they</l>
+               <l style="text-indent:2em;">came,</l>
+           <fw type="catchword" style= "text-align: right;">They</fw>
+           <fw type="signature" style= "text-align: center;"><supplied reason="omitted-in-original" resp="contr_RPERE">A7v</supplied></fw>
+           <pb/>
+          
+               <fw type= "header" style="text-align: center; font-style:italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor John Faustus</persName></fw>  
+           <fw type="header" style="text-align: right;"><add rend= "handwritten">47</add></fw>      
+           <fw type="pageNum" style="text-align: left;">15</fw>
+               <l>They both of them did vaniſh back again,</l>
+               <l>Leaving the Emperor, who did commend</l>
+               <l>Great <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> skill, and called him his friend,</l>
+               <l>But you ſhall hear of <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">fauſtus</persName> tricks hereafter:</l>
+               <l>Which cannot chooſe but more you unto lau-</l>
+               <l>This being done, upon another time, (ghter,</l>
+               <l>When <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style:italic;" >fauſtus</hi></persName> did to miſſh incline,</l>
+               <l>Walking among the Courtiers, he did ſpy.</l>
+               <l>Whereas a Knight did at a window ly,</l>
+               <l>With his head out of the window, ſo that he</l>
+               <l>was fallen aſleep, which <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">fauſtus</persName> ſoon did ſee:</l>
+               <l>And ſet a pair of Hart horns on his head,</l>
+               <l>So large: <persName>Acteon</persName> ne'er was better ſpread;</l>
+               <l>But when the Knight did happen to awake,</l>
+               <l>Seing his horns, his head began to ſhake,</l>
+               <l>And thought he could pull in his head again,</l>
+               <l>But all his force and ſtriving was in vain:</l>
+               <l>And he by no means could bring it to paſs,</l>
+               <l>But with his horns he broke the panns of glaſs</l>
+               <l>And when the Emperor beheld this fight,</l>
+               <l>He and the Courtiers laughed all outright,</l>
+               <l>Until that <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">faustus</persName> took his horns away,</l>
+               <l>with which the Emperor was pleas'd that day</l>
+               <l>But not long after this ſame unjured Knight,</l>
+               <l>Did purpoſe that his wrongs he thus would</l>
+               <l>That meeting <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style:italic;">faustus</hi></persName> on a plain (right</l>
+               <l>He purpos'd he ſhould nev'r go home again</l>
+               <l>But then the buſhes he did arm again,</l>
+               <l>Which came upon the knight like armed men.</l>
+           </lg>
+           <fw type="catchword" style= "text-align: right;">Thus</fw>
+           <fw type="signature" style= "text-align: center;"><supplied reason="omitted-in-original" resp="contr_RPERE">A8r</supplied></fw>
+           <pb/>
+          
+           <fw type="pageNum" style="text-align: left;">6</fw>
+           <fw type= "header" style="text-align: center; font-style:italic;">The Hiſtory of</fw>
+           <fw type="header" style="text-align: right;"><add rend= "handwritten">48</add></fw>
+           <lg>
+               <l>Thus the Knights malice <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">fauſtus</persName> did defeat,</l>
+               <l> And all that heard it laugh’d at this conceit.</l> 
+               <l style="text-indent:2em;">Another time this <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">faustus</persName> did repair,</l> 
+               <l>Like to a Horſe-courſer to a countrey fair:</l>
+               <l>And having pac’d his horſe about a while,</l>
+               <l>A chap-man came to him which made him</l>
+               <l style="text-indent:4em;">ſmile,</l>
+               <l>And askt his price, which <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1"> fauſtus</persName> did unfold</l> 
+               <l>And ſo his horſe for fourty Dollars ſold,</l> 
+               <l>And charged him, whatſoever did betide,</l> 
+               <l>That he into the water ſhould not ride;</l>
+               <l>But the horſe-courſer, wondring at his word,</l>
+               <l>As he went home did ride into a ford,</l>
+               <l>And ſtraight his horſe did vaniſh quit away,</l>
+               <l>For he no more his horſe or ſaddle ſaw:</l>
+               <l>But there was left upon a wad of ſtraw.</l>
+               <l>The Horſe-courſer went back into his Inne,</l>
+               <l>And to enquire for <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">fauſtus</persName> did begin:</l> 
+               <l>And finding him there ſleeping on a bed,</l>
+               <l>He did begin to pluck him by the leg,</l>
+               <l>That he did pluck it off: then <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">fauſtus</persName> cry’d,</l> 
+               <l>With open throat that he had murther’d him,</l> 
+               <l>Whereat the Horſe courſer did now begin</l>
+               <l>To ask for mercy and away he went,</l>
+               <l>And for to loſe his money was content.</l>
+               <l style="text-indent:2em;">It hap’ned <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style:italic;">Fauſtus</hi></persName> on a day.</l>
+               <l>Met with a clown that drove a load of hay,</l>
+               <l>And asked him what he ſhould give, in ſcoff,</l>
+               <l> That he might eat his belly full thereof:</l>
+           </lg>
+           <fw type="catchword" style= "text-align:right;">The</fw>
+           <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original" resp="contr_RPERE">A8v</supplied></fw>
+           <pb/>       
+ <!-- YOU STOPPED HERE -->
+               <fw type='header'>Doctor <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">John <hi style="font-style: italic;">Faustus</hi>.</persName></fw>
+                    <fw type="header" style="text-align: right;"><add rend= "handwritten">49</add></fw>
+                    <fw style="text-align: right;" type="pageNum">17</fw>
+                    <lg><l>The Clown did tell him that he ſhould</l>
+                        <l>For his three farthings eat  <choice resp="cont_WWING"><abbr>ev‘n</abbr><expan>even</expan></choice> what he would</l>
+                        <l>It was agreed, and <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style: italic;">Fauſtus</hi></persName> ſet</l>
+                        <l>Himſelf to eat, and all his teeth did whet</l>
+                        <l>That the poor clown was ſory, and did grutch</l>
+                        <l>To ſee that <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> did eat up ſo much:</l>
+                        <l>For <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> did the Countrey-man ſo blind,</l>
+                        <l>He could not ſee the hay was left behind,</l>
+                        <l>And therefore did intreat him very fair,</l>
+                        <l>That <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName>would his load of hay yet ſpare,</l>
+                        <l>Here at <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> laughing went away,</l>
+                        <l> And afterward the Clown had all his hay.</l></lg>
+                    
+                    <lg>
+                        <l style="text-indent: 2em;"><persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style: italic;">Fauſtus</hi></persName>coming on a time</l>
+                        <l>Unto a <placeName>Tavern</placeName>, which did ſell good wine,</l> 
+                        <l>He found a company of drunkards there</l> 
+                        <l>Merrily drinking and ſo loud they were,</l> 
+                        <l>That <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style: italic;">Fauſtus,</hi></persName> who this noiſe did hate,</l> 
+                        <l>Hearing them all thus loudly ſing and prate:</l>
+                        <l>At laſt <choice resp="cont_WWING"><abbr>whé</abbr><expan>when</expan></choice>they their words had newly ſpokè</l>
+                        <l>He then cojured that their mouths ſtood open </l>
+                        <l>And this they gaping ſtood at one another, </l>
+                        <l>Not one was able for to ſpeak to th’ other.</l>
+                        <l>In this amazed manner forth they came, </l>
+                        <l>And then they all did ſhut their mouths again. </l>
+                        <l>And hereby <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> Art was much expreſt,</l>
+                        <l>And all the Town did laugh at this new jeſt.</l></lg>
+                    
+                    <lg>
+                        <l style="text-indent: 2em;">Once <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style: italic;">Fauſtus</hi></persName> did his friends invite,</l>
+                        <l>Who Scholars were unto a ſupper light:</l> 
+                        <fw type="catchword" style="text-align: right;">And</fw>
+                        <fw type="signature"><supplied reason="omitted-in-original" resp="cont_WWING">B1r</supplied></fw>
+                    <pb/>
+                        
+                    <fw type="header" style="text-align:left;">18</fw>
+                    <fw type="header" style="text-align:center;">The Hiſtory of</fw>
+                    <fw type="header" style="text-align:right;"><add rend="handwritten"></add>50</fw>
+                        <l>And afterward he did intreat each gueſt</l> 
+                        <l>(Meaning thereby to make a merry jeſt)</l>
+                        <l>That they would take the pains with him to go</l>
+                        <l>To a wine-celler which he would them ſhow:</l>
+                        <l>They all conſented and not long they ſtay’d,</l>
+                        <l>To the Biſhops cellar they were all convey’d</l>
+                        <l>There <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> and the Scholars merry were,</l>
+                        <l>But now the Butler put them in a fear,</l> 
+                        <l>Who coming haſtily to draw ſome drink,</l> 
+                        <l>The Butler ſeeing them, did ſtraightway think</l>
+                        <l>They had been thieves, and ſo aloud did cry</l> 
+                        <l>For help: but <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> ſtill’d him by and by.</l>
+                        <l>By the hair of the head he carry’d him,</l> 
+                        <l>Who now for fear to tremble did begin,</l> 
+                        <l>Untill unto a lopped tree he came</l>
+                        <l>And there he leſt the Butler on the ſame;</l>
+                        <l>And all the night, which was both ſharp &amp; cold</l>
+                        <l>With both his hands he by the tree did hold:</l>
+                        <l>Till in the morning when he did eſpy</l>
+                        <l>The ſhepherds, he aloud to them did cry</l> 
+                        <l>who wondered much what man that ſhould</l>
+                        <l>who had thus climed on ſo high a tree. <hi style="font-style: italic;">(be</hi></l>
+                        <l>But when this news unto the Biſhop came,</l> 
+                        <l>The Biſhop did go out to ſee the ſame, <hi style="font-style: italic;">(ther</hi></l>
+                        <l>And asked him how that he was brought thi</l>
+                        <l>The Butler that with cold did quake &amp; quiver,</l>
+                        <l>Did anſwer, that he certain thieves had found</l>
+                        <l>In his wine cellar who were drinking round,</l> 
+                        <l>And by the hair of the head they did him</l>
+                        <l style="text-indent: 4em;">bring,</l>
+                    <fw type="catchword" style="text-align: right;">And</fw>
+                    <fw type="signature"><supplied reason="omitted-in-original" resp = "contr_DHASK">B1v</supplied></fw>  
+                    <pb/>
+                        
+                        <fw type= "header" style= "text-align: center;"> <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor John Fauſtus</persName></fw>    
+                    <fw type="header" style="text-align: right;"> <add rend="handwritten">51</add></fw> 
+                    <fw type="pageNum" style="text-align: right;">19</fw> 
+                        <l>And left him in that caſe they found him in.</l>
+                        <l>what ere they were, ſaid he, I do not know; </l>
+                        <l>If they were devils, they like men did ſhow.</l>
+                    </lg>
+                    <lg>
+                        <l style="text-indent:1em;">But ‘tis not here my purpoſe to recite.</l>
+                        <l>Or all the merry tricks of <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> write,</l>
+                        <l>Yet ſome of them I have related here:</l>
+                        <l>But now his twenty four years drew near;</l>
+                        <l>And though in pleaſure he had ſpent his time,</l>
+                        <l>The number of his years did now decline,</l>
+                        <l>And all the ſpirits had a great deſire,</l>
+                        <l>To ſee when <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> bond would once expire.</l>
+                        <l>Since he was bound by that ſame bloody ſcroul </l>
+                        <l>At twenty-four years end to give his ſoul </l>
+                        <l>To <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_LUCI1">Lucifer</persName>: the time now drawing nigh, </l>
+                        <l>You muſt expect to hear his Tragedy. </l>
+                    </lg> 
+            </div> 
+            <div type="chapter">
+                <head type="header">CHAP. VII.</head>
+                <lg style="font-style: italic;" type="epigraph">
+                    <l style="text-indent:2em;">How <persName style="font-style: normal;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> when his time drew nigh.</l>
+                    <l style="text-indent:2.5em;">did make great lamentation: </l>
+                    <l style="text-indent:2em;">And to his fellow ſtudents made </l>
+                    <l style="text-indent:2.5em;">his funeral Oration.</l>
+                </lg>
+                <lg> 
+                    <l><hi style="float: left; font-size: 4rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">T</hi>He glaſs of <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> time being almoſt run </l>
+                    <l>Having but one month of his time to </l>
+                    <l>He drew into a very penſive mood, (come, </l>
+                    <l>And now his fault he plainly  underſtood:</l>
+                <fw type="signature" style="text-align:right;">And</fw>
+                <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">B2r</supplied></fw>
+                <pb/> 
+                <fw type="header" style="texr-align: center;"><hi style="font-style: italic;">The Hiſtory of</hi></fw>
+                <fw type="header" style= "text-align: right;"><add rend="handwritten">52</add></fw>
+                    <l>And now began to curſe that wretched time,</l>
+                    <l>When he to ſtudy Magick did incline.</l>
+                    <l>To hope for mercy now it was too late.</l>
+                    <l>Which made him to deplore his wicked ſtate</l>
+                    <l>And his accuſing conſcience now did tell,</l>
+                    <l>There was no way for him but down to hell,</l>
+                    <l>And thus in waiting he his time did ſpend,</l>
+                    <l>That little time which drew unto an end,</l>
+                    <l>Now on the pains of hell he firſt did think;</l>
+                    <l>The racks and tortures chains and filthy ſtink;</l>
+                    <l>How <persName style="font-style: italic;">Proſerpine</persName> would ſurely laugh to ſee</l>
+                    <l>His ſoul tormented in this miſerie,</l>
+                    <l>Then he bethought him on the whips of ſteel,</l>
+                    <l>Which he did know his body there ſhould ſee</l>
+                    <l>The more he thought, the thoghts increas’d hi<supplied reason="original-cropped" resp="contr_RPERE">s</supplied></l> 
+                    <l>Which made him ſtil unto himſelf cóplain (pai<supplied reason="original-cropped" resp="contr_RPERE">n</supplied></l>
+                    <l>While thus he ſpent his time in grief and fear</l>
+                    <l>His <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_MEPH1">Mephoſtophiles</persName> did to him appear,</l>
+                    <l>And told him that his years were now expir’d</l>
+                    <l>And that his Maſter <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_LUCI1">Lucifer</persName> deſir’d</l>
+                    <l>He would prepare himſelf and make an end,</l>
+                    <l>For that his Maſter ſhortly did intend,</l>
+                    <l>On ſuch a night, to fetch him down to hell,</l>
+                    <l>That with th’ infernal ſpirits he might dwell</l>
+                    <l>When <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> had hard this he grew ſo ſad,</l>
+                    <l>That with his ſorrows he grew almoſt mad.</l>
+                    <l>He tumbled on his bed, all reſt he did deſpiſe</l>
+                    <l>No quyet ſlumber ever cloſ’d his eyes;</l>
+                    <l>But he was ſtill tormented in his mind, </l>
+                
+                <fw type="catchword" style="text-align:right;">Si</fw>
+                <fw type="signature" style= "text-align:center;"><supplied reason="omitted-in-original">B2v</supplied> </fw>
+                <pb/>
+                    <fw type="header" style="text-align:center;"><persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor John Fauſtus.</persName></fw>
+                    <fw><add rend="handwritten">53</add></fw>
+                    <fw style="text-align:right;">21</fw>
+                        <!-- Supplied text from line 43 to line 69 follows EEBO facsimile copy of The History of Doctor John Faustus, printed by E. Cotes, London, 1664 (Wing H2117) -->
+                        <l><supplied reason="original-cropped">Si</supplied>n went before, and torture came behind.</l>
+                        <l><supplied reason="original-cropped">Y</supplied>et ſo it was, that one that very day</l>
+                        <l><supplied reason="original-cropped">O</supplied>n which the devil ſhold fetch him quite away</l>
+                        <l><supplied reason="original-cropped">H</supplied>e ſent unto his friends, intreating for his ſake</l>
+                        <l><supplied reason="original-cropped">T</supplied>hat of his Banquet they would all partake.</l>
+                        <l><supplied reason="original-cropped">A</supplied>s merry Banquet is, it ſoon befell,</l>
+                        <l><supplied reason="original-cropped">A</supplied>s afterward in due place I will tell</l>
+                        <l><supplied reason="original-cropped">T</supplied>he Students being come, he made them all</l>
+                        <l><supplied reason="original-cropped">A</supplied>s welcome as he could when he himſself did</l>
+                        <l><supplied reason="original-cropped">In</supplied>to a ſudden dump, nor could he be (fall</l>
+                        <l><supplied reason="original-cropped">M</supplied>erry in their ſo beloved company:</l>
+                        <l><supplied reason="original-cropped">S</supplied>o calling them into another room,</l>
+                        <l><supplied reason="original-cropped">H</supplied>e did unfold to them his fearful doom.</l>
+                    </lg>
+                    
+                <fw type="header" style="font style: italic; text-indent:1em;"><persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor Fauſtus</persName> his Oration to his <lb/></fw>
+                    <fw type="header" style="font style: italic; text-indent:2em;">Friends and Fellow-ſtudents.</fw>
+                    
+                    <lg>
+                        <l><hi style="float: left; font-size: 4rem; padding: 0.5rem; margin: 0 2rem 1rem 0;">M</hi>Y friends, I muſt begin my Oration,</l>
+                        <l>With a confeſſion of my conjuration:</l>
+                        <l><supplied reason="original-cropped">S</supplied>ince all of you do know my firſt beginning.</l>
+                        <l><supplied reason="original-cropped">A</supplied>nd how I grew ſtill worſe and worſe in ſin-</l>
+                        <l><supplied reason="original-cropped">A</supplied>nd unto Magick Arts I was ſo bent, (ning,</l>
+                        <l><supplied reason="original-cropped">I</supplied> ſought alwayes to further mine intent,</l>
+                        <l><supplied reason="original-cropped">A</supplied>nd leaving better ſtudies did apply</l>
+                        <l><supplied reason="original-cropped">M</supplied>y ſelf unto the helliſh myſtery.</l>
+                        <l><supplied reason="original-cropped">T</supplied>hus did I live twenty four years and more,</l>
+                        <l><supplied reason="original-cropped">W</supplied>ho ſad expiring I muſt now deplore:</l>
+                        <l><supplied reason="original-cropped">F</supplied>or ſo it is, to purchaſe my content,</l>
+                    <fw type="catchword" style="text-align:right;">Which</fw>
+                    <fw type="signature" style="text-align:center;"><supplied reason="omitted-in-original" resp="contr_RPERE">B3R</supplied></fw>
+                    <pb/>
+                    <!--Mackenzie Gomes-->
+                         <fw style="text-align:right;">22</fw>
+                        <fw type="header" style="text-align:center; font-style:italic;">The History of</fw>
+                        <fw><add rend="handwritten">54</add></fw>
+                            
+                        <!-- Supplied text from lines 43, 44, 53, and 54 follows EEBO facsimile copy of The History of Doctor John Faustus printed by E.Cotes, London, 1664 (wing H2117) -->
+                            <l>Which was, when twenty four years once di<supplied reason="original-cropped">d</supplied></l>
+                            <l>Which time in conjuration I did ſpend. (en<supplied reason="original-cropped">d</supplied></l>
+                            <l>The devil ſhould have my body and my ſoul:</l>
+                            <l>And did confirm it by a bloody ſcroul:</l>
+                            <l>And now the diſmal term of years is done,</l>
+                            <l>And night beginning, my hour glaſs is run:</l>
+                            <l>This night I look that he for me ſhould ſend,</l>
+                            <l>And this my life will have a fearful end,</l>
+                            <l>And now, my friends this banquet I did mak<supplied reason="original-cropped">e</supplied></l>
+                            <l>That I of you my laſt farewel might take,</l>
+                            <l>Deſiring pardon where I have offended,</l>
+                            <l>Since my laſt act of life cannot be mended,</l>
+                            <l>And for thoſe practices which I have wrough<supplied reason="original-cropped">t</supplied></l>
+                            <l>By conjuration, and thereby have brought</l>
+                            <l>My heavy ſoul to grief and ſad deſpair,</l>
+                            <l>My life is written in a writing fair,</l>
+                            <l>Which lyes within my ſtudy: ſo that you</l>
+                            <l>May learn thereby ſuch courſes to eſchew.</l>
+                            <l>And if that <fw style="front-style: italics;" >I</fw> do you my counſel give,</l>
+                            <l>And uſe that little time I have to live;</l>
+                            <l>Be ſure that you forſake all conjuration,</l>
+                            <l>And pray to be delivered from temptation:</l>
+                            <l>And let my death a warning be to all,</l>
+                            <l>Since by deſire of knowledge I did fall;</l>
+                            <l>For now to give my ſpeech a ſad concluſion,</l>
+                            <l>This night I muſt expect my own confuſion:</l>
+                            <l>And yet, my loving friends, I do requeſt,</l>
+                            <l>That you will go to bed, and take your reſt?</l>
+                            <l>Let nothing trouble you, nor do not fear,</l>
+                        <fw type="signature"><supplied reason="omitted-in-original" resp="contr_RPERE">B3V</supplied></fw>
+                        <pb/>       
+                    <!-- Jack Fleming-->
+                        <fw type="header" style="text-align: center; font-style: italic;"><persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor John Fauſtus.</persName></fw> <fw type="header" style="text-align: right;"><add rend="handwritten">55</add></fw> <fw type="pageNum" style="text-align: right;">23</fw>
+                            <l>If any trembling noiſe you chance to hear,</l>
+                            <l>Be ſure you do not riſe out of your bed:</l>
+                            <l>But when that I to <persName style="font-style: italic;">Plutoes</persName> court am fled,</l>
+                            <l>If that you find my body the nixt day,</l>
+                            <l>Be ſure that you to earth do it convey. </l>
+                            <l>And ſo, my friends I wiſh you all good reſt:</l>
+                            <l>Pray go to bed my ſoul is much oppreſt:</l>
+                            <l>When as his friends had heard what he did ſay</l>
+                            <l>They counſel'd him that he to God ſhold pray:</l>
+                        <l>But <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Faustus</persName> felt the weight ſo of his ſin;</l>
+                            <l>That how to pray, he knew not to begin,</l>
+                            <l>At laſt the ſtudents having pray'd did weep,</l>
+                            <l>And after went to bed, but could not ſleep.</l>
+                        <l>For <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> in the hall did ſtay alone (groan:</l>
+                            <l>Where they might hear how he did ſigh and</l>
+                            <l>And ſo with wakeful eyes they did attend,</l>
+                            <l>Expecting ſtill to hear his fearful end.</l>
+                            <l>At laſt between the hours of twelf and one.</l>
+                            <l>At wind did riſe, the like was never known,</l>
+                            <l>It was ſo violent, which when they once did</l>
+                            <l>The hoſt &amp; Students both began to fear, (hear</l>
+                        <l>For Doctor <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Fauſtus</persName> in the hall did ly</l>
+                            <l>Whece they might hear his fearful Tragedy</l>
+                            <l>For now the hall and upper rooms did ſhake,</l>
+                            <l>And they did hear a hiſſing like a ſnake,</l>
+                            <l>And then the hall door fiercely did fly open,</l>
+                        <l>And <persName style="font-style: italic;" ref="/kit-marlowe/files/personography.xml#pers_FAUS1"> Fauſtus </persName> murther cry'd which being ſpoken</l>
+                            <l>They heard no more, ſo that the Schollars</l>
+                        <l>Now <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">Doctor <hi style="font-style: italic;">Fauſtus</hi></persName>is to <placeName>hell</placeName>  convaid, (ſaid,</l>
+                        <fw type="catchword" style="text-align: right;">The</fw>
+                        <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original" resp="contr_RPERE">B4R</supplied></fw>
+                        <pb/>
+                        
+                        <fw type="pageNum" style="text-align: left;">24</fw> 
+                        <fw type="header" style="left"><add rend="handwritten">56</add></fw> 
+                        <fw type="header" style="text-align:center; font-style:italics;">The History of <persName ref="/kit-marlowe/files/personography.xml#pers_FAUS1">D. Fauſtus</persName>.</fw>  
+                            <l>The next day when they came into the hall,</l>
+                            <l>They might behold a fearful funeral.</l>
+                            <l>His blood &amp; brains were ſprinkled on the groũd</l>
+                            <l>And ſuch a ſight as might the ſenſe confound,</l>
+                            <l>Here lay his teeth, and there his eyes did ly,</l>
+                            <l>A ſpectecale of helliſh cruelty. (mourn,</l>
+                            <l>Which when his friends beheld, they all did</l>
+                            <l>And found his body in the dung hill torn.</l>
+                            <l>To which his friends did Chriſtian burial give,</l>
+                            <l>Although himſelf did like a devil live,</l>
+                            <l>Thus I this Story of his life have penn'd.</l>
+                            <l>That we may ſee his life, and hate his end.</l>
+                        </lg>
+                        <fw style="text-align: center; font-style: italic;"></fw>
+                        <figure>
+                            <figDesc>printer ornament here </figDesc>
+                        </figure>
+                        <l>FINIS.</l>
+                        <figure>
+                            <figDesc>printer ornament here </figDesc>
+                        </figure>
+                        <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original" resp="contr_RPERE">B4V</supplied></fw>
+                    </div>                             
+        </body>
+    </text>
+</TEI>

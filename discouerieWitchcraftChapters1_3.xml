@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://jenkins.hcmc.uvic.ca/job/MoEML/lastStableBuild/artifact/static/site/xml/schemas/london_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+   <fileDesc>
+            <titleStmt>
+                <title>Scot_Witches_master_DH_A2r_to_B1r</title>
+                <author><persName type="hist"><forename><surname/></forename></persName></author>
+                <respStmt>
+                    <resp ref="molresp:edt">General Editor</resp>
+                    <name>Kristen Abbott Bennett</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="molresp:edt">Assistant Editor</resp>
+                    <name>Kelsey L. Rhodes</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="molresp:mrk">Transcriber and encoder</resp>
+                    <name>Gwendolyn Carpenter</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="molresp:mrk">Transcriber and encoder</resp>
+                    <name>Caroline M. Hawkes</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Printed by <persName type="hist"><forename/>
+                    <surname/></persName>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p><!-- Working from Huntington Library (microfilm) copy available via EEBO and Boston Public Library --><idno>STC
+                    21864</idno></p>
+            </sourceDesc> 
+        </fileDesc>
+        <profileDesc><textClass>
+            <catRef></catRef>
+        </textClass></profileDesc>
+        <encodingDesc>
+            <p>TEI P5</p>
+        </encodingDesc>
+        <revisionDesc><change who="BENN"></change></revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+<!--Page C1r transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->
+         <div type="part">
+            <head type="sub"><hi style="text-align:center;"><hi style="font-size:200%;">The diſcouerie of</hi></hi><lb/>
+               <hi style="font-size:175%;"><hi style="text-align:center;">Witchcraft.</hi></hi></head><lb/>
+               
+            <p style="text-align:center; font-size:150%"><hi style="text-style:italic;">¶The first Booke.</hi></p><lb/>
+            <p style="text-align:center;">An impeachment of Witches power in me-<lb/>
+                  teors and elementarie bodies, tending to the re-<lb/>
+                  buke of ſuch as attribute too much vnto them.</p><lb/>      
+            <p style="text-align:center; font-size:125%">The firſt Chapter.<lb/></p>
+                  
+            <p style="font-style;blackletter;,">
+               <seg style="decorInit;float:left;font-size:1400%;padding:0.5rem;margin:0.2rem 1rem 0;">T</seg>HE fables of<lb/>
+               Witchcraft haue ta-<lb/>
+               ken ſo faſt hold and<lb/>
+                dæpe root in the heart<lb/>
+               of man,that fewe or<lb/>
+               none can (nowadaies)<lb/>
+               with patience indure<lb/>
+               the hand and correcti-<lb/>
+               on of <persName type="lit">God</persName>. For if any<lb/>
+               aduerſitie, gréefe, ſick-<lb/>
+               neſſe, loſſe of children,<lb/>
+               corne, cattell, or liber-<lb/>
+               tie happen vnto them;<lb/>
+               by &amp; by they exclaime<lb/>
+               vppon witches. As<lb/>
+               though there were no <persName type="lit">God</persName> in <placeName>Iſrael</placeName> that ordereth all things ac-
+               <note type="authorial" place="margin-right" style="font-size:75%;"><quote source="Bible:Job">Iob.5.</quote></note><lb/>
+               cording to his will; puniſhing both iuft and vniuft with gréefs,<lb/>
+               plagues, and afflictions in maner and forme as he thinketh good:<lb/>
+               but that certeine old women héere on earth, called witches,<lb/>
+               muſt néeds be the contriuers of all mens calamities, and as<lb/>
+               though they themſelues were innocents, and had deferued no<lb/>
+               ſuch puniſhments. Inſomuch as they ſticke not to ride and go<lb/> 
+               to ſuch, as either are iniuriouſlie tearmed witches, or elſe are<lb/>
+               willing ſo to be accounted, ſéeking at their hands comfort and<lb/>
+               remedie in time of their tribulation, contrarie to <persName type="lit">Gods</persName> will and<lb/>
+               commandement in that behalfe, who bids us reſort to him in all            
+                     <note type="authorial" place="margin-right" style="font-size:75%;"><quote source="Bible:Matthew">Matth.11.</quote></note><lb/></p>
+            
+            <fw type="signature"><hi style="font-style;blackletter;"><hi style="text-align:center;">C.j.<supplied reason="omitted-in-original">r</supplied></hi></hi></fw>   
+            <fw type="catchword" style="text-align:right;"><hi style="font-style;blackletter;">our</hi></fw>
+         <pb/> 
+         
+        <!--Page C1v transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->         
+            <fw type="pageNum" style="font-size:125%"><hi style="text-align: left;">2</hi></fw>
+            <fw type="header" style="font-size:125%"><hi style="text-align: center;">I.Booke.</hi></fw>
+            <fw type="header" style="font-size:125%"><hi style="text-align: center;">The diſcouerie</hi></fw>
+            <fw type="header" style="font-size:125%"><hi style="font-style:italic; text-align: right;">Credulitie.</hi></fw>
+            
+            <p><hi style="front-style;blackletter;">our neceſſities.</hi><lb/></p>            
+            
+            <p style="text-indent:1em;"><hi style="front-style;blackletter;">Such faithleſſe (I ſaie) are alſo perſuaded, that neither<lb/>
+            haile nor ſnowe, thunder nor lightening, raine nor tempeſtuous<lb/>
+            winds come from heauens at the commandement of God:<lb/>
+            but are raiſed by the cunning and power of witches and coniu-<lb/>
+            rers; inſomuch as a clap of thunder, or a gale of wind is no ſoo-<lb/>
+            ner heard, but either they run to ring bels, or crie out to burne<lb/>
+            witches; or elſe burne conſecrated things, hoping by the ſmoke<lb/>
+            thereof, to driue the diuell out of the aire, as though ſpirits could<lb/>
+            be fraied awaie with ſuch externall toies: howbeit, theſe are<lb/>
+               right inchantments, as </hi><persName type="hist">Brentius</persName><hi style="front-style;blackletter;"> affirmeth.</hi><lb/></p>
+           
+            <p style="text-indent:1em; blackletter;">       
+            <note type="authorial" place="margin-right" style="font-size:75%;"><hi style="font-style:italic;">In concione.</hi></note>   
+                  <hi style="text-indent: 2em;">But certeinlie, it is neither a witch, nor diuell, but a glori-</hi><lb/>
+            <note type="authorial" place="margin-left" style="font-size:75%;"><quote source="Bible:Psalm"><hi style="font-style:superscript;">ͣ </hi>Pſal.25.</quote></note>            
+                  ous <hi style="font-style:superscript;">ͣ </hi><persName type="lit"> God</persName> that maketh the thunder. I haue read in the ſcrip-<lb/>
+            <note type="authorial" place="margin-left" style="font-size:75%;"><quote source="Bible:Psalm"><hi style="font-style:superscript;">ᵇ</hi>Pſal.83.</quote></note>
+                  tures, that God <hi style="font-style:superscript;"> ᵇ </hi> maketh the bluſtering tempeſts and whirle-<lb/>
+            <note type="authorial" place="margin-left" style="font-size:75%;"><quote source="Bible:Ecclesiastes"><hi style="font-style:superscript;">ͨ </hi>Eccleſ.43.</quote></note>
+                  winds: and I find that it is <hi style="font-style:superscript;"> ͨ  </hi> the <persName type="lit">Lord</persName> that altogither dealeth<lb/>
+            <note type="authorial" place="margin-left" style="font-size:75%;"><quote source="Bible:Luke"><hi style="font-style:superscript;">ͩ </hi>Luke.8.</quote></note>  <note type="authorial" place="margin-left"><quote source="Bible:Matthew">Matth.8.</quote></note> 
+                  with them, and that they <hi style="font-style:superscript;"> ͩ  </hi> blowe according to his will. But let<lb/>
+                  me ſée anie of them all <hi style="font-style:superscript;"> ͤ  </hi> rebuke and ſtill the ſea in time of tem-<lb/>
+            <note type="authorial" place="margin-left" style="font-size:75%;"><quote source="Bible:Mark"><hi style="font-style:superscript;">ͤ </hi>Mark.4,41</quote></note><note type="authorial" place="margin-left"><quote source="Bible:Luke">Luk.8,14.</quote></note>
+                  peſt, as <persName type="hist">Chriſt</persName> did; or raiſe the ſtormie wind, as <hi style="font-style:superscript;">ᶠ</hi> <persName type="lit">God</persName> did with<lb/>
+            <note type="authorial" place="margin-left" style="font-size:75%;"><quote source="Bible:Psalm"><hi style="font-style:superscript;">ᶠ</hi>Pſal.170.</quote></note>
+            his word; and I will beléeue in them. Hath anie witch or coniu-<lb/>
+            rer, or anie creature entred into the <hi style="font-style:superscript;">ᵍ</hi> treaſures of the ſnowe; or<lb/>
+                  <note type="authorial" place="margin-left" style="font-size:75%;"><quote source="Bible:Job"><hi style="font-style:superscript;">ᵍ</hi>Iob.38,22.</quote></note>         
+            ſéene the ſecret places of the haile, which <persName type="lit">GOD</persName> hath prepared a-<lb/>
+            gainſt the daie of trouble, battell, and warre. I for my part al-<lb/>
+                  <note type="authorial" place="margin-left" style="font-size:75%;"><quote source="Bible:Ecclesiastes">Eccleſ.43.</quote></note>    
+            ſo thinke with <persName type="hist">Jeſus Sirach</persName>, that as <persName type="lit">Gods</persName> onelie commande-<lb/>
+            ment the ſnowe falleth; and that the wind bloweth according to<lb/>
+                  <note type="authorial" place="margin-left" style="font-size:75%;"><quote source="Bible:Leviticus"><hi style="font-style:superscript;">h</hi>Leuiti.26.</quote></note> <note type="authorial" place="margin-left"><quote source="Bible:verse">verſe.3.4.</quote></note> <!-- what part of the Bible -->
+            his will, who onelie maketh all ſtormes to ceaſe; and <hi style="font-style:superscript;">h</hi> who (if<lb/>
+            we kéepe his ordinances) will ſend us raine in due ſeaſon, and<lb/>
+            make the land to bring forth hir increaſe, and the trées of the field<lb/>
+            to giue their fruit.<lb/></p>
+          <p style="text-indent:1em;"><hi style="blackletter;"><note type="authorial" place="margin-left" style="font-size:75%;"><quote source="Bible:Psalm"><hi style="font-style:superscript;">i</hi>Pſal.78,23.</quote>
+                     </note>But little thinke our witchmongers, that the <hi style="font-style:superscript;">i</hi><persName type="lit">Lord</persName> com-<lb/>
+            mandeth the clouds aboue, or openeth the doores of heauen, as<lb/>
+            </hi><persName type="hist">Dauid</persName><hi style="front-style;blackletter;"> affirmeth; or that the <persName type="lit">Lord</persName> goeth forth in the tempeſts and<lb/>
+            <note type="authorial" place="margin-left" style="font-size:75%;"><quote source="Bible:Nahum"><hi style="font-style:superscript;">k</hi><persName type="hist">Nahum</persName>.1.</quote></note>
+                     ſtormes, as the Prophet <hi style="font-style:superscript;">k</hi></hi><persName type="hist">Nahum</persName><hi style="front-style;blackletter;"> reporteth: but rather that wit-<lb/>
+            ches and coniurers are then about their buſineſſe.</hi><lb/></p>  
+          <p style="text-indent:1em;"><hi style="blackletter;">The</hi><persName type="hist">Martioniſts</persName><hi style="front-style;blackletter;">acknowledged one <persName type="lit">God</persName> the authour of good<lb/>
+            things, and another the ordeiner of euill: but theſe make the di-<lb/>
+            uell a whole god, to create things of nothing, to knowe mens co-<lb/>
+            gitations, and to doo that which <persName type="lit">God</persName> neuer did; as, to tranſub-<lb/>
+            ſtantiate men into beaſts, &amp;c. Which thing if diuels could doo,</hi><lb/></p>
+         
+         <fw type="signature"><hi style="front-style;blackletter;"><hi style="text-align:center;"><supplied reason="omitted-in-original">C.i.v</supplied></hi></hi></fw>
+         <fw type="catchword" style="text-align:right;"><hi style="front-style;blackletter;">yet</hi></fw>
+            <pb/>
+         
+        <!--Page C2r transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->
+            <fw type="header" style="text-align: left; font-size:125%;"><hi style="font-style:italic;">Credulitie.</hi></fw>
+            <fw type="header" style="text-indent: 4ems;font-size:125%;">ofWitchcraft.</fw>
+            <fw type="header" style="text-align: 4ems; font-size:125%;">Cap.1.</fw>
+            <fw type="pageNum" style="text-align: right; font-size:125%;">3</fw>
+            
+            <p style="front-style;blackletter;">yet followeth it not, that witches haue ſuch power. But if all<lb/>
+            the diuels in hell were dead, and all the witches in <placeName>England</placeName><lb/>
+            burnt or hanged; I warrant you we ſhould not faile to haue<lb/>
+            raine, haile and tempeſts, as now we haue: according to the ap-<lb/>
+            pointment and will of <persName type="lit">God</persName>, and according to the conſtitution of<lb/>
+            the elements, and the courſe of the planets, wherein <persName type="lit">God</persName> hath ſet<lb/>
+            a perfect and perpetuall order.<lb/></p>
+            
+            <p style="text-indent:1em;"><hi style="front-style;blackletter;">I am alſo well aſſured, that if all the old women in the world<lb/>
+               were witches; and all the prieſts, coniurers: we ſhould not haue<lb/>
+               a drop of raine, nor a blaſt of wind the more or the leſſe for them.<lb/>
+               For <hi style="font-style:superscript;">l</hi> the <persName type="lit"
+                     >Lord</persName> hath bound the waters in the clouds, and hath ſet
+                     <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote source="Bible:Iob"><hi style="font-style:superscript;"
+                     >l</hi>Iob.26,8.</quote></note><lb/>
+               bounds about the waters, untill the daie and night come to an<note
+                     type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote source="Bible:Iob">Iob.37.</quote></note><lb/>
+               end: yea it is <persName type="lit">God</persName> that raiſeth the winds
+                     and ſtilleth them: and <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote source="Bible:Psalm">Pſalme.135.</quote></note><lb/>
+               he ſaith to the raine and ſnowe; Be upon the earth, and it
+                     falleth.<note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote source="Bible:Ier">Ier.10 &amp; 15.</quote></note><lb/>
+               The <hi style="font-style:superscript;">m</hi> wind of the
+                     <persName type="lit">Lord</persName>, and not the wind of witches, ſhall
+                     de-<note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote source="Bible:Osee"><hi style="font-style:superscript;"
+                     >m</hi>Oſe.13.</quote></note><lb/>
+               ſtroie the treaſures of their pleſant veſſels, and drie up the foun-<lb/>
+               taines; ſaith</hi><persName type="lit">Oſeas</persName><hi style="front-style;blackletter;">. Let vs
+                     alſo learne and confeſſe with the<lb/> 
+               Prophet</hi><persName type="hist">Dauid</persName>,<hi style="front-style;blackletter;">that we <hi
+                     style="font-style:superscript;">n</hi> our ſelues are the cauſes of our
+                     afflicti-<note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote source="Bible:Pſalm"><hi style="font-style:superscript;">n</hi>Pſa.39,
+                     &amp;amp;c.</quote></note><lb/>
+               ons; and not exclaime vpon witches, when we ſhould call vpon<lb/> 
+                     God for mercie.<lb/></hi></p>
+            
+            <p style="text-indent:1em;"><hi style="front-style;blackletter;">
+               <hi style="text-indent:2em">The Imperiall lawe (ſaith </hi><persName type="hist"
+                     >Bentius</persName><hi style="front-style;blackletter;">) condemneth them to</hi>
+                     <note type="authorial" place="margin-right" style="font-size:75%;"><hi style="font-style:italic;">In
+                     epist.ad</hi></note><lb/>
+               death that trouble and infect the aire: but I affirme (ſaith he) that
+                     <note type="authorial" place="margin-right" style="font-size:75%;"><hi
+                     style="font-style:italic;">Io.Wierum.</hi></note><lb/>
+              it is neither in the power of witch nor diuell ſo to doo, but in <persName type="lit">God</persName><lb/>
+              onelie. Though (beſides </hi><persName type="hist">Bodin</persName><hi
+                     style="front-style;blackletter;">, and all the popiſh writers in<lb/> 
+              generall) it pleaſe </hi><persName type="hist">Danæus</persName>, <persName type="hist"
+                     >Hyperius</persName>, <persName type="hist">Hemingius</persName>, <persName
+                     type="hist">Eraſtus</persName>,<hi style="front-style;blackletter;"> &amp;c. to<lb/> 
+              conclude otherwiſe. The clouds <hi style="font-style:superscript;">o</hi>
+                     are called the pillers of Gods<note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote source="Bible:Exodus"><hi style="font-style:superscript;"
+                        >o</hi>Exod.13.</quote></note><lb/>
+              tents, Gods chariots, and his pauillions. And if it be ſo, what<note
+                     type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote source="Bible:Pſalm">Pſ.18,11.19.</quote></note><lb/>
+              witch or diuell can make maiſteries therof. S.</hi><persName type="hist">Auguſtine</persName>
+                     <hi style="front-style;blackletter;">ſaith,</hi><note type="authorial"
+                     place="margin-right"><hi style="font-style:italic;">*Auguſt.3.de.</hi></note><lb/>
+              <hi style="font-style:italic;">Non est putandum istis tranſgreſſoribus angelis
+                     ſeruire hanc rerum viſi-<note type="authorial" place="margin-right" style="font-size:75%;"><hi
+                     style="font-style:italic;">ſancta Trinit.</hi></note><lb/>
+              bilium materiem, ſed ſoli Deo</hi><hi style="front-style;blackletter;">: We muſt not thinke that theſe viſible<lb/>
+              things are at the commandement of the angels that fell, but are<lb/> 
+              obedient to the onelie <persName type="lit">God</persName>.</hi><lb/></p>
+            
+            <p style="blackletter;"><hi style="text-indent: 2ems;">Finallie, if witches
+                  could accompliſh theſe things; what</hi><lb/>
+             <hi style="text-indent: 3ems;">néeded it ſéeme ſo ſtrange to the people, when
+                  <persName type="hist">Chriſt</persName></hi><note type="authorial" place="margin-right" style="font-size:75%;">
+                  <quote source="Bible:Mar"><hi style="font-style:superscript;"
+                  >p</hi>Mar.4.41.</quote></note><lb/>
+             <hi style="text-indent: 4ems;">by miracle <hi style="font-style:superscript;">p</hi>
+                  commanded both ſeas and winds,</hi><lb/>
+             <hi style="text-indent: 6ems;">&amp;c. For it is written; Who is this: for</hi><lb/>
+             <hi style="text-indent: 11ems;">both wind and ſea</hi><lb/>
+             <hi style="text-indent: 13ems;">obeie him.</hi><lb/></p>
+            
+            <fw type="signature"><hi style="front-style;blackletter;"><hi style="text-align:center;">C.ii.<supplied reason="omitted-in-original">r</supplied></hi></hi></fw>   
+            <fw type="catchword" style="text-align:right;">The</fw><lb/>
+           <pb/>
+         </div>
+        
+        <!--Page C2v transcribed and coded by Caroline Hawkes under supervision of Kristen Abbott Bennett-->
+        <div type="part">
+           <fw type="pageNum" style="text-align: left; font-size:125%;">4</fw>
+           <fw type="header" style="text-indent: 4ems; font-size:125%;">I.Booke.</fw>
+           <fw type="header" style="text-indent: 4ems; font-size:125%;">The diſcouerie</fw>
+           <fw type="header" style="font-size:125%;"><hi style="font-style:italic; text-align: right;">Credulitie.</hi></fw>
+           
+          <p style="text-align:center"><hi style= "font-size:125%;">The inconuenience growing by mens credulitie here-</hi><lb/>
+               in, with a reproofe of ſome churchmen, which are inclined<lb/>
+               to the common conceiued opinion of witches omnipo-<lb/>
+               tencie, and a familiar example thereof.<lb/></p>
+           
+           <p style="text-align:center; font-size:125%">The ſecond Chapter.<lb/></p>
+           
+           <p><hi style="blackletter;"><hi style="decorInit;float: left; font-size: 800%; padding: 0.5rem; margin: 0.2rem 1rem 0;">B</hi><hi style="font-size:125%;">Ut the world is now ſo bewit-</hi><lb/>
+              ched and ouer-run with this fond error,<lb/>
+              that euen where a man ſhuld ſéeke com-<lb/>
+              fort and counſell, there ſhall hée be ſent<lb/>
+              (in caſe of neceſſitie) from <persName type="lit">God</persName> to the<lb/>
+              diuell; and from the Phyſician, to the <lb/>
+              cooſening witch, who will not ſticke to<lb/>
+              take vpon hir, by wordes to heale the<lb/>
+              lame (which was proper onelie to <persName type="hist">Chriſt</persName>; and to them whom he<lb/>
+              aſſiſted with his diuine power) yea, with hir familiar &amp; charmes<lb/>
+           </hi><note type="authorial" place="margin-left" style="font-size:75%;"><quote source="biblical:John"><hi style="font-style:superscript;">ͣ </hi> Ioh.10,21.</quote></note><hi style="font-style;blackletter;">ſhe will take vpon hir to cure the blind: through in the <hi style="font-style:superscript;"> ͣ  </hi> tenth of<lb/>
+              S. </hi><persName type="hist">Iohns</persName><hi style="front-style;blackletter;"> Goſpell it be written, that the diuell cannot open the<lb/>
+                 eies of the blind. And they attaine ſuch credit, as I haue heard<lb/>
+                 (to my gréefe) ſome of the miniſterie affirme, that they haue had<lb/>
+                 in their pariſh at one inſtant, rvij. or rviij. witches: meaning<lb/>
+                 ſuch as could worke miracles ſupernaturallie. Whereby they<lb/>
+                 manifeſted as well their infidelitie and ignorance, in concei-<lb/>
+                 uing <persName type="lit">Gods</persName> word; as their negligence and error in inſtructing<lb/>
+                 their flocks. For they themſelues might underſtand, and alſo<lb/>
+              </hi><note type="authorial" place="margin-left" style="font-size:75%;"><quote source="biblical:Pſal"><hi style="font-style:superscript;">ᵇ</hi>Pſal.72,&amp; 136.</quote></note><hi style="front-style;blackletter;"> teach their pariſhoners, that <hi style="font-style:superscript;">ᵇ</hi> <persName type="lit">God</persName> onelie worketh great woon-<lb/>
+                 ders; and that it is he which ſendeth ſuch puniſhments to the <lb/>
+              </hi><note type="authorial" place="margin-left" style="font-size:75%;"><quote source="biblical:Jeremiah"></quote>Ieremie,5.</note><hi style="front-style;blackletter;"> wicked, and ſuch trials to the elect: according to the ſaieng of<lb/>
+              </hi><note type="authorial" place="margin-left" style="font-size:75%;"><quote source="biblical:Haggai"><hi style="font-style:superscript;">ͨ  </hi> Hag.2, 28.</quote></note><hi style="front-style;blackletter;"> the Prophet </hi><persName type="hist">Haggai</persName><hi style="front-style;blackletter;">, <hi style="font-style:superscript;"> ͨ  </hi>I ſmote you with blaſting and mildeaw, <lb/>
+                 and with haile, in all the labours of your hands; and yet you<lb/>
+              </hi><note type="authorial" place="margin-left" style="font-size:75%;"><quote source="biblical:Idem"><hi style="font-style:superscript;"> ͩ </hi> Idem.ca.1 6.</quote></note><hi style="front-style;blackletter;"> turned not vnto me, ſaith the Lord. And therefore ſaith the ſame<lb/>
+              </hi><hi style="front-style;blackletter;">Prophet in another place; <hi style="font-style:superscript;"> ͩ  </hi> You haue ſoluen much, and bring<lb/>
+              </hi><note type="authorial" place="margin-left" style="font-size:75%;"><quote source="biblical:Joel"><hi style="font-style:superscript;">ͤ </hi> Ioel 1.</quote></note><hi style="front-style;blackletter;"> in little. And both in <hi style="font-style:superscript;">ͤ </hi></hi><persName type="hist">Ioel</persName><hi style="font-style;blackletter;"> and <hi style="font-style:superscript;" >ᶠ </hi></hi><persName type="hist">Leuiticus</persName><hi style="font-style;blackletter;">, the like phraſes and<lb/>
+              </hi><note type="authorial" place="margin-left" style="font-size:75%;"><quote source="biblical:Leviticus"><hi style="font-style:superscript;">ᶠ</hi>Leuiti.26.</quote></note><hi style="front-style;blackletter;"> proofes are vſed and made. But more ſhal be ſaid of this herafter.<lb/></hi></p>
+           
+           <p style="text-indent:1em;"><hi style="front-style;blackletter;">S.</hi><persName type="hist">Paule </persName>fore-ſawe the blindneſſe and obſtinacie, both of theſe<lb/>
+              blind ſhepheards, and alſo of their ſcabbed ſhéepe, when he ſaid;<lb/></p>
+           
+           <fw type="signature" style="text-align;center;"><supplied reason="omitted-in-original">C.ii.v</supplied></fw>
+           <fw type="catchword" style="text-align;right;"><hi style="front-style;blackletter;">They</hi></fw>
+           <pb/>
+           
+           <!--Page C3r transcribed and coded by Caroline Hawkes under supervision of Kristen Abbott Bennett-->
+           <fw type="header" style="text-align: left; font-style:italic; font-size:125%;">Credulitie.</fw>
+           <fw type="header" style="text-indent: 4ems; font-size:125%;">of Witchcraft.</fw>
+           <fw type="header" style="text-indent: 4ems; font-size:125%;">Cap.2.</fw>
+           <fw type="pageNum" style="text-align: right; font-size:125%;">5</fw>
+           
+           
+           <p><hi style="front-style;blackletter;"><hi style="font-style:superscript;">ᵍ</hi> They will not ſuffer wholſome doctrine, but hauing their eares </hi><note type="authorial" place="margin-right" style="font-size:75%;"><quote source="biblical:Timothy"><hi style="font-style:superscript;">ᵍ</hi> 2. Tim.4.</quote></note><hi style="front-style;blackletter;"><lb/>
+              itching, ſhall get them a heape of teachers after their own luſts; </hi><note type="authorial" place="margin-right" style="font-size:75%;"><quote source="biblical:Timothy">34.</quote></note><hi style="front-style;blackletter;"><lb/>
+                 and ſhall turne their eares from the truth, and ſhall be giuen to<lb/>
+                 fables. And <hi style="font-style:superscript;">h</hi> in the latter time ſome ſhall depart from the faith, </hi><note type="authorial" place="margin-right" style="font-size:75%;"><quote source="biblical:Timothy"><hi style="font-style:superscript;">h</hi> 1.Tim.4.1</quote></note><hi style="front-style;blackletter;"><lb/>
+                    and ſhall giue héed to ſpirits of errors, and doctrines of diuels,<lb/>
+                    which ſpeake lies (as witches and coniurers doo) but caſt thou<lb/>
+                    awaie ſuch prophane and old wiues fables. In which ſenſe </hi><persName type="hist">Ba-<lb/>
+                       ſil</persName><hi style="front-style;blackletter;">ſaith; Who ſo giueth héed to inchanters, hearkeneth to a fa-<lb/>
+                          bulous and friuolous thing. But I will rehearſe an example<lb/>
+                          whereof I my ſelfe am not onelie </hi><hi style="font-style:italic;"><foreign xml:lang="la">Oculatus testis</foreign></hi><hi style="front-style;blackletter;">, but haue exami-<lb/>
+                             ned the cauſe, and am to iuſtifie the truth of my report: not bi-<lb/>
+                             cauſe I would diſgrace the miniſters that are godlie, but to con-<lb/>
+                             firme my former aſſertion, that this abſurd error is growne in-<lb/>
+                             to the place, which ſhould be able to expell all ſuch ridiculous fol-<lb/>
+                             lie and impietie. </hi><lb/></p>
+           
+           <p style="text-indent:1em;"><hi style="font-style;blackletter;"> At the aſſiſes holden at </hi><placeName> Rocheſter</placeName><hi style="front-style;blackletter;">, Anno </hi>1581<hi style="front-style;blackletter;">. one</hi><persName type="hist">Margaret 
+                  <note type="authorial" place="margin-right" style="font-size:75%;"><quote>A ſtorie of Margaret Simons, a ſuppoſed witch.</quote></note><lb/>
+              Simons</persName><hi style="front-style;blackletter;">, the wife of </hi><persName type="hist">Iohn Simons</persName><hi style="front-style;blackletter;">, of </hi><placeName>Brenchlie</placeName><hi style="front-style;blackletter;"> in </hi><placeName>Kent</placeName><hi style="front-style;blackletter;">, was<lb/>
+              arainged for witchcraft, as the inſtigation and complaint of di-<lb/>
+              uers fond and malicious perſons; and ſpeciallie by the meanes<lb/>
+              of one</hi><persName type="hist">Iohn Ferrall</persName><hi style="front-style;blackletter;"> vicar of that pariſh: with whom I talked a-<lb/>
+              bout that matter, and found him both fondlie aſſotted in the <lb/>
+              cauſe, and enuiouſlie bent towards hir: and (which is worſe) as<lb/>
+              unable to make a good account of his faith, as ſhée whom he ac-<lb/>
+              cuſed. That which he, for his part, laid to the poore womans<lb/>
+              charge, was this.</hi><lb/></p>
+           <p style="text-indent:1em;"><hi style="front-style;blackletter;"> His ſonne (being an vngratious boie, and prentiſe to one </hi><persName type="hist">Ro-<lb/>
+              bert Scotchford</persName><hi style="front-style;blackletter;"> clothier, dwelling in that pariſh of </hi><placeName>Brenchlie</placeName><hi style="front-style;blackletter;">)<lb/>
+                 paſſed on a daie by hir houſe; at whome by chance hir little dog<lb/>
+                 barked. Which thing the boie taking in euill part, drewe his<lb/>
+                 knife &amp; purſued him there with euen to hir doore: whom ſhe rebu-<lb/>
+                 ked with ſome ſuch words as the boie diſdained, &amp; yet neuerthe-<lb/>
+                 leſſe would not be perſuaded to depart in a long time. At the <lb/>
+                 laſt he returned to his maiſters houſe, and within fiue or ſixe<lb/>
+                 daies fell ſicke. Then was called to mind the fraie betwixt the <lb/>
+                 dog and the boie: inſomuch as the vicar (who thought himſelfe<lb/>
+                 ſo priuileged, as he little miſtruſted that God would viſit his <lb/>
+                 children with ſicknes) did ſo calculate; as he found, partlie<lb/>
+                 through his owne iudgement, and partlie (as he himſelfe told)</hi><lb/></p>
+           
+           <fw type="signature" style="text-align:center;">C.iij.<supplied reason="omitted-in-original">r</supplied></fw>
+           <fw type="catchword" style="text-align:right;"><hi style="front-style;blackletter;"> me)</hi></fw><lb/>
+           <pb/>
+           
+           <!--Page C3v transcribed and coded by Caroline Hawkes under supervision of Kristen Abbott Bennett-->
+           <fw type="pageNum" style="text-align: left; font-size:125%;">6</fw>
+           <fw type="header" style="text-indent: 4ems; font-size:125%;">I.Booke.</fw>
+           <fw type="header" style="text-indent: 4ems; font-size:125%;">The diſcouerie</fw>
+           <fw type="header" style="text-align: right; font-style:italic; font-size:125%;">Credulitie.</fw>
+              
+           <p><hi style="front-style;blackletter;"> me) by the relation of other witches, that his ſaid ſonne was by <lb/>
+              hir bewitched. Yea, he alſo told me, that his ſonne (being<lb/>
+              as it were paſt all cure) receiued perfect health at the hands of a-<lb/>
+              nother witch.</hi><lb/></p>
+           
+            <p style="text-indent:1em;"><hi style="front-style;blackletter;">He procéeded yet further againſt hir, affirming, that alwaies</hi><lb/>
+           <hi style="front-style;blackletter;">in his pariſh church, when he deſired to read moſt plainelie, his<lb/>
+              voice ſo failed him, as he could ſcant be heard at all. Which hée
+              could impute, he ſaid, to nothing elſe, but to hir inchantment. <lb/>
+              When I aduertiſed the poore woman hereof, as being deſirous to<lb/>
+              heare what ſhe could ſaie for hir ſelfe; ſhe told me, that in verie<lb/>
+              déed his voice did much faile him, ſpeciallie when he ſtrained him-<lb/>
+              ſelfe to ſpeake lowdeſt. Howbeit, ſhe ſaid that all times his <lb/>
+              voice was hoarſe and lowe: which thing I perceiued to be true.<lb/>
+              But ſir, ſaid ſhe, you ſhall vnderſtand, that this our vicar is diſ-<lb/>
+              eaſed with ſuch a kind of hoarſeneſſe, as diuers of our neighbors<lb/>
+              in this pariſh, not long ſince, doubted that he had the French pox;<lb/>
+              &amp; in that reſpect vtterly refuſed to communicate with him: vntill<lb/>
+              ſuch time as (being thervnto inioined by M. D. </hi><persName type="hist">Lewen</persName><hi style="front-style;blackletter;"> the Dr-<lb/>
+                 dinarie) he had brought frõ </hi><placeName>London</placeName><hi style="font-style;blackletter;"> a certificat, vnder the hands<lb/>
+                    of two phyſicians, that his hoarſenes procéeded from a diſeaſe in<lb/>
+                    the lungs. Which certificat he publiſhed in the church, in the pre-<lb/>
+                    fence of the whole congregation: and by this meanes hée was<lb/>
+                    cured, or rather excuſed of the ſhame of his diſeaſe. And this I<lb/>
+                    knowe to be true by the relation of diuers honeſt men of that pa-<lb/>
+                    riſh. And truelie, if one of the Iurie had not béene wiſer than<lb/>
+                    the other, ſhe had béene condemned therevpon, and vpon other<lb/>
+                    <hi style="text-indent:1ems;">as ridiculous matters as this. For the name of a witch is</hi><lb/>
+                    <hi style="text-indent:2ems;">ſo odious, and hir power ſo feared among the common</hi><lb/>
+                    <hi style="text-indent:3ems;">people, that if the honeſteſt bodie liuing chance to</hi><lb/>
+                    <hi style="text-indent:6ems;">be arraigned thervpon, ſhe ſhall hard-</hi><lb/>
+                    <hi style="text-indent:10ems;">lie eſcape condem-</hi><lb/>
+                    <hi style="text-indent:13ems;">nation.</hi></hi><lb/></p>
+           
+           <fw type="signature" style="text-align;center;"><supplied reason="omitted-in-original">C.iij.v</supplied></fw>
+           <fw type="catchword" style="text-align;right;">Who</fw>
+           <pb/>
+        </div>
+        
+        <!--Page C4r transcribed and coded by Gwendolyn Carpenter under supervision of Kristen Abbott Bennett-->
+        <div type="part">
+           <fw type="header" style="text-indent: 4ems; font-size:125%;"><hi style="font-style:italic">Credulitie.</hi></fw>
+           <fw type="header" style="text-indent: 4ems; font-size:125%;">of Witchcraft.</fw>
+           <fw type="header" style="text-align: right; font-size:125%;">Cap.3.</fw>
+           <fw type="pageNum" style="text-align: right; font-size:125%;">7</fw>
+           
+           <p style="text-align:center;">Who they be that are called witches, with a manifeſt<lb/>
+              <hi style="font-size: 75%;">declaration of the cauſe that mooueth men ſo commonlie<lb/>
+              to thinke, and witches themſelves to beleeue that they can<lb/>
+              hurt children, cattell, &amp;c. with words and imaginations:<lb/>
+              and of cooſening witches.</hi><lb/></p>
+           
+           <p style="text-align:center; font-size:125%;">The third Chapter.</p>
+           
+           <p><hi style="blackletter;"><hi style="decorInit;float: left; font-size: 700%; padding: 0.5rem; margin: 0.2rem 1rem 0;">O</hi><hi style="font-size:125%;"> Ne ſort of ſuch as are ſaid to bee</hi><lb/>
+              witches, are women which be commonly<lb/>
+              old, lame, bleare-eied, pale, fowle, and<lb/>
+              full of wrinkles; poore, ſullen, ſuperſtiti-<lb/>
+              ous, and <orgName type="historical">papiſts</orgName>; or ſuch as knowe no re-<lb/>
+              ligion: in whoſe drouſie minds the diuell<lb/>
+              hath gotten a fine ſeat; ſo as, what miſ-<lb/>
+              chéefe, miſchance, calamitie, or ſlaughter<lb/>
+              is brought to paſſe, they are eaſilie perſuaded the ſame is doone<lb/>
+              by themſelues; imprinting in their minds an earneſt and con-<lb/>
+              ſtant imagination thereof. They are leane and deformed, ſhew-</hi>
+                  <note type="authorial" place="margin-right" style="font-size:75%;"><persName type="hist">Cardan</persName> de var. rerum.</note><lb/>
+              <hi style="blackletter;">ing melancholie in their faces, to the horror of all that ſée them.<lb/>	 
+                 They are doting, ſcolds, mad, diueliſh; and not much differing<lb/>
+                 from them that are thought to be poſſeſſed with ſpirits; ſo firme<lb/>
+                 and ſtedfaſt in their opinions, as whoſoeuer ſhall onelie haue re-<lb/>
+                 ſpect to the conſtancie of their words vttered, would eaſilie be-<lb/>
+                 léeue they were true indéed.</hi><lb/></p>
+           
+           <p style="text-indent:1em;"><hi style="blackletter;"> Theſe miſerable wretches are ſo odious vnto all their neigh-<lb/>
+              bors, and ſo feared, as few dare offend them, or denie them anie<lb/>
+              thing they aſke: whereby they take vpon them: yea, and ſome<lb/>
+              times thinke, that they can doo ſuch things as are beyond the abi-<lb/>
+              litie of humane nature. Theſe go from houſe to houſe, and from<lb/>
+              doore to doore for a pot full of milke, yeſt, drinke, pottage, or ſome-<lb/>
+              ſuch reléefe; without the which they could hardlie liue: neither ob-<lb/>
+              taining for their ſeruice and paines, nor by their art, nor yet at<lb/>
+              the diuels hands (with whome they are ſaid to make a perfect and<lb/>
+              viſible bargaine) either beautie, monie, promotion, welth, wor-<lb/>
+              ſhip, pleaſure, honor, knowledge, learning, or anie other bene-<lb/>
+              fit whatſoeuer.</hi><lb/></p>
+           
+           <fw type="signature" style="text-align:center">C.iiij.<supplied reason="omitted-in-original">r</supplied></fw>
+           <fw type="catchword" style="text-align:right">It</fw>
+           <pb/>
+           
+           <!--Page C4v transcribed and coded by Gwendolyn Carpenter under supervision of Kristen Abbott Bennett-->
+           <fw type="pageNum" style="text-align: left; font-size:125%;">8</fw> 
+           <fw type="header" style="text-indent: 4ems; font-size:125%;">I.Booke.</fw>
+           <fw type="header" style="text-indent: 4ems; font-size:125%;">The diſcouerie</fw>
+           <fw type="header" style="text-align: right; font-style:italic; font-size:125%;">Credulitie.</fw>
+           
+           <p style="text-indent:1em;"><hi style="blackletter;"> It falleth out many times, that neither their neceſſities, nor<lb/>
+              their expectation is anſwered or ſerued, in thoſe places where<lb/>
+              they beg or borrowe; but rather their lewdneſſe is by their neigh-<lb/>
+              bors reprooued. And further, in tract of time the witch wareth o-<lb/>
+              dious and tedious to hir neighbors; and they againe are deſpiſed<lb/>
+              and deſpited of hir: ſo as ſometimes the curſſeth one, and ſome-<lb/>
+              times another; and that from the maiſter of the houſe, his wife,<lb/>
+              children, cattell, &amp;c. to the little pig that lieth in the ſtie. Thus in<lb/>
+              proceſſe of time they haue all diſpleaſed hir, and the hath wiſhed<lb/>
+              euill lucke vnto them all; perhaps with curſſes and imprecati-<lb/>
+              ons made in forme. Doubtleſſe (at length) ſome if hir neigh-<lb/>
+              bours die, or fall ſicke; or ſome of their children are viſited<lb/>
+              with diſeaſes that vex them ſtrangelie: as apoplexies epilep-<lb/>
+              ſies conuulſions, hot feuers, wormes, &amp;c. Which by ignorant pa-<lb/>
+              rents are ſuppoſed to be the vengeance of witches. Yea and their <lb/>
+              opinions and conceits are confirmed and maintained by unſkil-<lb/>
+               full phyſicians: according to the common ſaieng;</hi><foreign xml:lang="la"><hi style="font-style:italic;">Inſcitiæ pallium<lb/>
+                 maleficium &amp; incantatio,</hi></foreign><hi style="blackletter;">Witchcraft and inchantment is the cloke<lb/>
+                    of ignorance: whereas indéed euill humors, &amp; not ſtrange words,<lb/>
+                    witches, or ſpirits are the cauſes of ſuch diſeaſes. Alſo ſome of<lb/>
+                    their cattell periſh, either by diſeaſe or miſchance. Then they, up-<lb/>
+                    on whom ſuch aduerſities fall, weighing the fame that goeth up-<lb/>
+                    on this woman (hir words, diſpleaſure, and curſſes, méeting ſo<lb/>
+                    iuſtlie with their miſfortune) doo not onelie conceiue, but alſo are<lb/>
+                    reſolued, that all their miſhaps are brought to paſſe by hir one-<lb/>
+                    lie meanes.</hi><lb/></p>
+           
+           <p style="text-indent:1em;"><hi style="blackletter;">The witch on the other ſide exſpecting hir neighbours miſchan-<lb/>
+              ces, and ſéeing things ſometimes come to paſſe according to hir <lb/>
+              <note type="authorial" place="margin-left"><hi style="font style: italic; font-size:0.5;"></hi>1.<persName type="hist">Bodin.</persName>li.2. de demono: cap.8.</note>wiſhes, curſſes, and incantations (for</hi><persName type="hist">Bodin</persName><hi style="blackletter;"> himſelfe confeſſeth,<lb/>
+                 that not aboue two in a hundred of their witchings or wiſhings<lb/>
+                 take effect) being called before a Juſtice, by due examination of<lb/>
+                 the circumſtances is driuen to ſée hir imprecations and deſires,<lb/>
+                 and hir neighbors harmes and loſſes to concurre, and as it were<lb/>
+                 to take effect: and ſo confeſſeth that the (as a goddes) hath brought<lb/>
+                  ſuche things to paſſe. Wherein, not onelie ſhe, but the accuſer, and<lb/>
+                 alſo the Juſtice are fowlie deceiued and abuſed; as being tho-<lb/>
+                 rough hir confeſſion and other circumſtances perſuaded (to the<lb/>
+                  iniurie of <persName type="lit">Gods</persName> glorie) that ſhe hath doone, or can doo that which</hi><lb/></p>
+           
+           
+           <fw type="signature" style="text-align:right"><supplied reason="omitted-in-original">C.iiij.v</supplied></fw>
+           <fw type="catchword" style="text-align:right">is</fw>
+           <pb/>
+           
+           <!--Page C5r transcribed and coded by Gwendolyn Carpenter under supervision of Kristen Abbott Bennett-->           
+           <fw type="header" style="text-indent: 4ems; font-style:italic; font-size:125%;">Miracles.</fw>
+           <fw type="header" style="text-indent: 4ems; font-size:125%;">of Witchcraft.</fw>
+           <fw type="header" style="text-align: right; font-size:125%;">Cap.4.</fw>
+           <fw type="pageNum" style="text-align: right; font-size:125%;">9</fw> 
+           
+           <!-- Para continued from previous page -->
+           <p style="blackletter;">is proper onelie to <persName type="lit">God</persName> himſelfe.<lb/></p>
+           
+           <p style="text-indent:1em;"><hi style="blackletter;"></hi>Another ſort of witches there are, which be abſolutelie cooſe-<lb/>
+              ners. Theſe take vpon them, either for glorie, fame, or gaine, to<lb/>
+              doo anie thing, which <persName type= "lit">God</persName> or the diuell can doo: either for foretel-<lb/>
+              ling of things to come, bewraieng of ſecrets, curing of maladies,<lb/>
+              or working of miracles. But of theſe I will talke more at large<lb/>
+              héereafter.<lb/></p>
+           <pb/>
+           <!-- Chapter 4 continues on this page -->
+        </div>
+     </body>
+    </text>
+  </TEI>
+             

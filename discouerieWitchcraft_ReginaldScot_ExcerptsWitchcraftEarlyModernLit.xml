@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://jenkins.hcmc.uvic.ca/job/MoEML/lastStableBuild/artifact/static/site/xml/schemas/london_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Scot_Witches_master_DH_A2r_to_B1r</title>
+                <author><persName type="hist"><forename><surname/></forename></persName></author>
+                <respStmt>
+                    <resp ref="molresp:edt">General Editor</resp>
+                    <name>Kristen Abbott Bennett</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="molresp:edt">Assistant Editor</resp>
+                    <name>Kelsey L. Rhodes</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Printed by <persName type="hist"><forename/>
+                    <surname/></persName>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p><!-- Working from Huntington Library (microfilm) copy available via EEBO and Boston Public Library --><idno>STC
+                    21864</idno></p>
+            </sourceDesc> 
+        </fileDesc>
+        <profileDesc><textClass>
+            <catRef></catRef>
+        </textClass></profileDesc>
+        <encodingDesc>
+            <p>TEI P5</p>
+        </encodingDesc>
+        <revisionDesc><change who="BENN"></change></revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--Page Page 85 / Book 4 Chapter 10 transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->
+        <div type="part">
+           <fw type="header" style="text-indent: 4ems; font-style:italic; font-size:125%;">Bawdie Incubus.</fw>
+           <fw type="header" style="text-indent: 4ems; font-size:125%;">of Witchcraft.</fw>
+           <fw type="header" style="text-align: right; font-size:125%;">Cap.10.</fw>
+           <fw type="pageNum" style="text-align: right; font-size:125%;">85</fw>
+           
+           <p style="text-align:center;"><hi style= "font-size:125%;">A confutation of all the former follies touching </hi><persName type="lit"><hi style= "font-size:125%;">In-</hi><lb/>
+              cubus</persName>, which by examples and proofes of like ſtuffe is<lb/>
+              ſhewed to be flat knauerie, wherein the carnall copula-<lb/>
+              tion with ſpirits in ouerthrowne.<lb/></p>
+              
+           <p style="text-align:center; font-size:125%">The tenth Chapter.</p>
+           
+           <p><hi style="blackletter;"><hi style="decorInit;float:left;font-size:700%;padding:0.5rem;margin:0.2rem 1rem 0;">T</hi>
+                     <hi style="font-size:125%;">Hus are lecheries couered with</hi><lb/>
+              the cloke of Incubus and witchcraft, con-<lb/>
+              trarie to nature and veritie: and with<lb/>
+              theſe fables is mainteined an opinion,<lb/>
+              that men haue béene begotten without<lb/>
+              carnall copulation (as </hi><persName type="hist">Hyperius</persName><hi style="blackletter;"> and o-<lb/>
+              thers write that </hi><persName type="lit">Merlin</persName><hi style="blackletter;"> was, An. </hi>440.)
+              <note type="authorial" place="margin-right" style="font-size:75%;"><quote><persName type="lit">Merlin</persName>
+                     be-gotten of Incubus.</quote></note><lb/>
+              <hi style="blackletter;">ſpeciallie to excuſe and mainteine the<lb/>
+              knaueries and lecheries of idle prieſts and bawdie monkes; and<lb/>
+              to couer the ſhame of their louers and concubines.</hi><lb/></p>
+           
+           <p style="text-indent:1em;"><hi style="blackletter;">And alas, when great learned men haue béene ſo abuſed, with<lb/>
+              the imagination of </hi>Incubus<hi style="blackletter;"> his carnall ſocietie with women,<lb/>
+              miſconſtruing the ſcriptures, to wit, the place in </hi>Geneſis 6. <hi style="blackletter;">to the<lb/>
+              ſeducing of manie others; it is the leſſe woonder, that this error<lb/>
+              hath paſſed ſo generallie among the common people.</hi><lb/></p>
+           
+           <p style="text-indent:1em;"><hi style="blackletter;">But to vſe few words herein, I hope you vnderſtand that<lb/>
+              they affirme and ſaie, that </hi>Incubus<hi style="blackletter;"> is a ſpirit; and I truſt you<lb/>
+              know that a ſpirit hath no fleſh nor bones, &amp;c: and that he neither<lb/>
+              dooth eate nor drinke. In déede your grandams maides were<lb/>
+              woont to ſet a boll of milke before him and his couſine <persName type="lit">Robin<lb/>
+              good-fellow</persName>, for grinding of malt or muſtard, and ſwéeping the<lb/>
+              houſe at midnight: and you haue alſo heard that he would chaſe<lb/>
+              excéedingly, if the maid or good-wife of the houſe, hauing compaſ-<lb/>
+              ſion of his nakednes, laid anie clothes for him, béeſides his meſſe<lb/>
+              of white bread and milke, which was his ſtanding ſée. For in that<lb/>
+              caſe he ſaith; What haue we here. Hemton hamten, here will I<lb/>
+              neuer more tread nor ſtampen.</hi><lb/></p>
+           <p style="text-indent:1em;">But to procéed in this confutation. Where there is no meate
+              <note type="authorial" place="margin-right" style="font-size:75%;"><quote>Quia humor ſpermaticus ex ſucco ali-mentari pro-uenit.</quote></note><lb/>
+              eaten, there can be no ſéed which thereof is ingendred: although<lb/>
+              it be granted, that Robin could both eate and drinke, as being a<lb/></p>
+           
+           <fw type="signature" style="text-align:center; font-style:italic;">H.iij. <supplied reason="omitted-in-original">r</supplied></fw>
+           <fw type="catchword" style="text-align:right">couſe-</fw>
+              <pb/>
+           
+         <!--Page Page 86 / Book 4 Chapter 10 transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->
+           <fw type="pageNum" style="text-align: left; font-size:125%;">86</fw>
+           <fw type="header" style="text-align: center; font-size:125%;">4.Booke.</fw>
+           <fw type="header" style="text-align: center; font-size:125%;">The diſcouerie</fw>
+           <fw type="header" style="text-align: right; font-style:italic; font-size:125%;">The night mare,</fw>
+           
+           <p><hi style="blackletter;">couſening idle frier, or ſome ſuch roge, that wanted nothing ei-<lb/>
+              ther belonging to lecherie or knauerie, &amp;c. Item, where the ge-<lb/>
+              nitall members want, there can be no luſt of the fleſh: neither<lb/>
+              dooth nature giue anie beſire of generation, where there is no pro-<lb/>
+              pagation or ſucceſſion required. And as ſpirits cannot be grée-<lb/>
+              ued with hunger, ſo can they not be inflamed with luſtes. And if<lb/>
+              men ſhould liue euer, what néeded ſucceſſion or heires. For that<lb/>
+              is but an ordinance of <persName type="lit">God</persName>, to ſupplie the place, the number, the<lb/>
+              <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>Ad faculta-tem generan-di tam inter-na quàm ex-terna organa requiruntur.</quote></note>
+                     world, the time, and ſpeciallie to accompliſh his will. But the<lb/>
+              power of generation conſiſteth not onlie in members, but chief-<lb/>
+              lie of vitall ſpirits, and of the hart: which ſpirits are neuer in ſuch<lb/>
+              a bodie as </hi>Incubus<hi style="blackletter;"> hath, being but a bodie aſſumed, as they them-<lb/>
+              ſelues faie. And yet the moſt part of writers herein affirme,<lb/>
+              that it is a palpable and viſible bodie; though all be phanſies and<lb/>
+              fables that are written here vpon.</hi><lb/></p>
+           <pb/><!-- Chapter ends half way through page 86 -->
+        </div>
+        
+        <div type="part">
+           <!--Page Page 94 / Book 5 Chapter 3 transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->
+           <!-- Booke 5 Chapter 3 starts halfway through the page -->
+           
+           <p><hi style="font-size:125%;">Of a man turned into an aſſe, and returned againe in-</hi><lb/>
+              to a man by one of <persName type="lit">Bodins</persName> <!-- Jean Bodin --> witches: <persName type="lit">S. Auguſtines</persName> opini-<lb/>
+              on thereof.<lb/></p>
+           
+           <p style="text-align:center; font-size:125%;">The third Chapter.</p>
+              
+           <p><hi style="blackletter;"><hi style="decorInit;float:left;font-size:700%;padding:0.5rem;margin:0.2rem 1rem 0;">I</hi>
+              <hi style="font-size:125%;">T happened in the citie of 
+                     </hi><placeName><hi style="font-size:125%;">Sala-</hi><lb/>
+              min</placeName><hi style="blackletter;">, in the kingdome of </hi><placeName>Cyprus</placeName><hi style="blackletter;">(wherein<lb/>
+              is a good hauen) that a ſhip loaden with<lb/>
+              merchandize ſtaied there for a ſhorr ſpace.<lb/>
+              In the meane time many of the ſouldiers<lb/>
+              and mariners went to ſhoare, to prouide<lb/>
+              freſh victuals. Among which number, a<lb/>
+              certaine Engliſh man, being a ſturdie<lb/>
+              <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>What the diuel ſhuld the witch meane to make chois of the Eng-liſh man?</quote></note>
+                     yoong fellowe, went to a womans houſe, a little waie out of the<lb/>
+              citie, and not farre from the ſea ſide, to ſée whether ſhe had anie<lb/>
+              egs to ſell. Who perceiuing him to be a luſtie yoong fellowe, a<lb/>
+              ſtranger, and farre from his countrie (ſo as vpon the loſſe of him<lb/>
+              there would be the leſſe miſſe or inquirie) ſhe confidered with hir<lb/>
+              ſelfe how to deſtroie him; and willed him to ſtaie there awhile,<lb/>
+              whileſt ſhe went to fetch a few egs for him. But ſhe tarried long,<lb/>
+              ſo as the yoong man called vnto hir, deſiring hir to make haſt: for<lb/>
+              he told hir that the tide would be ſpent, and by that meanes his<lb/>
+              ſhip would be gone, and leaue him behind. Howbeit, after ſome<lb/>
+              detracting of time, ſhe brought him a few egs, willing him to re-<lb/>
+              turne to hir, if his ſhip were gone when he came. The yoong fel-<lb/></hi></hi></p>
+           
+           <!-- Signature unknown -->
+           <fw type="catchword" style="text-align:right"><hi style="blackletter;">lowe</hi></fw>
+           <pb/>
+           
+        <!--Page Page 95 / Book 5 Chapter 3 transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->
+           <fw type="header" style="text-align: left; font-style:italic; font-size:125%;">ned into an aſſe.</fw>
+           <fw type="header" style="text-align: center; font-size:125%;">of Witchcraft.</fw>
+           <fw type="header" style="text-align: right; font-size:125%;">Cap.3.</fw>
+           <fw type="pageNum" style="text-align: right; font-size:125%;">95</fw> 
+           
+           <p style="blackletter;">
+              lowe returned towards his ſhip: but before he went aboord, hée<lb/>
+              would néeds eate an eg or twaine to ſatiſfie his hunger, and with-<lb/>
+              in ſhort ſpace he became dumb and out of his wits (as he after-<lb/>
+              wards ſaid.) When he would haue entred into the ſhip, the mari-
+                     <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>A ſtrange metamor-phôſis, of bodie, but not of mind</quote></note><lb/>
+              ners beat him backe with a cudgell, ſaieng; What a murren<lb/>
+              lacks the aſſe. Whither the diuell will this aſſe. The aſſe or yoong<lb/>
+              man (I cannot tell by which name I ſhould terme him) being<lb/>
+              many times repelled, and vnderſtanding their words that cal-<lb/>
+              led him aſſe, conſidering that he could ſpeake neuer a word, and<lb/>
+              yet could vnderſtand euerie bodie; he thought that he was bewit-<lb/>
+              ched by the woman, at whoſe houſe he was. And therefore, when<lb/>
+              by no meanes he could get into the boate, but was driuen to tar-<lb/>
+              rie and ſée hir departure; being alſo beaten from place to place,<lb/>
+              as an aſſe: he remembred the witches words, and the words of<lb/>
+              his owne fellowes that called him aſſe, and returned to the wit-<lb/>
+              ches houſe, in whoſe ſeruice hée remained by the ſpace of thrée<lb/>
+              yeares, dooing nothing with his hands all that while, but carried<lb/>
+              ſuch burthens as ſhe laied on his backe; hauing onelie this com-<lb/>
+              fort, that although he were reputed an aſſe among ſtrangers and<lb/>
+              beaſts, yet that both this witch, and all other witches knew him<lb/>
+              to be a man.<lb/></p>
+           
+           <p style="text-indent:1em;"><hi style="blackletter;">After thrée yeares were paſſed ouer, in a morning betimes he<lb/>
+              went to towne before his dame; who vpon ſome occaſion (of like<lb/>
+              to make water) ſtaied a little behind. In the meane time being<lb/> 
+              néere to a church, he heard a little ſaccaring bell ring to the eleua-
+                     <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>Note the deuotion of the aſſe.</quote></note><lb/>
+              tion of a morrowe maſſe, and not daring to go into the church,<lb/>
+              leaſt he ſhould haue béene beaten and driuen out with cudgels, in<lb/>
+              great deuotion he fell downe in the churchyard, vpon the knées of<lb/>
+              his hinder legs, and did lift his foreféet ouer his head, as the<lb/>
+              préeſt doth hold the ſacrament at the eleuation. Which prodigious<lb/>
+              ſight when certeine merchants of</hi><placeName> Genua</placeName><hi style="blackletter;"> eſpied, and with woon-<lb/>
+              der beheld; anon commeth the witch with a cudgell in hir hand,<lb/>
+              beating foorth the aſſe. And bicauſe (as it hath béene ſaid) ſuch<lb/>
+              kinds of witchcrafts are verie vſuall in thoſe parts; the mer-<lb/>
+              chants aforeſaid made ſuch meanes, as both the aſſe and the witch<lb/>
+              were attached by the iudge. And ſhe being examined and ſet vp-<lb/>
+              on the racke, confeſſed the whole matter, and promiſed, that if ſhe<lb/>
+              might haue libertie to go home, ſhe would reſtore him to his old<lb/></hi></p>
+              
+           <fw type="catchword" style="text-align:right"><hi style="blackletter;">ſhape:</hi></fw>
+            <pb/>
+           
+        <!--Page Page 96 / Book 5 Chapter 3 transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->           
+           <fw type="pageNum" style="text-align: left; font-size:125%;">96</fw>
+           <fw type="header" style="text-align: center; font-size:125%;">5.Booke.</fw>
+           <fw type="header" style="text-align: center; font-size:125%;">The diſcouerie</fw>
+           <fw type="header" style="text-align: right; font-style:italic; font-size:125%;">W. tranſubſtantiations.</fw>
+           
+           <p style="blackletter;">ſhape: and being diſmiſſed, ſhe did accordinglie. So as notwith-<lb/>
+              ſtanding they apprehended hir againe, and burned hir: and the<lb/>
+              yoong man returned into his countrie with a ioifull and merrie<lb/>
+              hart.<lb/></p>
+           
+           <p style="text-indent:1em;"><hi style="blackletter;">Upon the aduantage of this ſtorie </hi><persName type="hist">M. Mal. Bodin</persName><hi style="blackletter;">, and the reſi-<lb/>              
+              <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>Auguſ. lib. 18.de ciui. Dei.cap.17 &amp; 18.</quote></note>
+              due of the witchmongers triumph; and ſpeciallie bicauſe </hi><persName type="hist"><hi style="blackletter;">S.</hi> Au-<lb/>
+              guſtine</persName> <hi style="blackletter;">ſubſcribeth therevnto; or at the leaſt to the verie like.<lb/>
+              Which I muſt confeſſe I find too common in his books, inſomuch<lb/>
+              as I iudge them rather to be foiſted in by ſome fond papiſt or<lb/>
+              witchmonger, than ſo learned a mans dooings. The beſt is, that<lb/>
+              he himſelfe is no eie-witneſſe to any of thoſe his tales; but ſpea-<lb/>
+              keth onelie by report; wherein he vttereth theſe words: to wit,<lb/>
+              that It were a point of great inciuilitie, &amp;c: to diſcredit ſo manie<lb/>
+              and ſo certeine reports. And in that reſpect he iuſtiſteth the corpo-<lb/>
+              rall tranſfigurations of </hi><persName type="lit">Vlyſſes</persName><hi style="blackletter;"> his mates, throgh the witchcraft<lb/>
+              of </hi><placeName>Circes</placeName><hi style="blackletter;">: and that fooliſh fable of </hi><persName type="lit">Præſtantius</persName><hi style="blackletter;"> his father, who (he<lb/>
+              ſaith) did eate prouender and haie among other horſſes, being<lb/>
+              <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>At the alps in <placeName>Arcadia</placeName>.</quote></note>
+                     himſelfe turned into an horſſe. Yea he verifieth the ſtarkeſt lie<lb/>
+              that euer was inuented, of the two ale wiues that vſed to tranſ-<lb/>
+              forme all their gheſts into horſſes, and to ſell them awaie at mar-<lb/>
+              kets and faires. And therefore I ſaie with </hi><persName type="hist">Cardanus</persName><hi style="blackletter;">, that how<lb/>
+              <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>Card. de var. rerum. lib. 15 cap.80. Auguſt. Lib. 18. de ciuit. Dei.</quote></note>
+                     much </hi><persName type="hist">Auguſtin</persName><hi style="blackletter;"> ſaith he hath ſéen with his eies, ſo much I am con-<lb/>
+              tent to beléeue. Howbeit </hi><persName type="hist"><hi style="blackletter;">S.</hi> Auguſtin</persName><hi style="blackletter;"> concludeth againſt <persName type="hist">Bodin</persName>.<lb/>
+              For he affirmeth theſe tranſubſtantiations to be but fantaſticall,<lb/>
+              and that they are not according to the veritie, but according to the<lb/>
+              appearance. And yet I cannot allow of ſuch appearances made<lb/>
+              by witches, or yet by diuels: for I find no ſuch power giuen by<lb/>
+              <persName type="lit">God</persName> to any creature. And I would wit of </hi>
+                     <persName type="hist"><hi style="blackletter;">S.</hi> Auguſtine</persName><hi style="blackletter;">, where<lb/>
+              they became, whom </hi><persName type="hist">Bodins</persName><hi style="blackletter;"> tranſformed woolues deuoured. But</hi><lb/>
+              ___________________________________<foreign xml:lang="la"><hi style="font-style:italic;font-size:85%;">-ô quàm</hi></foreign><lb/>
+              <foreign xml:lang="la"><hi style="font-style:italic;font-size:85%;">Credula mens hominis &amp; erecta fabulis aures!</hi></foreign><lb/></p>
+           
+           <p style="text-align:center; font-size:150%;">Good Lord! how light of credit is<lb/>
+              <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>Engliſhed by <persName type="lit">Abraham Fleming</persName></quote></note>
+                     the wauering mind of man!<lb/>
+              How vnto tales and lies his eares<lb/>
+              attentiue all they can?<lb/></p>
+
+           <fw type="catchword" style="text-align:right"><hi style="blackletter;">Generall</hi></fw>
+           <pb/>    
+            
+           <!--Page Page 97 / Book 5 Chapter 3 transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->
+           <fw type="header" style="text-align: left; font-style:italic; font-size:125%;">The former lies confuted.</fw>
+           <fw type="header" style="text-align: center; font-size:125%;">of Witchcraft.</fw>
+           <fw type="header" style="text-align: right; font-size:125%;">Cap.4.</fw>
+           <fw type="pageNum" style="text-align: right; font-size:125%;">97</fw> 
+           
+           <p style="text-indent:1em; blackletter;">Generall councels, and the popes canons, which Bodin ſo re-<lb/>
+              gardeth, doo condemne and pronounce his opinions in this be-<lb/>
+              halfe to be abſurd; and the reſidue of the witchmongers, with<lb/>
+              himſelfe in the number, to be woorſſe than infidels. And theſe are<lb/>
+              the verie words of the canons, which elſe-where I haue more<lb/>
+              largelie repeated; Whoſoeuer beléeueth, that anie creature can
+                     <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>Canon. 26. que.5.epiſ- copi ex con. acquir. &amp;c.</quote></note><lb/> <!-- quae? -->
+              be made or changed into better or woorſſe, or tranſformed into a-<lb/>
+              nie other ſhape, or into anie other ſimilitude, by anie other than<lb/>
+              by <persName type="lit">God</persName> himſelfe the creator of all things, without all doubt is an<lb/>
+              infidell, and woorſſe than a pagan. And therewithall this reaſon is<lb/>
+              rendered, to wit: bicauſe they attribute that to a creatnre, which<lb/>
+              onelie belongeth to <persName type="lit">God</persName> the creator of all things.<lb/></p>
+         <pb/><!-- Chapter ends half way through page -->
+        </div>
+        
+        <div type="part">
+           <!-- Chapter starts half way through page -->
+           <!--Page Page 152 / Book 7 Chapter 15 transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->
+           <p style="text-align:center;"><hi style= "font-size:125%;">Of vaine apparitions, how people haue beene</hi><lb/>
+              brought to feare bugges, which is partlie reformed by<lb/>
+              preaching of the goſpell, the true effect of Chriſtes<lb/>
+              miracles.<lb/></p>
+           
+           <p style="text-align:center; font-size:125%;">The xv. Chapter.</p>
+           
+           <p><hi style="decorInit;float:left;font-size:800%;padding:0.5rem;margin:0.2rem 1rem 0;">B</hi><hi style="blackletter;"><hi style= "font-size:150%;">ut certeinlie, ſome one knaue in</hi><lb/>
+              a white ſhéete hath couſened and abuſed<lb/>
+              manie thouſands that waie; ſpeciallie<lb/>
+              when <persName type="lit">Robin good-fellow</persName> kept ſuch a coile<lb/>
+              in the countrie. But you ſhall vnder-<lb/>
+              ſtand, that theſe bugs ſpeciallie are ſpied<lb/>
+              and feared of ſicke folke, children, wo-<lb/>
+              men, and cowards, which through weak-<lb/>
+              <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>1. Wier. lib.3 cap.8. Theodor. Bizantius. Lauat.de ſpect. &amp; le-murib.</quote></note>
+                     neſſe of mind and bodie, are ſhaken with vaine dreames and con-<lb/>
+              tinuall feare. The </hi><orgName type="nati"></orgName>Scythians<hi style="blackletter;">, being a ſtout and a warlike nati-<lb/> <!-- is it an organization -->
+              on (as diuers writers report) neuer ſée anie vaine fights, or ſpi-<lb/>
+              rits. It is a common faieng; A lion feareth no bugs. But in our<lb/>
+              childhood our mothers maids haue ſo terrified vs with an ouglie<lb/>
+              diuell hauing hornes on his head, fier in his mouth, and a taile in<lb/></hi></p>
+              
+           <fw type="catchword" style="text-align:right"><hi style="blackletter;">his</hi></fw>
+              <pb/>
+           
+           <!--Page Page 153 / Book 7 Chapter 15 transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->  
+           <fw type="header" style="text-align: left; font-style:italic; font-size:125%;">Ob.</fw>
+           <fw type="header" style="text-align: center; font-size:125%;">of Witchcraft.</fw>
+           <fw type="header" style="text-align: right; font-size:125%;">Cap.15.</fw>
+           <fw type="pageNum" style="text-align: right; font-size:125%;">153</fw>
+           
+           <p style="blackletter;">his bréech, eies like a baſon, fanges like a dog, clawes like a
+              <note type="authorial" place="margin-right" style="font-size:75%; font-style:italic;">
+                     <quote>Cardan. de var. rerum Peucer. &amp; c.</quote></note><lb/>
+              beare, a ſkin like a Niger, and a voice roring like a lion, whereby<lb/>
+              we ſtart and are afraid when we heare one crie Bough: and they<lb/>
+              haue ſo fraied vs with bull beggers, ſpirits, witches, vrchens,<lb/>
+              elues, hags, fairies, ſatyrs, pans, faunes, ſylens, kit with the can-<lb/>
+              ſticke, tritons, centaurs, dwarfes, giants, imps, calcars, coniu-<lb/>
+              rors, nymphes, changlings, Incubus, <persName type="lit">Robin good-fellowe</persName>, the<lb/>
+              ſpoorne, the mare, the man in the oke, the hell waine, the fierdrake,<lb/>
+              the puckle, Tom thombe, hob gobblin, Tom tumbler, boneles,<lb/>
+              and ſuch other bugs, that we are afraid of our owne ſhadowes:<lb/>
+              in ſo much as ſome neuer feare the diuell, but in a darke night;<lb/>
+              and then a polled ſhéepe is a perillous beaſt, and manie times is<lb/>
+              taken for our fathers ſoule, ſpeciallie in a churchyard, where a<lb/>
+              right hardie man heretofore ſcant burſt paſſe by night, but his<lb/>
+              haire would ſtand vpright. For right graue writers report, that
+              <note type="authorial" place="margin-right" style="font-size:75%; font-style:italic;">
+                  <quote>Lauat. de ſpect.</quote></note><lb/>
+              ſpirits moſt often and ſpeciallie take the ſhape of women appea-<lb/>
+              ring to monks, &amp;c: and of beaſts, dogs, ſwine, horſſes, gotes, cats,<lb/>
+              haires; of fowles, as crowes, night owles, and ſhréeke owles;<lb/>
+              but they delight moſt in the likenes of ſnakes and dragons.<lb/>
+              Well, thanks be to <persName type="lit">God</persName>, this wretched and cowardlie infidelitie,<lb/>
+              ſince the preaching of the goſpell, is in part forgotten: and doubt-<lb/>
+              les, the reſt of thoſe illuſions will in ſhort time (by <persName type="lit">Gods</persName> grace) be<lb/>
+              detected and vaniſh awaie.<lb/></p>
+           
+           <p style="text-indent:1em;"><hi style="blackletter;">Diuers writers report, that in </hi><placeName>Germanie</placeName>
+                     <hi style="blackletter;">, ſince </hi><persName type="hist">Luthers</persName><hi style="blackletter;"> time,
+                     <note type="authorial" place="margin-right" style="font-size:75%; font-style:italic;">
+                     <quote>Car. de var. rerum. 1. Wier. de præſt. dæmon. &amp;c.</quote></note><lb/>
+              ſpirits and diuels have not perſonallie appeared, as in times<lb/>
+              paſt they were woont to doo. This argument is taken in hand of<lb/>
+              the ancient fathers, to prooue that determination and ceaſing of<lb/>
+              oracles. For in times paſt (ſaith </hi><persName type="hist">Athanaſius</persName><hi style="blackletter;">) diuels in vaine
+                     <note type="authorial" place="margin-right" style="font-size:75%; font-style:italic;">
+                     <quote>Athanaſ. de humanitate verbi.</quote></note><lb/>
+              ſhapes did intricate men with their illuſions, hiding themſelues<lb/>
+              in waters, ſtones, woods, &amp;c. But now that the word of <persName type="lit">GOD</persName><lb/>
+              hath appeared, thoſe ſights, ſpirits, and mockeries of images are<lb/>
+              ceaſed. Truelie, if all ſuch oracles, as that of </hi><persName type="lit">Apollo</persName><hi style="blackletter;">, &amp;c (before<lb/>
+              the comming of <persName type="hist">Chriſt</persName>) had béene true, and doone according to<lb/>
+              the report, which hath béene brought through diuers ages, and<lb/>
+              from farre countries vnto vs without préeſtlie fraud or guile, ſo<lb/>
+              as the ſpirits of propheſie, and working of miracles, had béene in-<lb/>
+              ſerted into an idoll, as hath béene ſuppoſed: yet we chriſtians<lb/>
+              may conceiue, that <persName type="hist">Chriſts</persName> cõming was not ſo fruteles and pre-</hi><lb/></p>
+              
+           <fw type="catchword" style="text-align:right"><hi style="blackletter;">iudiciall</hi></fw>
+           <pb/>
+           
+           <!--Page Page 154 / Book 7 Chapter 15 transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->
+           <fw type="pageNum" style="text-align: left; font-size:125%;">154</fw>
+           <fw type="header" style="text-align: center; font-size:125%;">7.Booke.</fw>
+           <fw type="header" style="text-align: center; font-size:125%;">The diſcouerie</fw>
+           <fw type="header" style="text-align: right; font-style:italic; font-size:125%;">Miracles.</fw>
+           
+           <p><hi style="blackletter;">iudiciall in this point vnto vs, as to take awaie his ſpirit of pro-<lb/>
+              pheſie and diuination from out of the mouth of his elect people,<lb/>
+              and good prophets, giuing no anſwers of anie thing to come by<lb/>
+              them, nor by</hi> Vrim <hi style="blackletter;">nor</hi> Thumim<hi style="blackletter;">, as he was woont, &amp;c. And yet to<lb/>
+              leaue the diuell in the mouth of a witch, or an idoll to propheſie<lb/>
+              or worke miracles, &amp;c: to the hinderance of his glorious goſpell,<lb/>
+              <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>The true end of mi-racles.</quote></note>
+              to the diſcountenance of his church, and to the furtherance of in-<lb/>
+              fidelitie and falſe religion, whereas the working of miracles<lb/>
+              was the onelie, or at leaſt the moſt ſpeciall meanes that mooued<lb/>
+              men to beléeue in <persName type="hist">Chriſt</persName>: as appeareth in ſundrie places of the<lb/>
+              <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>Iohn.2.</quote></note>
+              goſpell, and ſpeciallie in </hi>Iohn<hi style="blackletter;">, where it is written, that a great<lb/>
+              multitude followed him, bicauſe they fawe his miracles which he<lb/>
+              <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>Act.2.22. Iohn.5.</quote></note>
+              did, &amp;c. Naie, it is not written, that <persName type="hist">Jeſus</persName> was approoued by God<lb/>
+              among the <orgName>Jewes</orgName>, with miracles, wonders and ſignes, &amp;c. And<lb/>
+              yet, if we conferre the miracles wrought by <persName type="hist">Chriſt</persName>, and thoſe that<lb/>
+              are imputed to witches; witches miracles ſhall appeare more<lb/>
+              common, and nothing inferior vnto his.</hi><lb/></p>
+           <pb/><!-- Chapter ends half way down page -->
+        </div>
+        
+        <div type="part">
+           <!-- Booke 15 Chapter 10 starts half way down page -->
+           <!--Page Page 408 / Book 15 Chapter 10 transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->
+           <p style="text-align:center">To know of treaſure hidden in the earth.</p>
+           
+           <p style="text-align:center; font-size:125%;">The tenth Chapter.</p>
+        
+           <p><note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>This would be much practiſed if it were not a couſening knacke.</quote></note>
+              <hi style="decorInit;float:left;font-size:400%;padding:0.5rem;margin:0.2rem 1rem 0;">W</hi>
+                     <hi style="blackletter;"><hi style= "font-size:125%;">Rite in paper theſe characters following,</hi><lb/>
+              on the ſaturdaie, in the houre of ☽, and laie it where<lb/>
+              thou thinkeſt treaſure to be: if there be anie, the pa-<lb/>
+              per will burne, elſe not. And theſe be the characters.<lb/></hi></p>
+           
+           <figure><figDesc>*witchcraft symbols*</figDesc></figure>
+           
+           <p style="text-align:center">This is the waie to go inuiſible by theſe<lb/>
+              three ſiſters of fairies.<lb/></p>
+           
+           <p><hi style="blackletter;"><hi style="decorInit;float:left;font-size:150%;padding:0.5rem;margin:0.2rem 1rem 0;">
+                     I</hi>N the name of the Father, and of the Sonne, and of the Holie-<lb/>
+              ghoſt. Firſt go to a faire parlor or chamber, &amp; an euen ground,<lb/>
+              and in no loft, and from people nine daies; for it is the better:<lb/>
+              and let all thy clothing be cleane and ſwéete. Then make a candle<lb/>
+              of virgine waxe, and light it, and make a faire fier of charcoles,<lb/>
+              in a faire place, in the middle of the parlor or chamber. Then take<lb/>
+              faire cleane water, that runneth againſt the eaſt, and ſet it vpon<lb/>
+              the fier: and yer thou waſheſt thy ſelfe, ſaie theſe words, going a-<lb/>
+              bout the fier, thrée times, holding the candle in the right hand ✠</hi><lb/>
+              Panthon ✠ Craton ✠ Muriton ✠ Biſecognaton ✠ Siſton ✠<lb/></p>
+           
+              <fw type="catchword" style="text-align:right">Diaton</fw>
+            <pb/>
+           
+        <!--Page Page 409 / Book 15 Chapter 10 transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->
+           <fw type="header" style="text-align: left; font-style:italic; font-size:125%;">Jidoni.</fw>
+           <fw type="header" style="text-align: center; font-size:125%;">of Witchcraft.</fw>
+           <fw type="header" style="text-align: right; font-size:125%;">Cap.10.</fw>
+           <fw type="pageNum" style="text-align: right; font-size:125%;">409</fw>
+           
+           <p><hi style="text-indent:1em;">Diaton ✠ Maton ✠ Tetragrammaton ✠ Agla ✠ Agarion ✠<lb/>
+              Tegra ✠ Penteſſaron ✠ Tendicata ✠ <hi style="blackletter;">Then reherſe theſe names</hi><lb/>
+              ✠ Sorthie ✠ Sorthia ✠ Sorthios ✠ <persName type="lit">Milia</persName> ✠ <persName type="lit">Achilia</persName> ✠ <persName type="lit">Sibylia</persName><lb/>
+              ✠ <foreign xml:lang="la"><hi style="font-style:italic;"> In nomine patrv, &amp; fily, &amp; ſpiritus ſancti,</hi></foreign><hi style="blackletter;"> Amen. I coniure you<lb/>
+              thrée ſiſters of fairies,</hi> <persName type="lit">Milia</persName>, <persName type="lit">Achilia</persName>,
+                     <persName type="lit">Sibylia</persName>, <hi style="blackletter;">by the father, by the
+                     <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>The three ſiſters of the fairies, <persName type="lit">Milia</persName>, 
+                     <persName type="lit">A-chilia</persName>, and <persName type="lit">Sibylia</persName>.</quote></note><lb/>
+              ſonne, and by the Holie-ghoſt, and by their vertues and powers,<lb/>
+              and by the moſt mercifull and liuing <persName type="lit">God</persName>, that will command<lb/>
+              his angell to blowe the trumpe at the daie of iudgement; and he<lb/>
+              ſhall faie, Come, come, come to iudgement; and by all angels,<lb/>
+              archangels, thrones, dominations, principats, poteſtates, virtu-<lb/>
+              tes, cherubim and ſeraphim, and by their vertues and powers. I<lb/>
+              coniure you thrée ſiſters, by the vertue of all the riall words afore-<lb/>
+              ſaid: I charge you that you doo appeare before me viſiblie, in<lb/>
+              forme and ſhape of faire women, in white veſtures, and to bring<lb/>
+              with you to me, the ring of inuiſibilitie, by the which I may go in-<lb/>
+              uiſible at mine owne will and pleaſure, and that in all houres<lb/>
+                        and minuts:</hi><foreign xml:lang="la"><hi style="font-style:italic;"> In nomine patris, &amp; fily, &amp; ſpiritus ſancti,</hi></foreign><hi style="blackletter;"> Amen <figure><figDesc>five petal symbol</figDesc></figure> Be-<lb/>
+              ing appeared, ſaie this bond following.</hi></hi><lb/></p>
+           
+           <p style="text-indent:1em; blackletter;"><hi style="text-indent:1em;">I bleſſed virgins ✠ <persName type="lit">Milia</persName> ✠ <persName type="lit">Achilia</persName> ✠ I coniure you in the<lb/>
+              name of the father, in the name of the ſonne, and in the name of<lb/>
+              the Holie-ghoſt, and by their vertues I charge you to depart<lb/>
+              from me in peace, for a time. And <persName type="lit">Sibylia</persName>, I coniure thée, by the<lb/>
+              vertue of our Lord <persName type="lit">Jeſus Chriſt</persName>, and by the vertue of his<lb/>
+              ſleſh and pretious bloud, that he tooke of our bleſſed ladie the vir-<lb/>
+              gine, and by all the holie companie in heauen: I charge thée <persName type="lit">Si-<lb/>
+              bylia</persName>, by all the vertues aforeſaid, that thou be obedient vnto me,<lb/>
+              in the name of <persName type="lit">God</persName>; that when, and at what time and place I<lb/>
+              ſhall call thée by this foreſaid coniuration written in this booke,<lb/>
+              looke thou be readie to come vnto me, at all houres and minuts,<lb/>
+              and to bring vnto me the ring of inuiſibilitie, whereby I may go<lb/>
+                     <note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>The ring of inuiſibilitie.</quote></note>
+              inuiſible at my will and pleaſure, and that at all houres and mi-<lb/>
+              nuts;</hi> Fiat, fiat, <hi style="blackletter;">Amen.</hi><lb/></p>
+           
+           <p style="text-indent:1em; blackletter;"><hi style="text-indent:1em;">And if they come not the firſt night then doo the ſame the ſecond</hi><lb/>
+              night, and ſo the third night, vntill they doo come: for doubtles<lb/>
+              they will come, and lie thou in thy bed in the ſame parlor or cham-<lb/>
+              ber. And laie thy right hand out of the bed, and looke thou haue a<lb/>
+              faire ſilken kercher bound about thy head, and be not afraid, they<lb/>
+              will doo thée no harme. For there will come before thée thrée faire<lb/></p>
+           
+           <fw type="catchword" style="text-align:right; blackletter;">women,</fw>
+           <pb/>
+           
+        <!--Page Page 410 / Book 15 Chapter 10 transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->
+           <fw type="pageNum" style="text-align: left; font-size:125%;">410</fw>
+           <fw type="header" style="text-align: center; font-size:125%;">15.Booke.</fw>
+           <fw type="header" style="text-align: center; font-size:125%;">The diſcouerie</fw>
+           <fw type="header" style="text-align: right; font-style:italic; font-size:125%;">To go inuiſible, &amp;c.</fw>
+           
+           <p><note type="authorial" place="margin-right" style="font-size:75%;">
+                     <quote>*Such a ring it was that aduan-ced Giges to the king-dome of <placeName>Lydia</placeName>: Plato.lib.2. de iusto.</quote></note>
+              women, and all in white clothing; and one of them will put * a<lb/>
+              ring vpon thy finger, wherwith thou ſhalt go inuiſible. Then with<lb/>
+              ſpéed bind them with the bond aforeſaid. When thou haſt this ring<lb/>
+              on thy finger, looke in a glaſſe, and thou ſhalt not ſée thy ſelfe. And<lb/>
+              when thou wilt go inuiſible, put it on thy finger, the ſame finger<lb/>
+              that they did put it on, and euerie new ☽ renew it againe. For<lb/>
+              after the firſt time thou ſhalt euer haue it, and euer beginne this<lb/>
+              worke in the new of the ☽ and in the houre of ♃ and the ☽ in ♋<lb/>
+              ♐ ♓.<lb/></p>
+           <pb/>
+           <!-- Chapter ends half way through the page -->
+        </div>
+        
+        <div type="part">
+           <!-- This is the last page of Book 15 Chapter 14 -->
+           <!--Page Page 420 / Book 15 Chapter 14 transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->
+           <fw type="pageNum" style="text-align: left; font-size:125%;">420</fw>
+           <fw type="header" style="text-align: center; font-size:125%;">15.Booke.</fw>
+           <fw type="header" style="text-align: center; font-size:125%;">A diſcouerie</fw>
+           <fw type="header" style="text-align: right; font-style:italic; font-size:125%;">Coniuring for a ſpir</fw>
+           
+           <p style="text-align:center"><hi style= "font-size:125%;">A type or figure of the circle for the maiſter</hi><lb/>
+              <hi style= "font-size:115%;">and his fellowes to fit in,ſhewing how</hi><lb/>
+              and after what faſhion it<lb/>
+              ſhould be made.<lb/></p>
+           
+           <figure><figDesc>*square with stars and maltese crosses in it and many words*</figDesc></figure>
+        
+           <p style="text-align:center"><hi style="decorInit;float:left;font-size:400%;padding:0.5rem;margin:0.2rem 1rem 0;">
+                     T</hi>His is the circle for the maiſter to fit in, and his fellowe<lb/>
+              or fellowes, at the firſt calling, ſit backe to backe, when<lb/>
+              he calleth the ſpirit; and for the fairies make this circle<lb/>
+              with chalke on the ground, as is ſaid before. This ſpi-<lb/>
+              rit <persName type="lit">Bealphares</persName> being once called and found, ſhall ne-<lb/>
+              uer haue power to hurt thee. Call him in<lb/>
+              the houre of ♃ or ♀ the ☽ in-<lb/>
+              creaſing.<lb/></p>
+           <fw type="catchword" style="text-align:right">The</fw>
+           <pb/>
+        </div>
+        </body>
+    </text>
+</TEI>

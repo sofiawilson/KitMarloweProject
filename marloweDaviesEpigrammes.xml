@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://scotthamlin.digstonehill.org/news/wp-content/uploads/Marlowe.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="meres_fragment_xx">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epigrammes </title>
+                <respStmt>
+                    <resp>Author<date when-custom="1599"/></resp>
+                    <name><forename>John</forename> <surname>Davies</surname></name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Anthony Adamcewicz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Seamus Bruno</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Jacqueline Davis</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Julianna Fitzpatrick</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Malana Manchanda</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Joseph McNamara</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Lindsey Morrissette</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Ethan Vidyarthy</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Michael Herlihy</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Jessica Massey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Morgan Silva</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Brooke Doehler</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2017"/></resp>
+                    <name>Stacey Sarto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Primary editor</resp>
+                    <name>Kristen Abbott Bennett</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Assistant editor</resp>
+                <name>Rowan Pereira</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    Kristen Bennett and Scott Hamlin
+                </publisher>
+                <date>2017</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                    <p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author><name ref="xml:DAVI1">John Davies</name></author>
+                    <title level="m">Epigrammes and Elegies. By I.D. and C.M.</title>
+                    
+                    <!-- Pub info difficult to ascertain. ESTC offers the following: "The imprint is false; possibly printed in Scotland by R. Waldegrave, in London by T. Scarlet (if so, before Sept. 1596), or on the continent; see "Studies in bibliography" 25 (1972), p. 151. Publication date estimated by STC." -->
+                    
+                    <pubPlace>At Middleborough.</pubPlace>
+                    
+                    <date when-custom="1599">,<!-- Date is best guess and that given by both ESTC and EEBO as approximate -->1599</date> <idno type="STC">STC 6350</idno>
+                </bibl>
+                <bibl>Transcription keyed by students in LC 347A at Stonehill College, under the supervision of Kristen Abbott Bennett and Scott Hamlin. Transcription prepared from a digital surrogate of a microfilm accessed via the Early English Books Online database.</bibl>
+            <!-- The letters "t" and "r" are worn throughout the text and there are many gaps in inking that have been supplied if the encoder had a high confidence level. The microfilm facsimile deteriorates much toward the end of the document. -->
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+           <!-- title page -->
+                            <fw type="header" style="text-align: center;">EPIGRAMMES</fw><lb/><lb/>
+            <fw type="header" style="text-align: center;">and</fw><lb/><lb/>
+            <fw type="header" style="text-align: center;">ELEGIES.</fw><lb/><lb/>
+            <fw type="header" style="text-align: center;">By I.D. and</fw><lb/><lb/>
+            <fw type="header" style="text-align: center;">C.M.</fw><lb/><lb/>
+                           <figure><figDesc>Printers Ornament</figDesc>
+                        </figure>
+            <fw type="header" style="text-align: center;"><hi style="font-style: italic;">At <placeName>Middleborough</placeName></hi></fw> 
+            <pb/>
+               <!-- End title page -->        
+     
+                
+                <div type="epigram">
+                    <head style="text-align: center;"><foreign xml:lang="la" style="font-style: italic;">Epigrammata prima.</foreign></head><lb/>
+                    <head style="text-align: center;"><foreign xml:lang="la" style="font-style: italic;">Ad Musam,</foreign></head><lb/>
+                    <lg>
+                        <l><hi style="float: left; font-size: 5em; padding: 0.5em; margin: 0.2em 1em 0;">F</hi>Lie merry <persName>Muſe</persName> vnto that merry towne,</l>
+                        <l>where thou mayſt playes, reuels, and triumphes</l>
+                        <l>The houſe of fame, &amp; Theatre of renowne, (ſee</l>
+                        <l>VVhere all good wits &amp; ſpirits loue to be.</l>
+                    </lg>
+                    
+                    <lg>
+                        <l>Fallin betwene their hands, that loue &amp; praiſe thee</l>
+                        <l>and be to them a laughter and a ieſt:</l>
+                        <l>but as for them which ſcorning ſhall approue thee,</l>
+                        <l> Diſdayne their wits, and thinke thyne owne the beſt.</l></lg>
+                    
+                    <lg>   
+                        <l>But if thou finde any ſo groſe and dull,</l>
+                        <l>That thinke I do to priuat Taxing leane:</l>
+                        <l>Bid him go hang, for he is but a gull,</l>
+                        <l>And knowes not what an Epigramme does meane.</l>
+                        <l style="text-intent:1em">Which Taxeth vnder a particular name,</l>
+                        <l> A generall vice which merits publique blame.</l></lg></div> 
+                    <fw type="catchword" style="text-align: right;">Of</fw><lb/>
+                    <fw type="signature" style="text-align: center;">​A3<supplied reason="omitted-in-original">r</supplied></fw><pb/>
+                
+                    
+                    <div type="epigram">       
+                        <head style="text-align:center;"> O<hi style="font-style: italic;">f a Gull</hi>.</head> 
+                        <lg>         
+                            <l><hi style="float: left; font-size: 5em; padding: 0.5em; margin: 0 2em 1em 0;">O</hi>Ft in my laughing rimes, I name a gull,</l> 
+                            <l>But this new terme will many queſtions breede.</l>
+                            <l>Therefore at firſt I will expreſſe at full,</l>
+                            <!-- this last line needs to be brought flush againt the margin -->
+                           <l>Who is a true and perfect gull indeede.</l></lg>
+                        
+                        <lg>  
+                            <l>A gull is he, who feares a veluet gowne,</l> 
+                            <l>and when a wench is braue, dares not ſpeake to her:</l>
+                            <l>A gull is he which trauerſeth the towne,</l>
+                            <l>and is for marriage knowne a common wooer.</l></lg> 
+                        
+                        <lg>
+                            <l>A gull is he, which while he prowdlie weares,</l>
+                            <l>a ſiluer hilted Rapier by his ſide:</l>
+                            <l>Indures the lyes, and knockes about the eares,</l>
+                            <l>Whilſt in his ſheath, his ſleeping ſword doth bide.</l></lg>
+                        
+                        <lg>
+                            <l>A gull is he which weares good hanſome cloathes,</l>
+                            <l>And ſtandes in preſence ſtroaking vp his hayre:</l>
+                            <l>and filles vp his vnperfect ſpeech with othes.</l>
+                            <l>but ſpeakes not one wiſe word throughout the yeere</l>
+                            <l style="text-intent:1em"> But to define a gull in termes preciſe,</l>
+                            <l style="text-intent:1em"> A gull is he which ſemes, and is not wiſe.</l></lg></div> 
+                        <fw type="catchword" style="text-align: right;">In</fw><lb/>
+                        <fw type="signature" style="text-align: center;">​
+                            A3<supplied reason="omitted-in-original">v</supplied></fw>
+            <pb/>
+                   
+                        <div type="epigram">               
+                            <head style="text-align:center;"><foreign xml:lang="la">In Fauſtum</foreign> 7</head>
+                            <lg> 
+                                <l style="text-indent:1em;"><persName>Fauſtus</persName> not lord, nor knight, nor wiſe, nor olde,</l> 
+                                <l>To euery place about the towne doth ride,</l>
+                                <l>He rides into the fieldes, Playes to beholde,</l>
+                                <l>He rides to take boate at the water ſide,</l>
+                                <l>He rides to <placeName>Powles</placeName>, he rides to th’ordinarie,</l>
+                                <l>He rides vnto the houſe of bawderie too.</l>
+                                <l>Thither his horſe ſo often doth him carry,</l>
+                                <l>That ſhortlie he wil quite forget to go.</l>
+                            </lg>
+                        </div>
+                        
+                        
+                        <div type="epigram">  
+                            <head style="text-align:center;"><foreign xml:lang="la">In Katum</foreign> <sic>1</sic></head>
+                            <lg>
+                                <l><persName>Kate</persName> being pleaſde, wiſht that her pleaſure coulde,</l>
+                                <l>Indure as long as a buffe ierkin would.</l>
+                                <l>Content thee <persName>Kate</persName>, although thy pleaſure waſteth,</l>
+                                <l>Thy pleaſures place like a buffe ierkin laſteth:</l>
+                                <l style="text-indent:1em;">For no buffe ierkin hath bin oftner worne,</l>
+                                <l style="text-indent:1em;">Nor hath more ſcrapings or more dresſings born.</l>
+                            </lg>
+                        </div>
+                        
+                        
+                        <div type="epigram"> 
+                            <head style="text-align:center;"><foreign xml:lang="la">In Librum</foreign> 9</head>
+                            <lg>
+                                <l><persName>Liber</persName> doth vaunt how chaſtely he hath liude,</l>
+                                <l>Since he hath bin in towne 7 yeeres and more,</l>
+                                <l>For that he fweares he hath foure onely ſwiude,</l>
+                                <l>A maide, a wife, a widow and a whoore:</l>
+                                <l style="text-indent:1em;">Then Liber thou haſt ſwiude all women kinde,</l>
+                                <l style="text-indent:1em;">For a fift ſort I know thou canſt not finde.</l>
+                            </lg></div>
+                            <fw type="catchword" style="text-align: right;">In</fw><lb/>
+                            <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">B1r</supplied></fw>
+                            <pb/> 
+                        
+                        
+                        <div type="epigram">
+                            <head style="text-align:center;"><foreign xml:lang="la">In Medonem</foreign> 10</head>
+                            <lg>
+                                <l>Great <persName>Captaine Medon</persName> weares a chaine of golde,</l>
+                                <l>which at fiue hundred crownes is valued;</l>
+                                <l>For that it was his graundſires chainƏ of olde,</l>
+                                <l>when great <persName>king Henry Bulleigne</persName> conquered.</l>
+                                <l style="text-indent:1em;">and weare it <persName>Medon</persName>, for it may enſue,</l>
+                                <l style="text-indent:1em;">that thou by vertue of his Maſſie <sic>chaine</sic>,</l>
+                                <l style="text-indent:1em;">a ſtronger towne than <placeName>Bulloigne</placeName> maiſt ſubdue,</l>
+                                <l style="text-indent:1em;">Yf wiſemens ſawes be not reputed vaine,</l>
+                                <l>For what ſaide <persName ref="/kit-marlowe/files/personography.xml#pers_PHIL2">Phillip king of <placeName>Macedon</placeName></persName>?</l>
+                                <l>There is no Caſtle ſo wel fortifid,</l>
+                                <l>But if an Aſſe laden with gold comes on,</l>
+                                <l>The guarde wil ſtoope, and gates flie open wide.</l>
+                            </lg>
+                        </div>
+                        
+                        
+                        <div type="epigram">
+                            <head style="text-align:center;"><foreign xml:lang="la">In Gellam</foreign> 10</head>
+                            <lg>
+                                <l><persName>Gella</persName>, if thou doft loue thy ſelfe, take heede,</l>
+                                <l>left thou my rimes, vnto thy louer reade,</l>
+                                <l>For ſtraight thou grinſt, &amp; then thy louer reeth,</l>
+                                <l>Thy canker-eaten gums, and rotten teeth.</l>
+                            </lg>
+                        </div>
+                        
+                        <div type="epigram">
+                            <head style="text-align:center;"><foreign xml:lang="la">In Quintum</foreign> 12</head>
+                            <lg>
+                                <l><persName ref="/kit-marlowe/files/personography.xml#pers_ENNI1"> <!-- Best guess based on context (multiple Quintuses) -->">Quintus</persName> his wit infuſed into his braine,</l>
+                                <l>Miſlikes the place, and fled into his feete,</l>
+                                <l>and the e it wanders vp and down the ſtreetes,</l>
+                                <l>Dabled in the durt, and ſoaked in the raine.</l>
+                                <l>Doubtleſſe his wit intendes not to aſpire,</l>
+                                <l>Which leaues his head to trauell in the mire.</l>
+                            </lg>
+                        </div>
+            <fw type="catchword" style="text-align: right;">In</fw><lb/>
+            <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">B1v</supplied></fw><pb/>
+
+                    <div type="epigram">
+                        <head style="text-align:center;"><foreign xml:lang="la">In Seuerum</foreign> 13</head>
+                        <lg>
+                            <l>The puritane <persName>Seuerus</persName> oft doth reade,</l>
+                            <l>this text that doth pronounce vaine ſpeech a ſinne,</l>
+                            <l>That thing defiles a man that doth proceede</l>
+                            <l>From out the mouth, not that which enters in.</l>
+                            <l>Hence is it, that we ſeldome heare him ſweare,</l>
+                            <l>and thereof like a Phariſie he vaunts,</l>
+                            <l>but he deuoures more Capons in a yeare,</l>
+                            <l>Then would ſuffice a hundreth proteſtants.</l>
+                            <l>And ſooth thoſe ſectaries are gluttons all,</l> 
+                            <l>Aſwell the threed-bare Cobler as the knight,</l>
+                            <l>For thoſe poore ſlaues which haue not wherwithal</l> 
+                            <l>Feede on the rich, til they deuoure them quite.</l>
+                            <l style="text-indent:1em;">And ſo like Pharoes kine, they eate vp cleane,</l>
+                            <l style="text-indent:1em;">Thoſe that be fat, yet ſtill themſelues be leane.</l>
+                        </lg>
+                    </div>
+            
+                    <div type="epigram"> 
+                        <head style="text-align:center;"><foreign xml:lang="la">In Leucam</foreign> 14</head><lb/> 
+                        <lg><l><persName>Leuca</persName> in preſence once a fart did let,</l>
+                            <l>Some langht a little, ſhe forſooke the place:</l>
+                            <l>and madde with ſhame, did eke her gloue forget,</l>
+                            <l>which ſhe returned to fetch with baſhfull grace:</l>
+                            <l style="text-indent:1em;">And when ſhe would haue ſaid, my gloue,</l>
+                            <l style="text-indent:1em;">My fart (qd ſhe) which did more laughter moue.</l></lg>
+                        
+                        <fw type="pageNum" style="text-align: center;">2</fw><lb/>
+                        <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">B2r</supplied></fw><pb/>
+                    </div>
+                    
+                    <div type="epigram">
+                          <head style="text-align:center;"><foreign xml:lang="la">In Macrum</foreign> 15</head><lb/>
+                            <lg><l>Thou canſt not ſpeake yet <persName>Macer</persName>, for to ſpeake,</l>
+                            <l>is to diſtinguiſh ſoundes ſignificant,</l>
+                            <l>Thou with harſh noyſe the ayre doſt rudely breake,</l>
+                            <l>But what thou vttereſt common ſence dnth want:</l>
+                            <l style="text-indent:1em;">Halfe Engliſh wordes, with fuſtian tearms among</l>
+                            <l style="text-indent:1em;">Much like the burthen of a Northerne ſong.</l></lg> 
+                        </div>
+            
+                    <div type="epigram">
+                       <head style="text-align:center;"><foreign xml:lang="la">In Fauſtum</foreign> 16</head><lb/>
+                        <lg>
+                            <l>That youth ſaith <persName>Fauſtus</persName>, hath a Lyon ſeene,</l> 
+                            <l>Who from a Dycing houſe comes monieleſſe,</l>
+                            <l>but when he loſt his hayre, where had he beene,</l>
+                            <l>I doubt me had ſeene a Lyoneſſe.</l></lg>
+                        </div>
+            
+                    <div type="epigram">
+                         <head style="text-align:center;"><foreign xml:lang="la">In Coſmum</foreign>17</head><lb/>
+                        <lg><l><persName>Coſmus</persName> hath more diſcourſing in his head,</l> 
+                            <l>then loue, when <persName>Pallas</persName> iſſued from his braine,</l> 
+                            <l>and ſtill he ſtriues to be deliuered,</l> 
+                            <l>Of all his thoughtes at once, but al in vaine.</l>
+                            <l>For as we ſee at all the play houſe dores,</l>
+                            <l>when ended is the play. the daunce, and ſong:</l>
+                            <l>A thouſand <unclear reason="brokentype">townſemən</unclear>, gentlemen, &amp; whores:</l> 
+                            <lb/>
+                            <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">B2v</supplied></fw>
+                            <pb/>
+                            
+                        <l>Porters &amp; ſeruing-men togither throng,</l> 
+                        <l>ſo thoughts of drinking, thriuing, wenching, war,</l> 
+                        <l>And borrowing money, raging in his minde.</l> 
+                        <l>To įſſue all at once ſo forwarde are,</l>
+                        <l>As none at all can perfect paſſage finde.</l></lg></div>
+                     
+
+                <div type= "epigram">
+                    <head style="text-alight;center;"><foreign xml:lang="la">In Flaccum</foreign> 18</head><lb/>
+                    <lg>
+                        <l>The falſe knaue Flaccus once a bribe I gaue,</l>
+                        <l>The more foole I to bribe ſo falſe a knaue,</l>
+                        <l>but he gaue back my bribe, the more foole he,</l>
+                        <l>That for my follie, did not couſen me.</l>
+                    </lg>
+                </div>
+                <div type= "epigram">
+                    <head style="text-alight;center;"><foreign xml:lang="la">In Cineam</foreign> 19</head><lb/>
+                    <lg>
+                        <l>Thou dogged <persName>Cineas</persName> hated like a dogge,</l>
+                        <l>For ſtill thou grumbleſt like a Maſtie <sic>dogge<unclear>r</unclear></sic></l>
+                        <l>comparſt thy ſelfe to nothing but a dogge,</l>
+                        <l>Thou ſaiſt thou art as weary as a dogge.</l>
+                        <l>As angry, ſick, &amp; hungry as a dogge,</l>
+                        <l>As dull and melancholy as a dogge:</l>
+                        <l>As lazie, ſleepie, &amp; as idle as dogge.</l>
+                        <l>But why doſt thou compare thee to a dogge:</l>
+                        <l>In that, for which all men deſpiſe a dogge,</l>
+                        <l>I will compare thee better to a dogge.</l>
+                        <fw type="pageNum" style="text-align: center;">3</fw><fw type= "catchword" style="text-align: right;">Thou</fw><lb/>
+                        <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">B3r</supplied></fw>
+                    <pb/>
+          
+                        <l>Thou art as faire and comely as a dogge,</l>
+                        <l>Thou art as true and honeſt as a dogge,</l>
+                        <l>Thou art as kinde and liberall as a dogge,</l>
+                        <l>Thou art as wiſe and valiant as a dogge.</l>
+                        <l style="text-indent: 1em;">But <persName>Cineas</persName>, I haue oft heard thee tell,</l>
+                        <l style="text-indent: 1em;">Thou art as like thy father as may be,</l>
+                        <l style="text-indent: 1em;">Tis like inough, and faith like it well,</l>
+                        <l style="text-indent: 1em;">But I am glad thou art not like to me.</l>
+                    </lg>
+                </div>
+                <div type= "epigram">
+                    <head style="text-alight;center;"><foreign xml:lang="la">In Gerontem</foreign> 20</head><lb/>
+                    <lg>
+                        <l><persName>Geron</persName> mouldie memorie corrects,</l>
+                        <l><persName>Old Holinſhed</persName> our famous chronicler,</l>
+                        <l>With morrall rules, and pollicie collects,</l>
+                        <l>Out of all actions done theiſe foureſcore yeere.</l>
+                        <l style="text-indent: 1em;">accounts the time of euery olde euent,</l>
+                        <l style="text-indent: 1em;">not frō <persName>Chriſts</persName> birth, nor from the <persName>Princes</persName> raigne,</l>
+                        <l style="text-indent: 1em;">But from ſome other famous accident,</l>
+                        <l style="text-indent: 1em;">Which in mens generall notiſe doth remaine.</l>
+                        <l>The ſiege of <placeName>Bulloigne</placeName>, and the plaguie ſweat,</l>
+                        <l>The going to <placeName>ſaint Quintines</placeName> and <placeName>new hauen</placeName>.</l>
+                        <l>The riſing in the North, The froſt ſo great.</l>
+                        <l>That cart-wheele prints on <placeName>Thames</placeName> face were ſeene,</l>
+                        <l style="text-indent: 1em;">The fall of money, &amp; burning of <persName>Paules</persName> ſteeple,</l>
+                        <l style="text-indent: 1em;">The blaſing ſtarre and <persName>Spaniardes</persName> ouerthrow:</l>
+                        <l style="text-indent: 1em;">By thieſe euents, notorious to the people,</l>
+                        <l style="text-indent: 1em;">He meaſures times, &amp; things forepaſt dosh ſhew.</l>
+                        <fw type="catchword" style="text-align: right;">But</fw><lb/>
+                    <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">B3v</supplied></fw>
+               <pb/>
+                        
+                        <l>But moſt of all, he chieſſie reckons by.</l>
+                        <l>A priuat chaunce, the death of his curſt wife:</l>
+                        <l style="text-indent: 1em">This is to him the deareſt memorie,</l>
+                        <l style="text-indent: 1em">And th’happieſt accident of all his life.</l></lg>
+                </div>     
+            
+                <div type="epigram">
+                    <head style="text-align: center;"><foreign xml:lang="la">In Marcum</foreign> 21</head><lb/>
+                    <lg><l>When <persName>Marcus</persName> comes frō <placeName>Mins</placeName>, he ſtil doth ſweare</l>
+                        <l>By, come a ſeauen, that all is loſt and gone,</l>
+                        <l>But thats not true, for he hath loſt his hayre</l>
+                        <l>Onely for that, he came too much at one.</l></lg>
+                </div>
+            
+                <div type="epigram">
+                    <head style="text-align: center;"><foreign xml:lang="la">In Ciprium</foreign> 22</head><lb/>
+                    <lg><l>The fine youth <persName>Ciprius</persName> is more tierſe and neate,</l>
+                        <l>Then the new garden of the olde Temple is,</l>
+                        <l>And ſtil the neweſt faſhion he doth get,</l>
+                        <l>And with the time doth chaung from that to this,</l>
+                        <l>He weares a hat now of the flat crown-block,</l>
+                        <l>The treble ruffes, long cloake, &amp; doublet french:</l>
+                        <l>He takes Tobacco, and doth weare a locke,</l>
+                        <l>And waſtes more time in dreſſing then a Wench.</l>
+                        <l style="text-indent: 1em">Yet this new-fangled youth, made for theſe tim<supplied reason="scan-unclear">es</supplied>,</l>
+                        <l style="text-indent: 1em">Doth aboue all praiſe olde Gaſcoines rimes.</l></lg></div>
+                    <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">B4r</supplied></fw>
+                    <pb/>
+              
+            
+            <div type="epigram">      
+                <head style="text-align: center;"><foreign xml:lang="la">In Cineam</foreign> 23.</head><lb/>
+                    <lg><l>Whē <persName>Cineas</persName> comes amōgſt his friends in morning</l>
+                        <l>He ſliely lookes who firſt his cap doth moue:</l>
+                        <l>Him he ſalutes, the reſt ſo glimly ſcorning,</l>
+                        <l>As if for euer they had loſt his loue.</l>
+                        <l style="text-indent: 1em">I knowing how it doth the humour fit,</l>
+                        <l style="text-indent: 1em">Of this fond gull to be ſaluted firſt:</l>
+                        <l style="text-indent: 1em">catch at my cap, but moue it not a whit:</l>
+                        <l style="text-indent: 1em">Which perceiuing he ſeemes ſo ſpite to burſt.</l>
+                        <l>But <persName>cineas</persName>, why expect you more of me,</l>
+                        <l>Then I of you<sic>’</sic> I am as good a man,</l>
+                        <l>And better too by many a quallitie</l>
+                        <l>For vault, and daunce, &amp; fence &amp; rime I can,</l>
+                        <l style="text-indent: 1em">You keep a whore at your own charg men tel me</l>
+                        <l style="text-indent: 1em">Indeede friend <persName>Cineas</persName> therein you excell me.</l></lg>
+                
+                <div type="epigram">
+                    <head style="text-align: center;"><foreign xml:lang="la">In Gallum</foreign> 24</head><lb/>
+                    <lg><l><persName>Gallus</persName> hath bin this Sommer time in <placeName>Frieſland</placeName>,</l>
+                        <l>And now returned he ſpeakes ſuch warlike wordes</l>
+                        <l>As if I coulde their Engliſh vnderſtand,</l>
+                        <l>I feare me they would cut my Throat like ſwordes</l>
+                        <l style="text-indent: 1em">He talks of counterſcarfes and caſomates,</l>
+                        <l style="text-indent: 1em">Of parapets, of curteneys and Pallizadojs,</l>
+                        <l style="text-indent: 1em">Of flankers, Rauelings, gab<unclear>i</unclear>ons he prates,</l>
+                        <l style="text-indent: 1em">And of falſe brayes, &amp; fallies &amp; ſcaladoſe:</l>
+                        <fw type="catchword" style="text-align: right;">But</fw><lb/>
+                        <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">B4v</supplied></fw>
+                        <pb/>
+
+                        <l>But to require ſuch gulling termes as theſe,</l> 
+                        <l>With wordes of my profeſſion I replie:</l> 
+                        <l>I tel of foorching, vouchers, and counterpleas,</l> 
+                        <l>Of Wichernams, eſſoynes, and champartie.</l> 
+                        <l style="text-indent: 1em">ſo neyther of vs vnderſtanding eyther,</l> 
+                        <l style="text-indent: 1em">We part as wiſe as when we came together.</l></lg> 
+                    </div>
+                
+             <div type="epigram">
+                 <head style="text-align: center;"><foreign xml:lang="la">In Decium</foreign> 25</head><lb/>
+                        <lg><l>Audacious Painters haue nine worthies made.</l> 
+                            <l>But <persName>Poet Decius</persName> more audacious farre,</l> 
+                            <l>Making his miſtres march with men of warre,</l> 
+                            <l>With title of tenth worthlie<!-- Cf. nine worthies, Shakespeare LLL? (KAB)--> doth her lade,</l> 
+                            <l style="text-indent: 1em">Me thinkes that gul did vſe his termes as fit,</l> 
+                            <l style="text-indent: 1em">which termde his loue a Giant for hir wit.</l></lg>
+                    </div>
+              
+                    <div type="epigram">
+                        <head style="text-align: center;"><foreign xml:lang="la">In Gellam</foreign> 26</head>
+                        <lg><l>If gellas beautie be examined</l> 
+                            <l>ſhe hath a dull dead eye, a ſaddle noſe,</l> 
+                            <l>An ill ſhapte face, with morpheu ouerſpread,</l> 
+                            <l>and rotten Teeth with ſhe in laughing ſhowes.</l> 
+                            <l style="text-indent: 1em">Brieflie ſhe is the filthyeſt wench in Towne,</l> 
+                            <l style="text-indent: 1em">of all that do the art of whooring vfe:</l> 
+                            <l style="text-indent: 1em">But when ſhe hath put on her ſattin gowne,</l> 
+                            <l style="text-indent: 1em">Her out lawne apron, &amp; her veluevt ſhooes.</l>
+                            <fw type="catchword" style="text-align: right;">Her</fw><lb/>
+                <fw type="signature" style="text-align: center;">C<supplied reason="omitted-in-original">1r</supplied></fw><pb/>
+           
+                            <l>Her greene ſilk ſtockings, and her peticoate,</l> 
+                            <l>Of Taffa<unclear reason="gap-in-inking">t</unclear>ie, with golden frindge a-rounde:</l> 
+                            <l>And is withall perfumed with ciuet hot,</l> 
+                            <l>which doth her valiant ſtinking breath confounde</l> 
+                            <l style="text-indent: 1em">Yet ſhe with theſe addicions is no more,</l> 
+                            <l style="text-indent: 1em">Then a ſweete, filthe, fine ill fauored whoore.</l></lg> 
+                    </div>
+              
+              
+                    <div type="epigram">
+                        <head style="text-align: center;"><foreign xml:lang="la">In Sillam</foreign> 27</head><lb/>
+                        <lg><l>Silla is often challenged to the fielde,</l> 
+                            <l>To anſwere like a gen<unclear reason="gap-in-inking">t</unclear>leman his foes,</l> 
+                            <l>but when doth he his only anſwere yeelde,</l> 
+                            <l>That he hath liuings &amp; faire landes to loſe.</l> 
+                            <l style="text-indent: 1em"><persName>Silla</persName>, if none but beggars valiant were,</l> 
+                            <l style="text-indent: 1em">The king of ſpaine woulde put vs all in feare.</l></lg>
+                    </div>
+                
+                    <div type="epigram">
+                        <head style="text-align: center;"><foreign xml:lang="la">In Sillam</foreign> 28</head><lb/>
+                        <lg><l>Who dares affirme that <persName>Silla</persName> dare not fight?</l> 
+                            <l>when I dare ſweare he dares aduenture more,</l> 
+                            <l>Then the moſt braue, moſt all daring wight:</l> 
+                            <l>That euer armes with reſollucion bore.</l> 
+                            <l style="text-indent: 1em">He that da<supplied reason="gap-in-inking">r</supplied>e touch the moſt vnholſome whoore,</l> 
+                            <l style="text-indent: 1em">That euer was retirde into the ſpittle:</l> 
+                            <l style="text-indent: 1em">and dares court wenches ſtanding at a dore,</l> 
+                            <l style="text-indent: 1em">The porcion of his wit being paſſing litle.</l>
+                
+                   <fw type="catchword" style="text-align: right;">He</fw><lb/>
+                   <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">C1v</supplied></fw><pb/>
+                
+                <l>He that dares giue his deereſt friendes offeuces,</l>
+                        <l>which other valiant fooles do feare to do:</l>
+                        <l>and when a feuer doth confounde his fences,</l> 
+                        <l>dare eate raw biefe, &amp; drinke ſtrong wine thereto.</l> 
+                        <l style="text-indent:1em;">He that dares take Tobacco on the ſtage,</l>
+                        <l style="text-indent:1em;">dares man a whore at noon-day throgh the ſtreet</l>
+                        <l style="text-indent:1em;">dares daunce in <placeName>Powles</placeName>, &amp; in this formall age,</l>
+                        <l style="text-indent:1em;">dares ſay &amp; do what euer is vnmeete.</l>
+                        <l>Whom feare of ſhame coulde neuer yet affright,</l>
+                        <l>Who dares affirme that <persName>Silla</persName> dares not fight?</l></lg></div>
+                
+                <div type="epigram">
+                    <head style="text-align:center;"><foreign xml:lang="la">In Haywodum</foreign> 29</head><lb/>
+                    <lg><l><placeName>Haywood</placeName> which in Epigrams did excell,</l> 
+                        <l>Is now put down ſince my light muſe aroſe:</l>
+                        <l>As buckets are put downe into a well,</l> 
+                        <l>Or as a ſchoole-boy putteth downe his hoſe.</l></lg></div>
+                
+                <div type="epigram">
+                    <head style="text-align:center;"><foreign xml:lang="la">In Dacum</foreign> 30</head><lb/>
+                    <lg><l>Amongſt the Poets <persName>Dacus</persName> numbred is,</l>
+                        <l>Yet could he neuer make an engliſh rime,</l>
+                        <l>but ſome proſe ſpeeches I haue hearde of his,</l>
+                        <l>which haue bin ſpoken man a dundreth time.</l>
+                        <l style="text-indent:1em;">The man that keepes the Eliphant hath one,</l>
+                        <l style="text-indent:1em;">wherein he tels the wonders of the beaſt.</l>
+                    <fw type="pageNum" style="text-align: center;">3</fw>
+                    <fw type="catchword" style="text-align: right;">An</fw><lb/>   
+                    <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">C1v</supplied></fw>
+                    <pb/>
+                    
+                    <l>An other <persName>Bankes</persName> pronounced long agoe,</l>
+                        <l>when he his curtalls qualities expreſt:</l>
+                        <l>He fi<supplied reason="gap-in-inking">r</supplied>ſt taught him that keepes the monuments,</l> 
+                        <l>At <placeName>Weſtminſter</placeName> his formall tale to ſay.</l>
+                        <l>And alſo him with Puppets repreſents,</l>
+                        <l>and alſo him which with the Ape doth play</l>
+                        <l style="text-indent:1em'">Though all his poetrre be like to this,</l>
+                        <l style="text-indent:1em;">Amongst the Poets numbred is.</l></lg></div>
+                
+                <div type="epigram">
+                    <head style="text-align:center;"><foreign xml:lang="la">In Priſcum</foreign> 31</head><lb/>
+                    <lg><l>VVhhen <persName>Priſcus</persName> raiſde from low to high eſtate.</l>
+                        <l>Rode through the ſtreete in pompous iollitie,</l>
+                        <l><persName>Caius</persName> his poore famillier friende of late,</l>
+                        <l>be-ſpake him thus, Sir now you know not me:</l>
+                        <l style="text-indent:1em;">Tis likely friende (quoth <persName>Priſcus</persName>) to be ſo,</l>
+                        <l style="text-indent:1em;">For at this time my ſelfe I do not know.</l></lg></div>
+                
+                <div type="epigram">
+                    <head style="text-align:center;"><foreign xml:lang="la">In Brunum</foreign> 32</head><lb/>
+                    <!-- Interesting marginalia. There's a series of scrawled numbers that appear to be "4333" followed by 6 more unclear numbers -->
+                    <lg><l><persName>Brunus</persName> which thinkes him ſelfe a faire ſweet youth</l>
+                        <l>is Thirtie nine yeeres of age at leaſt:</l>
+                        <l>Yet was he neuer to confeſſe the truth,</l>
+                        <l>but a dry ſtarueling when he was at beſt.</l>
+                        <l style="text-indent:1em;">T<supplied reason="gap-in-inking">h</supplied>is gull was ſick of ſhew his night cap fine,</l>
+                        <l style="text-indent:1em;">and his wrought Pillow onerſpred with lawne:</l>
+                        <l>but hath bin well ſince his griefes cauſe hath line,</l>
+                        <l>At <placeName>Trollups</placeName> by <persName>ſaint Clements</persName> church in pawne.</l> </lg><lb/></div>
+                <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">C2v</supplied></fw>
+                <pb/>
+                
+                <div type="epigram">
+                    <head style="text-align:center;"><foreign xml:lang="la">In Francum</foreign> 33</head><lb/>
+                    <lg><l>When <persName>Francus</persName> comes to ſollace with his whoore</l>
+                        <l>He ſends for rods and ſtrips himſelſe ſtark naked:</l>
+                        <l>For his luſt ſleepes, and will not riſe before,</l>
+                        <l>by whipping of the wench it be awaked.</l>
+                        <l style="text-indent:1em;">I enui him not, but wiſh he had the powre,</l>
+                        <l style="text-intent:1em;">To make my ſelfe his wench but one halfe houre</l></lg></div>
+                
+                <div type="epigram">
+                    <head style="text-align:center;"><foreign xml:lang="la">In Caſtorem</foreign> 34</head><lb/>
+                    <lg><l>Ofſpeaking well, why do we learne the skill,</l>
+                        <l>Hoping thereby honor and wealth to gaine.</l>
+                        <l>Sith rayling <persName>Caſtor</persName> doth by ſpeaking ill,</l>
+                        <l>Oppinion of much wit, and golde obtaine.</l></lg></div>
+                
+                <div type="epigram">
+                    <head style="text-align:center;"><foreign xml:lang="la">In Septimum</foreign> 35</head>
+                    <lg><l><persName>Septimus</persName> liues, and is like Garlicke ſeene,</l>
+                        <l>for though his head be white, his blade is greene.</l>
+                        <l>This olde mad coult deſerues a Martires praiſe,</l> 
+                        <l>For he was burned in <persName>Queen Maries</persName> dayes.</l></lg></div>
+                <fw type="pageNum" style="text-align: center;">3</fw><lb/>
+                <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">C3r</supplied></fw> 
+                <pb/>
+                
+                <div type="epigram">
+                    <head style="text-align:center;">Of Tobacco 36</head><lb/>
+                    <lg><l><persName>Homer</persName> of Moly, and <persName>Nepenthe</persName> ſings,</l>
+                        <l>Moly the Gods moſt ſoueraigne hearbe diuine.</l>
+                        <l><persName>Nepenthe <sic>Hekens</sic></persName> drinke with gladnes brings,</l>
+                        <l>harts g<supplied reason="gap-in-inking">r</supplied>iefe expells, &amp; doth the wits refine.</l>
+                        <l style="text-indent:1em;">but this our age an other worlde hath founde,</l>
+                        <l style="text-indent:1em;">frõ whēce an hearb of heauēly power is brought,</l>
+                        <l style="text-indent:1em;">Moly is not ſo ſoueraigne for a wounde,</l>
+                        <l style="text-indent:1em;">nor hath Nepenthe ſo great wonders wrought.</l>
+                        <l>It is Tobacco, whoſe ſweet ſubſtanciall fume,</l>
+                        <l>The helliſh torment of the Teeth doth eaſe</l>
+                        <l>By drawing downe,&amp; drying vp the rume,</l>
+                        <l>The mother and the nurſ of ech diſeaſe.</l>
+                        <l style="text-indent:1em;">it is Tobacco which doth colde expell,</l>      
+                        <l style="text-indent:1em;">and cleeres the obſtructions of the arteries,</l>
+                        <l style="text-indent:1em;">and ſurfets threathning death digeſteth well,</l>
+                        <l style="text-indent:1em;">decocting all the ſtomacks crudities.</l>
+                        <l>It is Tobacco which hath power to clarifie,</l>
+                        <l>The clowdie miſtes before dim eies appearing,</l>
+                        <l>It is Tobacco which hath power to rarefie, (ring,</l>
+                        <l>The thick groſe humor which doth ſtop the hea-</l>
+                        <l style="text-indent:1em;">The waſting <persName>Hectick</persName> and the quartaine feuer,</l>
+                        <l style="text-indent:1em;">which doth of <persName>Phiſick</persName> make a mockerie:</l>
+                        <l style="text-indent:1em;">The gowt it cures,&amp; helps il breaths for euer,</l>
+                        <l style="text-indent:1em;">Whether the cauſe in Teeth or ſtomacke be.</l>
+                        <fw type="catchword">And</fw><lb/>
+                <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">C3v</supplied></fw>
+                <pb/>
+                
+             <l>And though ill breaths, were by it but confounded</l>
+                    <l>Yet that medicine it doth far excell,</l>
+                    <l>Which by <persName>ſir Thomas Moore</persName> hath bin propoũded.</l>
+                    <l>For this is thought a gentleman-like ſmell,</l>
+                    <l>O that I were one of thieſe mountie bankes,</l>
+                    <l>which praiſe their oyles, &amp; pouders which they ſel</l>
+                    <l>my cuſtomers would giue me coyne with thankes</l>
+                    <l>I for this ware, forſooth a Tale would tell,</l>
+                    <l style="text-indent: 1em;">Yet would I vſe none of theſe tearmes before,</l>
+                    <l style="text-indent: 1em;">I would but ſay, that it the pox wil cure:</l>
+                    <l style="text-indent: 1em;">This were inough, without diſcourſing more,</l>
+                    <l style="text-indent: 1em;">All our braue gallants in the towne t’alure,</l></lg></div>
+                
+                <div type="epigram">
+                    <head style="text-align: center;"><foreign xml:lang="la">In Craſſum</foreign> 37></head><lb/>
+                    <lb/>
+                    <lg><l><persName>Craſſus</persName> his lies are not pernitious lies,</l>
+                        <l>But pleaſant fictions, hurtfull vnto none:</l>
+                        <l>But to himſelfe, for no man counts him wiſe,</l>
+                        <l>To tell for truth, that which for falſe is knowne.</l>
+                        <l style="text-indent: 1em;">he ſweares that <placeName>Caunt</placeName> is threeſcore miles about,</l>
+                        <l style="text-indent: 1em;">and that the bridge at <placeName>Paris</placeName> on the <placeName>Seine</placeName>,</l>
+                        <l style="text-indent: 1em;">is the of ſuch thicknes, lēgth &amp; breadth, throghout</l>
+                        <l style="text-indent: 1em;">that ſixſcore arches can it ſcarſe ſuſtaine</l>
+                        <l>He ſwears he ſaw ſo great a dead mans ſcull,</l>
+                        <l>At <placeName>Canterbury</placeName> digde out of the grounde:</l>
+                        <fw type="catchword" style="text-align: right;">That</fw><lb/>
+                        <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">C4r</supplied></fw>              
+                    <pb/>
+                    
+               <l>That woulde containe of wheat, three buſhels ful</l>
+                        <l>And that in <placeName>Kent</placeName>, are twentie yeomen founde,</l>
+                        <l style="text-indent: 1em;">Of which the pooreſt euery yeere diſpendes,</l>
+                        <l style="text-indent: 1em;">Fiue thouſand <!-- bullet-like character inserted into double space here --> pound theſe &amp; v. thouſand moe,</l>
+                        <l style="text-indent: 1em;">So oft he hath recited to his friendes,</l>
+                        <l style="text-indent: 1em;">that now himſelfe, perſwades himſelfe tis ſo:</l>
+                        <l>But why doth <persName>Craſſus</persName> tel his lies ſo riſe,</l>
+                        <l>Of bridges, Townes, and things that haue no life.</l>
+                        <l style="text-indent: 1em;">He is a lawyer, and doth wel eſpie,</l>
+                        <l style="text-indent: 1em;">That for ſuch lies an action will not lie.</l></lg></div>
+                
+                <div type="epigram">
+                    <head style="text-align: center;"><foreign xml:lang="la">In<supplied reason="unclear"> </supplied>philonem</foreign> 38</head>
+                    <lg><l><persName ref="/kit-marlowe/files/personography.xml#pers_PHIL3">Philo</persName> the lawyer and the fortune teller,</l>
+                        <l>The ſchoolemaiſter, the midwife &amp; the bawde,</l>
+                        <l>The conjurer, the buyer and the ſeller,</l>
+                        <l>Of painting which with breathing wil be thawde.</l>
+                        <l style="text-indent: 1em;">doth practiſe Phiſicke, &amp; his credite growes,</l>
+                        <l style="text-indent: 1em;">as doth the ballade-ſingers auditorie.</l>
+                        <l style="text-indent: 1em;">which hath at Tēple bar his ſtanding choſe,</l>
+                        <l style="text-indent: 1em;">and to the vnlger ſings an ale-houſe ſtorie.</l>
+                        <l>Firſt ſtandes a Porter, then an Oyſter wife,</l>
+                        <l>Doth ſtint her crie, &amp; ſtay her ſteps to heare him,</l>
+                        <l>Then comes a cutpurſe ready with a Knife,</l>
+                        <l>and then a cuntrey Client paſſeth neere him,</l>
+                        <l style="text-indent: 1em;">There ſtāds the Cunſtable, there ſtāds the whore.</l>
+                        <l style="text-indent: 1em;">And harkning to the ſong mark not ech other.</l>
+                        <fw type="catchword" style="text-align: right;">There</fw><lb/>
+                <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">C4v</supplied></fw>
+                <pb/>
+                
+                        <l>There by the Serieant ſtandes the debtor poore,</l>
+                        <l>and doth no more miſtruſt him then his brother:</l>
+                        <l>Thus Orpheus o ſuch hearers giueth Muſique,</l>
+                        <l>And Philo to ſuch Pa<supplied reason="gap-in-inking">t</supplied>ients giueth phiſicke.</l>
+                    </lg> 
+                </div>
+                
+                <div type="epigram">
+                    <head style="text-align: center;"><foreign xml:lang="la">In Fuſcum</foreign> 39</head><lb/>
+                    <lg>
+                        <l>Fuſcus is free, and hath the worlde at will,</l>
+                        <l>Yet in the cour<supplied reason="gap-in-inking">s</supplied>e of the li<supplied reason="gap-in-inking">f</supplied>e the he doth leade:</l>
+                        <l>hees like a horſe which turning rounde a mill,</l>
+                        <l>doth alwaies in the ſeife ſame circle treade:</l>
+                        <l style="text-indent:1em">Fi<supplied reason="gap-in-inking">r</supplied>ſt he doth <supplied reason="gap-in-inking">r</supplied>ise at x. and at eleuen</l>
+                        <l style="text-indent:1em">He go<supplied reason="gap-in-inking" cert="medium">e</supplied>s to Gilles, where he doth eate til one,</l>
+                        <l style="text-indent:1em">Then ſees he a play till ſixe, &amp; <supplied reason="broken-type" cert="high">ſ</supplied>ups at ſeauen,</l>
+                        <l style="text-indent:1em">And after ſupper, ſtraight to bed is gone.</l>
+                        <l>and there til <unclear reason="broken-type" cert="high">t</unclear>enne next day he doth remine,</l>
+                        <l>and then he dines, then ſees a commedie:</l>
+                        <l>and then he ſuppes, &amp; goes to bed againe,</l>
+                        <l>Thus rounde he runs without va<supplied reason="gap-in-inking" cert="medium">r</supplied>ietie:</l>
+                        <l style="text-indent:1em">Saue tha<supplied reason="gap-in-inking" cert="medium">t</supplied>, ſometimes he comes not to the play,</l>
+                        <l style="text-indent:1.5em">But falls into a whoore houſe on the way.</l></lg></div>
+                  <lb/>
+                <fw type="signature" style="text-align: center;">D<supplied reason="omitted-in-original">1r</supplied></fw>
+                <pb/>
+                             
+                <div type="epigram">                
+                    <head style="text-align: center;"><foreign xml:lang="la">In Afrum </foreign>40</head><lb/>
+                    <lg>
+                        <l>The ſmell feaſt after, Trauailes to the Burſe</l>
+                        <l>Twice euery day the fl<supplied reason="faded-ink">y</supplied>ing newes to heare,</l>
+                        <l>w<supplied reason="faded-ink">h</supplied>ich when he hath no money in his purſe,</l>
+                        <l>To <supplied reason="gap-in-inking" cert="high">r</supplied>ichmens Tables he doth often beare:</l>
+                        <l style="text-indent:1em">He tels how Gronigen is taken in,</l>
+                        <l style="text-indent:1em">by the braue conduct of illuſtrious Vere:</l>
+                        <l style="text-indent:1em">and how the ſpainiſh forces Breſt would win.</l>
+                        <l style="text-indent:1em">but that they do Victorious Norris feare.</l>
+                        <l>No ſooner is a ſhip at Sea ſurpriſde,</l>
+                        <l>but ſtraight he learnes the newes &amp; doth diſcloſe</l>
+                        <l style="text-indent:1em">faire written in a ſcrowle he hath the names,<hi style="text-indent:2em"> (it</hi>,</l>
+                        <l style="text-indent:1em">of all the widowes which the plague hath made.</l>
+                        <l style="text-indent:1em">and perſons, Times &amp; places, ſtill he frames,</l>
+                        <l style="text-indent:1.5em">To euery Tale, the better to perſwade:</l>
+                        <l>We cal him Fame, for that the wide-mouth ſlaue,</l>
+                        <l>will eate as faſt as he wil vtter lies</l>
+                        <l>For Fame is ſaide an hundreth mouthes to haue,</l>
+                        <l>And he eates more than woulde fiue ſcore ſuffice.</l></lg></div>
+                <fw type="catchword" style="text-align: right;">In</fw>   
+                <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">D1v</supplied></fw>
+                   <pb/>
+                
+                <div type="epigram">
+                    <head style="text-align: center;"><foreign xml:lang="la">In paulum </foreign>41</head>
+                    <lg>
+                        <l>By lawful mart, &amp; by vnlawful ſtealth,</l>
+                        <l>Paules in ſpite of enuie fortunate:</l>
+                        <l>De<supplied reason="gap-in-inking">r</supplied>iues out of the Oceans of much wealth,</l>
+                        <l>as he may well maintaine a Lordes eſtate.</l>
+                        <l style="margin-left: 1em;">But on the lande a little gulfe there is,</l>
+                        <l style="margin-left: 1em;">wherein he drowneth all the wealth of his.</l></lg></div>
+                 
+                
+                <div type="epigram">
+                    <head style="text-align: center;"><foreign xml:lang="la">In Licum </foreign>42</head>
+                    <lg>
+                        <l>Lycus which lately is to <placeName>Venice</placeName> gone,</l>
+                        <l>ſhall if he do returne, gaine 3 for one:</l>
+                        <l>But x to one, his knowledg and his wit,</l>
+                        <l>vvil not be bettered or increaſde a vvhit.</l></lg></div>
+                
+                <div>
+                    <head style="text-align: center;"><foreign>In Publium </foreign>43</head>
+                    <lg>
+                        <l>Publius ſtudent at the common lavv,</l>
+                        <l>of<supplied reason="gap-in-inking">t</supplied> leaues his bookes, &amp; for his recreation:</l>
+                        <l>To <placeName>Paris</placeName> garden doth himſelf Withdravve,</l>
+                        <l>Where he is rauiſht vvith ſuch delectation</l>
+                        <l>as dovvne amongſt the Beares &amp; dogges he goes,</l>
+                        <l>vvere vvhilſt he skipping cries <supplied reason="gap-in-inking">t</supplied>o head, To head.</l>
+                        <l>His satten doublet &amp; his velue<supplied reason="faded-ink">t</supplied> hoſe,</l> 
+                        <l>Are all vvith ſpittle from aboue be-ſpread.</l>
+                <fw type="pageNum" style="text-align: center;">2</fw><lb/>
+                <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">D2r</supplied></fw>
+                <pb/>
+                
+                    <l>When he is like a Fathers cuntrey hall,</l>
+                    <l>ſtinking vvi<supplied reason="gap-in-inking">t</supplied>h dogges,&amp; muted al<supplied reason="gap-in-inking">l</supplied> vvith haukes,</l>
+                    <l>And rightly too on him this filth do<supplied reason="gap-in-inking">t</supplied>h fall,</l>
+                    <l>Which for ſuch filthie ſpots <supplied reason="gap-in-inking">h</supplied>is bookes <supplied reason="gap-in-inking">f</supplied>orſake,</l>
+                    <l style="margin-left: 1em;"> Leauing olde <persName>Ployden</persName>, <persName>Dier</persName> &amp;, <persName>Brooke</persName> alone,</l>
+                    <l style="margin-left: 1em;"> To ſee olde <persName>Harry Hunkes</persName> &amp; <persName>Saca<supplied reason="gap-in-inking">r</supplied>iſon</persName>.</l></lg></div>
+                
+     <div type="epigram">           
+         <head style="text-align: center;"><foreign xml:lang="la">In Silliam </foreign>44</head>
+                    <lg>
+                        <l>When I this propofition had defended,</l>
+                        <l>A covvarde cannot be an honeſt man,</l>
+                        <l>Thou <persName>Silla</persName> ſeemeſt foorthvvith to be offended</l>
+                        <l>And <supplied reason="gap-in-inking">h</supplied>oldes the con<supplied reason="gap-in-inking">tr</supplied>arie &amp; <supplied reason="gap-in-inking">ſ</supplied>vveres he can.</l>
+                        <l>But when I <supplied reason="gap-in-inking">t</supplied>el thee that he will forſake</l>
+                        <l>his deareſt friend, in perill of his life,</l>
+                        <l>Thou then art changde &amp; ſaiſt thou didſt miſtake,</l>
+                        <l>and ſo we ende our argument &amp; ſtrife.</l>
+                        <l style="text-indent: 1em;"> Yet I thinke oft, &amp; thinke I thinke aright,</l>
+                        <l style="text-indent: lem;"> Thy argument argues thou wilt not fight.</l></lg></div>
+                   
+                <div type="epigram">
+                    <head style="text-align: center;"><foreign>In Dacum </foreign>45</head>
+                    <lg>
+                        <l>Dacus with ſome good collour &amp; pretence,</l>
+                        <l>Tearmes his loues beautie ſilent eloquence:</l>
+                        <l>For <supplied reason="gap-in-inking">ſ</supplied>he doth lay more collours on her face,</l>
+                        <l>Then euer <persName>Tullie</persName> vſde <sic>hig</sic> ſpeech to grace.</l></lg></div>
+                     <fw type="catchword" style="text-align: right;">In</fw><lb/>
+                     <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">D2v</supplied></fw>
+                <pb/>
+                    
+                 <div type="epigram">
+                     <head style="text-align: center;"><foreign xml:lang="la">In Marcum </foreign>46</head>
+                    <lg>
+                        <l>Why doſt thou Marcus in thy miſerie,</l>
+                        <l>Raile &amp; blaſpheme, &amp; call the heauens vn-kinde,</l>
+                        <l>The heauens draw no Kindeneſſe vnto thee,</l>
+                        <l>Thou haſt the heauens ſo li<supplied reason="gap-in-inking">t</supplied>le in thy minde,</l>
+                        <l style="text-indent: 1em;">For in thy life thou neuer v<supplied reason="gap-in-inking">ſ</supplied>eſt prayer,</l>
+                        <l style="text-indent: 1em;">Bu<supplied reason="gap-in-inking">t</supplied> at p<supplied reason="gap-in-inking">r</supplied>imero, to encounter faire.</l>
+                    </lg>
+                </div>
+                
+                <div type="epigram">
+                    <head style="text-align: center;">Meditations of Gull. 47</head>
+                    <lg>
+                        <l>See yonder melancholie gentleman,</l>
+                        <l>Which hoode-winked with his ha<supplied reason="gap-in-inking">t</supplied>, alone doth ſit,</l>
+                        <l>T<supplied reason="gap-in-inking">h</supplied>inke what he thinkes &amp; tell me if you can,</l>
+                        <l>VVhat great affaires troubles his litle wit.</l>
+                        <l style="text-indent: 1em;">he thinkes not of the war twixt <placeName>France</placeName> &amp; <placeName>ſpaine</placeName>,</l>
+                        <l style="text-indent: 1em;">VVhether it be for <orgName>Europs</orgName> good or ill,</l>
+                        <l style="text-indent: 1em;">Nor whether the Empire can itſelfe maintaine,</l>
+                        <l style="text-indent: 1em;">Againſt the <orgName>Turkiſh</orgName> power encroching ſtil.</l>
+                        <l>Nor what great Towne in all the nether landes,</l>
+                        <l>The ſta<supplied reason="faded-ink">rr</supplied>es determine to beſiege this ſpring</l>
+                        <l>Nor how the <orgName>ſcottiſh</orgName> pollicie now ſtandes,</l>
+                        <l>Nor what becomes of ths Iriſh mu<supplied reason="gap-in-inking">t</supplied>ining.</l>
+                        <l style="text-indent: 1em;">But he doth ſeriouſlie bethinke him whether</l>
+                        <l style="text-indent: 1em;">Of the guld people he be more eſteemde,</l>
+                        <l style="text-indent: 1em;">For his long cloake, or his great blacke Feather,</l>
+                        <l style="text-indent: 1em;">By which each gull is now a gallant deemde.</l>
+                        <fw type="catchword" style="text-align: right;">3</fw><lb/>
+                        <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">D2v</supplied></fw>
+                        <pb/>
+
+                            <l>Or of a Iourney he deliberates,</l>
+                            <l>To <placeName>Pa<supplied reason="gap-in-inking">r</supplied>is</placeName> garden cocke-pit or the play:</l>
+                            <l>Or how to ſteale a dogge he medi<supplied reason="gap-in-inking">t</supplied>ates,</l>
+                            <l>Or what he he ſhall vnto his miſt<supplied reason="gap-in-inking">r</supplied>is ſay:</l>
+                            <l>Yet with theſe Thoughts he thinks himſelfe moſt </l>
+                            <l>To be o<supplied reason="gap-in-inking">f</supplied> Counſell with a King for wit. (fit</l></lg>
+                        </div>
+                
+                        <div type="epigram">
+                            <head style="text-align: center;"><foreign xml:lang="la">Ad Muſam</foreign> 48.</head>
+                            <lg>
+                                <l>Peace idle muſe,, haue done, for it is time,</l>
+                                <l>Since Lowſie <persName>Ponticus</persName> enfues my fame,</l>
+                                <l>And ſweares the better ſort are much to blame</l>
+                                <l>To make me ſo wel knowne for ill rime</l>
+                                <l style="text-indent: 1em;">Yet <persName ref="/kit-marlowe/files/personography.xml#pers_BANK1">Bankes</persName> his ho<supplied reason="gap-in-inking">r</supplied>ſe is better known then he,</l>
+                                <l style="text-indent: 1em;">ſo are the Cammels &amp; the weſterne hog,</l>
+                                <l style="text-indent: 1em;" >And ſo is <persName>Lepidus</persName> hie printed dogge.</l>
+                                <l style="text-indent: 1em;">why doth not <persName>Ponticus</persName> thier fames enuie.</l>
+                                <l>Beſides this muſe of mine,&amp; the black fether.</l>
+                                <l>grew both together freſh in eſtimation,</l>
+                                <l>and both growne ſtale, were caſt away togither:</l>
+                                <l>What fame is this that ſcarſe laſts out of faſhion.</l>
+                                <l style="text-indent: 1em;">Onely this laſt in credit doth remaine,</l>
+                                <l style="text-indent: 1em;">That frõ henceforth, ech baſtard caſt<supplied reason="error-in-original"> </supplied>forth rime</l>
+                                <l style="text-indent: 1em;">Which doth but fauour of a Libel vaine.</l>
+                                <l style="text-indent: 1em;">ſhal call me father, and be thought my crime,</l>
+                                <l style="text-indent: 1em;">ſo dull &amp; wi<supplied reason="gap-in-inking">t</supplied>h ſo litle fence endude,</l>
+                                <l style="text-indent: 1em;">is my groſe headed iudge the multitude.</l><lb/></lg></div>
+                                <fw type="footer" style="text-align: center;">FINNIS.        I,D.</fw>
+                       <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">D3v</supplied></fw>
+                            <pb/>
+                            
+                            <div type="epigram">
+                                <head style="text-align: center;"><foreign xml:lang="la">IGNOTO</foreign>.</head>
+                                <lg>
+                                    <l><hi style="float: left; font-size: 5em; padding: 0.5em; margin: 0.2em 1em 0;">I</hi> loue thee not for ſacred chaſtstie,</l>
+                                    <l>who loues for that nor for thy ſprightly wit:</l>
+                                    <l>I loue thee not for thy ſweete modeſtie,</l>
+                                    <l>Which makes thee in perfections throane to ſit.</l>
+                                </lg>
+                                
+                                <lg>
+                                    <l>I loue thee not for thy inchaunting eye,</l>
+                                    <l>Thy beautie rauiſhing perfection:</l>
+                                    <l>I loue thee nor for vnchaſt luxurie,</l>
+                                    <l>Nor for thy bodies faire proportion.</l>
+                                </lg> 
+                                
+                                <lg>
+                                    <l>I loue thee not for that my ſoule doth daunce,</l>
+                                    <l>And leap with peaſure when thoſe lips of thine:</l>
+                                    <l>giue Muſicall and gracefull vtterance,</l>
+                                    <l>To ſome (by thee made happie) poets line.</l>
+                                </lg>
+                                
+                                <lg>
+                                    <l>I loue thee not for voice or ſlender ſmall,</l>
+                                    <l>But wilt thou know wherefore faire ſweet for all.</l>
+                                </lg>  
+                                
+                                <lg>
+                                    <l>Faith(wench) I cannot court thy ſprightly eyes,</l>
+                                    <l>wich the baſe Viall places betweene my Thighes</l>
+                                    <l>I cannot liſpe, nor to ſome Fiddle ſing,</l>
+                                    <l>Nor run vpon a high ſtrecht Minikin.</l>
+                                </lg> 
+                                
+                                <lg>  
+                                    <l>I cannot whine in puling Elegies,</l>
+                                    <l>Intombing Cupid with ſad obſsquies.</l>
+                                </lg>   
+                                <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">D4r</supplied></fw>
+                                <pb/>                      
+       
+
+                <lg>
+                    <l>I am not faſhioned for theſe amorous times,</l>
+                    <l>To cou<supplied reason="gap-in-inking">r</supplied>t thy beutie with la<supplied reason="gap-in-inking">ſ</supplied>ciuious rimes.</l>
+                    <l>I cannot dally, caper, daunce and ſing,</l>
+                    <l>O<supplied reason="gap-in-inking">y</supplied>ling my ſaint with ſupple ſonneting.</l>
+                    <l>I cannot croſſe my armes, or ſigh ay me,</l>
+                    <l>Ay me Forlo<supplied reason="gap-in-inking">r</supplied>ne eg<supplied reason="gap-in-inking">r</supplied>egious Fopperie.</l>
+                    <l>I cannot bu<supplied reason="unclear" cert="low">ſſ</supplied>thy fill, play with thy hayre,</l>
+                    <l>Swearing by loue, Thou art moſt debonaire.</l>
+                    <l style="margin-left: 1em;">not I by Cock, but ſhall tel rhee roundly, ſoũdly</l>
+                    <l style="margin-left: 1em;">harke in thine eare, zounds I can <sic>(           )</sic> thee.</l>
+                </lg>
+                                
+                <lg>
+                    <l>Sweet wench I loue thee, yet I will not ſue,</l>
+                    <l>O<supplied reason="gap-in-inking">r</supplied> ſhew my loue as muskie Cou<supplied reason="gap-in-inking">r</supplied>tiers doe,</l>
+                    <l>I<supplied reason="gap-in-inking">l</supplied>e not carou<supplied reason="gap-in-inking">ſ</supplied>e health to honor thee,</l>
+                    <l>In this ſame bez<supplied reason="unclear" cert="low">i</supplied> drunken curtefie.</l>
+                    <l>and when als quaſde, eate vp my bowſing glaſſe.</l>
+                    <l>In glory <supplied reason="gap-in-inking">t</supplied>hat I am thy feruile aſſe.</l>
+                    <l>nor wil I weare a rotten burbon locke.</l>
+                    <l>as ſome ſworne peſant to a female ſmock.</l>
+                    <l>wel fea<supplied reason="gap-in-inking">t</supplied>urde laſſe, Thou knoweſt I loue the deere</l>
+                    <l>Yet for thy ſake I will not bore mine eare</l>
+                    <l>To hang thy dur<supplied reason="gap-in-inking">t</supplied>ie ſilken ſhootires there.</l>
+                    <l>nor for thy loue wil I once gnaſh a brick,</l>
+                    <l>O<supplied reason="gap-in-inking" cert="low">r</supplied> ſome pied collou<supplied reason="gap-in-inking">r</supplied>s in by bonnet ſtiche.</l>
+                    <l style="margin-left: 1em;">bu<supplied reason="gap-in-inking">t</supplied> by the chaps of hell to do thee good,</l>
+                    <l style="margin-left: 1em;">Ile freely ſpend my Thriſe decocted bloud.</l></lg></div>
+                    <fw type="footer" style="text-align: center;">FINIS.</fw><lb/>
+                <fw type="signature" style="text-align: center;">D4v</fw>
+          
+            </div>
+        </body>
+    </text>
+</TEI>

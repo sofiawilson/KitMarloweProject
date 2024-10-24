@@ -1,0 +1,3077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://scotthamlin.digstonehill.org/news/wp-content/uploads/Marlowe.rnc"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Personography Template</title>
+                <respStmt>
+                    <!-- Personography template adapted by Scott Hamlin from <ref target="https://mapoflondon.uvic.ca/index.htm">Map of Early Modern London's</ref> project files -->
+                    <resp>editors</resp>
+                    <name>Kristen Abbott Bennett</name>
+                    <name>Scott Hamlin</name>
+                    <name>Rowan Pereira</name>
+                  </respStmt>
+                <respStmt>
+                    <!-- The first draft of this personography was created by students enrolled in Kristen Abbott Bennett and Scott Hamlin's Spring 2018 LC347: A Rogue's Progress: Mapping Kit Marlowe's Social Networks at Stonehill College. Project Intern Rowan Pereira edited and augmented the encoded persons below in AY 2018-2019.-->
+                    <resp>Encoders</resp>
+                    <name>Colin O'Donnell</name>
+                    <name>Liam Hilderbrand</name>
+                    <name>Robert Coleman</name>
+                    <name>Julia Carolan</name>
+                    <name>Rachel Maher</name>
+                    <name>Taylor Long</name>
+                    <name>Emily Rosano</name>
+                    <name>Brendan Murphy</name>
+                    <name>Jerel Archer</name>
+                    <name>William Wingo</name>
+                    <name>Musa Mansaray</name>
+                    <name>DJ Haskins</name>
+                    <name>Mackenzie Gomes</name>
+                    <name>Jack Fleming</name>
+                    <name>Cassie Monteiro</name>
+                    <name>Zoe Smith</name> 
+                    <name>Kat Clavette</name> 
+                    <name>Bridget Dwyer</name> 
+                    <name>Haley Riley</name> 
+                    <name>Madison Ward</name>
+                    <name>Justin Boure</name>
+                    <name>Abby Ballou</name>
+                    <name>Nick Ramirez</name>
+                    <name>Justin Weitbrecht</name>
+                    <name>Tonino Sarandrea</name>
+                    <name>Rowan Pereira</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Kit Marlowe Mini-Archive</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Text</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <listPerson>
+                    <person xml:id="pers_ABEL1" sex="1">
+                        <persName type="lit">
+                            <reg>Abel</reg>
+                            <forename>Abel</forename>
+                        </persName>
+                        <note>
+                            <p>Biblical figure, murdered by his brother Cain.</p>
+                            <list type="links">
+                                <item><ref target="https://www.patheos.com/blogs/christiancrier/2014/04/20/cain-and-abel-bible-story-lesson-summary-and-study/">Patheos</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_ADAM1" sex="1">
+                        <persName type="lit">
+                            <reg>Adam</reg>
+                            <forename>Adam</forename>
+                        </persName>
+                        <note>
+                            <p>The first man created by God, intended to be a progenitor with Eve, lived in the Garden of Eden.</p>
+                            <list type="links">
+                                <item><ref target="https://www.whatchristianswanttoknow.com/adam-and-eve-bible-story-summary/">What Christians Want to Know</ref></item>   
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_AESC1" sex="1">
+                        <persName type="hist">
+                            <reg>Aeschylus</reg>
+                            <forename>Aeschylus</forename>
+                        </persName>
+                        <birth notBefore-iso="-0524" notAfter-iso="-0525" when-custom="525/524"/>
+                        <note>
+                            <p>Athenian Comedic Poet, fought in the battle at Marathon.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://classics.oxfordre.com/view/10.1093/acrefore/9780199381135.001.0001/acrefore-9780199381135-e-146?rskey=b7bQpl&amp;result=1">Oxford Classical Dictionary</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    <person xml:id="pers_AESO1" sex="1">
+                        <persName type="hist">
+                            <reg>Aesop</reg>
+                            <addName>Esop</addName>
+                        </persName>
+                        <birth when="-0620" when-custom="620 BCE"/>
+                        <death when="-0564" when-custom="564 BCE"/>
+                        <note>
+                            <p>Greek fabulist (author of fables).</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.ancient.eu/image/2348/aesop/">Ancient History Encyclopedia</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_AETO1" sex="1">
+                        <persName type="lit">
+                            <reg>Aetolus, Alexander</reg>
+                            <forename>Alexander</forename>
+                            <surname>Aetolus</surname>
+                        </persName>
+                        <birth notAfter-custom="-0280"/>
+                        <note>
+                            <p>Athenian playwright</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.revolvy.com/page/Alexander-Aetolus">Revolvy</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_ALCI1" sex="1">
+                        <persName type="lit">
+                            <reg>Alciatus, Andreas</reg>
+                            <forename>Andreas</forename>
+                            <surname>Alciatus</surname>
+                        </persName>
+                        <birth when="1492"/>
+                        <death when="1550"/>
+                        <note>
+                            <p>Italian writer</p>
+                            <list type="links">
+                                <item><ref target="http://www.emblems.arts.gla.ac.uk/alciato/index.php">Alciato at Glasgow</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_ALEX1" sex="1">
+                        <persName type="hist">
+                            <reg>Alexander III of Macedon</reg>
+                            <forename>Alexander</forename>
+                            <genName>III</genName>
+                            <addName>Alexander the Great</addName>
+                        </persName>
+                        <birth when="-0356" when-custom="356 BCE"/>
+                        <death when="-0323" when-custom="323 BCE"/>
+                        <note>
+                            <p>Leader of the Macedonians.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.ancient.eu/Alexander_the_Great/">Ancient History Enyclopedia</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_ANAC1" sex="1">
+                        <persName type="lit">
+                            <reg>Anacreon</reg>
+                            <forename>Anacreon</forename>
+                        </persName>
+                        <birth when="-0570" when-custom="570 BCE"/>
+                        <death when="-0478" when-custom="478 BCE"/>
+                        <note>
+                            <p>A Greek lyric poet</p>
+                            <list type="links">
+                                <item><ref target="http://www.oxfordreference.com/view/10.1093/oi/authority.20110803095410129">Oxford Reference</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_APOL1" sex="1">
+                        <persName type="lit">
+                            <reg>Apollo</reg>
+                            <forename>Apollo</forename>
+                            <addName type="alt_name">Phaebus</addName>
+                            <addName type="alt_name">Phoebus</addName>
+                        </persName>
+                        <note>
+                            <p>God of the sun, prophecy, and poetry.</p>
+                            <list type="links">
+                                <item><ref target="http://www.perseus.tufts.edu/hopper/searchresults?q=Apollo">Perseus Project</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    <person xml:id="pers_APPE1" sex="1">
+                        <persName type="hist">
+                            <reg>Appelles</reg>
+                        </persName>
+                        <note>
+                            <p>Early Hellenistic Greek painter whose work was held in such high esteem by ancient writers on art
+                                that he continues to be regarded, even though none of his work survives, as the greatest painter of antiquity.</p>
+                            <list type="links">
+                                <item><ref target="https://www.britannica.com/biography/Apelles">Encyclopedia Britannica</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    <person xml:id="pers_ARAC1" sex="2">
+                        <persName type="lit">
+                            <reg>Arachne</reg>
+                        </persName>
+                        <note>
+                            <p>A weaver who challenged Athena and was consequently transformed into a spider.</p>
+                            <list type="links">
+                                <item><ref target="https://www.britannica.com/topic/Arachne">Encyclopedia Britannica</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    <person xml:id="pers_ARCH1" sex="1">
+                        <persName type="hist">
+                            <reg>Archelaus</reg>
+                            <forename>Archelaus</forename>
+                            <addName type="honorific">Duke</addName>
+                            <addName type="alt_spelling">Archilaus</addName>
+                        </persName>
+                        <birth when="-0400" when-custom="400 BCE"/>
+                        <note>
+                            <p>A Greek philosopher who may have taught Socrates.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.revolvy.com/page/Archelaus-%28philosopher%29">Revolvy</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_ARET1" sex="1">
+                        <persName type="lit">
+                            <reg>Arete</reg>
+                            <forename>Arete</forename>
+                            <roleName>Queen</roleName>
+                        </persName>
+                        <note>
+                            <p>Figure in Greek mythology, descendent of Posideon, wife of Alcinous.</p>
+                            <list type="links">
+                                <item><ref target="https://www.greekmythology.com/Myths/Mortals/Arete/arete.html">Greek Mythology</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_ARGO1" sex="1">
+                        <persName type="lit">
+                            <reg>Argos</reg>
+                            <forename>Argos</forename>
+                            <addName type="alt_name">Argus Panoptes</addName>
+                        </persName>
+                        <note>
+                            <p>A giant in Greek mythology who had one hundred eyes and was a servant of Hera.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.greekmythology.com/Myths/Creatures/Argus_Panoptes/argus_panoptes.html">Greek Mythology</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_ARIA1" sex="0">
+                        <persName type="lit">
+                            <reg>Ariadne</reg>
+                            <forename>Ariadne</forename>
+                        </persName>
+                        <note>
+                            <p>Daughter of Pasiphae and the Cretan king Minos.</p>
+                            <list type="links">
+                                <item><ref target="http://www.perseus.tufts.edu/hopper/searchresults?q=Ariadne">Perseus Project</ref></item>
+                            </list>
+                        </note>    
+                    </person>  
+                    
+                    <person xml:id="pers_ARIO1" sex="1">
+                        <persName type="hist">
+                            <reg>Ariosto, Ludivico</reg>
+                            <forename>Ludivico</forename>
+                            <surname>Ariosto</surname>
+                        </persName>
+                        <birth when-custom="1474"/>
+                        <death when-custom="1533"/>
+                        <note>
+                            <p>Italian poet.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/view/10.1093/oi/authority.20110803095423618">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_ARIS1" sex="1">
+                        <persName type="hist">
+                            <reg>Aristophanes</reg>
+                            <forename>Aristophanes</forename>
+                        </persName>
+                        <birth notAfter-iso="-0450" notBefore-iso="-0460" when-custom="450-460 BCE"/>
+                        <death notBefore-iso="-0386" notAfter-iso="-0380" when-custom="386-380BCE"/>
+                        <note>
+                            <p>Comic playwright of ancient Athens.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.ancient.eu/Aristophanes/">Ancient History Encyclopedia</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_ARIS2" sex="1">
+                        <persName type="hist">  
+                            <reg>Aristotle</reg>
+                            <forename>Aristotle</forename>
+                        </persName>
+                        <birth when="-0384" when-custom="384 BCE"/>
+                        <death when="-0322" when-custom="322 BCE"/>
+                        <note>
+                            <p>Ancient Greek philosopher, considered the father of logic .</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/view/10.1093/acref/9780198662037.001.0001/acref-9780198662037-e-101?rskey=wdKdcGamp:result=8">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_ASTR1" sex="1">
+                        <persName type="lit">
+                            <reg>Astrophel</reg>
+                            <addName>Astrophil</addName>
+                        </persName>
+                        <note>
+                            <p>One of the titular characters from Sidney’s Astrophel and Stella, the name means “star-lover,” and is Sidney’s alter-ego in the text.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.britannica.com/topic/Astrophel-and-Stella">Encyclopedia Britannica</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_ASTY1" sex="1">
+                        <persName type="hist">
+                            <reg> Atheniensis, Astydamus</reg>
+                            <forename>Astydamus</forename>
+                            <surname> Atheniensis</surname>
+                            <addName type="alt_spelling">Astydamas</addName>
+                        </persName>
+                        <birth when-custom="unknown"/>
+                        <death when-custom="unknown"/>
+                        <note>
+                            <p>Name of both father and son, tragic Athenian poets (Athenian may indicate younger, but that is not certain).</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/view/10.1093/oi/authority.20110803095430827">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="ATHE1" sex="2">
+                        <persName type="lit">
+                            <reg>Athena</reg>
+                            <addName>Minerva</addName>
+                            <addName>Pallas</addName>
+                        </persName>
+                        <note>
+                            <p>The Roman goddess of beauty, love, fertility, and victory</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://greekgodsandgoddesses.net/goddesses/venus/">Greek Gods and Goddesses</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_ATLA1" sex="1">
+                        <persName type="lit">
+                            <reg>Atlas</reg>
+                        </persName>
+                        <note>
+                            <p>A Greek Titan, punished by Zeus and forced to hold the world on his shoulders.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://greekgodsandgoddesses.net/gods/atlas/">Greek Gods and Goddesses</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_BACC1" sex="1">
+                        <persName type="lit">
+                            <reg>Bacchus</reg>
+                            <addName>Dionysos</addName>
+                            <addName>Dionysus</addName>
+                            <addName>Liber Pater</addName>
+                        </persName>
+                        <note>
+                            <p>A nature god of fruitfulness and vegetation, especially known as a god of wine and ecstasy.</p>
+                            <list type="links">
+                                <item><ref target="https://www.britannica.com/topic/Dionysus">Encyclopedia Britannica</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    <person xml:id="pers_BANK1" sex="1">
+                        <persName type="hist">
+                            <reg>Bankes, William</reg>
+                            <forename>William</forename>
+                            <surname>Bankes</surname>
+                        </persName>
+                        <birth when="1786"/>
+                        <death when="1823"/>
+                        <note>
+                            <p>A member of Parliament between 1810 and 1834.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/bankes-william-john-1786-1855">Parliament History</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_BARN1" sex="1">
+                        <persName type="hist">
+                            <reg>Barnfield, Richard</reg>
+                            <forename>Richard</forename>
+                            <surname>Barnfield</surname> 
+                        </persName>
+                        <birth when="1574"/>
+                        <death when="1627"/>
+                        <note>
+                            <p>English poet, close with William Shakespeare.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.poetryfoundation.org/poets/richard-barnfield">Poetry Foundation</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_BAUI1" sex="1">
+                        <persName type="hist">
+                            <reg>Bauius</reg>
+                        </persName>
+                        <note>
+                            <p>An early English poet who envied Virgil</p>
+                            <list type="links">
+                                <item><ref target="https://quod.lib.umich.edu/e/eebo/A19275.0001.001/1:14?rgn=div1;view=fulltext">
+                                    Early English Books</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_BENN1" sex="2">
+                        <persName type="hist">
+                            <reg>Kristen Abbott Bennett</reg>
+                            <forename>Kristen</forename>
+                            <surname>Bennett</surname> 
+                        </persName>
+                        <note>
+                            <p>Kit Marlowe Project Founder and Director. Assistant Professor of English at Framingham State University</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.framingham.edu/academics/colleges/arts-and-humanities/english/faculty/index">Framingham State U, English Faculty</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>                    
+                    <person xml:id="pers_BEEL1" sex="1">
+                        <persName type="lit">
+                            <reg>Beelzebub</reg>
+                            <forename>Beelzebub</forename>
+                            <addName>Belzebub</addName>
+                        </persName>
+                        <note>
+                            <p>Prince of Devils.</p>
+                            <list type="links">
+                                <item><ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.03.0079:entry=Belzebub&amp;highlight=belzebub">Perseus Project</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_BEMB1" sex="1">
+                        <persName type="lit">
+                            <reg>Bembus</reg>
+                            <forename>Pietro</forename>
+                            <surname>Bembus</surname>
+                            <addName type="honorific">Cardinal</addName>
+                        </persName>
+                        <birth when="1470"/>
+                        <death when="1547"/>
+                        <note>
+                            <p>A Cardinal and a lyric poet.</p>
+                            <list type="links">
+                                <item><ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.03.0075:paragraph=57&amp;highlight=bembus">Perseus Project</ref></item>
+                            </list>
+                        </note>    
+                    </person> 
+                    
+                    <person xml:id="pers_BOCC1" sex="1">
+                        <persName type="hist">
+                            <reg>Boccaccio, Giovanni</reg>
+                            <forename>Giovani</forename>
+                            <surname>Boccaccio</surname>
+                            <addName type="alt_spelling">Boccace</addName>
+                        </persName>
+                        <birth when-custom="1313"/>
+                        <death when-custom="1375"/>
+                        <note>
+                            <p>Italian writer and poet.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordbibliographies.com/view/document/obo-9780195399301/obo-9780195399301-0203.xml">Oxford Bibliographies</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_BRET1" sex="1">
+                        <persName type="hist">
+                            <reg>Breton, Nicholas</reg>
+                            <forename>Nicholas</forename>
+                            <surname>Breton</surname>
+                        </persName>
+                        <birth when="1555"/>
+                        <death when="1626"/>
+                        <note>
+                            <p>English novelist and poet.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/view/10.1093/oi/authority.20110803095526384">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_BRUN1" sex="1">
+                        <persName type="hist">
+                            <reg>Brunas</reg>
+                            <forename>Giordano</forename>
+                            <surname>Bruno</surname>
+                            <addName type="alt_name">Filippo</addName>
+                        </persName>
+                        <birth when="1548"/>
+                        <death when="1600"/>
+                        <note>
+                            <p>An Italian poet and philosopher.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://galileo.rice.edu/chr/bruno.html">The Galileo Project</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>  
+                    
+                    <person xml:id="CAES1" sex="1">
+                        <persName type="hist">
+                            <reg>Augustus Caesar</reg>
+                            <forename>Augustus</forename>
+                            <surname>Caesar</surname>
+                            <addName type="alt_name">Gaius Octavius</addName>
+                        </persName>
+                        <birth when="-0063" when-custom="63 BCE"/>
+                        <death when="0014" when-custom="14 CE"/>
+                        <note>
+                            <p>Grandnephew of Julius Caesar, became ruler of Roman Empire.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/view/10.1093/acref/9780190622718.001.0001/acref-9780190622718-e-79">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_CALI1" sex="1">
+                        <persName type="hist">"
+                            <reg>Calimachus</reg>
+                            <forename>Calimachus</forename>
+                            <addName type="alt_spelling">Callimachus</addName>
+                        </persName>
+                        <birth when="-0310" when-custom="310 BC"/>
+                        <death when="-0240" when-custom="240 BC"/>
+                        <note>
+                            <p>Greek poet who founded Cyrene</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordbibliographies.com/view/document/obo-9780195389661/obo-9780195389661-0009.xml?rskey=FsBBvK&amp;result=1&amp;q=Callimachus#firstMatch">Oxford Bibliographies</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_CASS1" sex="1">
+                        <persName type="hist">
+                            <reg>Cassius</reg>
+                            <forename>Gaius</forename>
+                            <forename type="middle">Cassius</forename>
+                            <surname>Longinus</surname>
+                        </persName>
+                        <note>
+                            <p>A Roman emperor who was plotting to kill Julius Caesar.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.greatthoughtstreasury.com/author/gaius-cassius-longinus">Great Thoughts Treasury</ref>
+                                </item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_CATO1" sex="1">
+                        <persName type="hist">
+                            <reg>Publius Valerius Cato</reg>
+                            <forename>Cato</forename>
+                            <surname>Publius</surname>
+                        </persName>
+                        <birth when="-0100"/>
+                        <note>
+                            <p>A highly praised teacher, scholar, and poet associated with the Neoteric, or New Poets, movement.</p>
+                            <list type="links">
+                                <item><ref target="https://www.britannica.com/biography/Publius-Valerius-Cato">Encyclopedia Britannica</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_CATU1" sex="1">
+                        <persName type="hist">
+                            <reg>Catullus</reg>
+                            <forename>Gaius</forename>
+                            <forename type="middle">Valerius</forename>
+                            <surname>Catullus</surname>
+                        </persName>
+                        <birth when="-0087" when-custom="87 BC"/>
+                        <death when="-0057" when-custom="57 BC"/>
+                        <note>
+                            <p>Roman poet, whose works influenced other well known poets such as Ovid.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.ancient-literature.com/rome_catullus.html">Classical Literature</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_CELI" sex="1">
+                        <persName type="lit">
+                            <reg>Celiano</reg>
+                            <forename>Angelo</forename>
+                            <surname>Grillo</surname>
+                            <addName type="alt_spelling">Levio Celiano</addName>
+                        </persName>
+                        <birth when="1557"/>
+                        <death when="1629"/>
+                        <note>
+                            <p>Italian writer who wrote under the pen name Livio Celiano and collaborated with Shakespeare.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.revolvy.com/page/Angelo-Grillo">Relvolvy</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_CERB1" sex="1">
+                        <persName type="lit">
+                            <reg>Cerberus</reg>
+                            <forename>Cerberus</forename>
+                            <addName type="alt_name">Hound of Hades</addName>
+                        </persName>
+                        <note>
+                            <p>A dog with three heads that protected the gates of the Underworld, preventing anyone from leaving.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.greekmythology.com/Myths/Creatures/Cerberus/cerberus.html">Greek Mythology</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_CERE1" sex="2">
+                        <persName type="lit">
+                            <reg>Cereri</reg>
+                            <addName>Ceres</addName>
+                        </persName>
+                        <note>
+                            <p>Roman goddess of food growth</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.britannica.com/topic/Ceres-Roman-goddess">Encyclopedia Britannica</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_CHIL1" sex="1">
+                        <persName type="hist">
+                            <reg>Chillester, Henry</reg>
+                            <forename>Henry</forename>
+                            <surname>Chillester</surname>
+                        </persName>
+                        <note>
+                            <p>Poet</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www-journals-uchicago-edu.fscproxy.framingham.edu/doi/pdf/10.1111/1475-6757.12065">"Meet the Chillesters"</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_CICE1" sex="1">
+                        <persName type="hist">
+                            <reg>Cicero</reg>
+                            <forename>Marcus</forename>
+                            <forename type="middle">Tullius</forename>
+                            <surname>Cicero</surname>
+                            <addName type="alt_name">Tully</addName>
+                        </persName>
+                        <birth when="-0106" when-custom="106 BC"/>
+                        <death when="-0043" when-custom="43 BC"/>
+                        <note>
+                            <p>Greek philosopher and writer who was prominent during the time of Julius Caesar.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.history.com/topics/ancient-history/marcus-tullius-cicero">History</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_CIRC1" sex="1">
+                        <persName type="lit">
+                            <reg>Circes</reg>
+                            <forename>Circes</forename>
+                            <addName type="alt_spelling">Circe</addName>
+                        </persName>
+                        <note>
+                            <p>A key character in the <hi style="font-style:italic;">Odyssey</hi> and an enchantress who specialized in herbs and potions.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.greekmythology.com/Other_Gods/Circe/circe.html">Greek Mythology</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_CLAU1" sex="1">
+                        <persName type="hist">
+                            <reg>Claudianus</reg>
+                            <forename>Claudius</forename>
+                            <surname>Claudianus</surname>
+                            <addName type="alt_name">Claudian</addName>
+                        </persName>
+                        <birth when="-0370" when-custom="370 CE"/>
+                        <death when="-0404" when-custom="404 CE"/>
+                        <note>
+                            <p>A native Greek speaker, who was discovered in Rome and whose works were mostly written in Latin.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordbibliographies.com/view/document/obo-9780195389661/obo-9780195389661-0215.xml#obo-9780195389661-0215-div1-0004">Oxford Bibliography</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_CORN1" sex="1">
+                        <persName type="hist">
+                            <reg>Cornisicius, Quintus</reg>
+                            <forename>Quintus</forename>
+                            <surname>Cornisicius </surname>
+                            <addName>Quintus Corniſicius</addName>
+                        </persName>
+                        <death when="-0004" when-custom="4 BC"/>
+                        <note>
+                            <p>General, orator, poet </p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://classics.oxfordre.com/view/10.1093/acrefore/9780199381135.001.0001/acrefore-9780199381135-e-1880">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_COUS1" sex="1">
+                        <persName type="hist">
+                            <reg>Cous, Philetas</reg>
+                            <addName type="alt_name"> Philitas of Cos </addName>
+                            <addName type="alt_name"> Philetas de Cos</addName>
+                            <forename>Philetas</forename>
+                            <surname>Cous</surname>
+                        </persName>
+                        <birth when="-0340" when-custom="340 BCE"/>
+                        <death when="-0270" when-custom="270 BCE"/>
+                        <note>
+                            <p>Greek poet and scholar born in Cos which is now the Aegean Islands in Greece. He has been accredited with influencing the Hellenistic school of poetry and Latin poetry. Only fragments of his work have survived. His poem Demeter was especially highly esteemed.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/view/10.1093/oi/authority.20110803100322802">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_CYRU1" sex="1">
+                        <persName type="hist">
+                            <reg>Cyrus</reg>
+                            <forename>Cryus</forename> 
+                            <addName type="epithet">the Great</addName>
+                            <roleName>King</roleName>
+                        </persName>
+                        <birth when="-0576" when-custom="576 BCE"/>
+                        <death when="-0530" when-custom="530 BCE"/>
+                        <note>
+                            <p>First king of the Achaemenid Empire from 559 BCE - 530 BCE.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.ancient.eu/Cyrus_the_Great/">Ancient History Encyclopedia</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_DANT1" sex="1">
+                        <persName type="hist">
+                            <reg>Dante</reg>
+                            <forename>Dante</forename>
+                            <surname>Algihieri</surname>
+                        </persName>
+                        <birth when="1265"/>
+                        <death when="1321"/>
+                        <note>
+                            <p>Italian poet and author of The Divine Comedy.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://exhibits.library.villanova.edu/dante-illustrated/dante-s-biography/">Villanova University, Falvey Memorial Library</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_DAVI1" sex="1">
+                        <persName type="hist">
+                            <reg>Davies</reg>
+                            <forename>John</forename>
+                            <surname>Davies</surname>
+                        </persName>
+                        <birth when="1569"/>
+                        <death when="1626"/>
+                        <note>
+                            <p>Author, Attorney General of Ireland, Lord Chief Justice of England, circuit judge and MP for Newcastle-under-Lyne.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.luminarium.org/renlit/daviebio.htm">Luminarium</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_DECI1" sex="1">
+                        <persName type="hist">
+                            <reg>Decius</reg>
+                            <forename>Decius</forename>
+                            <surname>Valerinus</surname>
+                            <addName type="alt_spelling">Quintis</addName>
+                            <roleName>Emporer</roleName>
+                        </persName>
+                        <birth when="0190" when-custom="190 CE"/>
+                        <death when="0251" when-custom="251 CE"/>
+                        <note>
+                            <p>Roman emporer from 249-251 CE.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.ancient.eu/Decius/">Ancient History Encyclopedia</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_DECK1" sex="1"> 
+                        <persName type="hist">
+                            <reg>Dekker, Thomas</reg>
+                            <forename>Thomas</forename>
+                            <surname>Dekker</surname>
+                            <addName type="alt_spelling">Decker</addName>
+                        </persName>
+                        <birth when="1570"/>
+                        <death when="1632"/>
+                        <note>
+                            <p>A profilic writer,wrote plays and prose.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.luminarium.org/sevenlit/dekker/dekkerbio.htm">Luminarium</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_DEIA1" sex="1">
+                        <persName type="lit">
+                            <reg>Deianire</reg>
+                            <forename>Deianire</forename>
+                            <addName type="alt_spelling">Deianira</addName>
+                        </persName>
+                        <note>
+                            <p>Married to Hercules, she is eventually tricked by Nessus to poison her husband, believing that the "potion" would make Hercules remain faithful to her.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.greekmythology.com/Myths/Mortals/Deianira/deianira.html">Greek Mythology</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_DELI1" sex="0">
+                        <persName type="lit">
+                            <reg>Delia</reg>
+                            <forename>Delia</forename>
+                        </persName>
+                        <note>
+                            <p> A fictional character within Samuel Daniel's writing.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.luminarium.org/renascence-editions/delia.html">Luminarium</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_DRAK1" sex="1">
+                        <persName type="hist">
+                            <reg>Drake, Francis</reg>
+                            <forename>Francis</forename>
+                            <surname>Drake</surname>
+                            <addName type="honorific">Sir</addName>
+                        </persName>
+                        <birth when="1540"/>
+                        <death when="1596"/>
+                        <note>
+                            <p>A sailor and a navigator. He was one of the first englishmen to circumnavigate the globe.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/view/10.1093/acref/9780195149227.001.0001/acref-9780195149227-e-0201?rskey=oNtBHN&amp;result=1">Oxford Refernce</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_DRAY1" sex="1">
+                        <persName type="hist">
+                            <reg>Drayton, Michael</reg>
+                            <forename>Michael</forename>
+                            <surname>Drayton</surname>
+                        </persName>
+                        <birth when="1563"/>
+                        <death when="1631"/>
+                        <note>
+                            <p>Early modern English poet and playwright. Drayton's most popular work was Nymphidia, much influenced by Shakespeare's A Midsummer Night's Dream</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.luminarium.org/renlit/draybio.htm">Luminarium</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="DYER1" sex="1">
+                        <persName type="hist">
+                            <reg>Sir Edward Dyer</reg>
+                            <forename>Edward</forename>
+                            <surname>Dyer</surname>
+                            <addName type="honorific">Sir</addName>
+                        </persName>
+                        <birth when="1543"/>
+                        <death when="1607"/>
+                        <note>
+                            <p>Member of aristocratic courtier and poets in Elizabethan England.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.revolvy.com/page/Edward-Dyer">Revolvy</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_EDWA2" sex="1">
+                        <persName type="hist">
+                            <reg>King Edward IV</reg>
+                            <forename>Edward</forename>
+                            <surname>York</surname>
+                            <roleName>King </roleName>
+                        </persName>
+                        <birth when="1442"/>
+                        <death when="1483"/>
+                        <note>
+                            <p> King of England IV</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxforddnb.com/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-8520">Oxford Dictionary of National Biography</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_ELIZ1" sex="1">
+                        <persName type="hist">
+                            <reg>Queen Elizabeth I</reg>
+                            <forename>Elizabeth</forename>
+                            <genName>I</genName>
+                        </persName>
+                        <birth when="1533"/>
+                        <death when="1603"/>
+                        <note>
+                            <p>She was crowned the Queen of England in 1558. Her reign was considered the "Golden Age"</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.elizabethi.org/">Elizabeth I</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_ENNI1" sex="1">
+                        <persName type="hist">
+                            <reg>Ennius, Quintus</reg>
+                            <forename>Quintus</forename>
+                            <surname>Ennius</surname>
+                        </persName>
+                        <birth when="-0239" when-custom="239 BC"/>
+                        <death when="-0239" when-custom="169 BC"/>
+                        <note>
+                            <p>Early Roman epic poet, dramatist, and satirist.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://earlylatinwritings.com/oldlatin/ennius/">Early Latin Writings</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_EROS1" sex="1">
+                        <persName type="lit">
+                            <reg>Cupid</reg>
+                            <forename>Cupid</forename>
+                            <addName type="alt_spelling">Eros</addName>
+                        </persName>
+                        <note>
+                            <p>He was the Greek god of love and companion to Aphrodite.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.theoi.com/Ouranios/Eros.html">Theoi Project</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_EURI1" sex="1">
+                        <persName type="hist">
+                            <reg>Euripedes</reg>
+                            <forename>Euripedes</forename>
+                            <addName type="alt_spelling">Euripides</addName>
+                        </persName>
+                        <birth when="-0484" when-custom="484 BC"/>
+                        <death when="-0406" when-custom="406 BC"/>
+                        <note>
+                            <p>Early Greek tragic dramatist.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.ancient-literature.com/greece_euripides.html">Classical Literature</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_EURI2" sex="1">
+                        <persName type="hist">
+                            <reg>Euriſtippus</reg>
+                            <forename>Euriſtippus</forename>
+                            <addName type="alt_spelling">Aristippus</addName>
+                        </persName>
+                        <birth when="-0435" when-custom="435 BCE"/>
+                        <death when="-0356" when-custom="356 BCE"/>
+                        <note>
+                            <p>A Greek philosopher who was taught by Socrates.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.revolvy.com/page/Aristippus">Revolvy</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_EURY1" sex="1">
+                        <persName type="lit">
+                            <reg>Euridice</reg>
+                            <forename>Euridice</forename>
+                            <addName type="alt_spelling">Eurydice</addName>
+                        </persName>
+                        <note>
+                            <p>An oak nymph and one of the daughters of Apollo.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.greekmythology.com/Myths/Mortals/Eurydice/eurydice.html">Greek Mythology</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_FAUS1" sex="1">
+                        <persName type="lit">
+                            <reg> Doctor Faustus</reg>
+                            <forename>John</forename>
+                            <surname>Faustus</surname>
+                            <roleName>Doctor</roleName>
+                        </persName>
+                        <note>
+                            <p>The main Character of Christopher Marlowe's 1604 play Doctor Faustus</p>
+                            <list type="links">
+                                <item><ref target="https://emed.folger.edu/drfaust">A Digital Anthology of Early Modern English Drama</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="FERR1" sex="1">
+                        <persName type="hist">
+                            <reg>Ferris, Edward</reg>
+                            <forename>Edward</forename>
+                            <surname>Ferris</surname>
+                            <roleName>Maister</roleName>  
+                            <addName>Ferrers</addName>
+                        </persName>
+                        <birth when="1524"/>
+                        <death when="1564"/> 
+                        <note>
+                            <p>An English dramatist</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.revolvy.com/page/Edward-Ferrers-(dramatist)">Revolvy</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_FRAU1" sex="1">
+                        <persName type="hist">
+                            <reg>Fraunce, Abraham</reg>
+                            <forename>Abraham</forename>
+                            <surname>Fraunce</surname>
+                        </persName>
+                        <birth when="1559"/>
+                        <death when="1592"/>
+                        <note>
+                            <p>Elizabethan Poet</p>
+                            <list type="Links">
+                                <item><ref target="http://www.oxfordreference.com/view/10.1093/oi/authority.20110803095833529">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_GAGE1" sex="1">
+                        <persName type="hist">
+                            <reg>Gager, William</reg>
+                            <forename>William</forename>
+                            <surname>Gager</surname>
+                        </persName>
+                        <note>
+                            <p>Latin playwright and poet. </p>
+                            <list type="links">
+                                <item><ref target="http://www.oxforddnb.com/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-10277">Oxford Dictionary of National Biography</ref></item>
+                            </list> 
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_GETU1" sex="1">
+                        <persName type="hist">
+                            <reg> Getulicus</reg>
+                            <forename> Cornelius</forename>
+                            <forename type="middle"> Lentulus</forename>
+                            <surname> Gaetulicus</surname>
+                        </persName>
+                        <note> 
+                            <p> Consul and legate of Upper Germany</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/view/10.1093/oi/authority.20110803095639674">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_GOD1" sex="I">
+                        <persName type="lit">
+                            <reg>God</reg>
+                        </persName>
+                        <note>
+                            <p>The Being perfect in power, wisdom, and goodness who is worshipped (as in Judaism, Christianity,
+                                Islam, and Hinduism) as creator and ruler of the universe.</p>
+                            <list type="links">
+                                <item><ref target="https://www.merriam-webster.com/dictionary/god">
+                                    Merriam Webster</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_GOOG1" sex="1">
+                        <persName type="hist">
+                            <reg>Googe, Barnabe</reg>
+                            <forename>Barnabe</forename>
+                            <surname>Googe</surname>
+                        </persName>
+                        <birth when="1540"/>
+                        <death when="1594"/>
+                        <note>
+                            <p>English poet, pursued a career in the court, educated at Christ College in Cambridge</p>
+                            <list type="links">
+                                <item><ref target="http://www.oxfordreference.com/view/10.1093/acref/9780192806871.001.0001/acref-9780192806871-e-3180?rskey=8Re0Nh&amp;result=3">Oxford Reference</ref></item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_GORI1" sex="1">
+                        <persName type="hist">
+                            <reg>Goringe, George</reg>
+                            <forename>George</forename>
+                            <surname>Goringe</surname>
+                        </persName>
+                        <note>
+                            <p>One of her Majesty's Pensioners</p>
+                            <list type="links">
+                                <item><ref target="https://www-journals-uchicago-edu.fscproxy.framingham.edu/doi/pdf/10.1111/1475-6757.12065">Meet the Chillesters</ref></item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="GRAT1" sex="1">
+                        <persName type="hist">
+                            <reg> Emperor Gratian</reg>
+                            <forename>Flavius</forename>
+                            <surname>Augustus</surname>
+                            <forename type="middle">Gratianus</forename>
+                            <roleName>Emperor</roleName>
+                        </persName>
+                        <birth when="0359" when-custom="359 CE"/>
+                        <death when="0383" when-custom="383 CE"/>
+                        <note>
+                            <p>Roman Emperor</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://classics.oxfordre.com/view/10.1093/acrefore/9780199381135.001.0001/acrefore-9780199381135-e-2890?product=orecla#acrefore-9780199381135-e-2890">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_GREE1" sex="1">
+                        <persName type="hist">
+                            <reg>Greene, Robert</reg>
+                            <forename>Robert</forename>
+                            <surname>Greene</surname>
+                        </persName>
+                        <birth when="1560" when-custom="1560"/>
+                        <death when="1592" when-custom="1592"/>
+                        <note>
+                            <p>English dramatist and writer</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.luminarium.org/renlit/greenebio.htm">Luminarium</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_GUIL1" sex="1">
+                        <persName type="hist">
+                            <reg>Guilford, Henry</reg>
+                            <forename>Henry</forename>
+                            <surname>Guilford</surname>
+                        </persName>
+                        <birth when="1489"/>
+                        <death when="1532"/>
+                        <note>
+                            <p>Friend of King Henry VIII and comptroller of the royal house.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.historyofparliamentonline.org/volume/1509-1558/member/guildford-sir-henry-1489-1532">History of Parliament</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_HADD1" sex="1">
+                        <persName type="hist">
+                            <reg>Haddon, Gualter</reg>
+                            <forename>Walter</forename>
+                        </persName>
+                        <birth when="1516"/>
+                        <death when="1572"/>
+                        <note>
+                            <p>Tudor-era ecclesiastical scholar, translator, and poet. </p>
+                            <list type="links">
+                                <item><ref target="http://www.luminarium.org/encyclopedia/haddon.htm">Luminarium</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_HARR1" sex="1">
+                        <persName type="hist">
+                            <reg>Harris, Andrew</reg>
+                            <forename>Andrew</forename>
+                            <surname>Harris</surname>
+                        </persName>
+                        <birth when-custom="unknown"/>
+                        <death when-custom="unknown"/>
+                        <note>
+                            <p>Andrew Harris was London stationer working from Pope's Head. According to the BBTI, he finished his apprenticeship in 1598</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://bbti.bodleian.ox.ac.uk/details/?traderid=30979">British Book Trade Index</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_HARV1" sex="1">
+                        <persName type="hist">
+                            <reg>Gabriel</reg>
+                            <addName>Harvey</addName>
+                        </persName>
+                        <birth when="1552"/>
+                        <death when="1631"/>                            
+                        <note>
+                            <p>Noted for his tenacious participation in literary feuds, he engaged Thomas Nashe in a long-running pamphlet war.</p>
+                            <list type="links">
+                                <item><ref target="http://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199580682.001.0001/oxfordhb-9780199580682-e-37">Oxford Handbooks</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="HECT1" sex="1">
+                        <persName type="lit">
+                            <reg>Prince Hector</reg>
+                            <roleName>Prince</roleName>
+                        </persName>
+                        <note>
+                            <p>Hector, Prince of Troy, was Troy's greatest warrior; his story is told in Homer's Iliad</p>
+                            <list type="links">
+                                <item><ref target="https://www.greekmythology.com/Myths/Mortals/Hector/hector.html">Greek Mythology</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_HELL1" sex="1">
+                        <persName type="lit">
+                            <reg>Hellen</reg>
+                            <forename>Hellen</forename>
+                            <addName type="alt_name">Helen of Troy</addName>
+                            <addName type="alt_spelling">Helen</addName>
+                        </persName>
+                        <note>
+                            <p>Daughter of Zeus and Leda. She was abducted by Paris and brought to Troy.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.greekmythology.com/Myths/Mortals/Helen/helen.html">Greek Mythology</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="HENR1" sex="1">
+                        <persName type="hist">
+                            <reg> King Henry VII</reg>
+                            <forename>Henry</forename>
+                            <genName> VII</genName>
+                            <addName> Henrie</addName>
+                            <surname> Tudor</surname>
+                            <roleName> King</roleName>
+                        </persName>
+                        <birth when="1491"/>
+                        <death when="1547"/>
+                        <note>
+                            <p> Henry VIII reigned England from 1509-1547</p>
+                            <list type="links">
+                                <item>
+                                    <ref target= "http://www.oxfordreference.com/view/10.1093/oi/authority.20110803095931328">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_HENR3" sex="1">
+                        <persName type="hist">
+                            <reg>King Henry III</reg>
+                            <forename>Henry</forename>
+                            <genName>III</genName>
+                            <addName type="alt_spelling">Henrie</addName>
+                            <roleName>King</roleName>
+                        </persName>
+                        <birth when="1207"/>
+                        <death when="1272"/>
+                        <note>
+                            <p>King of England 1216 - 1272.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxforddnb.com/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-12950">Oxford Dictionary of National Biography</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_HERC1" sex="1">
+                        <persName type="lit">
+                            <reg>Hercules</reg>
+                            <forename>Hercules</forename>
+                            <addName type="alt_spelling">Heracles</addName>
+                            <addName type="alt_spelling">Herakles</addName>
+                            <addName type="alt_name">Alcides</addName>
+                        </persName>
+                        <note>
+                            <p>A Greek Hero born with great strength. He was forced to perform twelve labors to nullify his sins.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.ancient.eu/article/733/the-life-of-hercules-in-myth--legend/">Ancient History Encyclopedia</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_HERM1" sex="1">
+                        <persName type="lit">
+                            <reg>Hermaphrodite</reg>
+                            <forename>Hermaphrodite</forename>
+                            <addName type="alt_spelling">Hermophroditis</addName>
+                            <addName type="alt_spelling">Hermaphroditos</addName>
+                        </persName>
+                        <note>
+                            <p>The son of Hermes and Aphrodite, he was the god of male and female sexuality.</p>
+                            <list type="links">
+                                <item><ref target="https://www.theoi.com/Ouranios/ErosHermaphroditos.html">Theoi Project</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_HERO1" sex="2">
+                        <persName type="lit">
+                            <reg>Hero</reg>
+                            <forename>Hero</forename>
+                        </persName>
+                        <note>
+                            <p>A priestess of Aphrodite who was in love with Leander.</p>
+                            <list type="links">
+                                <item><ref target="http://www.maicar.com/GML/Hero.html">Greek Mythology Link</ref></item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_HESI1" sex="1">
+                        <persName type="lit">
+                            <reg>Hesiod</reg>
+                        </persName>
+                        <note>
+                            <p> Often called the “father of Greek didactic poetry”,  lived in the village of Ascra in Boeotia and won a tripod in a bardic competition at the funeral games of King Amphidamas.</p>
+                            <list type="links">
+                                <item><ref target="http://www.oxfordbibliographies.com/view/document/obo-9780195389661/obo-9780195389661-0019.xml">Oxford Bibliographies</ref></item>
+                            </list>
+                        </note> 
+                    </person>
+                    
+                    <person xml:id="pers_HEYW1" sex="1">
+                        <persName type="lit">
+                            <reg> Heywood, John</reg>
+                            <forename> John</forename>
+                            <surname> Heywood</surname>
+                        </persName>
+                        <birth when="1497"/>
+                        <death when="1580"/>
+                        <note>
+                            <p> Playwright and epigrammatist</p>
+                            <list type="links">
+                                <item><ref target="http://www.oxfordreference.com/view/10.1093/oi/authority.20110803095934979">Oxford Reference</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_HEYW2" sex="1">
+                        <persName type="hist">
+                            <reg>Heywood, Thomas</reg>
+                            <forename>Thomas</forename>
+                            <surname>Heywood </surname>
+                        </persName>
+                        <birth when="1574" when-custom="1574"/>
+                        <death when="1641" when-custom="1641"/>
+                        <note>
+                            <p>Actor-playwright </p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.poetryfoundation.org/poets/thomas-heywood">Poetry Foundation</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="HIPP1" sex="1">
+                        <persName type="hist">
+                            <reg> Hipponax</reg>
+                            <forename> Hipponax</forename>
+                            <roleName> poet</roleName>
+                        </persName>
+                        <birth when="-0006" when-custom="6 B.C.E."/>
+                        <note>
+                            <p> poet of Ephesus and Clazamonae. Composed monologues and songs.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target= "http://www.oxfordreference.com/view/10.1093/acref/9780198606413.001.0001/acref-9780198606413-e-3125"> Oxford Reference</ref>
+                                </item> 
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="HOME1" sex="1">
+                        <persName type="hist">
+                            <reg> Homer</reg>
+                            <forename> Homer</forename>
+                            <roleName>poet</roleName>
+                        </persName>
+                        <birth when="-0650" when-custom="650 B.C.E."/>
+                        <note>
+                            <p>Author of The Iliad and The Odyssey.</p>
+                            <list type= "links">
+                                <item>
+                                    <ref target= "http://www.perseus.tufts.edu/hopper/collection?collection=Perseus%3Acorpus%3Aperseus%2Cauthor%2CHomer">Perseus Project</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="HOWA1" sex="1">
+                        <persName type="hist">
+                            <reg> Earl Howard, Henry</reg>
+                            <forename>Henry</forename>
+                            <surname>Howard</surname>
+                            <addName> Henrie</addName>
+                            <roleName> Earl</roleName>
+                        </persName>
+                        <birth when="1562"/>
+                        <death when="1633"/>
+                        <note>
+                            <p>Vice-Chancellor of the University of Oxford, 1601-06; Archbishop of Canterbury,
+                                1611-33.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.poetryfoundation.org/poets/henry-howard">Poetry Foundation</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_IOIO1" sex="2">
+                        <persName type="lit">
+                            <reg>Io</reg>
+                        </persName>
+                        <note>
+                            <p>Argive princess who was turned into a white cow after a tryst with Zeus.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.theoi.com/Heroine/Io.html">Theoi Greek Mythology</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_JERO1" sex="1">
+                        <persName type="hist">
+                            <reg>Andrew Jeromski</reg>
+                            <forename>Andrew</forename>
+                            <surname>Jeromski</surname>
+                            <roleName>Editor</roleName>
+                        </persName>
+                        <note>
+                            <p>Graduate student at Framingham State University and Project Assistant for the Kit Marlowe Project.</p>
+                            <list type="links">
+                                <item>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_JOVE1" sex="1">
+                        <persName type="lit">
+                            <reg>Jove</reg>
+                            <forename>Jove</forename>
+                            <addName type="alt_name">Jupiter</addName>
+                        </persName>
+                        <note>
+                            <p>In Roman mythology, Jove was teh god of the heavens and the sky.</p>
+                            <list type="links">
+                                <item><ref target="http://www.newworldencyclopedia.org/entry/Jupiter_(mythology)">New World Encyclopedia</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_JUNO1" sex="2">
+                        <persName type="lit">
+                            <reg>Juno</reg>
+                            <forename>Juno</forename>
+                        </persName>
+                        <note>
+                            <p>Married to Jove, Juno was the queen of the gods, as well as the goddess of marriage and dbirth in Roman mythology.</p>
+                            <list type="links">
+                                <item><ref target="https://greekgodsandgoddesses.net/goddesses/juno/">Greek Gods and Goddesses</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_KYD1" sex="1">
+                        <persName type="hist">
+                            <reg>Kyd, Thomas</reg>
+                            <forename>Thomas</forename>
+                            <surname>Kyd</surname>
+                        </persName>
+                        <birth when="1558"/>
+                        <death when="1594"/>
+                        <note>
+                            <p>Dramatist </p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.theatrehistory.com/british/kyd001.html">Theatre History</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_LEAN1" sex="1">
+                        <persName type="lit">
+                            <reg>Leander</reg>
+                            <forename>Leander</forename>                           
+                        </persName>
+                        <note>
+                            <p>A young man from Abydos and was in love with Hero.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.greekmythology.com/Myths/Mortals/Leander/leander.html">Greek Mythology</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_LEPI1" sex="1">
+                        <persName type="hist">
+                            <reg>Lepidus, Marcus </reg>
+                            <forename>Marcus</forename>
+                            <forename type="middle"> Aemillius</forename>
+                            <surname>Lepidus </surname>
+                        </persName>
+                        <birth when="-0090" when-custom="90BC"/>
+                        <death when="-0013" when-custom="13BC"/>
+                        <note>
+                            <p> Roman Statesman and Consul.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://cof.quantumfuturegroup.org/events/5663">QFG Historical Database</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>  
+                    
+                    <person xml:id="pers_LICI" sex="1">
+                        <persName type="hist">
+                            <reg>Imbrex, Licinius</reg>
+                            <forename>Licinius</forename>
+                            <surname>Imbrex</surname>
+                        </persName>
+                        <note>
+                            <p>Latin Poet</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/view/10.1093/oi/authority.20110803100104490">Oxford Refrence</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_LINU1" sex="1">
+                        <persName type="hist">
+                            <reg>Linus</reg>
+                            <surname>Linos</surname>
+                        </persName>
+                        <note>
+                            <p>The son of Apollo by a Muse (Calliope, or by Psamathe or Chalciope, Apollod</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://pantheon.org/articles/l/linus.html">Ecyclopedia Mythica</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_LODG1" sex="1">
+                        <persName type="lit">
+                            <reg>Lodge, Thomas</reg>
+                            <forename>Thomas</forename>
+                            <surname>Lodge</surname>
+                        </persName>
+                        <birth when="1558"/>
+                        <death when="1625"/>
+                        <note>
+                            <p>Poet, physician, and playwright in the Elizabethan Age.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/search?q=thomas+lodge&amp;searchBtn=Search&amp;isQuickSearch=true">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_LUCA1" sex="1">
+                        <persName type="hist">
+                            <reg> Lucanus,Marcus</reg>
+                            <forename>Marcus</forename>
+                            <forename type="middle"> Annaeus</forename>
+                            <surname>Lucanus</surname>
+                        </persName>
+                        <birth when="0039" when-custom="39AD"/>
+                        <death when="0065" when-custom="65AD"/>
+                        <note>
+                            <p>Roman poet; Marlowe translated his work into English</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.ancient.eu/Marcus_Annaeus_Lucanus/">Ancient History Encyclopedia</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_LUCI1" sex="1">
+                        <persName type="lit">
+                            <reg>Lucifer</reg>
+                            <addName type="alt_name">Satan</addName>
+                        </persName>
+                        <note>
+                            <p>Lucifer is the angel created by God, but eventually turns evil and is kicked out of heaven earning the name satan.</p>
+                            <list type="links">
+                                <item><ref target= "https://www.history.com/topics/folklore/history-of-the-devil">History</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_LUCI2" sex="1">
+                        <persName type="lit">
+                            <reg>Lucilius</reg>
+                            <forename>Gaius</forename>
+                            <surname>Lucilius</surname>
+                        </persName>
+                        <birth when="-0180" when-custom="180 BC"/>        
+                        <death when="-0103" when-custom="103 BC"/>
+                        <note>
+                            <p>One of the earliest Roman writers and the inventor poetical satire.</p>
+                            <list type="links">
+                                <item><ref target= "http://earlylatinwritings.com/oldlatin/lucilius/">Early Latin Writings</ref></item>
+                            </list></note>   
+                    </person>
+                    
+                    <person xml:id="pers_LUCR1" sex="1">
+                        <persName type="lit">
+                            <reg>Lucretius</reg>
+                            <forename>Titus</forename>
+                            <surname>Lucretius </surname>
+                        </persName>
+                        <birth when="-0099" when-custom="99 BC"/>
+                        <death when="-0055" when-custom="55 BC"/>
+                        <note>
+                            <p>Roman Poet and Philosoper  </p>
+                            <list type="links">
+                                <item><ref target= "https://www.iep.utm.edu/lucretiu/">Internet Encyclopedia of Philosophy</ref></item>
+                            </list></note>   
+                    </person>   
+                    
+                    <person xml:id="pers_LUCU1" sex="1">
+                        <persName type="hist">
+                            <roleName>General</roleName>
+                            <reg>Lucullus, Lucius</reg>
+                            <forename>Lucius</forename>
+                            <forename type="middle">Licinius</forename>
+                            <surname>Lucullus</surname>
+                        </persName>
+                        <birth when="-0118" when-custom="118 BC"/>
+                        <death when="-0056" when-custom="56 BC"/>
+                        <note>
+                            <p>Lucullus was a roman politician and General.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.nndb.com/people/018/000097724/">Notable Names Database</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_LUNA1" sex="1">
+                        <persName type="lit">
+                            <reg>Luna</reg>
+                            <forename>Luna</forename>
+                            <addName type="alt_name">Selene</addName>
+                        </persName>
+                        <note>
+                            <p>The Roman goddess (Selene in Greek) of the moon.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.theoi.com/Titan/Selene.html">Theoi Project</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_LUTA1" sex="1">
+                        <persName type="hist">
+                            <reg>Lutatius, Quintus Catulus</reg>
+                            <forename>Quintus</forename>
+                            <forename type="middle">Lutatius</forename>
+                            <surname>Catulus</surname>
+                        </persName>
+                        <birth when="-0120" when-custom="120 BC"/>
+                        <death when="-0060" when-custom="60 BC"/>
+                        <note>
+                            <p>Roman politican that led the conservative faction of the senate </p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://oxfordre.com/classics/view/10.1093/acrefore/9780199381135.001.0001/acrefore-9780199381135-e-3802">Oxford Research Encyclopedia</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_LYLY1" sex="1">
+                        <persName type="lit">
+                            <reg>Lyly, John</reg>
+                            <forename>John</forename>
+                            <surname>Lyly</surname>
+                        </persName>
+                        <birth when-custom="1553"/>
+                        <death when-custom="1606"/>
+                        <note>
+                            <p>An English dramatist, poet, and writer of "Euphuism". </p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/view/10.1093/acref/9780199546091.001.0001/acref-9780199546091-e-6993?rskey=vgX1yp&amp;result=1">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_MAEC1" sex="1">
+                        <persName type="hist">
+                            <reg>Maecenus, Gaius</reg>
+                            <forename>Gaius</forename>
+                            <surname>Maecenus</surname>
+                            <roleName>Diplomat</roleName>
+                        </persName>
+                        <birth when="-0070" when-custom="70 BC"/>
+                        <death when="-0008" when-custom="8 BC"/>
+                        <note>
+                            <p>Roman diplomat, counsellor to the Roman emperor Augustus, and wealthy patron of such poets as Virgil and Horace. One of Octavian’s earliest supporters.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/view/10.1093/oi/authority.20110803100125131">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_MAED1" sex="1">
+                        <persName type="lit">
+                            <reg>Maedeas</reg>
+                            <forename>Maedeas</forename>
+                            <addName type="alt_name">Medea</addName>
+                        </persName>
+                        <note>
+                            <p>In Greek mythology, she was the wife of the hero Jason. She helped her husband complete three tasks to claim the Golden Fleece from King Aeetes</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.greekmythology.com/Myths/Mortals/Medea/medea.html">Greek Mythology</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_MARL1" sex="1">
+                        <persName type="hist">
+                            <reg>Marlowe, Christopher</reg>
+                            <forename>Christopher</forename>
+                            <surname>Marlowe</surname>
+                            <addName type="alt_spelling">Marloe</addName>
+                            <addName type="alt_spelling">Marlo</addName>
+                        </persName>
+                        <birth when="1564"/>
+                        <death when="1593"/>
+                        <note>
+                            <p>English Poet who died in mysterious circumstances. Wrote works including <title style="font-style:italic;">The Jew of Malta</title>, <title style="font-style:italic;">Doctor Faustus</title>, and <title style="font-style:italic;">Hero and Leander</title>.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.marlowe-society.org/">The Marlowe Society</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_MARO1" sex="1">
+                        <persName type="hist">
+                            <reg>Virgill</reg>
+                            <addName>Virgil</addName>
+                            <forename>Pubulis</forename>
+                            <surname>Vergilius Maro</surname>
+                        </persName>
+                        <birth when="-0070"/>
+                        <death when="-0019"/>
+                        <note>
+                            <p>Greek poet, famous for writing the Aeneid</p>
+                            <list type="links">
+                                <item><ref target="https://www.britannica.com/biography/Virgil">
+                                    Encyclopedia Britannica</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_MARU1" sex="1">
+                        <persName type="hist">
+                            <reg>Marullus</reg>
+                        </persName>
+                        <note>
+                            <p>A rhetorician known for teaching Seneca the Younger.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/search?q=marullus&amp;searchBtn=Search&amp;isQuickSearch=true%EF%BB%BF%EF%BB%BF%EF%BB%BF%EF%BB%BF%EF%BB%BF%EF%BB%BF%EF%BB%BF%EF%BB%BF%EF%BB%BF%EF%BB%BF%EF%BB%BF">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_MELA1" sex="1">
+                        <persName type="hist">
+                            <reg>Melanthus</reg>
+                            <forename>Melanthus</forename>
+                            <addName type="alt_spelling">Melanthius</addName>
+                            <roleName>Poet</roleName>
+                        </persName>
+                        <note>
+                            <p>A 5th century tragic poet. Author of Atthis, split into two books, only one fragment has survived to date.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/view/10.1093/oi/authority.20110803100148522">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_MELP1" sex="2">
+                        <persName type="lit">
+                            <reg>Melpomene</reg>
+                        </persName>
+                        <note>
+                            <p>One of the nine muses, and the muse of tragedy.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.theoi.com/Ouranios/MousaMelpomene.html">Theoi Greek Mythology</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_MENA1" sex="1">
+                        <persName type="hist">
+                            <reg>Menander</reg>
+                            <forename>Menander</forename>
+                            <addName type="alt_spelling">Menandros</addName>
+                        </persName>
+                        <birth when="-0342" when-custom="342 BC"/>
+                        <death when="-0291" when-custom="291 BC"/>
+                        <note>
+                            <p>a Hellenistic Greek dramatist and the best-known representative of Athenian New Comedy. Very little of his work has survived.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.ancient-literature.com/greece_menander.html">Ancient Literature</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_MEPH1" sex="1">
+                        <persName type="lit">
+                            <reg>Mephistopheles</reg>
+                            <addName type="alt_spelling">Mephisto</addName>
+                        </persName>
+                        <note>
+                            <p>An evil spirit to whom Faust, in the German legend, sold his soul.</p>
+                            <list type="links">
+                                <item><ref target="http://www.oxfordreference.com/view/10.1093/oi/authority.20110803100150753">Oxford Reference</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_MERC1" sex="1">
+                        <persName type="lit">
+                            <reg>Mercury</reg>
+                            <forename>Mercury</forename>
+                            <addName>Hermes</addName>
+                        </persName>
+                        <note>
+                            <p>Roman god of commerce.</p>
+                            <list type="links">
+                                <item><ref target="https://www.ancient.eu/Mercury_(Deity)/">Ancient History Encyclopedia</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_MEUI1" sex="1">
+                        <persName type="hist">
+                            <reg>Meuius</reg>
+                        </persName>
+                        <note>
+                            <p>An early English poet who envied Virgil</p>
+                            <list type="links">
+                                <item><ref target="https://quod.lib.umich.edu/e/eebo/A19275.0001.001/1:14?rgn=div1;view=fulltext">
+                                    Early English Books</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_MIDA1" sex="1">
+                        <persName type="lit">
+                            <reg>Midas</reg>
+                            <addName>Midass</addName>
+                        </persName>
+                        <note>
+                            <p>Mythical Phrygian king who was famed for his ability to turn anything he touched into solid gold, and for his donkey ears which he acquired after judging Pan a better musician than Apollo.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.ancient.eu/midas/">Ancient History Encyclopedia</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_MINO1" sex="0">
+                        <persName type="hist">
+                            <reg>Minor, Octavia</reg>
+                            <forename>Octavia</forename>
+                            <surname>Minor</surname>
+                        </persName>
+                        <birth when="-0069" when-custom="69 BCE"/>
+                        <death when="-0011" when-custom="11 BCE"/>
+                        <note>
+                            <p>Full sister of Octavian (later the emperor Augustus) and speculated wife of Mark Antony.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.livius.org/articles/person/octavia-minor">Livius</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_MOMU1" sex="1">
+                        <persName type="lit">
+                            <reg>Momus</reg>
+                            <addName>Momos</addName>
+                        </persName>
+                        <note>
+                            <p>The god of satire, mockery, and poets in Greek mythology; as well as a spirit of evil-spirited blame and unfair criticism</p>
+                            <list type="links">
+                                <item><ref target="https://www.greekmythology.com/Other_Gods/Momus/momus.html">
+                                    Greek Mythology</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_MUND1" sex="1">
+                        <persName type="hist">
+                            <reg>Munday, Anthony</reg>
+                            <forename>Anthony</forename>
+                            <surname>Munday</surname>
+                            <addName type="alt_spelling">Mundye</addName>
+                        </persName>
+                        <birth when="1560"/>
+                        <death when="1633"/>
+                        <note>
+                            <p>English poet, and dramatist..</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.luminarium.org/renlit/munday.htm ">Luminarium</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_MUSA1" sex="1">
+                        <persName type="hist">
+                            <reg>Musaeus</reg>
+                            <forename>Musaeus</forename>
+                            <addName type="alt_name">Grammaticus</addName>
+                            <addName type="alt_spelling">Musaios</addName>
+                        </persName>
+                        <note>
+                            <p>A Greek poet, the story Hero and the Lender has been the subject of two poems, one by Musaeus and one begun by Christopher Marlowe.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://classics.oxfordre.com/view/10.1093/acrefore/9780199381135.001.0001/acrefore-9780199381135-e-8249">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_NASH1" sex="1">
+                        <persName type="hist">
+                            <reg>Thomas Nashe</reg>
+                            <forename>Thomas</forename>
+                            <surname>Nashe</surname>
+                            <roleName>Author</roleName>
+                        </persName>
+                        <birth when="1567"/>
+                        <death when="1601"/>
+                        <note>
+                            <p>English author whose preface to Newman’s printing of Astrophel and Stella was one of his first published works</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.poetryfoundation.org/poets/thomas-nashe">Poetry Foundation</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_NASO1" sex="0">
+                        <persName type="hist">
+                            <reg>Ovid</reg>
+                            <forename>Publius</forename>
+                            <forename type = "Middle"> Ovius</forename>
+                            <surname>Naso</surname>
+                        </persName>
+                        <birth when="-0043" when-custom="43 BCE"/>
+                        <death when="0017" when-custom="17AD"/>
+                        <note>
+                            <p>Famous works include Amores, Ars Amatoria, and the Metamophoses.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.ancient.eu/ovid/">Ancient History Encyclopedia</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_NEFT1" sex="1">
+                        <persName type="lit">
+                            <reg>Neftor</reg>
+                            <addName>Nestor</addName>
+                        </persName>
+                        <note>
+                            <p>In Greek legend he is the son of Neleus, king of Pylos 
+                                (Navarino) in Elis, and of Chloris. All of his brothers were slain by the Greek hero Heracles.</p>
+                            <list type="links">
+                                <item><ref target="https://www.britannica.com/topic/Nestor-Greek-mythology">
+                                    Encyclopedia Britannica</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_NESS1" sex="1">
+                        <persName type="lit">
+                            <reg>Nessus</reg>
+                            <forename>Nessus</forename>
+                        </persName>
+                        <note>
+                            <p>A centaur in Greek Mythology who was killed by Hercules.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.greekmythology.com/Myths/Creatures/Nessus/nessus.html">Greek Mythology</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_NEWM1" sex="1">
+                        <persName type="hist">
+                            <reg>Thomas Newman</reg>
+                            <forename>Thomas</forename>
+                            <surname>Newman</surname>
+                            <roleName>Printer</roleName>
+                        </persName>
+                        <note>
+                            <p>English printer and bookseller who printed first (unauthorized) copy of Astrophel and Stella.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://archive.org/details/b28987007/page/200/mode/2up?q=newman">A Dictionary of Printers and Booksellers in England, Scotland, and Ireland, and of Foreign Printers of English Books, 1557-1640 (digitized at Archive.org, see page 200).</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_NICO1" sex="1">
+                        <persName type="lit">
+                            <reg>Nicostratus</reg>
+                        </persName>
+                        <note>
+                            <p>A Middle Comedy Greek poet known as the son of Aristophanes.</p>
+                            <list type="links">
+                                <item><ref target="http://www.oxfordreference.com/search?q=nicostratus&amp;searchBtn=Search&amp;isQuickSearch=true﻿﻿﻿﻿﻿﻿">Oxford Reference</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_NOAH1" sex="1">
+                        <persName type="lit">
+                            <reg>Noah</reg>
+                            <addName>Noe</addName>
+                        </persName>
+                        <note>
+                            <p>A biblical figure, featured most frequently in Genesis, who built an Ark to save his family and hold two of every type of animal.</p>
+                            <list type="links">
+                                <item><ref target="http://www.oxfordreference.com/search?q=Noah&amp;searchBtn=Search&amp;isQuickSearch=true">Oxford Reference</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_OCLA1" sex="1">
+                        <persName type="hist">
+                            <reg>Christopher Ocland</reg>
+                            <forename>Christopher</forename>
+                            <surname>Ocland</surname>
+                            <addName type="alt_spelling">Christopher Ochland</addName>
+                        </persName>
+                        <death when-custom="1590"/>
+                        <note>
+                            <p>Writer, who became the first headmaster of St Saviour's Grammar School in 1652.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxforddnb.com/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-20495">Oxford Dictionary of National Biography</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_ORPH1" sex="1">
+                        <persName type="lit">
+                            <reg>Orpheus</reg>
+                            <addName type="alt_name">Orphey</addName>
+                            <title>Hero</title>
+                        </persName>
+                        <note>
+                            <p>Son of Apollo, ancient Greek legendary hero endowed with superhuman musical skills.</p>
+                            <list type="links">
+                                <item><ref target="https://www.ancient.eu/Orpheus/">Ancient History Encyclopedia</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_PAEI1" sex="1">
+                        <persName type="lit">
+                            <reg>Paean</reg>
+                            <addName>Paeion</addName>
+                        </persName>
+                        <note>
+                            <p>Greek physician to the gods who healed their wounds after battle.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.theoi.com/Ouranios/Paion.html">Theoi Project</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_FAUN1" sex="1">
+                        <persName type="lit">
+                            <reg>Pan</reg>
+                            <addName>Faunus</addName>
+                        </persName>
+                        <note>
+                            <p>Arcadian (Greek) god of shepherds, hunters, the meadows and the forests.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.theoi.com/Georgikos/Pan.html">Theoi Project</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PANA1" sex="1">
+                        <persName type="hist">
+                            <reg>Panapolyta, Nonnus</reg>
+                            <forename>Nonnus</forename>
+                            <surname>Panapolyta</surname>
+                        </persName>
+                        <note>
+                            <p>As written in the Writs of Francis, Nonnus wrote the gospel of Saint John in Greek Hexameter.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxforddnb.com/index/101000004/">Oxford Dictionary of National Bibliography</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PARI1" sex="1">
+                    <persName type="hist">
+                        <reg>Parius, Archilochus</reg>
+                        <forename>Archilochus</forename>
+                        <surname>Parius</surname>
+                    </persName>
+                    <birth when="-0680" when-custom="680 BC"/>
+                    <death when="-0645" when-custom="645 BC"/>
+                    <note>
+                        <p>Greek lyric poet.</p>
+                        <list type="links">
+                            <item>
+                                <ref target="http://www.perseus.tufts.edu/hopper/searchresults?q=Archilochus">Perseus Project</ref>
+                            </item>
+                        </list>
+                    </note>
+                    </person>
+                    
+                    <person xml:id="pers_PARI2" sex="1">
+                        <persName type="lit">
+                            <reg>Paris</reg>
+                            <forename>Paris</forename>
+                            <addName type="alt_name">Alexander</addName>
+                        </persName>
+                        <note>
+                            <p>The son of King Priam and Queen Hecuba of Troy. He allegedly eloped with Helen of Troy, starting the Trojan War.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.greekmythology.com/Myths/Mortals/Paris/paris.html">Greek Mythology</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PEEL1" sex="1">
+                        <persName type="hist">
+                            <reg>Peele, George</reg>
+                            <forename>George</forename>
+                            <surname>Peele</surname>
+                        </persName>
+                        <birth when="1558"/>
+                        <death when="1598"/>
+                        <note>
+                            <p>Elizabethan English translator, dramatist, and poet.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.luminarium.org/renlit/peelebio.htm">Luminarium</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PEMB1" sex="2">
+                        <persName type="hist">
+                            <reg>Countess of Pembroke</reg>
+                            <addName>Mary Sidney</addName>
+                            <forename>Mary</forename>
+                            <surname>Sidney</surname>
+                            <roleName>Countess, Author</roleName>
+                        </persName>
+                        <birth when="1561"/>
+                        <death when="1621"/>
+                        <note>
+                            <p>English noblewoman and sister of Sir Phillip Sidney.</p>
+                            <list type="links">
+                                <item>
+                                <ref target="https://www.poetryfoundation.org/poets/mary-sidney-herbert">Poetry Foundation.</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PERS1" sex="1">
+                        <persName type="hist">
+                            <reg>Persius</reg>
+                            <forename>Persius</forename>
+                        </persName>
+                        <birth when="0034" when-custom="34 CE"/>
+                        <death when="0062" when-custom="62 CE"/>
+                        <note>
+                            <p>Roman satirist; author of 6 satires.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/view/10.1093/oi/authority.20110803100319726">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PETO1" sex="1">
+                        <persName type="hist">
+                            <reg>Petowe, Henry</reg>
+                            <forename>Henry</forename>
+                            <surname>Petowe</surname>
+                            <addName type="alt_spelling">Henrie</addName>
+                        </persName>
+                        <birth when="1575"/>
+                        <death when="1636"/>
+                        <note>
+                            <p>Elizabethan poet known best for writing <hi style="font-style:italic;">The Second Part of Hero and Leander</hi>.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.revolvy.com/page/Henry-Petowe">Revolvy</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PETR1" sex="1">
+                        <persName type="hist">
+                            <reg>Petrarch, Francesco</reg>
+                            <forename>Francesco</forename>
+                            <surname>Petrarch</surname>
+                        </persName>
+                        <birth when="1304" when-custom="1304 CE"/>
+                        <death when="1374" when-custom="1374 CE"/>
+                        <note>
+                            <p>Fourteenth-century Italian poet best known for introducing the 8/6 sonnet structure.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/view/10.1093/oi/authority.20110803100320505">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PHAE1" sex="1">
+                        <persName type="hist">
+                            <reg>Phaer, Thomas</reg>
+                            <forename>Thomas</forename>
+                            <surname>Phaer</surname>
+                        </persName>
+                        <birth when="1514" when-custom="1514 CE"/>
+                        <death when="1560" when-custom="1560 CE"/>
+                        <note>
+                            <p>Constable, forester, crown searcher, crown solicitor, council in the Marches of Wales.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.historyofparliamentonline.org/volume/1509-1558/member/phaer-%28fayre%29-thomas-1514-60">The History of Parliament</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PHAE2" sex="1">
+                        <persName type="lit">
+                            <reg>Phaeton</reg>
+                            <forename>Phaeton</forename>
+                        </persName>
+                        <note>
+                            <p>Greek god of "the failed sun." He lost control of his chariot and scorched the earth.</p>
+                            <list type="links">
+                                <item><ref target="https://www.theoi.com/Titan/Phaethon.html">Theoi Project</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_PHID1" sex="1">
+                        <persName type="hist">
+                            <reg>Phidias</reg>
+                            <addName>Pheidias</addName>
+                        </persName>
+                        <note>
+                            <p>Athenian sculptor, architect, and painter who was the artistic director of the construction of the Parthenon.</p>
+                            <list type="links">
+                                <item><ref target="https://www.britannica.com/biography/Phidias">
+                                    Encyclopedia Britannica</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PHIL1" sex="1">
+                        <persName type="hist">
+                            <reg>Philip, King</reg>
+                            <forename>Philip</forename>
+                            <addName type="epithet">of Macedonia</addName>
+                            <roleName>King</roleName>
+                        </persName>
+                        <birth when="-0392" when-custom="382 BC"/>
+                        <death when="-0336" when-custom="336 BC"/>
+                        <note>
+                            <p>King Philip of Macedonia</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/search?btog=chap&amp;pageSize=10&amp;q=Philip+II+of+Macedon&amp;sort=relevance%20">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PHIL3" sex="1">
+                        <persName type="hist">
+                            <reg>Philo Judaeus</reg>
+                            <forename>Philo</forename>
+                            <addName type="alt_name">Philo of Alexandria</addName>
+                        </persName>
+                        <birth when="-0020" when-custom="20 BCE"/>
+                        <death when="0040" when-custom="40 CE"/>
+                        <note>
+                            <p>Jewish philosopher living in Alexandria at the beginning of the first century.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://plato.stanford.edu/entries/philo/">Stanford Encyclopedia of Philosophy</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PHIL5" sex="1">
+                        <persName type="hist">
+                            <reg>Philelphus, Franciscus</reg>
+                            <addName type="alt_spelling"> Filelfo </addName>
+                            <addName type="alt_spelling">> Francesco </addName>
+                            <forename>Franciscus</forename>
+                            <surname>Philelphus</surname>
+                        </persName>
+                        <birth when-custom="1398 CE"/>
+                        <death when-custom="1481 CE"/>
+                        <note>
+                            <p>Italian humanist, in charge of business and diplomatic missions in the East.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://thesaurus.cerl.org/record/cnp01234580">Consortium of European Research Libraries Thesaurus</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PHRY1" sex="1">
+                        <persName type="hist">
+                            <reg>Phrygius, Nicomachus</reg>
+                            <forename>Nicomachus</forename>
+                            <surname>Phrygius</surname>
+                        </persName>
+                        <note>
+                            <p>One of the tragic poets that flourished in Ancient Greece as noted Francis Meres' Wit's Treasury</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://tapasproject.org/kit-marlowe/files/francis-meres-wits-treasury-poets">TAPAS Project</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PIER1" sex="1">
+                        <persName type="lit">
+                            <reg>Piers Plowman</reg>
+                            <forename>Piers</forename>
+                            <addName type="alt_spelling">Piers Ploughman</addName>
+                        </persName>
+                        <note>
+                            <p>A spiritual model for the character, Will, in an alliterative poem from the late fourteenth century, "The Vision of Piers Plowman."</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordbibliographies.com/view/document/obo-9780199846719/obo-9780199846719-0100.xml">Oxford Bibliographies</ref>
+                                </item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_PIGR1" sex="1">
+                        <persName type="hist">
+                            <reg>Pigres</reg>
+                            <addName type="alt_name">Pigres of Halicarnassus</addName>
+                        </persName>
+                        <note>
+                            <p>Early Greek lyric poet. Introduced iambic parameter.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://catalog.perseus.org/catalog/urn:cite:perseus:author.1125">Perseus Bibliography</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PLIN1" sex="1">
+                        <persName type="lit">
+                            <reg>C.Plinius</reg>
+                            <forename>Gaius</forename>
+                            <forename type="middle">Plinius</forename>
+                            <surname>Secundus</surname>
+                        </persName>
+                        <birth when="0061" when-custom="61 CE"/>
+                        <death when="0112" when-custom="112 CE"/>
+                        <note>
+                            <p>He was a lawyer, administrator and Roman writer.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="www.ancient-literature.com/romepliny.html">Ancient Literature</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PLUT1" sex="1">
+                        <persName type="lit">
+                            <reg>Pluto</reg>
+                            <forename>Pluto</forename>
+                        </persName>
+                        <note>
+                            <p>The Roman god of wealth as well as the judge of the dead.</p>
+                            <list type="links">
+                                <item><ref target="https://mythology.net/roman/roman-gods/pluto/">Mythology.net</ref></item>
+                            </list>
+                        </note>    
+                    </person>
+                    
+                    <person xml:id="pers_PORC1" sex="1">
+                        <persName type="hist">
+                            <reg>Licinius, Porcius</reg>
+                            <forename>Porcius</forename>
+                            <surname>Licinius</surname>
+                        </persName>
+                        <birth when="0263" when-custom="263"/>
+                        <death when="0325" when-custom="325"/>
+                        <note>
+                            <p>Roman emperor who made his armies use a monotheistic form of prayer; he was later defeated by Constantine, exiled, and executed. </p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/view/10.1093/oi/authority.20110803100337787">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PRAX1" sex="1">
+                        <persName type="hist">
+                            <reg>Praxatiles</reg>
+                            <addName>Praxiteles</addName>
+                        </persName>
+                        <note>
+                            <p>One of the greatest of the Attic sculptors of the 4th century bce and one of the most original of the Greek artists.</p>
+                            <list type="links">
+                                <item><ref target="https://www.britannica.com/biography/Praxiteles">
+                                    Encyclopedia Britannica</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PRIS1" sex="1">
+                        <persName type="hist">
+                            <reg>Priscus of Panium</reg>
+                            <forename>Priscus</forename>
+                            <addName type="alt_name">Priscus of Panium</addName>  
+                        </persName>
+                        <birth when="0410" when-custom="410"/>
+                        <death when="0472" when-custom="472"/>
+                        <note>
+                            <p>Roman diplomat and Greek historian.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.perseus.tufts.edu/hopper/searchresults?q=priscus">Perseus Project</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PROP1" sex="1">
+                        <persName type="hist">
+                            <reg>Propertius</reg>
+                            <forename>Propertius</forename>
+                        </persName>
+                        <birth when="-0055" when-custom="55 BCE"/>
+                        <death when="-0016" when-custom="16 BCE"/>
+                        <note>
+                            <p>Wrote four books of elegies </p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.unrv.com/culture/propertius.php">United Nations of Roma Victrix: Roman History</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_PSYC1" sex="1">
+                        <persName type="lit">
+                            <reg>Pſiches</reg>
+                            <forename>Pſiches</forename>
+                            <addName type="alt_spelling">Psyches</addName>
+                            <addName type="alt_spelling">Psykhe</addName>
+                        </persName>
+                        <note>
+                            <p>Once a mortal, she became Greek goddess of the soul. She is married to Eros.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.theoi.com/Ouranios/Psykhe.html">Theoi Project</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_PURF1" sex="1">
+                        <persName type="hist">
+                            <reg>Purfoot, Thomas</reg>
+                            <forename>Thomas</forename>
+                            <surname>Purfoot</surname>
+                        </persName>
+                        <birth when="1546"/>
+                        <death when="1615"/>
+                        <note>
+                            <p>A bookseller and printer in London.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://bbti.bodleian.ox.ac.uk/details/?traderid=56324">British Book Trade Index</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_RHOD1" sex="1">
+                        <persName type="lit">
+                            <reg>Rhodius, Anaxadrides</reg>
+                            <forename>Anaxadrides</forename>
+                            <surname>Rhodius</surname>
+                        </persName>
+                        <note>
+                            <p>Greek comedy poet</p> 
+                            <list type="links">
+                                <item><ref target="http://www.oxfordreference.com/view/10.1093/acref/9780199545568.001.0001/acref-9780199545568-e-408">Oxford Reference</ref></item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                   <person xml:id="pers_RHOD2" sex="2">
+                      <persName type="hist">  
+                        <reg>Rhodes, Kelsey</reg>
+                        <forename>Kelsey</forename>
+                        <surname>Rhodes</surname>
+                   </persName>
+                        <note>
+                            <p>Student of Framingham State University, English Major, Graduating 2023</p>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_ROMA1" sex="1">
+                        <persName type="hist">
+                            <reg> Pope Romanus</reg>
+                            <forename>Romanus</forename>
+                            <addName type="alt_name" ></addName>
+                            <roleName> Pope</roleName>
+                        </persName>
+                        <birth when-custom="unknown"/>
+                        <death when="0897-11" when-custom="Nov 897"/>
+                        <note>
+                            <p>Pope Romanus was the Pope after the death of Pope Steven the 6th. He served from August to November 897 when he died. .</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.catholic-hierarchy.org/bishop/bromnop.html">Catholic Hierarchy</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>  
+                    
+                    <person xml:id="pers_ROYD1" sex="1">
+                        <persName type="hist">
+                            <reg>Roydon, Matthew</reg>
+                            <forename>Mathew</forename>
+                            <surname>Roydon</surname>
+                        </persName>
+                        <birth when="1580"/>
+                        <death when="1622"/>
+                        <note>
+                            <p>An English poet popular at the turn of the seventeenth century.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.oxfordreference.com/view/10.1093/acref/9780199237173.001.0001/q-author-00001-00002939">Oxford Reference</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_SAPP1" sex="2">
+                        <persName type="hist">
+                            <reg>Sappho</reg>
+                            <addName>Sappho of Lesbos</addName>
+                        </persName>
+                        <birth when="-0620" when-custom="620 BCE"/>
+                        <death when="-0570" when-custom="570 BCE"/>
+                        <note>
+                            <p>Greek lyric poet of antiquity who enjoyed enormous popularity.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.ancient.eu/Sappho_of_Lesbos/">Ancient History Encyclopedia</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_SHAK1" sex="1">
+                        <persName type="hist">
+                            <reg>Shakespeare, William</reg>
+                            <forename>William</forename>
+                            <surname>Shakespeare</surname>
+                        </persName>
+                        <birth when="1564"/>
+                        <death when="1616"/>
+                        <note>
+                            <p>English poet, playwright, and actor</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.folger.edu/shakespeare">Folger</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_SIDN1" sex="2">
+                        <persName type="hist">
+                            <reg>Sidney, Frances</reg>
+                            <forename>Frances</forename>
+                            <surname>Sidney</surname>
+                            <addName type="alt_spelling">Francis Sydney</addName>
+                            <roleName>Countess</roleName>
+                        </persName>
+                        <birth when="1531"/>
+                        <death when="1589"/>
+                        <note>
+                            <p>She served as a lady-in-waiting to Queen Elizabeth before her father arranged for her to marry Philip Sidney.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://spartacus-educational.com/Frances_Sidney.htm">Spartacus Educational</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_SKER2" sex="1">
+                        <persName type="hist">
+                            <reg>Skeres, Nicholas</reg>
+                            <forename>Nicholas</forename>
+                            <surname>Skeres</surname>
+                        </persName>
+                        <birth when="1563"/>
+                        <note>
+                            <p>he was an and government informant. Skeres worked as a servant for Thomas Walsingham. 
+                                He was a government provocateur and a part of discovering the Babington Plot, working
+                                as a spy with Francis Walsingham.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://kitmarlowe.org/tag/nicholas-skeres/">The Kit Marlowe Project</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    <person xml:id="pers_STAN1" sex="1">
+                        <persName type="hist">
+                            <reg>Stanyhurst, Richard</reg>
+                            <forename>Richard</forename>
+                            <surname>Stanyhurst</surname>
+                            <addName type="alt_spelling">Stanihurst</addName>
+                        </persName>
+                        <birth when="1547"/>
+                        <death when="1618"/>
+                        <note>
+                            <p>Irish alchemist, translator, poet, and historian</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.libraryireland.com/articles/StanihurstIrishNation/index.php">Library Ireland</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_STEL1" sex="2">
+                        <persName type="lit">
+                            <reg>Stella</reg>
+                        </persName>
+                        <note>
+                            <p>One of the titular characters from Sidney’s Astrophel and Stella, and the object of the poet’s affections.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.britannica.com/topic/Astrophel-and-Stella">Encyclopedia Britannica</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_STOA1" sex="1">
+                        <persName type="hist">
+                            <reg>Quintianus Stoa</reg>
+                            <forename>Quitianus</forename>
+                            <surname>Stoa</surname>
+                            <addName type="alt_name" >Giovanni Francesco Conti</addName>
+                        </persName>
+                        <birth when="1484" when-custom="1484"/>
+                        <death when="1529" when-custom="1529"/>
+                        <note>
+                            <p>Went by the name of Quintanius Stoa and wrote plays in the early 1500's.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://www.treccani.it/enciclopedia/giovanni-francesco-conti_(Dizionario-Biografico)">Treccani</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_SYRE1" sex="1">
+                        <persName type="lit">
+                            <reg>Syrens</reg>
+                            <forename>Syrens</forename>
+                            <addName type="alt_spelling">Sirens</addName>
+                        </persName>
+                        <note>
+                            <p>As key characters in the <hi style="font-style:italic;">Odyssey</hi>, the Sirens were enchantresses that would lure men to their death with their singing. If anyone were to survive their song, they would die.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.greekmythology.com/Myths/Creatures/Sirens/sirens.html">Greek Mythology</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_TARS1" sex="1">
+                        <persName type="lit">
+                            <reg>Tarsensis, Apollodorus</reg>
+                            <forename>Apollodorus</forename>
+                            <surname>Tarsensis</surname>
+                        </persName>
+                        <note>
+                            <p>Greek poet</p>
+                            <list type="links">
+                                <item><ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0022">Perseus Project</ref></item>
+                            </list>
+                        </note>
+                    </person> 
+                    
+                    <person xml:id="pers_TELL1" sex="1">
+                        <persName type="lit">
+                            <reg>Tellus</reg>
+                            <forename>Tellus</forename>
+                            <addName type="alt_spelling">Terra Mater</addName>
+                        </persName>
+                        <note>
+                            <p>The Roman goddess of the Earth and creation</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://godsofcreation.weebly.com/terra-matertellus.html">Gods of Creation</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_TERI1" sex="1">
+                        <persName type="hist">
+                            <reg>Terius, Alexis</reg>
+                            <forename>Alexis</forename>
+                            <surname>Terius</surname>
+                        </persName>
+                        <birth notBefore-iso="525" notAfter-iso="524" when-custom="525/524"/>
+                        <death when-custom="unknown"/>
+                        <note>
+                            <p>Athenian Comdic Poet</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="http://tapasproject.org/kit-marlowe/files/francis-meres-wits-treasury-poets">TAPAS Project</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>  
+                    
+                    <person xml:id="pers_TYSI" sex="1">
+                        <persName type="lit">
+                            <reg>Tyſiphone</reg>
+                            <forename>Tyſiphone</forename>
+                            <addName type="alt_name">Tisiphone</addName>
+                        </persName>
+                        <note>
+                            <p>In Greek mythology, she was one of three furies. She was also know as the avenger of murder.</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://www.thoughtco.com/tisiphone-greek-goddess-121229">Thought Co.</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_VENU1" sex="1">
+                        <persName type="lit">
+                            <reg>Venus</reg>
+                            <forename>Venus</forename>
+                        </persName>
+                        <note>
+                            <p>The Roman goddess of beauty, love, fertility, and victory</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://greekgodsandgoddesses.net/goddesses/venus/">Greek Gods and Goddesses</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_WATS1" sex="1">
+                        <persName type="hist">
+                            <reg>Watson, Thomas</reg>
+                            <addName>Th. W.</addName>
+                            <forename>Thomas</forename>
+                            <surname>Watson</surname>
+                        </persName>
+                        <birth when="1557"/>
+                        <death when="1592"/>
+                        <note>
+                            <p>Poet, playwright,government spy, and a friend of Christopher Marlowe</p>
+                            <list type="links">
+                                <item>
+                                    <ref target="https://echa.org.uk/2020/09/14/renaissance-man-the-world-for-thomas-watson-by-ian-johnson/">
+                                        English Catholic History Association</ref>
+                                </item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_WILL1" sex="1">
+                        <persName type="hist">
+                            <reg>Willet, Andrew</reg>
+                            <forename>Andrew</forename>
+                            <surname>Willet</surname>
+                            <roleName>Reverend</roleName>
+                        </persName>
+                        <birth when="1562"/>
+                        <death when="1621"/>
+                        <note>
+                            <p>English clergyman and controversialist, known for his anti-papal works </p>
+                            <list type="links">
+                                <item><ref target="http://www.prdl.org/author_view.php?a_id=86">Post-Reformation Digital Library</ref></item>
+                            </list>
+                        </note> 
+                    </person>
+                    
+                    <person xml:id="pers_WOLF1" sex="1">
+                        <persName type="hist">
+                            <reg>Wolfe, John</reg>
+                            <forename>John</forename>
+                            <surname>Wolfe</surname>
+                        </persName>
+                        <note>
+                            <p>Italian book printer</p>
+                            <list type="links">
+                                <item><ref target="https://www.jstor.org/stable/43447256?seq=1">JSTOR</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_XERX1" sex="1">
+                        <persName type="hist">
+                            <reg>Xerxes</reg>
+                        </persName>
+                        <birth when="-0519"/>
+                        <death when="-0465"/>
+                        <note>
+                            <p>King of the Achaemenid Empire, ruling from 486 to 465 B.C.E</p>
+                            <list type="links">
+                                <item><ref target="https://www.britannica.com/biography/Xerxes-I">
+                                    Encyclopedia Britannica</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                    
+                    <person xml:id="pers_ZOYL2" sex="1">
+                        <persName type="hist">
+                            <reg>Zoylus</reg>
+                            <addName>Zoilus</addName>
+                        </persName>
+                        <note>
+                            <p>Greek rhetorician and critic who often criticized Homer</p>
+                            <list type="links">
+                                <item><ref target="https://www.merriam-webster.com/dictionary/Zoilus">Merriam Webster</ref></item>
+                            </list>
+                        </note>
+                    </person>
+                </listPerson>
+            </div>
+        </body>
+    </text>
+</TEI>
+

@@ -1,0 +1,1737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://jenkins.hcmc.uvic.ca/job/MoEML/lastStableBuild/artifact/static/site/xml/schemas/london_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+   <fileDesc>
+        <titleStmt>
+           <title>Scot_Witches_master_DH_A2r_to_B1r</title>
+           <author><persName type="hist"><forename><surname/></forename></persName></author>
+           <respStmt>
+              <resp ref="molresp:edt">General Editor</resp>
+              <name>Kristen Abbott Bennett</name>
+           </respStmt>
+           <respStmt>
+              <resp ref="molresp:edt">Assistant Editor</resp>
+              <name>Kelsey L. Rhodes</name>
+           </respStmt>
+           <respStmt>
+              <resp ref="molresp:mrk">Transcriber and encoder</resp>
+              <name>Donald Halsing</name>
+           </respStmt>
+              <respStmt>
+                 <resp ref="molresp:mrk">Transcriber and encoder</resp>
+                 <name>Meeghan J. Brensahan</name>
+           </respStmt>
+           <respStmt>
+              <resp ref="molresp:mrk">Transcriber and encoder</resp>
+              <name>Gwendolyn Carpenter</name>
+           </respStmt>
+           <respStmt>
+              <resp ref="molresp:mrk">Transcriber and encoder</resp>
+              <name>Kimberly L. Chambers</name>
+           </respStmt>
+           <respStmt>
+              <resp ref="molresp:mrk">Transcriber and encoder</resp>
+              <name>Lilah E. Determan</name>
+           </respStmt>
+           <respStmt>
+              <resp ref="molresp:mrk">Transcriber and encoder</resp>
+              <name>Haley M. Hadge</name>
+           </respStmt>
+           <respStmt>
+              <resp ref="molresp:mrk">Transcriber and encoder</resp>
+              <name>Caroline M. Hawkes</name>
+           </respStmt>
+           <respStmt>
+              <resp ref="molresp:mrk">Transcriber and encoder</resp>
+              <name>Hilary B. Lincoln</name>
+           </respStmt>
+           <respStmt>
+              <resp ref="molresp:mrk">Transcriber and encoder</resp>
+              <name>Sage T. Lorenzo</name>
+           </respStmt>
+           <respStmt>
+              <resp ref="molresp:mrk">Transcriber and encoder</resp>
+              <name>Elinora B. Lynch</name>
+           </respStmt>
+           <respStmt>
+              <resp ref="molresp:mrk">Transcriber and encoder</resp>
+              <name>Lauren D. Mercer</name>
+           </respStmt>
+           <respStmt>
+              <resp ref="molresp:mrk">Transcriber and encoder</resp>
+              <name>Timothy J. Reed</name>
+           </respStmt>
+           <respStmt>
+              <resp ref="molresp:mrk">Transcriber and encoder</resp>
+              <name>Nicholas Q. Ribeiro</name>
+           </respStmt>
+        </titleStmt>
+        <publicationStmt>
+           <p>Printed by <persName type="hist"><forename/>
+              <surname/></persName>Publication Information</p>
+        </publicationStmt>
+        <sourceDesc>
+           <p><!-- Working from Huntington Library (microfilm) copy available via EEBO and Boston Public Library --><idno>STC
+              21864</idno></p>
+        </sourceDesc> 
+     </fileDesc>
+     <profileDesc><textClass>
+        <catRef></catRef>
+     </textClass></profileDesc>
+     <encodingDesc>
+        <p>TEI P5</p>
+     </encodingDesc>
+     <revisionDesc><change who="BENN"></change></revisionDesc>
+  </teiHeader>
+  <text>
+<!-- transcription of A1r imcomplete -->
+     <front>
+        <titlePage>
+           <docTitle>
+              <figure><figDesc>*printer's ornament*</figDesc></figure>
+              <titlePart type="main" style="text-align: center;"><hi style="font-size:250%;">The diſcouerie</hi><lb/>
+                 <hi style="font-size:185%;">of vvitchcraft,</hi><lb/>
+                 <hi style="text-align: center; font-size:155%;">Wherein the lewde dealing of witches<lb/>
+                 <hi style="font-style: italic;">and witchmongers is notablie detected, the</hi></hi><lb/>
+                 <hi style="text-align: center; font-size:140%;">knauerie of coniurors, the impietie of inchaun-<lb/></hi>
+                 <hi style="text-align: center; font-size:120%;"><hi style="font-style: italic;"> tors, the follie of ſoothſaiers, the impudent falſ-</hi></hi><lb/>
+                 <hi style="text-align: center; font-size:110%;">hood of couſenors, the infidelitie of atheiſts,<lb/></hi>
+                 <hi style="text-align: center; font-size:90%;"><hi style="font-style: italic;">the peſtilent practiſes of Pythonists, the</hi></hi><lb/>
+                 <hi style="text-align: center; font-size:75%;">curioſitie of figurecaſters, the va-</hi><lb/>
+                 <hi style="text-align: center; font-size:65%;"><hi style="font-style: italic;">nitie of dreamers, the begger-</hi></hi><lb/>
+                 <hi style="text-align: center; font-size:65%;">lie art of Alcu-<lb/>
+                    myſtrie,</hi><lb/>
+                 
+                 <hi style="text-align: center;font-size:140%;">The abhomination of idolatrie, the hor-</hi><lb/>
+                 <hi style="text-align: center;font-size:110%;"><hi style="font-style: italic">rible art of poisoning, the vertue and power of</hi></hi><lb/>
+                 <hi style="text-align: center;font-size:110%;">naturall magicke, and all the conueiances</hi><lb/>
+                 <hi style="font-style: italic;font-size:65%;">of Legierdemaine and iuggling are deciphered:</hi><lb/>
+                 <hi style="text-align: center;font-size:65%;">and many other things opened, which</hi><lb/>
+                 <hi style="text-align: center;font-style: italic; font-size:65%;"> haue long lien hidden, howbeit</hi><lb/>
+                 <hi style="text-align: center;font-size:65%;">very necessarie to</hi><lb/>
+                 <hi style="text-align: center;font-size:65%;">be knowne.</hi><lb/>
+                   <lb/> 
+                 <hi style="text-align: center;font-size:110%;">Heerevnto is added a treatiſe vpon the</hi><lb/>
+                 <hi style="font-style: italic;font-size:85%;">nature and ſubſtance of ſpirits and diuels,<lb/></hi>
+                 <hi style="font-style: italic;font-size:85%;">&amp; c: all latelie written</hi><lb/>
+                 <hi style="font-style: italic;font-size:65%;">by Reginald Scot</hi><lb/>
+                 <hi style="font-style: italic;font-size:65%;">Eſquire.</hi><lb/>
+                 <hi style="text-align: center;font-size:65%;"><quote source="Bible">I.Iohn.4,I.</quote></hi><lb/>
+                 <quote source="Bible"><hi style="font-style: italic; text-align:center; font-size:65%;">Beleeue not euerie ſpirit, but trie the ſpirites, whether they are</hi><lb/>
+                 <hi style="font-style: italic;font-size:65%;">of God; for manie falſe prophets are gone</hi><lb/>
+                 <hi style="font-style: italic;font-size:65%;">out into the world, &amp; c.</hi></quote><lb/>
+                 <hi style="font-style: italic;font-size:65%;">1584.</hi><lb/>
+                 
+                    <fw type="signature"><supplied reason="omitted-in-original;">A1r</supplied></fw>
+                 <pb/>
+              </titlePart>
+           </docTitle>
+           <docImprint/>
+        </titlePage>
+     </front>
+
+<!-- Page A1v is blank -->
+     
+     <body>
+        
+<!-- Page A2r transcribed and coded by Kim Chambers under supervision of Kristen Abbott Bennett November 2021 -->
+        <div type="dedicatoryEpistle"> 
+           <figure><figDesc>*printer's ornament*</figDesc></figure>
+           
+           <salute style="text-align:center;"><hi style="font-style:italic; font-size:150%">To the Honorable, mine eſpeciall good</hi><lb/>
+              <hi style="font-size:125%;">Lord, <persName type="hist">Sir Roger Manwood</persName> Knight, Lord</hi><lb/>
+              <hi style="font-style:italic;">cheefe Baron of hir Maiesties Court</hi><lb/>
+              of the Eſchequer.</salute><lb/>
+           
+           <p><seg style="decorInit;float:left;font-size:1300%;padding:0.5rem;margin:0.2rem 1rem 0;">I</seg>N SO MVCH<lb/>
+              as I know that your<lb/>
+              Lordship is by na-<lb/>
+              ture whollie incli-<lb/>
+              ned, and in purpoſe<lb/>
+              earneſtly bent to re-<lb/>
+              leeue the poore, and<lb/>
+              that not onlie with<lb/>
+              hoſpitalitie and al-<lb/>
+              mes, but by diuerſe<lb/>
+              other deuiſes and<lb/>
+              waies tending to<lb/>
+              their comfort, ha-<lb/>
+              uing (as it were) fra-<lb/>
+              med and ſet your ſelfe to the helpe and maintenance<lb/>
+              of their eſtate; as appeareth by your charge and trauell in<lb/>
+              that behalfe. Whereas alſo you haue a ſpeciall care for<lb/>
+              the ſupporting of their right, and redreſſing of their<lb/>
+              wrongs, as neither deſpiſing their calamitie, nor yet for-<lb/>
+              getting their complaint, ſeeking all meanes for their a-<lb/>
+              mendement, and for the reformation of their diſorders,<lb/>
+              euen as a verie father to the poore. Finallie, for that I am a<lb/>
+              poore member of that commonwelth, where your Lord-<lb/>
+              ſhip is a principall perſon; I thought this my trauell, in the<lb/>
+              behalfe of the poore, the aged, and the ſimple, might be<lb/></p><!-- Para continues on next page -->
+           
+           <fw type="signature"><hi style="text-align: center;">A.ij.<supplied reason="omitted-in-original">r</supplied></hi></fw>
+           <fw type="catchword"><hi style="text-align: right;">verie</hi></fw>  
+              <pb/>
+           
+<!-- Page A2v transcribed and coded by Gwendolyn Carpenter under supervision of Kristen Abbott Bennett November 2021 -->
+           <fw type="header" style="font-style: italic; text-align: center;">The 
+              .</fw>
+           
+           <p>verie fitlie commended vnto you: for a weake houſe re-<lb/>
+              quireth a ſtrong ſtaie. In which reſpect I giue <persName type="lit">God</persName> thanks,<lb/>
+              that hath raiſed vp vnto me ſo mightie a freend for them<lb/>
+              as your Lordſhip is, who in our lawes haue ſuch know-<lb/>
+              ledge, in gouernment ſuch diſcretion, in theſe cauſes ſuch<lb/>
+              experience, and in the commonwealth ſuch authoritie;<lb/>
+              and neuertheleſſe vouchſafe to deſcend to the conſidera-<lb/>
+              tion of theſe baſe and interior matters, which miniſter<lb/>
+              more care and trouble, than worldlie ellimination.<lb/></p>
+           
+           <p style="text-indent:2em">And in ſomuch as your Lordſhip knoweth, or rather<lb/>
+              exerciſeth the office of a iudge, whoſe part it is to heare<lb/>
+              with courteſie, and to determine with equitie; it cannot<lb/>
+              but be apparent vnto you, that when puniſhment excee-<lb/>
+              deth the fault, it is rather to be thought vengeance than<lb/>
+              correction. In which reſpect I knowe you ſpend more<lb/>
+              time and trauell in the conuerſion and reformation, than<lb/>
+              in the ſubuerſion &amp; confuſion of offenders, as being well<lb/>
+              pleaſed to augment your owne priuate paines, to the end<lb/>
+              you may diminiſh their publikeſmart. For in truth, that<lb/>
+              commonwealth remaineth in wofull ſtate, where fetters<lb/>
+              and halters beare more ſwaie than mercie and due com-<lb/>
+              paſſion.<lb/></p>
+           
+           <p style="text-indent:2em">Howbeit, it is naturall to vnnaturall people, and pecu-<lb/>
+              liar vnto witchmongers, to purſue the poore, to accuſe<lb/>
+              the ſimple, and to kill the innocent; ſupplieng in rigor and<lb/>
+              malice towards others, that which they themſelues want<lb/>
+              in proofe and diſcretion, or the other in offenſe or occa-<lb/> 
+              ſion. But as a cruell hart and an honeſt mind doo ſeldome<lb/>
+              meete and feed togither in a diſh; ſo a diſcreet and merci-<lb/>
+              full migiſtrate, and a happie commonwealth cannot be<lb/>
+              ſeparated aſunder. How much then are we bound to<lb/>
+              <persName type="lit">God</persName>, who hath giuen vs a <persName type="lit">Queene</persName>, that of iuſtice is not<lb/>
+              only the very perfect image &amp; paterne; but alſo of mercie<lb/>
+              &amp; clemencie (vnder <persName type="lit">God</persName>) the meere fountaine &amp; bodie it<lb/>
+              ſelfe? In ſomuch as they which hunt moſt after bloud in<lb/></p> <!-- Para continues on next page -->
+           
+           <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">A2v</supplied></fw>
+           <fw type="catchword" style="text-align: right;">theſe</fw>
+           
+           <pb/>
+
+<!-- Page A3r transcribed and coded by Sage Lorenzo under supervision of Kristen Abbott Bennett November 2021 -->
+           <fw type="header" style="font-style:italic;"><hi style="text-align: center;">The Epistle.</hi></fw>
+           
+           <p>theſe daies, haue leaſt authoritie to ſhed it. Moreouer,<lb/>
+              fith I ſee that in caſes where lenitie might be noiſome, &amp;<lb/>
+              puniſhment wholeſome to the commonwealth; there<lb/>
+              no reſpect of perſon can moue you, no authoritie can ab-<lb/>
+              baſh you, no feare, no threts can daunt you in performing<lb/>
+              the dutie of iuſtice.<lb/></p>
+           <p style="text-indent:2em">In that reſpect againe I find your Lordſhip a fit perſon,<lb/>
+              to iudge and looke vpon this preſent treatiſe. Wherein I<lb/>
+              will bring before you, as it were to the barre, two forts of<lb/>
+              moſt arrogant and wicked people, the firſt challenging to<lb/>
+              themſelues, the ſecond attributing vnto others, that<lb/>
+              power which onelie apperteineth to <persName type="lit">God</persName>, <hi style="font-style:superscript;">ͣ </hi> who onelie is<lb/> 
+              <note type="authorial" place="margin-right" style="font-size:75%;"><quote source="Bible:Apoc"><hi style="font-style:superscript;">ͣ </hi> Apoc. 4, 11.</quote></note>
+              the <persName type="lit">Creator</persName> of all things,<hi style="font-style:superscript;">ᵇ</hi> who onelie ſearcheth the hart <note type="authorial" place="margin-right"><hi style="font-size:75%;"></hi><quote source="Bible:Rom"><quote><hi style="font-style:superscript;">ᵇ</hi> Rom. 8.</quote></quote><quote><quote source="Bible:Acts">Acts. 5.</quote><quote source="Bible:Apoc"> Apoc. 2.</quote></quote></note><lb/>
+              and reines, who onelie<hi style="font-style:superscript;">ͨ </hi>knoweth our imaginations and<lb/>
+              thoughts, who onelie <hi style="font-style:superscript;">ͩ </hi> openeth all ſecrets, who <hi style="font-style:superscript;">ͤ </hi> onelie<note type="authorial" place="margin-right"><hi style="font-size:75%;"></hi><quote source="Bible:Luke"><quote><hi style="font-style:superscript;">ͨ </hi> Luke. 16</quote></quote></note><lb/>
+              worketh great wonders, who onelie hath power <hi style="font-style:superscript;">ᶠ</hi> to raiſe <note type="authorial" place="margin-right"><hi style="font-size:75%;"></hi><quote source="Bible:Daniel"><quote><hi style="font-style:superscript;">ͩ </hi> Dan. 2. &amp; 28, &amp; 47.</quote></quote></note><lb/>
+              vp &amp; caſt downe; who onelie maketh thunder, lightning,<note type="authorial" place="margin-right"><hi style="font-size:75%;"></hi><quote source="Bible:Psalms"><quote><hi style="font-style:superscript;">ͤ </hi> Pſalm. 72. &amp; 136.<quote><quote source="Bible:Jeremiah">Ier. 5.</quote></quote></quote></quote></note><lb/>
+              raine, tempeſts, and reſtraineth them at his pleaſure; who<lb/>
+              onelie <hi style="font-style:superscript;">ᵍ</hi> ſendeth life and death, ſickneſſe &amp; health, wealth <note type="authorial" place="margin-right"><hi style="font-size:75%;"></hi><quote source="Bible:Job"><quote><hi style="font-style:superscript;">ᶠ</hi> Iob. 5. &amp; 36</quote><quote><quote source="Bible:Samuel">Sam. 12.</quote><quote><quote source="Bible:Reg">1. Reg. 8. 2 Reg. 3.</quote><quote><quote source="Bible:Isaiah">Iſaie. 5.</quote><quote><quote source="Bible:Zechariah">Zach. 10. &amp; 14.</quote><quote><quote source="Bible:Amos">Amos. 4. 7.</quote></quote></quote></quote></quote></quote></quote></note><lb/>
+              and wo; who neither giueth nor lendeth his<hi style="font-style:superscript;">h</hi>glorie to<lb/>
+              anie creature.<lb/></p>
+           <p style="text-indent:2em">And therefore, that which greeueth me to the bot-<lb/>
+              tome of my hart, is, that theſe witchmongers cannot be<lb/>
+              content, to wreſt out of <persName type="lit">Gods</persName> hand his almightie power,<lb/>
+              and keepe it themſelues, or leaue it with a witch: but that,<note type="authorial" place="margin-right"><hi style="font-size:75%;"></hi><quote source="Bible:Job"><quote><hi style="font-style:superscript;">ᵍ</hi> Iob. 1.</quote></quote></note><lb/>
+              when by drift of argument they are made to laie downe<note type="authorial" place="margin-right"><hi style="font-size:75%;"></hi><quote source="Bible:Isaiah"><quote><hi style="font-style:superscript;">h</hi> Iſaie. 42, 8.</quote></quote></note><lb/>
+              the bucklers, they yeeld them vp to the diuell, or at the<lb/>
+              leaſt praie aid of him, as though the raines of all mens<lb/>
+              liues and actions were committed into his hand; and that<lb/>
+              he ſat at the ſterne, to guide and direct the courſe of the<lb/>
+              whole world, imputing vnto him power and abilitie<lb/>
+              inough to doo as great things, and as ſtrange miracles as<lb/>
+              euer <persName type="hist">Chriſt</persName> did.<lb/></p>
+           <p style="text-indent:1em">But the doctors of this ſupernaturall doctrine ſaie ſom-<lb/>
+              times, that the witch doth all theſe things by vertue of hir<lb/></p><!-- paragraph continues on next page -->
+           
+           <fw type="signature"><hi style="text-align: center;">A.iij.<supplied reason="omitted-in-original">r</supplied></hi></fw>
+           <fw type="catchword"><hi style="text-align: right;">charmes;</hi></fw>
+           
+           <pb/>
+<!-- Page A3v transcribed and coded by Caroline Hawkes under supervision of Kristen Abbott Bennett November 2021 -->        
+           <fw type="header" style="font-style:italic;"><hi style="text-align: center;">The Epistle.</hi></fw>
+           
+           <p>charmes; ſometimes that a ſpirituall, ſometimes that a <lb/>
+              corporall diuell doth accompliſh it; ſometimes they ſaie<lb/>
+              that the diuell doth but make the witch beleeue ſhe doth<lb/>
+              that which he himſelfe hath wrought; ſometimes that<lb/>
+              the diuell ſeemeth to doo that by compulſion, which he<lb/>
+              doth moſt willinglie. Finallie, the writers herevpon are ſo<lb/>
+              eloquent, and full of varietie; that ſometimes they write<lb/>
+              that the diuell dooth all this by <persName type="lit">Gods</persName> permiſſion onelie;<lb/>
+              ſometimes by his licence, ſometimes by his appointment:<lb/>
+              ſo as (in effect and truth) not the diuell, but the high and <lb/>
+              mightie king of kings, and Lord of hoſts, euen <persName type="lit">God</persName> him-<lb/>
+              ſelfe, ſhould this waie be made obedient and ſeruile to<lb/>
+              obeie and performe the will &amp; commandement of a ma-<lb/>
+              licious old witch, and miraculouſlie to anſwere hir appe-<lb/>
+              tite, as well in euerie trifling vanitie, as in moſt horrible<lb/>
+              executions; as the reuenger of a doting old womans ima-<lb/>
+              gined wrongs, to the deſtruction of manie innocent chil-<lb/>
+              dren, and as a ſupporter of hir paſſions, to the vndoing of<lb/>
+              manie a poore ſoule. And I ſee not, but a witch may as <lb/>
+              well inchant, when ſhe will; as a lier may lie when he liſt:<lb/>
+              and ſo ſhould we poſſeſſe nothing, but by a witches li-<lb/>
+              cence and permiſſion.<lb/></p>
+           <p style="text-indent:1em;"> And now forſooth it is brought to this point, that all di-<lb/>
+              uels, which were woont to be ſpirituall, may at their plea-<lb/>
+              ſure become corporall, and ſo ſhew themſelues familiar-<lb/>
+              lie to witches and coniurors, and to none other, and by<lb/>
+              them onlie may be made tame, and kept in a box, &amp;c. So<lb/>
+              as a malicious old woman may command hir diuell to <lb/>
+              plague hir neighbor: and he is afflicted in manner and <lb/>
+              forme as ſhe deſireth. But then commeth another witch, <lb/>
+              and ſhe biddeth hir diuell helpe, and he healeth the ſame <lb/>
+              partie. So as they make it a kingdome diuided in it ſelfe,<lb/>
+              and therefore I truſt it will not long endure, but will ſhort-<lb/>
+              lie be ouerthrowne, according to the words of our Sa-<lb/>
+              uior, <hi style="font-style:italic;"><foreign xml:lang="la">Omne regnum in ſe diuiſum deſolabitur</foreign></hi>, Euerie king-<lb/></p>
+           
+           <fw type="signature"><hi style="text-align: center;"><supplied reason="omitted-in-original">A.iij.v</supplied></hi></fw>
+           <fw type="catchword"><hi style="text-align: right;">dome</hi></fw>
+           
+           <pb/>
+   
+<!-- Page A4r transcribed and coded by Timothy Reed under supervision of Kristen Abbott Bennett November 2021 -->   
+           <fw type="header" style="font-style: italic;"><hi style="text-align: center;">The Epistle.</hi></fw>
+           
+           <p>dome diuided in it ſelfe ſhalbe deſolate.<lb/></p>
+           
+           <p style="text-indent:1em;">And although ſome ſaie that the diuell is the witches<lb/> 
+              inſtrument, to bring hir purpoſes and practiſes to paſſe:<lb/> 
+              yet others ſaie that ſhe is his inſtrument, to execute his<lb/> 
+              pleaſure in anie thing, and therefore to be executed. But<lb/> 
+              then (me thinks) ſhe ſhould be iniuriouſlie dealt withall,<lb/> 
+              and put to death for anothers offenſe: for actions are not<lb/> 
+              iudged by inſtrumentall cauſes; neither dooth the end<lb/> 
+              and purpoſe of that which is done, depend vpon the<lb/> 
+              meane inſtrument. Finallie, if the witch doo it not, why<lb/> 
+              ſhould the witch die for it? But they ſaie that witches are<lb/> 
+              perſuaded, and thinke, that they doo indeed thoſe miſ-<lb/> 
+              cheefs; and haue a will to performe that which the diuell<lb/> 
+              committeth: and that therefore they are worthie to die.<lb/> 
+              By which reaſon euerie one ſhould be executed, that wi-<lb/> 
+              ſheth euill to his neighbor, &amp;c. But if the will ſhould be<lb/> 
+              puniſhed by man, according to the offenſe againſt <persName type="lit">God</persName>,<lb/> 
+              we ſhould be driuen by thouſands at once to the ſlaugh-<lb/> 
+              terhouſe or butcherie. For whoſoeuer loatheth corre-<note type="authorial" place="margin-right"><quote source="biblical:Prov."><hi style="font-size:75%;"></hi></quote><quote> Prouerb. 5.</quote></note><lb/> 
+              ction ſhall die. And who ſhould eſcape execution, if this<lb/> 
+              lothſomneſſe (I ſaie) ſhould extend to death by the ciuill<lb/> 
+              lawes. Alſo the reward of ſinne is death. Howbeit, eue-<lb/> 
+              rie one that ſinneth, is not to be put to death by the magi-<lb/> 
+              ſtrate. But (my Lord) it ſhalbe proued in my booke, and<lb/> 
+              your Lordſhip ſhall trie it to be true, as well here at home<lb/> 
+              in your natiue countrie, as alſo abrode in your ſeuerall cir-<lb/> 
+              cuits, that (beſides them that be <foreign xml:lang="la" style="font-style:italic;">Veneficæ</foreign>, which are plaine<lb/> 
+              poiſoners there will be found among our witches one-<lb/> 
+              lie two ſorts; the one ſort being ſuch by imputation, as ſo<lb/> 
+              thought of by others (and theſe are abuſed, and not abu-<lb/> 
+              ſors) the other by acceptation, as being willing ſo to be<lb/> 
+              accompted (and theſe be meere couſenors.)<lb/></p> 
+           <p style="text-indent:1em;"><persName type="hist">Caluine</persName> treating of theſe magicians, calleth them<note style="font-style:italic;" type="authorial" place="margin-right"><quote source="biblical:Deut."><hi style="font-size:75%;"></hi><hi style="font-style:italic;"></hi></quote><quote>Instit lib. 5.ca.8. ſect6. Item upon Deut.cap.18.</quote></note><lb/> 
+              couſenors, ſaieng that they vſe their iuggling knacks one-<lb/> 
+              lie to amaſe or abuſe the people; or elſe for fame: but he<lb/></p> <!-- Para continue on next page -->
+           
+           <fw type="signature" style="text-align: center;">A.iiij.<supplied reason="omitted-in-original">r</supplied></fw>			
+           <fw type="catchword" style="text-align: right;">might</fw>
+           <pb/>
+
+<!-- Page A4v transcribed and coded by Nick Ribeiro under supervision of Kristen Abbott Bennett November 2021 -->     
+           <fw type="header" style="font-style:italic;"><hi style="text-align: center;">The Epistle.</hi></fw>
+           
+           <p><note type="authorial" place="margin-left" style="font-size:75%;font-style: italic;"><bibl>Lib. de lamiis</bibl>,pag. 5.</note>
+              might rather haue ſaid for gaine. <persName type="lit">Eraſtus</persName> himſelfe, be-<lb/>
+              ing a principall writer in the behalfe of witches omnipo-<lb/>
+              tencie, is forced to confeſſe, that theſe Greeke words,<lb/>
+              <foreign xml:lang="grc" style="font-style: italic;">μαλία, μαΓλαλία, φαρμαηία</foreign>, are moſt commonlie put for<lb/>
+              illuſion, falſe packing, couſenage, fraud, knauerie and de-<lb/>
+              ceipt: and is further driuen to faie, that in ancient time,<lb/>
+              the learned were not ſo blockiſh, as not to ſee that the<lb/>
+              promiſes of magicians and inchanters were falſe, and no-<lb/>
+              thing elſe but knauerie, couſenage, and old wiues fables;<lb/>
+              and yet defendeth he their flieng in the aire, their tranf-<lb/>
+              ferring of corne or graſſe from one feeld to another, &amp;c.<lb/></p>
+           <p style="text-indent: 1em;">But as <persName type="lit">Eraſtus</persName> diſagreeth herein with himſelfe and his<lb/>
+              freends: ſo is there no agreement among anie of thoſe<lb/>
+              writers, but onlie in cruelties, abſurdities, and impoſſibili-<lb/>
+              ties. And theſe (my Lord) <!--Lord here may be referring to Sir Roger Manwood--> that fall into ſo manifeſt con-<lb/>
+              tradictions, and into ſuch abſurd aſſeuerations, are not of<lb/>
+              the inferior ſort of writers; neither are they all <orgName>papiſts</orgName>, but<lb/>
+              men of ſuch accompt, as whoſe names giue more credit<lb/>
+              to their cauſe, than their writings. In whoſe behalfe I am<lb/>
+              ſorie, and partlie for reuerence ſuppreſſe their fondeſt er-<lb/>
+              rors and fowleſt abſurdities; dealing ſpeciallie with them<lb/>
+              <note type="authorial" place="margin-left" style="font-size:75%;">
+                     <quote source="biblical"><hi style="font-style: superscript;">ͣ </hi>Iſaie. 59, 7. Rom. 3, 15.</quote>
+              </note>that moſt contend in crueltie, <hi style="font-style: superscript;">ͣ </hi> whoſe feete are ſwift to<lb/>
+              <note type="authorial" place="margin-left" style="font-size:75%;"><quote source="biblical"><hi style="font-style: superscript;">ᵇ</hi>Eccl. 27, 5.</quote>
+                     </note>ſhed bloud, ſtriuing (as <hi style="font-style: superscript;">ᵇ</hi> <persName type="lit">Ieſus</persName> the ſonne of <persName type="hist">Sirach</persName> ſaith)<lb/>
+              <note type="authorial" place="margin-left" style="font-size:75%;"><quote source="biblical"><hi style="font-style: superscript;">ͨ  </hi>Prou. 1, 16.</quote>
+                     </note>and haſting (as <hi style="font-style: superscript;">ͨ </hi><persName type="lit" >Salomon</persName> the ſonne of <persName type="lit">Dauid</persName> ſaith) to<lb/>
+              <note type="authorial" place="margin-left" style="font-size:75%;"><quote source="biblical"><hi style="font-style: superscript;">ͩ </hi>Ier. 2, 34.</quote>
+                     </note>powre out the bloud of the innocent; whoſe heat againſt<lb/>
+              <note type="authorial" place="margin-left" style="font-size:75%;"><quote source="biblical"><hi style="font-style: superscript;">ͤ </hi>Pſ. 139, 15. Eſai. 33, 15.</quote>
+                     </note>theſe poore wretches cannot be allaied with anie other<lb/>
+              liquor than bloud. And therfore I feare that <hi style="font-style: superscript;"> ͩ  </hi> vnder their<lb/>
+              wings will be found the bloud of the ſoules of the poore,<lb/>
+              at that daie, when the <persName type="lit">Lord</persName> ſhall ſaie; <hi style="font-style: superscript;">ͤ </hi> Depart from me<lb/>
+              ye bloudthirſtie men.<lb/></p>
+           <p style="text-indent: 1em;">And bicauſe I know your Lordſhip <!--Lordship here may be referring to Sir Roger Manwood--> will take no coun-<lb/>
+              ſell againſt innocent bloud, but rather ſuppreſſe them<lb/>
+              that ſeeke to embrew their hands therein; I haue made<lb/>
+              choiſe to open their caſe vnto you, and to laie their miſe-<lb/>
+              rable calamitie before your feete: following herein the<lb/></p><!-- Para continue on next page -->
+           
+           <fw type="signature"><hi style="text-align: center;"><supplied reason="omitted-in-original">A.4.v</supplied></hi></fw>
+           <fw type="catchword"><hi style="text-align: right;">aduiſe</hi></fw>
+           
+           <pb/>
+           
+<!-- Page A5r transcribed and coded by Ellie Lynch under supervision of Kristen Abbott Bennett November 2021 -->     
+           <fw type="header" style="font-style:italic;"><hi style="text-align: center;">The Epistle.</hi></fw>
+           
+           <p>aduiſe of that learned man <persName type="hist">Brentius</persName>, who faith; <foreign xml:lang="la" style="font-style:italic;">Si quis</foreign>
+                  <note type="authorial" place="margin-right" style="font-style:italic;font-size:75%;">In epistole
+                  <foreign xml:lang="la">ad</foreign><persName type="hist">Io Wier.</persName><!--Possibly referencing Johann Wier--></note><lb/>
+              <foreign xml:lang="la" style="font-style:italic">admonuerit magistratum, ne in miſer as illas mulierculas ſæ- <lb/> 
+              uiat, eum ego arbitror diuinitùs excitatum</foreign>; that is, If anie<lb/> 
+              admoniſh the magiſtrate not to deale too hardlie with<lb/> 
+              theſe miſerable wretches, that are called witches, I thinke<lb/> 
+              him a good inſtrument raiſed vp for this purpoſe by <persName type="lit">God</persName><lb/>
+              himſelfe.<lb/></p>
+           <p style="text-indent: 1em;"> But it will perchance beſaid by witchmongers; to wit, <lb/> 
+              by ſuch as attribute to witches the power which apper-<lb/> 
+              teineth to <persName type="lit">God</persName> onelie, that I haue made choiſe of your<lb/>
+              Lordſhip to be a patrone to this my booke; bicauſe I think <lb/> 
+              you fauour mine opinions, and by that meanes may the<lb/> 
+              more freelie publiſh anie error or conceipt of mine owne;<lb/> 
+              which ſhould rather be warranted by your Lordſhips au-<lb/> 
+              thoritie, than by the word of <persName type="lit">God</persName>, or by ſufficient argu-<lb/> 
+              ment. But I proteſt the contrarie, and by theſe preſents<lb/> 
+              I renounce all proteƈtion, and deſpiſe all freendſhip that<lb/> 
+              might ſerue to helpe towards the ſuppreſſing or ſupplan-<lb/> 
+              ting of truth: knowing alſo that your Lordſhip is farre<lb/> 
+              from allowing anie iniurie done vnto man; much more<lb/> 
+              an enimie to them that go about to diſhonor <persName type="lit">God</persName>, or to<lb/> 
+              embezill the title of his immortall glorie. But bicauſe I<lb/> 
+              know you to be perſpicuous, and able to ​​ſee downe into<lb/> 
+              the depth and bottome of cauſes, and are not to be car-<lb/> 
+              ried awaie with the vaine perſuaſion or ſuperſtition either<lb/> 
+              of man, cuſtome, time, or multitude, but mooued with the<lb/> 
+              authoritie of truth onlie: I craue your countenance here-<lb/> 
+              in, euen ſo farre foorth, and no further, than the lawe of<lb/>
+              <persName type="lit">God</persName>, the lawe of nature, the lawe of this land, and the rule<lb/> 
+              of reaſon ſhall require. Neither doo I treat for theſe poore<lb/>
+              people anie otherwiſe, but ſo, and with one hand you may<lb/> 
+              ſuſtaine the good, and with the other ſuppreſſe the euill:<lb/> 
+              wherein you ſhalbe thought a father to orphans, an ad-<lb/> 
+              uocate to widowes, a guide to the blind, a ſtaie to the<lb/>
+              lame, a comfort &amp; countenance to the honeſt, a ſcourge<lb/></p><!-- para continues on nextpage-->
+           
+           <fw type="signature"><hi style="text-align: center;"><supplied reason="omitted in original">A.5.r</supplied></hi></fw>
+           <fw type="catchword"><hi style="text-align: right;">and</hi></fw>
+           
+           <pb/>
+           
+<!-- Page A5v transcribed and coded by Hilary Lincoln under supervision of Kristen Abbott Bennett November 2021 -->     
+           <fw type="header" style="font-style:italic;"><hi style="text-align: center;">The Epistle.</hi></fw>
+           
+           <p>and terror to the wicked.<lb/></p>
+           
+           <p style="text-indent:1em">Thus farre I haue beene bold to vſe your Lordſhips pa-<lb/> 
+              tience, being offended with myſelfe, that I could not in <lb/>
+              breuitie vtter ſuch matter as I haue deliuered amplie: <lb/> 
+              whereby (I confeſſe) occaſion of tediouſnes might be mi- <lb/>
+              niſtred, were it not that your great grauitie ioined with <lb/> 
+              your ſingular conſtancie in reading and iudging be means <lb/> 
+              of the contrarie. And I wiſh euen with all my hart, that I <lb/> 
+              could make people conceiue the ſubſtance of my writing, <lb/> 
+              and not to miſconſtrue anie part of my meaning. Then <lb/> 
+              doubtles would I perſuade my ſelfe, that the companie of <lb/>
+              witchmongers, &amp;c: being once decreaſed, the number <lb/> 
+              alſo of witches, &amp;c: would ſoone be diminiſhed. But true <lb/> 
+              be the words of the Poet,<lb/></p>
+           
+           <p style="font-style:italic; text-align:center; font-size:65%;"><foreign xml:lang="la">Haudquaquam poteris ſortirier omnia ſolus,<lb/> 
+                Námque alys diui bello pollere dederunt,<lb/>  
+                Huic ſaltandi artem, voce huic cytharáque canendi:<lb/> 
+                Rurſum aly inſeruit ſagax in pectore magnus<lb/> 
+                Iupiter ingenium, &amp;c.<lb/></foreign></p>
+           
+           <p style="text-align:center;">And therefore as doubtfull to preuaile by perſuading,<lb/>
+              though I haue reaſon and common ſenſe on my ſide; I <lb/>
+              reſt vpon earneſt wiſhing; namelie, to all people an abſo- <lb/>
+              lute truſt in <persName type="lit">God</persName> the creator, and not in creatures, which <lb/>
+              is to make fleſh our arme: that <persName type="lit">God</persName> may haue his due <lb/>
+              honor, which by the vndutifulnes of manie is turned <lb/>
+              into diſhonor, and leſſ cauſe of offenſe and er-<lb/>
+              rour giuen by common receiued euill ex-<lb/>
+              ample. And to your Lordſhip I wiſh,<lb/>
+              as increaſe of honour, ſo con-<lb/>
+              tinuance of good health,<lb/>
+              and happie daies.</p><lb/>
+                     <lb/>
+           <signed style="text-indent:15em;">Your Lordſhips to be commanded<lb/>
+              <hi style="font-style:italic;font-size:75%;text-indent:25em;"><persName type="hist">Reginald Scot.</persName></hi></signed><lb/>
+           
+           <fw type="signature"><hi style="text-align: center;"><supplied reason="omitted in original">A5.v</supplied></hi></fw>
+           <pb/>
+        </div>
+        
+<!-- Page A6r transcribed and coded by Haley Hadge under supervision of Kristen Abbott Bennett November 2021 -->     
+        <div type="dedicatoryEpistle">
+           <salute><hi style="text-align: center; font-size:150%;">To the right worſhipfull Sir</hi><lb/>
+              <hi style="text-align: center;"><persName type="hist">Thomas Scot</persName> Knight, &amp;c.</hi>
+           </salute>
+           
+           <p style="text-align:left;font-style:italic;">
+              <seg style="decorInit;float:left;font-size:600%;padding:0.5rem;margin:0.2rem 1rem 0;">S</seg>
+              <hi style="text-indent:14em;"> Ir, I ſee among other malefactors</hi><lb/>    
+              <hi style="font-size:75%;">manie poore old women conuented be-<lb/>
+              fore you for working of miracles, other<lb/>
+              wiſe called witchcraft, and therefore I<lb/>
+              thought you alſo a meet perſon to whom<lb/>
+              I might cōmend my booke. And here<lb/>
+              I haue occaſion to ſpeake of your ſincere<lb/>
+              adminiſtration of iustice, and of your dexteritie, diſcretion,<lb/>
+              charge, and trauell emploied in that behalfe, wherof I am ocu-<lb/>
+              latus testis. Howbeit I had rather refer the reader to com-<lb/>
+              mon fame, and their owne eies and eares to be ſatisfied; than<lb/>
+              to ſend them to a Stationers shop, where manie times lies are<lb/>
+              vendible, and truth contemptible. For I being of your houſe,<lb/> 
+              of your name, &amp; of your bloud; my foot being vnder your ta-<lb/>
+              ble, my hand in your dish, or rather in your purſſe, might bee<lb/>
+              thought to ﬂatter you in that, wherein (I knowe) I should<lb/>
+              rather oﬀend you than pleaſe you. And what need I currie fa-<lb/>
+              uour with my moſt aſſured friend? And if I should onelie pub-<lb/>
+              lish thoſe vertues (though they be manie) which give me ſpe-<lb/>
+              ciall occaſion to exhibit this my trauell vnto you, I should doo<lb/>
+              as a painter, that deſcribeth the foot of a notable perſonage,<lb/>
+              and leaueth all the beſt features in his bodie vntouched.</hi><lb/></p>
+           <p style="text-indent:1em;font-style:italic;"><hi style= "font-size: 75%;">I therefore (at this time) doo onelie deſire you to conſider<lb/>
+              of my report, concerning the evidence that is commonlie<lb/>
+              brought before you againſt them. See firſt whether the eui-<lb/>
+              dence be not friuolous, &amp; whether the prooƒs brought against<lb/>
+              them be not incredible, conſiſting of gheſſes, preſumptions, &amp;<lb/>
+              impoſſibilities contrarie to reaſon, ſcripture, and nature. See<lb/>
+              alſo what perſons complaine vpon them, whether they be not<lb/>
+              of the baſeſt, the unwiſeſt, &amp; most faithles kind of people. Alſo</hi><lb/></p><!-- Para continues on next page -->
+           
+           <fw type="signature"><hi style="text-align:center;"><supplied reason="omitted in original">A.6.r</supplied></hi></fw>
+           <fw type="catchword"><hi style="text-align:right;"><hi style= "font-size: 75%; font-style:italic;">may</hi></hi></fw>
+           <pb/>
+           
+<!-- Page A6v transcribed and coded by Meeghan Bresnahan under supervision of Kristen Abbott Bennett November 2021 -->     
+           <fw type="header"><hi style="text-align:center;">The Epiſtle.</hi></fw>            
+           
+           <p style="font-style:italic;"><hi style= "font-size: 75%;">may it pleaſe you to waie what accuſations and crimes they<lb/>
+              laie to their charge, namelie: She was at my houſe of late she<lb/>
+              would haue had a pot of milke, she departed in a chafe bicauſe<lb/>
+              she had it not, she railed, she curſſed, she mumbled and whiſ-<lb/>
+              pered, and finallie she ſaid she would be euen with me: and<lb/>
+              ſoone after my child, my cow, my ſow, or my pullet died, or<lb/>
+              was ſtrangelie taken. Naie (if it pleaſe your VVorship) I<lb/>
+              haue further proofe: I was with a wiſe woman, and she told<lb/>
+              me I had an ill neighbour, &amp; that she would come to my houſe<lb/>
+              yer it were long, and ſo did she; and that she had a marke a-<lb/>
+              boue hir waste, &amp; ſo had she: and <persName type="lit">God</persName> forgiue me, my ſtomach<lb/>
+              hath gone againſt hir a great while. Hir mother before hir<lb/>
+              was counted a witch, she hath beene beaten and ſcratched by<lb/>
+              the face till bloud was drawne upon hir, bicauſe she hath<lb/>
+              beene ſuſpected, &amp; afterwards ſome of thoſe perſons were ſaid<lb/>
+              to amend. Theſe are the certeinties that I heare iu their eui-<lb/>
+              dences.</hi><lb/></p>
+           
+           <p style="text-indent:1em;font-style:italic;"><hi style= "font-size: 75%;">Note alſo how eaſilie they may be brought to confeſſe that<lb/>
+              which they neuer did, nor lieth in the power of man to doo:<lb/>
+              and then ſee whether I haue cauſe to write as I doo. Further,<lb/>
+              if you shall ſee that infidelitie, poperie, and manie other ma-<lb/>
+              nifest hereſies be backed and shouldered, and their profeſſors<lb/>
+              animated and hartened, by yeelding to creatures ſuch infinit<lb/>
+              power as is wreſted out of <persName type="lit">Gods</persName> hand, and attributed to wit-<lb/>
+              ches: finallie, if you shall perceiue that I haue faithfullie and<lb/> 
+              trulie deliuered and ſet downe the condition and ſtate of the<lb/>
+              witch, and alſo of the witchmonger, and haue confuted by<lb/>
+              reaſon and lawe, and by the word of <persName type="lit">God</persName> it ſelfe, all mine ad-<lb/>
+              uerſaries obiections and arguments: then let me haue your<lb/>
+              countenance againſt them that maliciouſlie oppoſe themſelues<lb/>
+              against me.</hi><lb/></p>
+           <p style="text-indent:1em; font-style:italic;"><hi style= "font-size: 75%;">My greateſt aduerſaries are yoong ignorance and old cu-<lb/>
+              ſtome. For what follie ſoeuer tract of time hath fostered, it is</hi><lb/></p> <!-- para continues on next page -->
+           
+           <fw type="signature"><hi style="text-align:center;"><supplied reason="omitted-in-original">A.6.r</supplied></hi></fw>
+           <fw type="catchword"><hi style="text-align:right; font-style:italic; font-size: 75%;">ſo</hi></fw>
+           
+           <pb/>
+           
+<!-- Page A7r transcribed and coded by Lilah Determan under supervision of Kristen Abbott Bennett November 2021 -->     
+           <fw type="header"><hi style="text-align: center;">The Epiſtle.</hi></fw>
+           
+           <p style="font-style:italic;"><hi style= "font-size: 75%;">ſo ſuperftitiouſlie purſued of ſome, as though no error could be<lb/> 
+                 acquainted with custome. But if the lawe of nations would<lb/> 
+                 ioine with ſuch custome, to the maintenance of ignorance,<lb/> 
+                 and to the ſuppreſſing of knowledge; the ciuileſt countrie in<lb/> 
+                 the world would ſoone become barbarous, &amp;c. For as know-<lb/> 
+                 ledge and time diſcouereth errors, ſo dooth ſuperſtition and<lb/> 
+                 ignorance in time breed them. And concerning the opini-<lb/> 
+                 ons of ſuch, as wish that ignorance should rather be maintei-<lb/> 
+                 ned, than knowledge buſilie ſearched for, bicauſe thereby of-<lb/> 
+                 fenſe may grow : I anſwer, that we are commanded by <persName type="hist">Chriſt</persName>
+              <note type="authorial" place="margin-right"><quote source="Bible:John" style="font-size:75%;">Iohn.5.</quote></note>
+              <note type="authorial" place="margin-right"><quote source="Bible:Proverbs" style="font-size:75%;">Prou.15,I.</quote></note><lb/>
+                  himſelfe to ſearch for knowledge: for it is the kings honour<lb/> 
+                  (as Salomon ſaith) to ſearch out a thing.</hi><lb/></p>
+           
+           <p style="text-indent:1em;font-style:italic;"><hi style= "font-size:75%;">
+              <persName type="hist">Aristotle</persName> ſaid to <persName type="hist">Alexander</persName>, that a mind well furnished<lb/>
+                 was more beautifull than a bodie richlie araied. VVhat can<lb/>
+                 be more odious to man, or offenſiue to <persName type="lit">God</persName>, than ignorance:<lb/>
+                 for through ignorance the Iewes did put <persName type="hist">Chriſt</persName> to death.
+              <note type="authorial" place="margin-right"> <quote source="Bible:Acts" style="font-size:75%;">Acts.3.</quote><lb/></note>
+              <note type="authorial" place="margin-right"><quote source="Bible:Proverbs" style="font-size:75%;">Prouerbs.9.</quote></note><lb/>                
+                 VVhich ignorance whoſoeuer forſaketh, is promiſed life euer-<lb/>
+                 lasting: and therfore among <orgName type="hist">Christians</orgName> it should be abhor-<lb/>
+                 red aboue all other things. For euen as when we wrestle in<lb/>
+                 the darke, we tumble in the mire, &amp;c: ſo when we ſee not<lb/>
+                 the truth, we wallow in errors. A blind man may ſeeke long<lb/>
+                 in the rishes yer he find a needle; and as ſoone is a doubt<lb/>
+                 diſcuſſed by ignorance. Finallie, truth is no ſooner found out<lb/>
+                 in ignorance, than a ſweet ſauor in a dunghill. And if they<lb/>
+                 will allow men knowledge, and giue them no leaue to vſe it,<lb/>
+                 men were much better be without it than haue it. For it is,
+              <note type="authorial" place="margin-right"> <quote source="Bible:Matthew" style="font-size:75%;">Matth.25.</quote></note>
+              <note type="authorial" place="margin-right"> <quote source="Bible:Matthew" style="font-size:75%;">Matth.5.</quote></note>
+              <note type="authorial" place="margin-right"> <quote source="Bible:Luke" style="font-size:75%;">Luke.8:</quote></note><lb/>
+                 as to have a tallent, and to hide it under the earth; or to<lb/>
+                 put a candle under a bushell: or as to have a ship, &amp; to let hir<lb/>
+                 lie alwaies in the docke: which thing how profitable it is, I<lb/>
+                 can ſaie ſomewhat by experience.</hi><lb/></p> 
+           <p style="text-indent:2em;font-style:italic;"><hi style= "font-size:75%;">But hereof I need ſaie no more, for euerie man ſeeth that<lb/>
+                 none can be happie who knoweth not what felicitie me aneth.<lb/>
+              For what auaileth it to haue riches, and not to have the vſe</hi><lb/></p><!-- para continues on next page -->
+              
+              <fw type="signature"><hi style="text-align: center;"><supplied reason="ommitted-in-original">A7r</supplied></hi></fw>
+           <fw type="catchword"><hi style="text-align: right; font-size: 75%; font-style:italic;">thereof?</hi></fw>
+           
+           <pb/>
+           
+   <!-- Page A7v transcribed and coded by Lauren Mercer under supervision of Kristen Abbott Bennett November 2021 -->     
+           <fw type="header"><hi style="text-align: center;">The Epiſtle.</hi></fw>
+           
+           <p style="text-align:center"><hi style="font-style:italic; font-size: 75%;">thereof? Trulie the heathen herein deſerued more commen-<lb/>
+              dation than manie christians, for they ſpared no paine, no<lb/>
+              coſt, nor trauell to atteine to knowledge. <persName type="hist">Pythagoras</persName> trauel-<lb/>
+              led from <persName type="lit">Thamus</persName> to <placeName>Aegypt</placeName>, and afterwards into <placeName>Crete</placeName> and<lb/> 
+              <placeName>Lacedæmonia</placeName>: and <persName type="hist">Plato</persName> out of <placeName>Athens</placeName> into <placeName>Italie</placeName> and <placeName>Ae-<lb/>
+              gypt</placeName>, and all to find out hidden ſecrets and knowledge: which<lb/> 
+              when a man hath, he feemeth to be ſeparated from mortalitie.<lb/>
+              For pretious ſtones, and all other creatures of what value ſo-<lb/>
+              euer, are but counterfeits to this iewell: they are mortall,<lb/>
+              corruptible, and inconstant; this is immortall, pure and cer-<lb/>
+              teine. VVherfore if I haue ſearched and found out any good<lb/>
+              thing, that ignorance and time hath ſmothered, the<lb/>
+              ſame I commend vnto you: to whom though I<lb/>
+              owe all that I haue, yet am I bold to<lb/>
+              make other partakers with<lb/>
+              you in this poore<lb/>
+              gift.<lb/></hi></p>
+           <lb/>
+           <signed style="text-indent:15em;">Your louing couſen<lb/>
+              <hi style="font-style:italic;font-size:75%;text-indent:25em;"><persName type="hist">Reg. Scot.</persName></hi></signed>
+           <lb/>
+           <figure><figDesc>*printer's ornament*</figDesc></figure>
+           
+           <fw type="signature"><supplied reason="ommitted-in-original"><hi style="text-align: center;">A7v</hi></supplied></fw>
+           
+           <pb/>
+        </div>
+<!-- Page A8r transcribed and coded by Donald Halsing under supervision of Kristen Abbott Bennett November 2021 -->     
+        <div type="dedicatoryEpistle">
+           <salute style="text-align:center;"><hi style="font-size:150%; font-style:italic">To the right worſhipfull his louing friends,</hi><lb/>
+                 <hi style=" font-size:140%;">Maiſter Doƈtor Coldwell Deane of Ro-<lb/></hi>
+                 <hi style="font-size:95%; font-style:italic">cheſter, and Maiſter Doƈtor Read-<lb/></hi>
+                 <hi style="font-size:95%;">man Archdeacon of Can-<lb/></hi>
+                 <hi style="font-size:95%;">turburie, &amp;c.<lb/></hi></salute>
+           
+           <p style="text-align:left; font-style:italic;">
+              <hi style="decorInit;float:left;font-size:700%;padding:0.5rem;margin:0.2rem 1rem 0;">H</hi>
+              <hi style="text-indent:14em;font-style:bold"><hi style= "font-size:75%;">Auing found out two ſuch ciuill Ma-</hi></hi><lb/>
+              <hi style= "font-size:65%;">gistrates, as for direƈtion of iudgement, and for or-<lb/>
+                  dering matters concerning instice in this common<lb/>
+                  wealth (in my poore opinion) are verie ſingular<lb/>
+                  perſons, who (I hope) will accept of my good will,<lb/>
+                  and examine my booke by their experience as vn-<lb/>
+                  to whom the matter therin conteined dooth great-<lb/>
+                  lie apperteine: I haue now againe conſidered of<lb/>
+              two other points: namelie, diuinitie and philoſophie, wherevpon the ground-<lb/>
+              worke of my book is laid. Wherein although I know them to be verie ſuffi-<lb/>
+              cientlie informed, yet dooth not the iudgement and cenſure of thoſe cauſes ſo<lb/>
+              properlie apperteine to them is vnto you, whoſefame therein hath gotten pre-<lb/>
+              eminence aboue all others that I know of your callings: and in that reſpeƈt I<lb/>
+              am bold to ioine you with them, being all good neighbours togither in this<lb/>
+              commonwelth, and louing friends vnto me. I doo not preſent this vnto you,<lb/>
+              bicauſe it is meet for you; but for that you are meet for it (I meane) to iudge<lb/>
+              vpon it, to defend it, and if need be to correƈt it; knowing that you haue lear-<lb/>
+              ned of that graue counſeller <persName type="hist">Cato</persName>, not to ſhame or diſcountenance any bodie.<lb/>
+              For if I thought you as readie, as able, to diſgrace me for mine inſufficiencie;<lb/>
+              I ſhould not haue beene hastie (knowing your learning) to haue written vnto<lb/>
+              you: but if I ſhould be abaſhed to write to you, I ſhould ſhew me ſelfe igno-<lb/>
+              rant of your courteſie.</hi><lb/></p>
+           <p style="text-indent:1em;font-style:italic;"><hi style= "font-size:65%;">
+              I knowe mine owne weakeneſſe, which if it haue beene able to mainteine<lb/>
+              this argument, the cauſe is the ſtronger.  Eloquent words may pleaſe the eares,<lb/>
+              but ſufficient matter perſuadeth the hart. So as, if I exhibit wholſome drinke<lb/>
+              (though it be ſmall) in a treene diſh with a faithfull hand, I hope it will bee<lb/>
+              as well accepted, as ſtrong wine offered in a ſiluer bowle with a flattering<lb/>
+              heart. And ſurelie it is a point of as great liberalitie to receiue a ſmall thing<lb/>
+              thankefullie, as to giue and diſtribute great and costlie gifts bountifullie: for<lb/>
+              there is more ſupplied with courteous anſwers t  an with rich rewards. The ty-</hi><lb/></p><!-- para continues onto next page -->
+           
+           <fw type="signature"><supplied reason="omitted-in-original">A.8.r</supplied></fw>
+           <fw type="catchword" style="text-align:right;"><hi style= "font-size:65%;">rant</hi></fw>
+           
+           <pb/>
+           
+<!-- Page A8v transcribed and coded by Meeghan Bresnahan under supervision of Kristen Abbott Bennett November 2021 -->     
+           <fw type="header"><hi style="text-align: center;">The Epiſtle.</hi></fw>
+           
+           <p style="font-style:italic;"><hi style= "font-size:65%;">rant <persName type="lit">Dionyſius</persName> was not ſo hated for his tyrannie, as for his churliſh and<lb/>
+              ſtrange behauiour. Among the poore Iſraelites ſacrifices, <persName type="lit">God</persName> was ſatiſfied<lb/>
+              with the tenth part of an Ephah of flower, ſo as it were fine and good. <persName type="hist">Chriſt</persName><lb/>
+              liked well of the poore widowes mite, <persName type="hist">Lewis of France</persName> accepted a rape root<lb/>
+              of clowniſh <persName type="hist">Conan</persName>, <persName type="hist">Cyrus</persName> vouchſafed to drinke a cup of cold water out of<lb/>
+              the hand of poore <persName type="hist">Sinætes</persName>: and ſo it may pleaſe you to accept this ſimple booke<lb/>
+              at my hands, which I faithfullie exhibit vnto you, not knowing your opinions<lb/>
+              to meet with mine, but knowing your learning and iudgement to be able as<lb/>
+              well to correct me where I ſpeake herein vnskilfullie, as others when they ſpeake<lb/>
+              hereof maliciouſlie.</hi><lb/></p>
+           <p style="text-indent:1em;font-style:italic;"><hi style= "font-size:65%;">Some be ſuch dogs as they will barke at my writings, whether I mainteine<lb/>
+              or refute this argument: as <persName type="hist">Diogenes</persName> ſnarled both at the Rhodians and at<lb/>
+              the Lacedæmonians: at the one, bicauſe they were braue; at the other, bicauſe<lb/>
+              they were not braue. <persName type="hist">Homer</persName> himſelfe could not auoid reprochfull ſpeaches. I am<lb/>
+              ſure that they which neuer ſtudied to learne anie good thing, will ſtudie to find<lb/>
+              faults hereat. I for my part feare not theſe wars, nor all the aduerſaries I haue;<lb/>
+              were it not for certeine cowards, who (I knowe) will come behind my backe and<lb/> 
+              bite me.</hi><lb/></p>
+           <p style="text-indent:2em;font-style:italic;"><hi style= "font-size:65%;">But now to the matter. My question is not (as manie fondlie ſuppoſe)<lb/>
+              whether there be witches or naie: but whether they can doo ſuch miraculous<lb/>
+              works as are imputed vnto them. Good <persName type="hist">Maister Deane</persName>, is it poſsible for a man<lb/>
+              to breake his fast with you at <placeName>Rochester</placeName>, and to dine that day at <placeName>Durham</placeName> with<lb/>
+              <persName type="hist">Maister Doctor Matthew</persName>; or can your enimie maime you, when the Ocean<lb/>
+              ſea is betwixt you? What reall communitie is betwixt a ſpirit and a bodie?<lb/>
+              May a ſpirituall bodie become temporall at his pleaſure? Or may a carnall bo-<lb/>
+              die become inuiſible? Is it likelie that the liues of all Princes, magistrates, &amp;<lb/>
+              ſubiects, ſhould depend vpon the will, or rather vpon the wiſh of a poore mali-<lb/>
+              cious doting old foole; and that power exempted from the wiſe, the rich, the<lb/>
+              learned, the godlie, &amp;c? Finallie, is it poſsible for man or woman to do anie of<lb/>
+              thoſe miracles expreſſed in my booke, &amp; ſo constantlie reported by great clarks?<lb/>
+              If you ſaie, no; then am I ſatisfied. If you ſaie that <persName type="lit">God</persName>, abſolutelie, or by<lb/>
+              meanes can accompliſh all thoſe, and manie more, I go with you. But witches<lb/>
+              may well ſaie they can doo theſe things, howbeit they cannot ſhew how they doo<lb/>
+              them. If I for my part ſhould ſaie I could doo thoſe things, my verie aduer-<lb/>
+              ſaries would ſaie that I lied.</hi><lb/></p>
+           <p style="text-indent:1em;font-style:italic;"><hi style= "font-size:65%;">O <persName type="hist">Maister Archdeacon</persName>, is it not pitie, that that which is ſaid to be doone<lb/>
+              with the almightie power of the moſt high <persName type="lit">God</persName>, and by our ſauiour his onelie<lb/>
+              ſonne <persName type="hist">Ieſus Christ</persName> our Lord, ſhould be referred to a baggage old womans nod</hi><lb/></p> <!-- para continues on next page -->
+           
+           <fw type="signature" style="text-align:center;"><supplied reason="omitted-in-original">A8v</supplied></fw>
+           <fw type="catchword" style="text-align:right;font-style:italic;"><hi style= "font-size:65%;">or</hi></fw>
+           
+           <pb/>
+           
+<!-- Page B1r transcribed and coded by Caroline Hawkes under supervision of Kristen Abbott Bennett November 2021 -->   
+           <fw type="header"><hi style="text-align: center;">The Epiſtle.</hi></fw>
+           
+           <p><hi style="font-style:italic;"><hi style= "font-size:65%;">or wiſh, &amp;c? Good Sir, is it not one manifest kind of Idolatrie, for them that<lb/>
+              labor and are laden, to come vnto witches to be refreſhed? If witches could<lb/>
+              helpe whom they are ſaid to have made ſuke, I ſee no reaſon, but remedie might <lb/>
+              as well be required at their hands, as a purſse demanded of him that hath ſtolne<lb/>
+              it. But trulie it is manifold idolatrie, to aske that of a creature, which none<lb/>
+              can giue but the <persName type="lit">Creator</persName>. The papist hath ſome colour of ſcripture to main-<lb/>
+              teine his idoll of bread, but no Ieſuiticall distinction can couer the witchmon-<lb/>
+              gers idolatrie in this behalfe. Alas, I am ſorie and aſhamed to ſee how ma-<lb/>
+              nie die, that being ſaid to be bewitched, onlie ſeeke for magicall cures, whom<lb/>
+              wholſome diet and good medicines would haue recouered. I dare aſſure you<lb/>
+              both, that there would be none of theſe couſening kind of witches, did not<lb/>
+              witchmongers mainteine them, followe them, and beleeue in them and their<lb/>
+              oracles: whereby indeed all good learning and honest arts are ouerthrowne. <lb/>
+              For theſe that most aduance their power, and mainteine the skill of theſe wit-<lb/>
+              ches, vnderſtand no part thereof: and yet being manie times wiſe in other <lb/>
+              matters, are made fooles by the moſt fooles in the world.</hi><lb/></hi></p>
+           <p style="text-indent:1em;font-style:italic;"><hi style= "font-size:65%;"> Me thinks theſe magicall phyſicians deale in the commonwelth, much like<lb/>
+              as a certeine kind of Cynicall people doo in the church, whoſe ſeuere ſaiengs<lb/>
+              are accompted among ſome ſuch oracles, as may not be doubted of; who in<lb/>
+              ſtead of learning and authoritie (which they make contemptible) doo feed the <lb/>
+              people with their owne deuiſes and imaginations, which they prefer before all<lb/>
+              other diuinitie: and labouring to erect a church according to their owne fan-<lb/>
+              ſies, wherein all order is condemned, and onelie their magicall words and cu-<lb/>
+              rious directions aduanced, they would vtterlie ouerthrowe the true <orgName>Church</orgName>. <lb/>
+              And euen as theſe inchanting <orgName>Paracelſians</orgName> abuſe the people, leading them<lb/>
+              from the true order of phyſicke to their charmes: ſo doo theſe other (I ſaie) diſ-<lb/>
+              ſuade from hearkening to learning and obedience, and whiſper in mens eares<lb/>
+              to teach them their frierlike traditions. And of this ſect the cheefe author<lb/>
+              at this time is one <persName type="hist">Browne</persName>, a fugitiue, a meet couer for ſuch a cup: as hereto-<lb/>
+              fore the <orgName>Anabaptists</orgName>, the <orgName>Arrians</orgName>, and the <orgName>Franciſcane</orgName> friers.</hi><lb/></p>
+           <p style="text-indent:1em;font-style:italic;"><hi style= "font-size:65%;">Trulie not onlie nature, being the foundation of all perfection; but alſo<lb/>
+              ſcripture, being the mistreſſe and director thereof, and of all christianitie, is<lb/>
+              beautified with knowledge and learning. For as nature without diſcipline<lb/>
+              dooth naturallie incline vnto vanities, and as it were ſucke vp errors: ſo doth<lb/>
+              the word, or rather the letter of the ſcripture, without vnderſtanding, not<lb/>
+              onlie make vs deuoure errors, but yeeldeth vs vp to death &amp; destruction: &amp;
+              <note type="authorial" place="margin-right" style="font-size:75%;"><quote source="biblical:Rom.">Rom.2, 27.</quote></note>
+              <note type="authorial" place="margin-right" style="font-size:75%;"><quote source="biblical:2 Cor.">2.Cor.3, 6.</quote></note><lb/>
+              therefore <persName type="lit">Paule</persName> ſaith he was not a minister of the letter, but of the ſpirit.</hi><lb/></p>
+           <p style="text-indent:1em;font-style:italic;"><hi style= "font-size:65%;">Thus I haue beene bold to deliuer vnto the world, and to you, thoſe ſimple</hi><lb/></p><!-- para continues onto next page -->
+           
+           <fw type="signature" style="text-align:right;"><hi style="font-style:italic;">B.i.<supplied reason="omitted-in-original">r</supplied></hi></fw>
+           <fw type="catchword" style="text-align;right;"><hi style="font-style:italic;"><hi style= "font-size:65%;">notes,</hi></hi></fw> 
+           
+           <pb/>
+           
+        <!--Page B1v transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->
+           <fw type="header"><hi style="text-align: center;">The Epiſtle.</hi></fw>
+           
+           <p style="text-align:center"><hi style="font-style:italic;"><hi style= "font-size:65%;">notes, reaſons, and arguements, which I haue deuiſed or collected out of other<lb/>
+              authors: which I hope ſhall be hurtfull to none, but to my ſelfe great comfort,<lb/>
+              if it man paſſe with good liking and acceptation. If it fall out otherwiſe,<lb/>
+              I ſhould thinke my paines ill imploied. For trulie, in mine opinion, whoſoe-<lb/>
+              uer ſhall performe any thing, or atteine to anie knowledge; or whoſoeuer<lb/>
+              ſhould trauell throughout all the nations of the world, or (if it were poſsible)<lb/>
+              ſhould peepe into the heauens, the conſolation or admiration thereof were no-<lb/>
+              thing pleaſant vnto him, vnles he had libertie to impart his knowledge to his<lb/>
+              friends. Wherein bicauſe I haue made ſpeciall choiſe of you, I hope you<lb/>
+              will read it, or at the leaſt laie it vp in your ſtudie with your other<lb/>
+              bookes, among which is none dedicated to any with more<lb/>
+              good will. And ſo long as you haue it, it ſhall be vnto<lb/>
+              you (vpon aduenture of my life) a certeine a-<lb/>
+              mulet, periapt, circle, charme, &amp;c:<lb/>
+              to defend you from all<lb/>
+              inchantments.</hi></hi><lb/></p>
+              <lb/>
+              <signed style="text-indent:15em;">Your louing friend<lb/>
+                 <hi style="font-style:italic;font-size:85%;text-indent:25em;"><persName type="hist">Reg. Scot.</persName></hi></signed>
+              <lb/>
+           <figure><figDesc>*printer's ornament*</figDesc></figure>
+           
+           <fw type="signature" style="text-align:center;"><hi style="font-style:italic;"><supplied reason="omitted-in-original">B.i.v</supplied></hi></fw>
+         <pb/>
+        </div>
+        
+   <!--Page B2r transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett--> 
+     <div type="dedicatoryEpistle"><!-- Epistle 4 of 4 -->
+           <figure><figDesc>*printer's ornament*</figDesc></figure>  
+           
+           <salute style="text-align:center;"><hi style="font-size:250%;">To the Readers.</hi></salute><lb/>
+        
+        <p><seg style="decorInit;float:left;font-size:1400%;padding:0.5rem;margin:0.2rem 1rem 0;">T</seg>O you that are wife<lb/>
+           &amp; diſcreete few words<lb/>
+           may ſuffice: for ſuch
+                  <note type="authorial" place="margin-right" style="font-size:75%;">
+                  <quote>Iſai. II. Prouer.I.</quote></note><lb/>
+           a one iudgeth not at<lb/>
+           the firſt ſeright, nor re-<lb/>
+           prooueth by hereſaie;<lb/>
+           but patientlie heareth,<lb/>
+           and thereby increa-<lb/>
+           ſeth in vnderſtanding:<lb/>
+           which patience bring-<lb/>
+           eth foorth experience,<lb/>
+           whereby true iudge-<lb/>
+           ment is directed. I<lb/>
+           ſhall not need there-<lb/>
+           fore to make anie fur-<lb/>
+           ther ſute to you, but that it would pleaſe you to read my booke,<lb/>
+           without the preiudice of time, or former conceipt: and hauing<lb/>
+           obteined this at your hands, I ſubmit my ſelfe vnto your cenſure.<lb/>
+           But to make a ſolemne ſute to you that are parciall readers, defi-<lb/>
+           ring you to ſet aſide parcialitie, to take in good part my writing,<lb/>
+           and with indifferent eies to looke vpon my booke, were labour<lb/>
+           loſt, and time ill imploied. For I ſhould no more preuaile herein,<lb/>
+           than if a hundred yeares ſince I ſhould haue intreated your pre-<lb/>
+           deceſſors to beleeue, that <persName type="lit">Robin goodfellowe</persName>, that great and an-<lb/>
+           cient bulbegger, had beene but a couſening merchant, and no<lb/>
+           diuell indeed.<lb/></p>
+           <p style="text-indent:1em;">If I ſhould go to a papiſt, and ſaie; I praie you beleeue my wri-<lb/>
+           tings, wherein I will prooue all popiſh charmes, coniurations, ex-<lb/>
+           orciſmes, benedictions and curſſes, not onelie to be ridiculous,<lb/>
+           and of none effect, but alſo to be impious and contrarie to <persName type="lit">Gods</persName><lb/>
+           word: I ſhould as hardlie therein win fauour at their hands, as<lb/>
+           herein obteine credit at yours. Neuertheleſſe, I doubt not, but to<lb/></p>
+           
+           <fw type="signature" style="text-align:center">B.ij.<supplied reason="omitted-in-original">r</supplied></fw>
+           <fw type="catchword" style="text-align:right">vſe</fw>
+           <pb/>
+        
+     <!--Page B2v transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->
+        <fw type="header" style="font-style:italic;"><hi style="text-align: center;">The Epistle.</hi></fw>
+     
+     <p>vſe the matter ſo, that as well the maſſemoonger for his part, as<lb/>
+        the witchmoonger for his, ſhall both be aſhamed of their pro-<lb/>
+        feſſions.<lb/></p>
+        
+     <p style="text-indent:1em;">But <persName type="lit">Robin goodfellowe</persName> ceaſeth now to be much feared, and<lb/>
+        poperie is ſufficientlie diſcouered. Neuertheles, witches charms,<lb/>
+        and coniurors couſenages are yet thought effectuall. Yea the<lb/>
+        Gentiles haue eſpied the fraud of their couſening oracles, and<lb/>
+        our cold prophets and inchanters make vs fooles ſtill, to the ſhame<lb/>
+        of vs all, but ſpeciallie of papiſts, who coniure euerie thing, and<lb/>
+        thereby bring to paſſe nothing. They ſaie to their candles; I con-<lb/>
+        iure you to endure for euer: and yet they laſt not a pater noſter<lb/>
+        while the longer. They coniure water to be wholeſome both for<lb/>
+        bodie and ſoule: but the bodie (we ſee) is neuer the better for it,<lb/>
+        nor the ſoule anie whit reformed by it. And therefore I mer-<lb/>
+        uell, that when they ſee their owne coniurations confuted and<lb/>
+        brought to naught, or at the leaſt void of effect, that they (of all<lb/>
+        other) will yet giue ſuch credit, countenance, and authoritie to<lb/>
+        the vaine couſenages of witches and coniurors; as though their<lb/>
+        charmes and coniurations could produce more apparent, cer-<lb/>
+        teine, and better effects than their owne.<lb/></p>
+        
+     <p style="text-indent:1em;">But my requeſt vnto all you that read my booke ſhall be no<lb/>
+        more, but that it would pleaſe you to conferre my words with<lb/>
+        your owne ſenſe and experience, and alſo with the word of <persName type="lit">God</persName>.<lb/>
+        If you find your ſelues reſolued and ſatiſfied, or rather reformed<lb/>
+        and qualified in anie one point or opinion, that heretofore you<lb/>
+        held contrarie to truth, in a matter hitherto vndecided, and neuer<lb/>
+        yet looked into; I praie you take that for aduantage: and ſuſ-<lb/>
+        pending your iudgement, ſtaie the ſentence of condemnation<lb/>
+        againſt me, and conſider of the reſt, at your further leaſure. If this<lb/>
+        may not ſuffice to perſuade you, it cannot preuaile to annoy you:<lb/>
+        and then, that which is written without offenſe, may be ouerpaſ-<lb/>
+        ſed without anie greeſe.<lb/></p>
+        
+     <p style="text-indent:1em;">And although mine aſſertion, be ſomewhat differing from the<lb/>
+        old inueterat opinion, which I confeſſe hath manie graie heares,<lb/>
+        whereby mine aduerſaries haue gained more authoritie than<lb/>
+        reaſon, towards the maintenance of their preſumptions and old<lb/>
+        wiues fables: yet ſhall it fullie agree with <persName type="lit">Gods</persName> glorie, and with<lb/>
+        his holie word. And albeit there be hold taken by mine aduer-<lb/></p>
+        
+        <fw type="signature" style="text-align: center;"><supplied reason="omitted-in-original">B.II.v</supplied></fw>
+        <fw type="catchword" style="text-align:right">faries</fw>
+        
+        <pb/>
+        
+        
+    <!--Page B3r transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->  
+        <fw type="header" style="font-style:italic;"><hi style="text-align: center;">The Epistle.</hi></fw>
+        
+     <p>faries of certeine few words or ſentences in the ſcripture that<lb/>
+        maketh a ſhew for them: yet when the whole courſe thereof<lb/>
+        maketh againſt them, and impugneth  the ſame, yea and alſo<lb/>
+        their owne places rightlie vnderſtood doo nothing at all releeue<lb/>
+        them: I truſt their glorious title and argument of antiquitie will<lb/>
+        appeare as ſtale and corrupt as the apothecaries drugs, or grocers<lb/>
+        ſpice, which the longer they be preferued, the woorſſe they are.<lb/>
+        And till you haue preuſed my booke, ponder this in your mind, to<lb/>
+        wit, that <hi style="font-style:italic; font-size:75%;">Sagæ, Theſſalæ, Striges, Lamiæ </hi> (which words and none other<lb/>
+        being in vſe do properlie ſignifie our witches) are not once found<lb/>
+        written in the old or new teſtament; and that <persName type="hist">Chriſt</persName> himſelfe in<lb/>
+        his goſpell neuer mentioned the name of a witch. And that nei-<lb/>
+        ther he, nor <persName type="hist">Moſes</persName> euer ſpake anie one word of the witches bar-<lb/>
+        gaine with the diuell, their hagging, their riding in the aire, their<lb/>
+        tranſferring of corne or graſſe from one feeld to another, their<lb/>
+        hurting of children or cattell with words or charmes, their be-<lb/>
+        witching of butter, cheeſe, ale, &amp;c: nor yet their tranſubſtantia-<lb/>
+        tion; inſomuch as the writers herevpon are not aſhamed to ſay,
+               <note type="authorial" place="margin-right" style="font-size:75%;">
+              <quote>Mal malef. par.2.que.2.</quote></note><lb/>
+        that it is not abſurd to affirme that there were no witches in <persName type="lit">Iobs</persName><lb/>
+        time. The reaſon is, that if there had beene ſuch witches then in<lb/>
+        beeing, <persName type="lit">Iob</persName> would haue ſaid he had beene bewitched. But indeed<lb/>
+        men tooke no heed in thoſe daies to this doctrine of diuels; to<lb/>
+        wit, to theſe fables of witchcraft, which Peter ſaith ſhall be much
+               <note type="authorial" place="margin-right" style="font-size:75%;">
+              <quote>I.Pet.4.I.</quote></note><lb/>
+        regarded and hearkened vnto in the latter daies.<lb/></p>
+     
+    <p style="text-indent:1em;">Howbeit, how ancient ſo euer this barbarous conceipt of wit-<lb/>
+        ches omnipotencie is, truth muſt not be meaſured by time: for<lb/>
+        euerie old opinion is not found. Veritie is not impaired, how<lb/>
+        long ſo euer it be ſuppreſſed; but is to be ſearched out, in how<lb/>
+        darke a corner ſo euer it lie hidden: for it is not like a cup of ale,<lb/>
+        that may be broched too rathe. Finallie, time be wraieth old er-<lb/>
+        rors, &amp; diſcouereth new matters of truth. <persName type="lit">Danæus</persName> himſelfe ſaith,
+               <note type="authorial" place="margin-right" style="font-size:75%;">
+               <quote>Danæus in ſuo prologo.</quote></note><lb/>
+        that this queſtion hitherto hath neuer beene handled; nor the<lb/>
+        ſcriptures concerning this matter haue neuer beene expounded.<lb/>
+        To proue the antiquitie of the cauſe, to confirme the opinion of<lb/>
+        the ignorant, to inforce mine aduerſaries arguments, to aggra-<lb/>
+        uate the puniſhments, &amp; to accompliſh the confuſiõ of theſe old<lb/>
+        women, is added the vanitie and wickednes of them, which are<lb/>
+        called witches, the arrogancie of thoſe which take vpon them to<lb/></p>
+        
+        <fw type="signature" style="text-align:center">B.iij.<supplied reason="omitted-in-original">r</supplied></fw>
+        <fw type="catchword" style="text-align:right">worke</fw>
+        <pb/>
+        
+        <!--Page B3v transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->  
+        <fw type="header" style="font-style:italic;"><hi style="text-align: center;">The Epistle.</hi></fw>
+        
+         <p>worke wonders, the deſire that people haue to hearken to ſuch<lb/>          
+            miraculous matters, vnto whome moſt commonlie an impoſſi-<lb/>
+            bilitie is more credible than a veritie; the ignorance of naturall<lb/>
+            cauſes, the ancient and vniuerſall hate conceiued againſt the<lb/>
+            name of a witch; their ilfauoured faces, their ſpitefull words,<lb/>
+            their curſſes and imprecations, their charmes made in ryme,<lb/>
+            and their beggerie; the feare of manie fooliſh folke, the opinion<lb/>
+            of ſome that are wiſe, the want of <persName type="lit">Robin goodfellowe</persName> and the<lb/>
+            fairies, which were woont to mainteine chat, and the common<lb/>
+            peoples talke in this behalfe; the authoritie of the inquiſitors, the<lb/> 
+            learning, cunning, conſent, and the eſtimation of writers herein, the<lb/>
+            falſe tranſlations and fond interpretations vſed, ſpeciallie by pa-<lb/>
+            piſts; and manie other like cauſes. All which toies take ſuch hold<lb/>
+            vpon mens fanſies, as whereby they are lead and entiſed awaie<lb/>
+            from the conſideration of true reſpects, to the condemnation of<lb/>
+            that which they know not.<lb/></p>
+        
+        <p style="text-indent:1em;">Howbeit, I will (by <persName type="lit">Gods</persName> grace) in this my booke, ſo apparent-<lb/>
+           lie decipher and confute theſe cauils, and all other their obiecti-<lb/>
+           ons; as euerie witchmoonger ſhall be abaſhed, and all good men<lb/>
+           thereby ſatiſfied. In the meane time, I would wiſh them to know<lb/>
+           that if neither the eſtimation of <persName type="lit">Gods</persName> omnipotencie, nor the te-<lb/>
+           nor of his word, nor the doubtfulnes or rather the impoſſibilitie<lb/>
+           of the caſe, nor the ſmall proofes brought againſt them, nor the<lb/>
+           rigor executed vpon them, nor the pitie that ſhould be in a chri-<lb/>
+           ſtian heart, nor yet their ſimplicitie, impotencie, or age may ſuf-<lb/>
+           fice to ſuppreſſe the rage or rigor where with they are oppreſſed;<lb/>
+           yet the conſideration of their ſex or kind ought to mooue ſome<lb/>
+           mitigatiõ of their puniſhment. For if nature (as <persName type="hist">Plinie</persName> reporteth)<lb/>
+           haue taught a lion not to deale ſo roughlie with a woman as with<lb/>
+           a man, bicauſe ſhe is in bodie the weaker veſſell, and in hart more<lb/>
+           <note type="authorial" place="margin-right" style="font-size:75%;">
+               <quote>Lam.Ier.3. &amp;4.cap. verſe.10.</quote></note>
+               inclined to pitie (which <persName type="hist">Ieremie</persName> in his lamentations ſeemeth to<lb/>
+           confirme) what ſhould a man doo in this caſe, for whome a wo-<lb/>
+           man was created as an helpe and comfort vnto him? In ſo much<lb/>
+           <note type="authorial" place="margin-right" style="font-size:75%;">
+               <quote>I.Cor.II.9. Ibid. verſ.7. Ge.2.22.I8.</quote></note>
+               as, euen in the lawe of nature, it is a greater offenſe to flea a wo-<lb/>
+           man than a man: not bicauſe a man is not the more excellent<lb/>
+           <note type="authorial" place="margin-right" style="font-size:75%; font-style:italic;">
+               <quote>Arist.lib. problem.2.9.</quote></note>
+               creature, but bicauſe a woman is the weaker veſſell. And there-<lb/>
+           fore among all modeſt and honeſt perſons it is thought a ſhame<lb/>
+           to offer violence or iniurie to a woman: in which reſpect <persName type="hist">Virgil</persName><lb/></p>
+        
+        <fw type="signature" style="text-align:center"><supplied reason="omitted-in-original">B.iij. v</supplied></fw>
+        <fw type="catchword" style="text-align:right">ſaith,</fw>
+        <pb/>
+        
+        <!--Page B4r transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->  
+        <fw type="header" style="font-style:italic;"><hi style="text-align: center;">The Epistle.</hi></fw>
+        
+        <p>ſaith, <foreign xml:lang="la"><hi style="font-style:italic;"><hi style= "font-size:75%;">Nullum memorabile nomen fœminea in pœna est.</hi></hi></foreign>
+                  <note type="authorial" place="margin-right" style="font-size:75%; font-style:italic;"><quote>Vir. Georg.</quote></note><lb/></p>
+           
+           <p style="text-indent:1em;"><persName type="lit">God</persName> that knoweth my heart is witnes, and you that read my<lb/>
+              booke ſhall ſee, that my drift and purpoſe in this enterpriſe ten-<lb/>
+              deth onelie to theſe reſpects. Firſt, that the glorie and power of<lb/>
+              <persName type="lit">God</persName> be not ſo abridged and abaſed, as to be thruſt into the hand<lb/>
+              or lip of a lewd old woman: whereby the worke of the Creator<lb/>
+              ſhould be attributed to the power of a creature. Secondlie, that<lb/>
+              the religion of the goſpell may be ſeene to ſtand without ſuch<lb/>
+              pecuiſh trumperie. Thirdlie, that lawfull fauour and chriſtian<lb/>
+              compaſſion be rather vſed towards theſe poore ſoules, than rigor<lb/>
+              and extremitie. Bicauſe they, which are commonlie accuſed of<lb/>
+              witchcraft, are the leaſt ſufficient of all other perſons to ſpeake<lb/>
+              for themſelues; as hauing the moſt baſe and ſimple education of<lb/>
+              all others; the extremitie of their age giuing them leaue to dote,<lb/>
+              their pouertie to beg, their wrongs to chide and threaten (as be-<lb/>
+              ing void of anie other waie of reuenge) their humor melancho-<lb/>
+              licall to be full of imaginations, from whence cheefelie procee-<lb/>
+              deth the vanitie of their confeſſions; as that they can tranſforme<lb/>
+              themſelues and others into apes, owles, aſſes, dogs, cats, &amp;c: that<lb/>
+              they can flie in the aire, kill children with charmes, hinder the<lb/>
+              comming of butter, &amp;c.<lb/></p>
+              
+              <p style="text-indent:1em;">And for ſo much as the mightie helpe themſelues together,<lb/>
+                  and the poore widowes crie, though it reach to heauen, is ſcarſe
+                        <note type="authorial" place="margin-right" style="font-size:75%;">
+                        <quote>Eccl.35,15.</quote></note><lb/>
+                 heard here vpon earth: I thought good (according to my poore<lb/>
+                 abilitie) to make interceſſion, that ſome part of common rigor,<lb/>
+                 and ſome points of haſtie iudgement may be aduiſed vpon. For<lb/>
+                 the world is now at that ſtay (as <persName type="hist">Brentius</persName> in a moſt godlie ſermon<lb/>
+                 in theſe words affirmeth) that euen as when the heathen perſecu-<lb/>
+                 ted the chriſtians, if anie were accuſed to beleeue in <persName type="hist">Chriſt</persName>, the<lb/>
+                 common people cried <foreign xml:lang="la"><hi style="font-style:italic;"><hi style= "font-size:75%;">Ad leonem:</hi></hi></foreign> ſo now, if anie woman, be ſhe<lb/>
+                 neuer ſo honeſt, be accuſed of witchcraft, they crie <foreign xml:lang="la"><hi style="font-style:italic;"><hi style= "font-size:75%;">Ad ignem.</hi></hi></foreign><lb/>
+                 What difference is betweene the raſh dealing of vnskilfull peo-<lb/>
+                 ple, and the graue counſell of more diſcreet and learned perſons,<lb/>
+                 may appeare by a tale of <persName type="lit">Danæus</persName> his owne telling; wherein he<lb/>
+                 oppoſeth the raſhnes of a few towneſmen, to the counſell of a<lb/>
+                 whole ſenate, preferring the follie of the one, before the wiſdome<lb/>
+                 of the other.<lb/></p>
+              
+              <p style="text-indent:1em;">At <placeName>Orleance</placeName> on <placeName>Loyre</placeName> (ſaith he) there was a manwitch, not only<lb/></p>
+           
+         <fw type="signature" style="text-align:center"><supplied reason="omitted-in-original">B.iiij. r</supplied></fw>
+         <fw type="catchword" style="text-align:right">taken</fw>
+         <pb/>
+              
+    <!--Page B4r transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->  
+         <fw type="header" style="font-style:italic;"><hi style="text-align: center;">The Epistle.</hi></fw>
+              
+              <p>taken and accuſed, but alſo conuicted and condemned for witch-<lb/>
+                 craft, who appealed from thence to the high court of <placeName>Paris</placeName>.<lb/>
+                 Which accuſation the ſenate ſawe inſufficient, and would not<lb/>
+                 allow, but laughed thereat, lightlie regarding it; and in the end<lb/>
+                 ſent him home (ſaith he) as accuſed of a friuolous matter. And<lb/>
+                 yet for all that, the magiſtrats of <placeName>Orleance</placeName> were ſo bold with him,<lb/>
+                 as to hang him vp within ſhort time after, for the ſame or the<lb/>
+                 verie like offenſe. In which example is to be ſeene the nature, and<lb/>
+                 as it were the diſeaſe of this cauſe: wherein (I ſaie) the ſimpler<lb/>
+                 and vndiſcreeter ſort are alwaies more haſtie &amp; furious in iudge-<lb/>
+                 ments, than men of better reputation and knowledge. Neuer-<lb/>
+                 theles, <persName type="lit">Eunichius</persName> ſaith, that theſe three things; to wit, what is to<lb/>
+                 be thought of witches, what their incantations can doo, and whe-<lb/>
+                 ther their puniſhment ſhould extend to death, are to be well con-<lb/>
+                 ſidered. And I would (ſaith he) they were as well knowne, as they<lb/>
+                 are raſhlie beleeued, both of the learned, and vnlearned. And fur-<lb/>
+                 ther he ſaith, that almoſt all diuines, phyſicians and lawyers, who<lb/>
+                 ſhould beſt know theſe matters, ſatiſfieng themſelues with old<lb/>
+                 cuſtome, haue giuen too much credit to theſe fables, and too raſh<lb/>
+                 and vniuſt ſentence of death vpon witches. But when a man<lb/>
+                 pondereth (ſaith he) that in times paſt, all that ſwarued from the<lb/>
+                 church of <placeName>Rome</placeName> were iudged heretikes; it is the leſſe maruell,<lb/>
+                 though in this matter they be blind and ignorant.<lb/></p>
+                 
+              <p style="text-indent:1em;">And ſurelie, if the ſcripture had beene longer ſuppreſſed, more<lb/>
+                 abſurd fables would haue ſproong  vp, and beene beleeued. Which<lb/>
+                 credulitie though it is to be derided with laughter; yet this their<lb/>
+                 crueltie  is to be lamented with teares. For (<persName type="lit">God</persName> knoweth) manie<lb/>
+                 of theſe poore wretches had more need to be releeued than cha-<lb/>
+                 ſtiſed; and more meete were a preacher to admoniſh them, than<lb/>
+                 a gailor to keepe them; and a phyſician more neceſſarie to helpe<lb/>
+                 them, than an executioner or tormentor to hang or burne them.<lb/>
+                 For proofe and due triall hereof, I will requite <persName type="lit">Danæus</persName> his tale of<lb/>
+                 a manwitch (as he termeth him) with another witch of the ſame<lb/>
+                 ſex or gender.<lb/></p>
+              <p style="text-indent:1em;"><persName type="lit">Cardanus</persName> from the mouth of his owne father reporteth, that<lb/>
+                     <note type="authorial" place="margin-right" style="font-size:75%; font-style:italic;">
+                     <quote>Lib.I5.cap. I8.de varie- tatib.rerum.</quote></note>
+                 one <persName type="lit">Barnard</persName>, a poore ſeruant, being in wit verie ſimple and rude,<lb/>
+                 but in his ſeruice verie neceſſarie and diligent (and in that reſpect<lb/>
+                 deerelie beloued of his maiſter) profeſſing the art of witchcraft,<lb/></p>
+                 
+          <fw type="signature" style="text-align:center"><supplied reason="omitted-in-original">B.iiij. v</supplied></fw>
+          <fw type="catchword" style="text-align:right">could</fw>
+                 <pb/>
+                 
+    <!--Page B5r transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->  
+         <fw type="header" style="font-style:italic;"><hi style="text-align: center;">The Epistle.</hi></fw>
+              
+        <p>could in no wiſe be diſſuaded from that profeſſion, perſuading<lb/>
+                 himſelſe that he knew all things, and could bring anie matter to<lb/>
+                 paſſe; bicauſe certeine countrie people reſorted to him for helpe<lb/>
+                 and counſell, as ſuppoſing by his owne talke, that he could doo<lb/>
+                 ſome what. At length he was condemned to be burned: which<lb/>
+                 torment he ſeemed more willing to ſuffer, than to looſe his eſti-<lb/>
+                 mation in that behalfe. But his maiſter hauing compaſſion vpon<lb/>
+                 him, and being himſelfe in his princes fauor, perceiuing his con-<lb/>
+                 ceipt to proceed of melancholie, obteined reſpit of execution for<lb/>
+                 twentie daies. In which time (ſaith he) his maiſter bountifullie fed<lb/>
+                 him with good fat meat, and with foure egs at a meale, as alſo<lb/>
+                 with ſweet wine: which diet was beſt for ſo groſſe and weake a<lb/>
+                 bodie. And being recouered ſo in ſtrength, that the humor was<lb/>
+                 ſuppreſſed, he was eaſilie woone from his abſurd and dange-<lb/>
+                 rous opinions, and from all his fond imaginations: and confeſ-<lb/>
+                 ſing his error and follie, from the which before no man could re-<lb/>
+                 mooue him by anie perſuaſions, hauing his pardon, he liued long<lb/>
+                 a good member of the church, whome otherwiſe the crueltie of<lb/>
+                 iudgement ſhould haue caſt awaie and deſtroied.<lb/></p>
+              
+        <p style="text-indent:1em;">This hiſtorie is more credible than <persName type="hist">Sprengers</persName> fables, or <persName type="hist">Bodins</persName><lb/>
+                 bables, which reach not ſo far to the  extolling of witches omni-<lb/>
+                 potencie, as to the derogating of <persName type="lit">Gods</persName> glorie. For if it be true,<lb/>
+                 which they affirme, that our life and death lieth in the hand of a<lb/>
+                 witch; then is it falſe, that <persName type="lit">God</persName> maketh vs liue or die, or that by<lb/>
+                 him we haue our being, our terme of time appointed, and our<lb/>
+                 daies numbred. But furelie their charmes can no more reach to<lb/>
+                 the hurting or killing of men or women, than their imaginations<lb/>
+                 can extend to the ſtealing and carrieng a waie of horſſes &amp; mares.<lb/>
+                 Neither hath <persName type="lit">God</persName> giuen remedies to ſicknes or greefes, by words<lb/>
+                 or charmes, but by hearbs and medicines; which he himſelfe<lb/>
+                 hath created vpon earth, and giuen men knowledge of the fame;
+                        <note type="authorial" place="margin-right" style="font-size:75%;">
+                        <quote>Amos.3.6. La.Ier.3.38. Iſai.45.9. Rom.9.20.</quote></note><lb/>
+                 that he might be glorified, for that there with he dooth vouchſafe<lb/>
+                 that the maladies of men and cattell ſhould be cured, &amp;c. And if<lb/>
+                 there be no affliction nor calamitie, but is brought to paſſe by<lb/>
+                 him, then let vs defie the diuell, renounce all his works, and not<lb/>
+                 ſo much as once thinke or dreame vpon his ſupernaturall power<lb/>
+                 of witches; neither let vs proſecute them with ſuch deſpight;<lb/>
+                 whome our fanſie condemneth, and our reaſon acquiteth: our<lb/></p>
+                 
+                 <fw type="signature" style="text-align:center"><supplied reason="omitted-in-original">B.iiij. r</supplied></fw>
+                 <fw type="catchword" style="text-align:right">euidence</fw>
+                 <pb/>
+              
+    <!--Page B5v transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->  
+        <fw type="header" style="font-style:italic;"><hi style="text-align: center;">The Epistle.</hi></fw>
+        
+        <p>euidence againſt them conſiſting in impoſſibilities, our proofes<lb/>
+           in vn written verities, and our whole proceedings in doubts and<lb/>
+           difficulties.<lb/></p>
+        
+        <p style="text-indent:1em; text-align:center">Now bicauſe I miſlike the extreame crueltie vſed againſt ſome<lb/>
+           of theſe ſillie ſoules (whome a ſimple aduocate hauing audience<lb/>
+           and iuſtice might deliuer out of the hands of the inquiſitors<lb/>
+           themſelues) it will be ſaid, that I denie anie puniſhment at all to<lb/>
+           be due to anie witch whatſoeuer. Naie, bicauſe I bewraie the fol-<lb/>
+           lie and impietie of them, which attribute vnto witches the power<lb/>
+           of <persName type="lit">God</persName>: theſe witchmoongers will report, that I denie there are<lb/>
+           anie witches at all: and yet behold (ſaie they) how often is this<lb/>
+           word [Witch] mentioned in the ſcriptures? Euen as if an idolater<lb/>
+           ſhould ſaie in the behalfe of images and idols, to them which de-<lb/>
+           nie their power and godhead, and inueigh againſt the reuerence<lb/>
+           doone vnto them; How dare you denie the power of images, ſee-<lb/>
+           ing their names are ſo often repeated in the ſcriptures? But true-<lb/>
+           lie I denie not that there are witches or images: but I deteſt the<lb/>
+           idolatrous opinions conceiued of them; referring that to <persName type="lit">Gods</persName><lb/>
+           worke and ordinance, which they impute to the power and<lb/>
+           malice of witches; and attributing that honour to <persName type="lit">God</persName>,<lb/>
+           which they aſcribe to idols. But as for thoſe that in<lb/>
+           verie deed as either witches or coniurors,<lb/>
+           let them hardlie ſuffer ſuch puniſh-<lb/>
+           ment as to their fault is agreea-<lb/>
+           ble, and as by the graue<lb/>
+           iudgement of lawe is<lb/>
+           prouided.<lb/></p>
+           
+        <p style="text-align:center; font-size:75%; font-style:italic;">Places amended by the
+               author, and to be read as followeth. The first number ſtandeth for the page, the
+               ſecond for the line.<table rows="10" cols="3">
+                  <head/>
+                  <row role="label">
+                     <cell><hi style="blackletter;">46.16. except you.</hi></cell>
+                     <cell><hi style="blackletter;">168.31. the firmament.</hi></cell>
+                     <cell><hi style="blackletter;">438.29. exerciſe the.</hi></cell>
+                  </row>
+                  <row>
+                     <cell><hi style="blackletter;">51.9. one Saddocke.</hi></cell>
+                     <cell><hi style="blackletter;">187.16. reallie finiſhed.</hi></cell>
+                     <cell><hi style="blackletter;">450.1. that it is.</hi></cell>
+                  </row>
+                  <row>
+                     <cell><hi style="blackletter;">75.21. that we of</hi></cell>
+                     <cell><hi style="blackletter;">192. put out the firſt line</hi></cell>
+                     <cell><hi style="blackletter;">463.19. that buſineſſe.</hi></cell>
+                  </row>
+                  <row>
+                     <cell><hi style="blackletter;">110.21. as Elimas.</hi></cell>
+                     <cell><hi style="blackletter;">of the page.</hi></cell>
+                     <cell><hi style="blackletter;">471.19. cõteineth nothing.</hi></cell>
+                  </row>
+                  <row>
+                     <cell><hi style="blackletter;">112.10. is reproued.</hi></cell>
+                     <cell><hi style="blackletter;">247.29. write it.</hi></cell>
+                     <cell><hi style="blackletter;">472.11. I did deferre.</hi></cell>
+                  </row>
+                  <row>
+                     <cell><hi style="blackletter;">119.16. one Necus.</hi></cell>
+                     <cell><hi style="blackletter;">257.32. an image.</hi></cell>
+                     <cell><hi style="blackletter;">491.6. ſo difficult.</hi></cell>
+                  </row>
+                  <row>
+                     <cell><hi style="blackletter;">126.12. Magus as.</hi></cell>
+                     <cell><hi style="blackletter;">269.16. there be maſſes.</hi></cell>
+                     <cell><hi style="blackletter;">491.27. begat another.</hi></cell>
+                  </row>
+                  <row>
+                     <cell><hi style="blackletter;">138.2. the hart.</hi></cell>
+                     <cell><hi style="blackletter;">333.14. euenlie ſeuered.</hi></cell>
+                     <cell><hi style="blackletter;">503.9 of all the.</hi></cell>
+                  </row>
+                  <row>
+                     <cell><hi style="blackletter;">144.25. in hir cloſet at</hi></cell>
+                     <cell><hi style="blackletter;">363.26. for bellowes.</hi></cell>
+                     <cell><hi style="blackletter;">519.7. the Heuites.</hi></cell>
+                  </row>
+                  <row>
+                     <cell><hi style="blackletter;">Endor,or in.</hi></cell>
+                     <cell><hi style="blackletter;">366.27. his leman.</hi></cell>
+                     <cell><hi style="blackletter;">542.30. their reproch.</hi></cell>
+                  </row>
+               </table></p>
+         
+         
+         <fw type="signature" style="text-align:center"><supplied reason="omitted-in-original">B.iiiij. v</supplied></fw>
+           <pb/>
+        
+   <!--Page B6r transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett--> 
+        <!-- Epistle 4 of 4 -->
+        <fw type="header"><hi style="text-align: center;">The forren authors vſed in this Booke.</hi></fw>
+            <p>
+               <table rows="47" cols="3">
+                  <row role="data">
+                     <cell><foreign xml:lang="la"><persName type="hist"><hi style= "font-size:150%;">Æ</hi>Lianus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Cornelius Agrippa.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Houinus.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Aetius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Cornelius Nepos.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Hyperius.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Albertus Crantzius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Cornelius Tacitus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Iacobus de Chuſa Car-<lb/> <!--thuſianus.--></persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Albertus Magnus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Cyrillus.</persName></foreign></cell>
+                     <cell><hi style="text-indent:1em;">thuſianus.</hi></cell>
+                  </row>
+                  <row>
+                     <cell><persName type="hist">Albumazar.</persName></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Danæus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Iamblichus.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><persName type="hist">Alcoranum Franciſca-<lb/><!--norum.--></persName></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Demetrius.</persName></foreign></cell>
+                     <cell><persName type="hist">Iafo Pratenſis.</persName></cell>
+                  </row>
+                  <row>
+                     <cell><hi style="text-indent:1em;">norum.</hi></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Democritus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Innocentius.8.Papa.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Alexander Trallianus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Didymus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Iohannes Anglicus.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Algerus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Diodorus Siculus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Iohannes Baptiſta Nea-<!--politanus.--></persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Ambroſius.</persName></foreign></cell>
+                     <cell><persName type="hist">Dionyſius Areopagita.</persName></cell>
+                     <cell><hi style="text-indent:1em;">politanus.</hi></cell>
+                  </row>
+                  <row>
+                     <cell><persName type="hist">Andradias.</persName></cell>
+                     <cell><persName type="hist">Dioſcorides.</persName></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Iohannes Caſſianus.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Andræas Gartnerus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Diurius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Iohannes Montiregius.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Andræas Maſlius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Dodonæus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Iohannes Riuius.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Antonius Sabellicus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Durandus.</persName></foreign></cell>
+                     <cell><persName type="hist">Ioſephus ben Gorion.</persName></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Apollonius Tyanæus.</persName></foreign></cell>
+                     <cell><persName type="hist">Empedocles.</persName></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Ioſias Simlerus.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Appianus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Epheſius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Iſidorus.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Apuleius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Eraſmus Roterodamus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Iſigonus.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Archelaus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Eraſmus Sarcerius.</persName></foreign></cell>
+                     <cell><persName type="hist">Iuba.</persName></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Argerius Ferrarius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Eraſtus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Iulius Maternus.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><persName type="hist">Ariſtoteles.</persName></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Eudoxus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Iuſtinus Martyr.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Arnoldus de villa noua.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Euſebius Cæſarienſis.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Lactantius.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Artemidorus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Fernelius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Lauaterus.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Athanaſius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Franciſcus Petrarcha.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Laurentius Ananias.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><persName type="hist">Auerroës.</persName></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Fuchſius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Laurentius a villaui-<!--centio.--></persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Auguſtinus epiſcopus<!--Hip.--></persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Galenus.</persName></foreign></cell>
+                     <cell><hi style="text-indent:1em;">centio.</hi></cell>
+                  </row>
+                  <row>
+                     <cell><hi style="text-indent:1em;">Hip.</hi></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Garropius.</persName></foreign></cell>
+                     <cell><persName type="hist">Leo II. Pontifex.</persName></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Auguſtinus Niphus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Gelaſius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Lex Salicarum.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><persName type="hist">Auicennas.</persName></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Gemma Phryſius.</persName></foreign></cell>
+                     <cell><persName type="hist">Lex 12. Tabularum.</persName></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Aulus Gellius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Georgius Pictorius.</persName></foreign></cell>
+                     <cell><persName type="hist">Legenda aurea.</persName></cell>
+                  </row>
+                  <row>
+                     <cell><persName type="hist">Barnardinus de debuftis.</persName></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Goſridus.</persName></foreign></cell>
+                     <cell><persName type="hist">Legenda longa Colo-<!--niæ.--></persName></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Bartholomæus Angli-<!--cus.--></persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Goſchalcus Boll.</persName></foreign></cell>
+                     <cell><hi style="text-indent:1em;">niæ.</hi></cell>
+                  </row>
+                  <row>
+                     <cell><hi style="text-indent:1em;">cus.</hi></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Gratianus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Leonardus Vairus.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Beroſus Anianus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Gregorius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Liuius.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Bodinus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Grillandus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Lucanus.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Bordinus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Guido Bonatus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Lucretius.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Brentius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Gulielmus de fancto<lb/> <!--Clodoaldo.--></persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Ludouicus Cælius.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Caluinus.</persName></foreign></cell>
+                     <cell><hi style="text-indent:1em;">Clodoaldo.</hi></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Lutherus.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Camerarius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Gulielmus Pariſienſis.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Macrobius.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Campanus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Hemingius.</persName></foreign></cell>
+                     <cell><bibl type="prim">Magna Charta.</bibl></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Cardanus pater.</persName></foreign></cell>
+                     <cell><persName type="hist">Heraclides.</persName></cell>
+                     <cell><persName type="hist">Malleus Maleficarum.</persName></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Cardanus filius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Hermes Triſmegiſtus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Manlius.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><foreign xml:lang="la"><persName type="hist">Carolus Gallus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Hieronymus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Marbacchius.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><persName type="hist">Caſſander.</persName></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Hilarius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Marbodeus Gallus.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><persName type="hist">Cato.</persName></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Hippocrates.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Marſilius Ficinus.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><persName type="hist">Chryſoſtome.</persName></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Homerus.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Martinus de Arles.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><persName type="hist">Cicero.</persName></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Horatius.</persName></foreign></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Mattheolus.</persName></foreign></cell>
+                  </row>
+                  <row>
+                     <cell><persName type="hist">Clemens.</persName></cell>
+                     <cell><persName type="hist">Hoftienſis.</persName></cell>
+                     <cell><foreign xml:lang="la"><persName type="hist">Melancthonus.</persName></foreign></cell>
+                  </row>
+               </table>
+               <fw type="signature"><supplied reason="omitted-in-original">B6r</supplied></fw>
+               <fw type="catchword" style="text-align:right;">Memphra</fw>
+               <pb/>
+            </p>
+           <!--Page B6v transcribed and coded by Kelsey Rhodes under supervision of Kristen Abbott Bennett-->
+            <p>
+               <fw type="header" style="text-align:center; font-size:150%;">Forren and Engliſh authors.</fw>
+               <table rows="39" cols="3">
+                     <row role="data">
+                        <cell><foreign xml:lang="la"><persName type="hist">Memphradorus.</persName></foreign></cell>
+                        <cell><persName type="hist">Pythagoras.</persName></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Vegetius.</persName></foreign></cell>
+                     </row>
+                     <row>
+                        <cell><persName type="hist">Michael Andræas.</persName></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Quintilianus.</persName></foreign></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Vincentius.</persName></foreign></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Muſculus.</persName></foreign></cell>
+                        <cell><persName type="hist">Rabbi Abraham.</persName></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Virgilius.</persName></foreign></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Nauclerus.</persName></foreign></cell>
+                        <cell><persName type="hist">Rabbi ben Ezra.</persName></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Vitellius.</persName></foreign></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Nicephorus</persName></foreign></cell>
+                        <cell><persName type="hist">Rabbi Dauid Kimhi.</persName></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Wierus.</persName></foreign></cell>
+                     </row>
+                     <row>
+                        <cell><persName type="hist">Nicholaus 5. Papa.</persName></cell>
+                        <cell><persName type="hist">Rabbi Ioſuah ben Leui.</persName></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Xanthus hiſtoriogra-<!--phus.--></persName></foreign></cell>
+                     </row>
+                     <row>
+                        <cell><persName type="hist">Nider.</persName></cell>
+                        <cell><persName type="hist">Rabbi Iſaach Natar.</persName></cell>
+                        <cell><hi style="text-indent:3em;">phus.</hi></cell>
+                     </row>
+                     <row>
+                        <cell><persName type="hist">Olaus Gothus.</persName></cell>
+                        <cell><persName type="hist">Rabbi Leui.</persName></cell>
+                        <cell></cell>
+                     </row>
+                     <row>
+                        <cell><persName type="hist">Origenes.</persName></cell>
+                        <cell><persName type="hist">Rabbi Moſes.</persName></cell>
+                        <cell><hi style="font-style:italic;">¶Theſe Engliſh.</hi></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Ouidius</persName></foreign></cell>
+                        <cell><persName type="hist">Rabbi Sedaias Haias.</persName></cell>
+                        <cell></cell>
+                     </row>
+                     <row>
+                        <cell><persName type="hist">Panormitanus.</persName></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Robertus Carocullus.</persName></foreign></cell>
+                        <cell><persName type="hist"><hi style= "font-size:150%;">B</hi>Arnabe Googe</persName></cell><!--Capitalize B-->
+                     </row>
+                     <row>
+                        <cell><persName type="hist">Paulus Aegineta</persName></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Rupertus.</persName></foreign></cell>
+                        <cell><persName type="hist">Beehiue of the Ro-<!--miſh church.--></persName></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Paulus Marſus</persName></foreign></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Sabinus.</persName></foreign></cell>
+                        <cell><hi style="text-indent:1em;">miſh church.</hi></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Perſius.</persName></foreign></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Sadoletus</persName></foreign></cell>
+                        <cell><persName type="hist">Edward Deering.</persName></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Petrus de Appona.</persName></foreign></cell>
+                        <cell><persName type="hist">Sauanorola.</persName></cell>
+                        <cell><persName type="hist">Geffrey Chaucer.</persName></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Petrus Lombardus.</persName></foreign></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Scrotus.</persName></foreign></cell>
+                        <cell><persName type="hist">Giles Alley.</persName></cell>
+                     </row>
+                     <row>
+                        <cell><persName type="hist">Petrus Martyr.</persName></cell>
+                        <cell><persName type="hist">Seneca.</persName></cell>
+                        <cell><persName type="hist">Gnimelf Maharba.</persName></cell>
+                     </row>
+                     <row>
+                        <cell><persName type="hist">Peucer.</persName></cell>
+                        <cell><persName type="hist">Septuaginta interpre-<!--tes.--></persName></cell>
+                        <cell><persName type="hist">Henrie Haward.</persName></cell>
+                     </row><row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Philarchus.</persName></foreign></cell>
+                        <cell><hi style="text-indent:1em;">tes.</hi></cell>
+                        <cell><persName type="hist">Iohn Bale.</persName></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Philaftrius Brixienſis.</persName></foreign></cell>
+                        <cell><persName type="hist">Serapio.</persName></cell>
+                        <cell><persName type="hist">Iohn Fox.</persName></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Philodotus.</persName></foreign></cell>
+                        <cell><persName type="hist">Socrates.</persName></cell>
+                        <cell><persName type="hist">Iohn Malborne.</persName></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Philo Iudæus.</persName></foreign></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Solinus.</persName></foreign></cell>
+                        <cell><persName type="hist">Iohn Record.</persName></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Pirkmairus.</persName></foreign></cell>
+                        <cell><persName type="hist">Speculum exemplo-<!--rum.--></persName></cell>
+                        <cell><persName type="hist">Primer after Yorke<!--vfe.--></persName></cell>
+                     </row>
+                     <row>
+                        <cell><persName type="hist">Platina.</persName></cell>
+                        <cell><hi style="text-indent:1em;">rum.</hi></cell>
+                        <cell><hi style="text-indent:1em;">vfe.</hi></cell>
+                     </row>
+                     <row>
+                        <cell><persName type="hist">Plato.</persName></cell>
+                        <cell><persName type="hist">Strabo.</persName></cell>
+                        <cell><persName type="hist">Richard Gallis.</persName></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Plinius.</persName></foreign></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Sulpitius Seuerus.</persName></foreign></cell>
+                        <cell><persName type="hist">Roger Bacon.</persName></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Plotinus.</persName></foreign></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Syneſius.</persName></foreign></cell>
+                        <cell><persName type="hist">Teſlament printed at <!--Rhemes.--></persName></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Plutarchus.</persName></foreign></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Tatianus.</persName></foreign></cell>
+                        <cell><hi style="text-indent:1em;">Rhemes.</hi></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Polydorus Virgilius.</persName></foreign></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Tertullianus.</persName></foreign></cell>
+                        <cell><persName type="hist">T.E.</persName> a nameles author.</cell>
+                     </row>
+                     <row>
+                        <cell><persName type="hist">Pomœrium ſermonum<!--quadrageſimalium.--></persName></cell>
+                        <cell><persName type="hist">Thomas Aquinas.</persName></cell>
+                        <cell><hi style="text-indent:1em;">467.</hi></cell>
+                     </row>
+                     <row>
+                        <cell><hi style="text-indent:1em;">quadrageſimalium.</hi></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Themiſtius.</persName></foreign></cell>
+                        <cell><persName type="hist">Thomas Hilles.</persName></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Pompanatius.</persName></foreign></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Theodoretus.</persName></foreign></cell>
+                        <cell><persName type="hist">Thomas Lupton.</persName></cell>
+                     </row>
+                     <row>
+                        <cell><persName type="hist">Pontificale.</persName></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Theodorus Bizantius.</persName></foreign></cell>
+                        <cell><persName type="hist">Thomas Moore Knight.</persName></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Ponziuibius.</persName></foreign></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Theophraſtus.</persName></foreign></cell>
+                        <cell><persName type="hist">Thomas Phaer.</persName></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Porphyrius.</persName></foreign></cell>
+                        <cell><persName type="hist">Thucidides.</persName></cell>
+                        <cell><persName type="hist">T.R.</persName> a nameles author.</cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Proclus.</persName></foreign></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Tibullus.</persName></foreign></cell>
+                        <cell><hi style="text-indent:1em;">393.</hi></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Propertius.</persName></foreign></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Tremelius.</persName></foreign></cell>
+                        <cell><persName type="hist">William Lambard.</persName></cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Pſellus.</persName></foreign></cell>
+                        <cell><foreign xml:lang="la"><persName type="hist">Valerius Maximus.</persName></foreign></cell>
+                        <cell><persName type="hist">W.W.</persName> a nameles au-</cell>
+                     </row>
+                     <row>
+                        <cell><foreign xml:lang="la"><persName type="hist">Ptolomeus.</persName></foreign></cell>
+                        <cell><persName type="hist">Varro.</persName></cell>
+                        <cell><hi style="text-indent:1em;">thor. 542.</hi></cell>
+                     </row>
+                  </table>
+               <figure><figDesc>*printer's ornament*</figDesc></figure>     
+               
+               <fw type="signature"><supplied reason="omitted-in-original">B6v</supplied></fw>
+               <fw type="catchword" style="text-align:right;"><hi style="font-size:200%">The</hi></fw></p>      
+               <pb/>
+            
+         </div>
+      </body>
+   </text>
+</TEI>
+        

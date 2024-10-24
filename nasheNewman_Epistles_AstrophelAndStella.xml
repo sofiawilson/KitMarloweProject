@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NasheNewmanAS">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Syr P.S. His Astrophel and Stella. Wherein the excellence of sweete Poesie is concluded. To the end of which are added sundry rare sonnets of diverse Noble men and Gentlemen.<title>"Prefatory Epistles by Thomas Newman and Thomas Nashe"</title></title>
+                
+                <respStmt>
+                    <resp>Printer</resp>
+                    <name ref="/kit-marlowe/files/personography.xml#pers_NEWM1"><forename>Thomas</forename><surname>Newman</surname></name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder<date when="2020"/></resp> 
+                    <name ref="/kit-marlowe/files/personography.xml#pers_JERO1">Andrew Jeromski</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Primary editor</resp>
+                    <name ref="/kit-marlowe/files/personography.xml#pers_JERO1">Andrew Jeromski</name>
+                </respStmt>
+                <respStmt>
+                <resp>Guest editor</resp>
+                <name ref="/kit-marlowe/files/personography.xml#pers_BENN1">Kristen Abbott Bennett</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="resp:prg">Programmer</resp>
+                    <name ref="pers:TAKE1">Joey Takeda</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="resp:prg">Programmer</resp>
+                    <name ref="pers:HOLM1">Martin Holmes</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Technical Support</resp>
+                    <name>Scott Hamlin</name>
+                </respStmt>
+                
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                        The Kit Marlowe Project
+                    </publisher>
+                    <date>2020</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                            <p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</p>
+                        </licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl><publisher>Thomas Newman</publisher><pubPlace>London</pubPlace>
+                        <date>1591</date>
+                        Transcription prepared from a digital surrogate of a microfilm available on the Early English Books Online Database. Copyright 2019, ProQuest
+                        <idno type="STC">STC 22537<!-- Copy from Huntington --></idno>
+                    </bibl></sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="edt:emdDocumentTypes" target="edt:edtBornDigital"/>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <p>LEMDO template prototype</p>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>  
+           <div type="preface">
+           <figure><figDesc>Woodcut Printer's Ornament</figDesc></figure>
+               <head type="subhead" style="text-align: center;">
+                    <figure><figDesc>Fleuron</figDesc></figure><hi style="font-size: 200%;">To the worſhipfull and his very</hi><lb/>
+                    good Freende, Ma. <persName style="font-style:italic;">Frauncis Flower</persName> Eſ<lb style="hyphen-in-word"/>
+                    <hi style="font-size: .75">quire, increaſe of all content.</hi><lb/></head>
+               <p><s>I<seg type="decorInit"><hi
+                                style="float: left; font-size: 10rem; padding: 0.5rem; margin: 0.2rem 1rem 0;"
+                                >T</hi></seg> was my fortune (right wor<lb style="hyphen-in-word"/>
+                        <hi style="text-indent: 11ems"/>shipfull) not many daies ſince,<lb/>
+                        <hi style="text-indent: 11ems"/>to light vpon the famous de<lb
+                            style="hyphen-in-word"/>
+                        <hi style="text-indent: 11ems"/>uice of <persName style="font-style:italic;"
+                            ref="/kit-marlowe/files/personography.xml#pers_ASTR1"
+                            >Aſtrophel</persName> and <persName style="font-style:italic;"
+                            ref="/kit-marlowe/files/personography.xml#pers_STEL1">Stella</persName>,<lb/>
+                        <hi style="text-indent: 11ems"/>which carrying the generall<lb/>
+                        commendation of all men of iudgement, and<lb/> being reported to be one of
+                        the rareſt things<lb/> that euer and Englishman ſet abroach, I haue<lb/>
+                        thought good to publish it vnder your name,<lb/> both for I know the
+                        excellencie of your wor<lb style="hyphen-in-word"/> ships conceipt, aboue
+                        all other to be ſuch, as<lb/> is onely fit to diſcerne of all matters of
+                        wit, as<lb/> alſo for the credite and countenaunce your<lb/> patronage may
+                        giue to ſuch a worke. Accept<lb/> of it I beſeech you, as the firſt fruites
+                        of my<lb/> affection, which deſires to approue it ſelfe<lb/> in all dutie
+                        vnto you: and though the Argu<lb style="hyphen-in-word"/> ment perhaps may
+                        ſeeme too light for your<lb/></s></p>
+                <fw type="signature" style="text-align: center;">A.ii.<supplied reason="missing-in-original">r</supplied></fw><fw type="catchword" style="float: right;">graue</fw>
+                <pb/>
+               <fw type="header" style="text-align: center;"><hi style="font-size: 200%">The Epiſtle.</hi></fw><lb/>
+                <p><s>graue viewe, yet conſidering the worthiness<lb/> of the Author, I hope you
+                        will entertaine it<lb/> accordingly. For my part, I haue beene very<lb/>
+                        carefull in the Printing of it, and where as be<lb style="hyphen-in-word"/>
+                        ing ſpred abroade in written Coppies, it had<lb/> gathered much corruption
+                        by ill Writers: I<lb/> haue vſed their helpe and aduice in correc<lb
+                            style="hyphen-in-word"/> ting &amp; reſtoring it to his firſt dignitie,
+                        that I<lb/> knowe were of skill and experience in thoſe<lb/> matters. And
+                        the rather was I moued to ſette<lb/> it forth, becauſe I thought it pittie
+                        aniething<lb/> proceeding from ſo rare a man, should bee<lb/> obſcured, or
+                        that his fame should not ſtill be<lb/> nourisht in his works, whom the works
+                        with<lb/> one vnited griefe bewailed. Thus crauing</s><lb/> pardon for my
+                    bold attempt, &amp; deſiring the<lb/> continuance of your worshippes fauour
+                    vnto<lb/> mee, I ende.<lb/></p>
+               <p><hi style="text-align:center"><hi style="font-size: 200%">Yours alwaies to be</hi></hi><lb/>
+                    <hi style="text-align:right">commaunded.</hi><lb/>                
+                   <persName style="font-style:italic;" ref="/kit-marlowe/files/personography.xml#pers_NEWM1"><hi style="text-align:float-right;"><hi style="font-size: .75">Tho: Newman.</hi></hi></persName></p><lb/>
+                        </div>
+            <pb/>
+        <div type="preface">
+                <head type="subhead" style="center">
+                 Somewhat to reade for them<lb/>
+                <hi style="font style; italic"><hi style="font-size: .75">that liſt.</hi></hi></head><lb/>
+                <p><s><foreign xml:lang="la"><seg style="decorInit">T</seg><hi
+                                style="font style; italic">Empus adeſt plauſus aurea pompa
+                                venit</hi></foreign>, ſo endes the<lb/>
+                        <hi style="indent: 4ems;"/>Sceane of Idiots, and enter <persName
+                            style="font-style:italic;"
+                            ref="/kit-marlowe/files/personography.xml#pers_ASTR1"
+                            >Aſtrophel</persName> in pompe.</s><lb/>
+                    <hi style="indent: 4ems;"/>Gentlemen that haue ſeene a thouſand lines of folly,<lb/>
+                    <hi style="indent: 4ems;"/>drawn forth<foreign xml:lang="la"><hi
+                            style="font-style:italic;">ex puncto impudentiæ</hi></foreign>, &amp;
+                    two famous<lb/> Mountains to goe to the conception of one Mouſe, that<lb/> haue
+                    had your eares deafned with the eccho of Fames bra<lb style="hyphen-in-word"/>
+                    ſen towres, when only they haue been toucht with a leaden<lb/> pen, that haue
+                    ſeene <persName style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_FAUN1">Pan</persName> ſitting
+                    in his bower of delights, &amp;<lb/> a number of <persName
+                        style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_MIDA1">Midaſſes</persName> to
+                    admire his miſerable hornpipes,<lb/> let not your ſurfeted ſight, new come frō ſuch puppetplay,<lb/> think ſcorne to turn aſide into
+                    this Theater of pleaſure, for<lb/> here you ſhal find a paper ſtage ſtreud with
+                    pearle, an arti<lb style="hyphen-in-word"/> ficial heau'n to ouerſhadow the faire
+                    frame, &amp; chriſtal wals<lb/> to encounter your curious eyes, whiles the
+                    tragicommody<lb/> of loue is performed by ſtarlight. The chiefe Actor here is<lb/>
+                    <persName style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_MELP1">Melpomene</persName>,
+                    whoſe dusky robes dipt in the ynke of teares, as<lb/> yet ſeeme to drop when I
+                    view them neere. The argument<lb/> cruell chaſtitie, the Prologue hope, the
+                    Epilogue diſpaire,<lb/>
+                    <foreign xml:lang="la" style="font-style:italic;">videte queſo et linguis
+                        animisque fauete</foreign>. And here peraduen<lb style="hyphen-in-word"/>
+                    ture, my witles youth may be taxt with a margent note of<lb/> preſumption, for
+                    offering to put vp any motion of applauſe<lb/> in the behalfe of ſo excellent a
+                    Poet, (the leaſt ſillable of<lb/> whoſe name ſounded in the eares of iudgement,
+                    is able to<lb/> giue the meaneſt line he writes a dowry of immortality) yet<lb/>
+                    thoſe that obſerue how iewels oftetimes com to their hands<lb/> that know not
+                    their value, &amp; that the cockſcombes of our<lb/> daies, like <persName
+                        style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_AESO1">Eſops</persName> Cock,
+                    had rather haue a Barly kernell wrapt<lb/> vp in a Ballet, then they wil dig for
+                    the welth of wit in any<lb/> ground that they know not, I hope wil alſo hold me
+                        excu<lb style="hyphen-in-word"/> ſed, though I open the gate to his glory,
+                    &amp; inuite idle eares<lb/> to the admiration of his melancholy.<lb/></p>
+                <p>
+                    <foreign xml:lang="la" style="font-style: italic;"><hi
+                            style="text-align: center;">Quid petitur ſacris niſi tantum fama
+                            poetis</hi></foreign>.<lb/></p>
+                <p>
+                    <hi style="indent:2 ems;"/>Which although it be oftentimes impriſoned in
+                    Ladyes<lb/> casks, &amp; the preſident bookes of ſuch as cannot ſee without<lb/>
+                    another mans ſpectacles, yet at length it breaks foorth in<lb/> ſpight of his
+                    keepers, and vſeth ſome priuate penne (in<lb/> ſteed of a picklock) to procure
+                    his violent enlargement.<lb/></p>
+                <fw type="signature" style="text-align:center;">A.3.</fw><fw type="catchword" style="text-align:float-right;">The</fw><pb/>
+            <fw type="header" style="text-align:center;"><hi style="font-size: 200%;">Somewhat to reade</hi></fw>
+                <p>
+                    <s>The Sunne for a time, may maske his golden head in a<lb/> cloud: yet in the
+                        end, the thicke vaile doth vaniſh, and his<lb/> embelliſhed blandiſhment
+                        appeares. Long hath Aſtro</s><lb style="hyphen-in-word"/> phel (Englands
+                    Sunne) withheld the beames of his ſpirite,<lb/> from the common <sic>veiw</sic>
+                    of our darke ſence, and night hath<lb/> houered over the gardens of the nine
+                    Siſters, while <hi style="font-style:italic">Ignis</hi><lb/>
+                    <hi style="font-style:italic">fatuus</hi>, and groſſe fatty flames (ſuch as
+                    commonly ariſe out<lb/> of Dunghilles) haue tooke occaſion in the middeſt e<lb
+                        style="hyphen-in-word"/> clipſe of his ſhining perfections, to wander
+                    abroade with<lb/> a wiſpe of paper at their tailes like Hobgoblins, and
+                    leade<lb/> men vp and downe in a circle of abſurditie a whole weeke,<lb/> and
+                    neuer know where they are. But nowe that cloude of<lb/> ſorrow is diſſolued,
+                    which fierie Loue, exhaled from his<lb/> dewie haire, and affection hath
+                    vnburthened the labouring<lb/> ſtreames of her wombe, in the lowe ceſterne of
+                    his graue:<lb/> the night hath reſigned her iettie throne vnto <persName
+                        style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_LUCI1">Lucifer</persName>,
+                    and<lb/> cleere daylight poſſeſſeth the skie that was dimmed; wher<lb
+                        style="hyphen-in-word"/> fore breake of your daunce you Fayries and Elues,
+                    and<lb/> from the fieldes with the torne carcaſes of your Timbrils,<lb/> for
+                    your kingdome is expired. Put out your ruſh candles,<lb/> you Poets and Rimers,
+                    and bequeath your crazed quater<lb style="hyphen-in-word"/> zayns to the
+                    Chaundlers, for loe, here he cometh that hath<lb/>
+                    <sic>broek</sic> your legs. <persName style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_APOL1">Apollo</persName> hath
+                    reſigned his Iuory Harp vnto<lb/>
+                    <persName style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_ASTR1">Aſtrophel</persName>,
+                    &amp; he like <persName style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_MERC1">Mercury</persName>,
+                    muſt lull you a ſleep with his<lb/> muſicke. Sleepe <persName
+                        style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_ARGO1">Argus</persName>,
+                    ſleep Ignorance, ſleep Impudence,<lb/> for <persName style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_MERC1">Mercury</persName>
+                    hath <persName style="font-style:italic;">Io</persName>, &amp; onely <persName
+                        style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_IOIO1">Io</persName><hi
+                        style="font-style:italic">Pæan</hi> belongeth to <persName
+                        style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_ASTR1">Aſtro</persName></p>
+                <p><persName style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_ASTR1">phel</persName>. Deare
+                        <persName style="font-style:italic"
+                        ref="/kit-marlowe/files/personography.xml#pers_ASTR1">Aſtrophel</persName>,
+                    that in the aſhes of thy Loue, liueſt<lb/> againe like the <hi
+                        style="font-style">Phoenix</hi>; ô might thy bodie (as thy name)<lb/> liue
+                    againe likewiſe, here amongſt vs: but the earth, the<lb/> mother of mortalitie,
+                    hath ſnacht thee too ſoone into her<lb/> chilled colde armes, and will not let
+                    thee by any meanes, be<lb/> drawne from her deadly imbrace; and thy diuine
+                    Soule,<lb/> carried on an Angels wings to heauen, is inſtalled in <persName
+                        style="font-style:italic"
+                        ref="/kit-marlowe/files/personography.xml#pers_merc1">Her<lb
+                            style="hyphen-in-word"/> mes</persName> place, ſole <foreign
+                        xml:lang="la" style="font-style:italic;">prolocutor</foreign> to the Gods.
+                    Therefore mayeſt<lb/> thou neuer returne from the <placeName
+                        style="font-style:italic;">Eliſian</placeName> fieldes like <persName
+                        style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_ORPH1"
+                    >Orpheus</persName>,<lb/> therefore muſt we euer mourne for our <persName
+                        style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_ORPH1"
+                    >Orpheus</persName>.<lb/></p>
+                <p>
+                    <hi style="indent:4 ems;"/>Fayne would a ſeconde ſpring of paſſion heere
+                    ſpende<lb/> it ſelfe on his ſweet remembrance: but Religion that rebu<lb
+                        style="hyphen-in-word"/></p>
+               <fw type="catchword" style="text-align:float-right;">keth</fw><pb/>
+                <fw type="header" style="text-align: center;"><hi style="font-size: 200%;">for them that liſt.</hi></fw>
+                <p>
+                    <s>keth prophane lamentation, drinkes in the riuers of thoſe diſ<lb
+                            style="hyphen-in-word"/> paireful teares, which languorous ruth hath
+                        outwelled, &amp; bids<lb/> me looke back to the houſe of honor, where fro
+                        one &amp; the ſelfe<lb/> ſame roote of renowne, I ſhal find many goodly
+                        branches deri<lb style="hyphen-in-word"/> ued, &amp; ſuch as with the
+                        ſpreading increaſe of their vertues, may<lb/> ſomwhat ouerſhadow the griefe
+                        of his los. Amongſt the which</s><lb/> fayre ſister of <persName
+                        style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_APOL1">Phœbus</persName>,
+                    &amp; eloquent ſecretary to the Muſes, moſt<lb/> rare <persName
+                        ref="/kit-marlowe/files/personography.xml#pers_PEMB1">Counteſſe of
+                            <placeName style="font-style:italic;">Pembroke</placeName></persName>per
+                    thou art not to be omitted: whom<lb/> Artes doe adore as a ſecond <persName
+                        style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_ATHE1">Minerua</persName>,
+                    and our Poets extoll as<lb/> the Patroneſſe of their inuention; for in thee, the
+                        <hi style="font-style:italic;">Lesbian</hi><persName
+                        style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_SAPP1">Sap<lb
+                            style="hyphen-in-word"/> pho</persName> with her lirick Harpe is
+                    diſgraced, &amp; the Laurel Garlande<lb/> which thy Brother ſo brauely aduaunſt
+                    on his Launce, is ſtill<lb/> kept greene in the <placeName>Temple of<persName
+                            style="font-style:italic;"
+                            ref="/kit-marlowe/files/personography.xml#pers_ATHE1"
+                        >Pallas</persName></placeName>. Thou only ſacrificeſt thy<lb/> ſoule to
+                    contemplation, thou only entertaineſt emptie handed<lb/>
+                    <persName style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_HOME1">Homer</persName>,
+                    &amp; keepeſt the ſprings of <placeName style="font-style:italic;"
+                        >Caſtalia</placeName> from being dryed vp.<lb/> Learning, wiſedom, beautie,
+                    and all other ornaments of Nobili<lb style="hyphen-in-word"/> tie whatſoeuer,
+                    ſeeke to approue themſelves in thy ſight, and<lb/> get a further ſeale of
+                    felicity, from the ſmiles of thy fauour.<lb/></p><p>
+                    <foreign xml:lang="la" style="font-style:italic;"><hi style="text-align:center;"
+                                ><s>O Joue digna viro ni Joue nata
+                    fores.</s></hi></foreign><lb/></p><p>
+                    <hi style="indent:1 em;"/>I feare I ſhall be counted a mercenary flatterer, for
+                    mixing<lb/> my thoughts with ſuch figuratiue admiration, but generall re<lb
+                        style="hyphen-in-word"/> port that ſurpaſſeth my praiſe, condemneth my
+                    rethoricke of<lb/> dulneſſe for ſo colde a commendation. Indeede to ſay the
+                    truth,<lb/> my ſtile is ſomewhat heauie gated, and cannot daunce trip and<lb/>
+                    goe ſo liuely, with oh my loue, ah my loue, all my loues gone, as<lb/> other
+                    Sheepheards that haue been fooles in the Morris time<lb/> out of minde: nor hath
+                    my proſe any skill to imitate the Al<lb style="hyphen-in-word"/> mond leape
+                    verſe, or ſit tabring fiue yeres together nothing but<lb/> to bee, to hee: on a
+                    paper drum. Onely I can keepe pace with<lb/> Grauesend barge, and care not if I
+                    have water enough, to lande<lb/> my ſhip of fooles with the Tearme, (the tyde, I
+                    ſhoulde ſay.)<lb/> Now euery man is not of that minde, for ſome to goe the
+                        ligh<lb style="hypen-in-word"/> ter away, will take in their fraught of
+                    ſpangled feathers, golden<lb/> Peebles, Straw, Reedes, Bulruſhes, or any thing,
+                    and then they<lb/> beare out their fayles as proudly, as if they were baliſted
+                    with<lb/> Bulbiefe. Others are ſo hardly beſted for loading, that they are<lb/>
+                    faine to retaile the cinders of <placeName style="font-style:italic;"
+                        >Troy</placeName>, and the ſhiuers of broken<lb/></p>
+                            <fw type="signature" style="text-align: center;">A.4.</fw><fw type="catchword" style="text-align: float-right;">trunchions</fw>
+                        <fw type="header" style="text-align: center;"><hi style="font-size: 200%;">Somewhat to reade</hi></fw><lb/><p>
+                    <s>trunchions, to fill vp their boate that elſe ſhould goe empty:<lb/> and if
+                        they haue but a pound weight of good Merchandiſe, it<lb/> ſhall be placed at
+                        the poope, or pluckt in a thouſande peeces to<lb/> credit their
+                            carriage.<s>For my part euery man as he likes, <foreign xml:lang="la"
+                                style="font-style:italic;">Mens </foreign></s></s></p>
+                <p><s><foreign xml:lang="la" style="font-style:italic;">cuinſque is eſt
+                            quisque.</foreign></s> Tis as good to goe in cut fingerd Pumps<lb/> as
+                    corke ſhooes, if one were <placeName>Corniſh</placeName> diamonds on his toes.
+                    To<lb/> explain it by a more familiar example, an Aſſe is no great ſtate<lb
+                        style="hyphen-in-word"/> man in the beaſtes common-wealth, though he weare
+                    his eares<lb/>
+                    <hi style="font-style:italic;"><sic>vpſenant</sic> muffe</hi>, after the
+                        <placeName>Muſcouy</placeName> faſhion, &amp; hange the lip like a<lb/>
+                    Capcaſe halfe open, or looke as demurely as a fixpenny browne<lb/> loafe, for he
+                    hath ſome imperfections that do keepe him frō the<lb/> comon Councel: yet of
+                    many, he is deemed a very vertuous me<lb style="hyphen-in-word"/> ber, and one
+                    of the honeſteſt ſort of men that are; So that our o<lb style="hyphen-in-word"/>
+                    pinion (as <persName style="font-style:italic;">Sextus Empedocus</persName>
+                    affirmeth) giues the name of good<lb/> or ill to euery thing. Out of whoſe works
+                    (late he tranſlated into<lb/> Engliſh, for the benefit of vnlearned writers) a
+                    man might col<lb style="hyphen-in-word"/> lect a whole booke of this argument,
+                    which no doubt woulde<lb/> proue a worthy commonwealth matter, and far better
+                    than wits<lb/> waxe karnell: much good vvorſhip haue the Author.<lb/></p><p>
+                    <hi style="indent:4 ems;"/>Such is this golden age vvherein vve liue, and ſo
+                    repleniſht<lb/> vvith golden Aſſes of all ſortes, that if learning had loſt it
+                    ſelfe<lb/> in a groue of Genealogies, vvee neede doe no more but ſette an<lb/>
+                    olde gooſe ouer halfe a dozen pottle pots, (vvhich are as it vvere<lb/> the
+                    egges of inuention) and vvee ſhall haue ſuch a breede of<lb/> bookes within a
+                    little vvhile after, as will fill all the vvorld vvith<lb/> the vvilde fovvle of
+                    good vvits; I can tell you this is a harder<lb/> thing then making golde of
+                    quickſiluer, and vvill trouble you<lb/> more than the Morrall of <persName
+                        type="hist" style="font-style:italic;"
+                        ref="/kit-marlowe/files/personography.xml#pers_AESO1">Æſops</persName>
+                    Glovv-vvorme, hath troubled<lb/> our Engliſh Apes, vvho ſtriuing to vvarme
+                    themſelues, vvith<lb/> the flame of the Philoſophers ſtone, haue ſpent all their
+                    vvealth<lb/> in buying bellovves to blovve the falſe fyre. Gentlemen, I
+                    feare<lb/> I haue too much preſumed on your idle leyſure, and beene too<lb/>
+                    bold, to ſtand talking all this vvhile in another mans doore: but<lb/> novv I
+                    vvill leaue you to ſuruey the pleaſures of <placeName style="font-style:italic;"
+                        >Paphos</placeName>, and of<lb style="hyphen-in-word"/> fer your ſmiles on
+                    the Aulters of <persName style="font-style:italic;">Venus</persName>.<lb/></p><p>
+                                    <lb/>
+                                    <hi style="text-align:center;"><hi style="font-style:italic;">Yours in all deſire to pleaſe,</hi></hi><lb/>
+                                    <persName ref="/kit-marlowe/files/personography.xml#pers_NASH1"><hi style="text-align:right;">Tho: Naſhe.</hi></persName><lb/>
+                                </p><pb/>       
+            </div>
+        </body>
+    </text>
+</TEI>
