@@ -4,6 +4,11 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
+            <!-- Personography template was created by Scott Hamlin (Stonehill College) in 2017 for Kristen Abbott Bennett's "Rogue's Progress" 
+            Learning Community at Stonehill College. It follows Map of Early Modern London templates created by Martin Holmes and Janelle Jenstad.
+            Most recent update: 28 April 2021 by Kelsey Rhodes (Framingham State University, Class of 2023), a student in Bennett's DGHM 110, 
+            Introduction to Digital Humanities class. For more information about this project, please see www.kitmarlowe.org. -->
+            
             <titleStmt>
                 <title>Personography Template</title>
                 <respStmt>
