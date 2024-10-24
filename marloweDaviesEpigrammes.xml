@@ -3,6 +3,15 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="meres_fragment_xx">
     <teiHeader>
         <fileDesc>
+            <!-- Epigrammes and elegies by I.D. and C.M. At Middleborugh [London?]: c. 1599 (STC 6350), also known as John Davies' c. 1599 
+            Epigrams prefacing Christopher Marlowe's Amores. The first edition (posted March 26, 2018) was transcribed and encoded from an EEBO 
+            facsimile version by students in Kristen Abbott Bennett and Scott Hamlin's Fall 2017 Learning Community "A Rogue's Progress: Mapping 
+            Kit Marlowe's Social Networks" at Stonehill College. The current version was published May 1, 2018 with links to the Personography that 
+            students in both the Fall 2017 and Spring 2018 course contributed to. The personography encoding was done by the Spring 2018 class and 
+            has not been thoroughly reviewed yet. We're aware that some errors have been introduced via the personography links, but this version 
+            offers an example of what undergraduate research and encoding look like before revision. For more information about the pedagogy and process 
+            driving this project, please see www.kitmarlowe.org. -->
+            
             <titleStmt>
                 <title>Epigrammes </title>
                 <respStmt>
