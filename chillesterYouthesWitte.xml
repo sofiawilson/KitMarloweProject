@@ -2,6 +2,14 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Chillester">
     <teiHeader>
         <fileDesc>
+            <!-- Henry Chillester. Youthes Witte, or, The vvitte of grene youth choose gentlemen, and mez-dames which of them shall 
+            best lyke you / compiled and gathered together, London, John Wolfe, 1581, STC 5137.5. Transcribed from facsimile edition in EEBO; 
+            original in British Library. This mini-edition of Chillester's poetic miscellany contains two dedicatory epistles and verses 
+            attributed to several authors identified only by their initials. We have identified Thomas Watson and (tentatively) Nicholas Skeres. 
+            Notably, this collection features a dedicatory verse from 'Mistress Marie P' - to our knowledge, the only woman to be featured in such 
+            a collection. This text was transcribed and encoded by students enrolled in Kristen Abbott Bennett's Introduction to Digital Humanities
+            class at Framingham State University. The text was edited by Kelsey Rhodes (Framingham 2023) under Dr. Bennett's direction. -->
+            
             <titleStmt>
                 <title>Youthes Witte, OR The VVitte of Grene Youth. Chooſe Gentlemen, and Mez-dames which of them shall beſt lyke you.</title>
                 <respStmt>
