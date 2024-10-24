@@ -5,6 +5,8 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Pirates_AL">
     <teiHeader>
         <fileDesc>
+		<!-- Transcribed and encoded by Adam Levine (Framingham State University 2024). Edited by Project Intern Ray Dufresne 
+		(Framingham State University 2024) -->
             <titleStmt>
                 <title>By the Queene Felons and Pirates</title>
                 <author><persName type="hist"><supplied reason="omitted">Elizabeth</supplied></persName></author>
