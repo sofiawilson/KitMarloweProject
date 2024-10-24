@@ -11,6 +11,14 @@
 -->
     <teiHeader>
         <fileDesc>
+		<!-- This is a draft version of Christopher Marlowe's translation of Ovid's third Elegy transcribed and encoded by Caroline Hawkes 
+		(Framingham State University '25). The primary source text is a facsimile edition downloaded from Early English Books Online: Ouid's 
+		elegies three bookes. By C.M. Epigrames by I.D. , 1603, STC (2nd ed.) 18931. 
+		ProQuest, https://www.proquest.com/books/ouids-elegies-three-bookes-c-m-epigrames-i-d/docview/2240871421/se-2. The secondary source text 
+		is a facsimile edition downloaded from Early English Books Online: Ovid. All Ouids elegies 3. bookes. By C.M. Epigrams by I.D. , 1630, 
+		STC (2nd ed.) 18932. ProQuest, https://www.proquest.com/books/all-ouids-elegies-3-bookes-c-m-epigrams-i-d/docview/2264177121/se-2. This 
+		edition uses a schema created by Martin Holmes and The Map of Early Modern London team (Dir. Janelle Jenstad). -->
+		
             <titleStmt>
                 <title>Marlowe_Ovid</title>
                 <author><persName type="hist"><forename><surname/></forename></persName></author>
