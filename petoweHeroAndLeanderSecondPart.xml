@@ -3,6 +3,10 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Petowe">
     <teiHeader>
         <fileDesc>
+            <!-- Kit Marlowe Project Intern Rowan Pereira (Stonehill College 2019) has transcribed, edited, and encoded Henry Petowe's continuation 
+            of Marlowe's "Hero and Leander" printed by Thomas Purfoot for Andrew Harris in 1598 (STC 19807) using the Early English Books Online 
+            facsimile edition as a copy text. For more information, see www.kitmarlowe.org. -->
+            
             <titleStmt>
                 <title>The Second Part of HERO and LEANDER. <hi style="font-style:italic;">Conteyning their further Fortunes.</hi></title>
                 <respStmt>
