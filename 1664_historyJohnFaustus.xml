@@ -4,7 +4,13 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <!-- This diplomatic edition of "The history of Doctor John Faustus compiled in verse, very pleasant and delightfull" Printed by E. Cotes, and are to be sold by Charles Tyus at the Three Bibles on London-Bridge, 1664 (Wing H2117) was transcribed and encoded by students in Kristen Abbott Bennett's and Scott Hamlin's Spring 2018 "Rogues Progress" class at Stonehill College. This edition was later revised, edited, and augmented with tags by Kit Marlowe Project Intern Rowan Pereira (Stonehill 2019). The bold font is representative of black letter font, and the font that is not in bold represents the Roman font. For more information about this project, please see www.kitmarlowe.org.-->
+                
+                <!-- This diplomatic edition of "The history of Doctor John Faustus compiled in verse, very pleasant and delightfull" Printed by E. Cotes, and are to be sold by Charles Tyus
+                at the Three Bibles on London-Bridge, 1664 (Wing H2117) was transcribed and encoded by students in Kristen Abbott Bennett's and Scott Hamlin's Spring 2018 "Rogues Progress"
+                class at Stonehill College. This edition was later revised, edited, and augmented with tags by Kit Marlowe Project Intern Rowan Pereira (Stonehill 2019). 
+                The bold font is representative of black letter font, and the font that is not in bold represents the Roman font. For more information about this project, 
+                please see www.kitmarlowe.org.-->
+                
                <!-- We need to get the full bibliographic information in from the original template - somehow that got deleted with the first group --> 
                 <title>The History of Doctor John Faustus; compliled in verse</title>
                 
