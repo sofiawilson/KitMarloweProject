@@ -3,6 +3,13 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="anon_fragment_A1v_A2r">
     <teiHeader>
         <fileDesc>
+            <!-- This edition of "The history of Doctor. John Faustus compyled in verse, very pleasant and delightful. 
+            [London?] 1696 (Wing H2118)" was produced by students in Kristen Abbott Bennett's and Scott Hamlin's Spring 2018 "Rogue's Progress" 
+            learning community at Stonehill College. Contrary to the 1664 version of Doctor Faustus, the 1696 edition was printed entirely 
+            in Roman font, shown here by the lack of bold text. The highlighted numbers in the margins represent handwritten marginalia, as if 
+            this text were in a compilation of other works. The brackets throughout this version of Faustus represent supplied text that was 
+            either cut off when it was copied or omitted in the original. This edition was later revised, edited, and augmented with tags by Kit 
+            Marlowe Project Intern Rowan Pereira (Stonehill 2019). For more information about this project, please see www.kitmarlowe.org.-->
             <titleStmt>
                 <title>The History of Doctor John Faustus</title>
                 <respStmt>
